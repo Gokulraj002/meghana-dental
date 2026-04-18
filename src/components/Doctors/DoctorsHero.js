@@ -10,7 +10,7 @@ export default function DoctorsHero() {
         </div>
         <div className="row align-items-center">
           <div className="col-lg-8">
-            <h1>Meet Our <span>Specialists</span></h1>
+            <h1>Meet Our <span>Dental Specialists</span> in Tirupati</h1>
             <p>
               Our team of MDS-qualified dental specialists brings decades of combined experience
               across every major dental specialty. Each doctor is dedicated to providing

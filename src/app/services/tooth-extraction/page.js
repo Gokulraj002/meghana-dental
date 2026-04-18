@@ -4,9 +4,9 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import ToothExtractionContent from '@/components/ServicePages/ToothExtractionContent';
 
 export const metadata = {
-  title: 'Tooth Extraction in Tirupati | Wisdom Tooth Removal — Meghana Dental',
+  title: 'Tooth Extraction in Tirupati',
   description:
-    'Safe, painless tooth extraction and wisdom tooth removal in Tirupati. Simple and surgical extractions by experienced oral surgeons at Meghana Dental Hospital, Tirupati, Andhra Pradesh.',
+    'Safe, painless tooth extraction & wisdom tooth removal in Tirupati. Experienced oral surgeons, OPG X-ray planning, minimal recovery. Same-day option.',
   keywords:
     'tooth extraction Tirupati, wisdom tooth removal Tirupati, dental extraction Tirupati, painless tooth removal Tirupati, surgical extraction Tirupati, wisdom tooth surgery Tirupati, oral surgeon Tirupati',
   alternates: { canonical: 'https://meghanadental.com/services/tooth-extraction' },

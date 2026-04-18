@@ -4,9 +4,9 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import PediatricContent from '@/components/ServicePages/PediatricContent';
 
 export const metadata = {
-  title: "Children's Dentist in Tirupati | Pediatric Dentistry — Meghana Dental",
+  title: "Children's Dentist in Tirupati",
   description:
-    'Best children\'s dentist in Tirupati. Gentle, fear-free dental care for kids — fluoride treatments, sealants, baby teeth care, milk teeth treatment. Fun dental visits at Meghana Dental Hospital, Tirupati, Andhra Pradesh.',
+    'Tirupati’s most loved children’s dentist. Gentle, fun, fear-free dental care for kids — baby teeth care, fluoride, sealants, first visit by age 1.',
   keywords:
     "pediatric dentist Tirupati, children's dentist Tirupati, kids dental clinic Tirupati, milk teeth treatment Tirupati, baby teeth care Tirupati, pedodontist Tirupati, children dental care Andhra Pradesh, kids dentist Tirupati",
   alternates: { canonical: 'https://meghanadental.com/services/pediatric-dentistry' },

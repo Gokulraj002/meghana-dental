@@ -10,7 +10,7 @@ export default function AboutHero() {
         </div>
         <div className="row align-items-center">
           <div className="col-lg-7">
-            <h1>About <span>Meghana Dental</span></h1>
+            <h1>About <span>Meghana Dental</span> Hospital, Tirupati</h1>
             <p>
               Trusted by 50,000+ patients, Meghana Dental Hospital delivers world-class
               dental care with compassion, expertise, and state-of-the-art technology in

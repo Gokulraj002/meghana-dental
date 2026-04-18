@@ -4,9 +4,9 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import SmileMakeoverContent from '@/components/ServicePages/SmileMakeoverContent';
 
 export const metadata = {
-  title: 'Smile Makeover in Tirupati | Cosmetic Dentistry — Meghana Dental Hospital',
+  title: 'Smile Makeover in Tirupati',
   description:
-    'Transform your smile with a customised smile makeover in Tirupati — veneers, whitening, bonding, gum contouring & aligners. Digital smile design included. Expert cosmetic dentist at Meghana Dental Hospital, Tirupati.',
+    'Transform your smile in Tirupati with Digital Smile Design — veneers, whitening, aligners, gum contouring. See your new smile before treatment.',
   keywords:
     'smile makeover Tirupati, cosmetic dentistry Tirupati, dental veneers Tirupati, smile design Tirupati, teeth makeover Tirupati, smile transformation Tirupati, cosmetic dentist Tirupati Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.com/services/smile-makeover' },

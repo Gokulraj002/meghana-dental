@@ -4,9 +4,9 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import OrthodonticsContent from '@/components/ServicePages/OrthodonticsContent';
 
 export const metadata = {
-  title: 'Orthodontist in Tirupati | Braces & Teeth Straightening — Meghana Dental',
+  title: 'Orthodontist in Tirupati | Braces',
   description:
-    'Best orthodontist in Tirupati. Metal braces, ceramic braces, self-ligating braces for teeth alignment & jaw correction. Expert MDS orthodontist using 3D oral scanner at Meghana Dental Hospital, Tirupati, Andhra Pradesh.',
+    'Tirupati’s trusted orthodontist for dental braces & teeth alignment. Metal, ceramic & self-ligating braces. 3D oral scanning. Free assessment.',
   keywords:
     'orthodontist Tirupati, braces in Tirupati, metal braces Tirupati, ceramic braces Tirupati, teeth straightening Tirupati, self ligating braces Tirupati, braces cost Tirupati, orthodontic treatment Andhra Pradesh, best orthodontist Tirupati',
   alternates: { canonical: 'https://meghanadental.com/services/orthodontics' },

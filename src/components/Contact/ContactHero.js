@@ -10,7 +10,7 @@ export default function ContactHero() {
         </div>
         <div className="row align-items-center">
           <div className="col-lg-8">
-            <h1>Contact <span>Us</span></h1>
+            <h1>Contact <span>Us</span> — Dental Clinic in Tirupati</h1>
             <p>
               Get in touch with Meghana Dental Hospital. Book an appointment, ask a question,
               or visit us at our clinic in Tirupati, Andhra Pradesh.

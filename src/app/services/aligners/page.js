@@ -4,9 +4,9 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import AlignersContent from '@/components/ServicePages/AlignersContent';
 
 export const metadata = {
-  title: 'Clear Aligners in Tirupati | Invisible Braces — Meghana Dental',
+  title: 'Clear Aligners in Tirupati',
   description:
-    'Custom-fitted clear aligners (invisible braces) in Tirupati. 3D intra-oral scanner, removable and comfortable. Straighten teeth without metal braces at Meghana Dental Hospital, Tirupati, Andhra Pradesh.',
+    'Invisible teeth straightening in Tirupati with custom clear aligners. 3D intra-oral scanning, removable trays, no metal braces. Book free 3D scan.',
   keywords:
     'clear aligners Tirupati, invisible braces Tirupati, Invisalign Tirupati, transparent aligners Tirupati, teeth straightening without braces Tirupati, aligner cost Tirupati, clear braces Tirupati, aligners Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.com/services/aligners' },

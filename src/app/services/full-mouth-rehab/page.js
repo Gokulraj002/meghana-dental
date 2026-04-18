@@ -4,9 +4,9 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import FullMouthRehabContent from '@/components/ServicePages/FullMouthRehabContent';
 
 export const metadata = {
-  title: 'Full Mouth Rehabilitation in Tirupati | Complete Smile Reconstruction — Meghana Dental',
+  title: 'Full Mouth Rehabilitation, Tirupati',
   description:
-    'Comprehensive full mouth rehabilitation in Tirupati — restore all teeth, correct bite, and rebuild your smile. Multi-specialist team with 17+ years experience at Meghana Dental Hospital, Tirupati, Andhra Pradesh.',
+    'Complete smile reconstruction in Tirupati with multi-specialist team — implants, crowns, orthodontics, phased treatment plan. EMI available.',
   keywords:
     'full mouth rehabilitation Tirupati, full mouth reconstruction Tirupati, teeth restoration Tirupati, bite correction Tirupati, comprehensive dental treatment Tirupati, dental reconstruction Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.com/services/full-mouth-rehab' },

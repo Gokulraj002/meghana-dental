@@ -8,11 +8,11 @@ import ScrollToTop from '@/components/shared/ScrollToTop';
 export const metadata = {
   metadataBase: new URL('https://meghanadental.com'),
   title: {
-    default: 'Meghana Dental Hospital | Best Dental Clinic in Tirupati, Andhra Pradesh',
-    template: '%s | Meghana Dental Hospital, Tirupati',
+    default: 'Best Dental Clinic in Tirupati | Meghana Dental',
+    template: '%s | Meghana Dental',
   },
   description:
-    'Meghana Dental Hospital — best dental clinic in Tirupati with 17+ years of excellence. MDS specialists, Carl Zeiss microscope dentistry, dental implants, root canal, braces, clear aligners, teeth whitening & more. Serving Tirupati, Andhra Pradesh.',
+    'Meghana Dental Hospital — best dental clinic in Tirupati. 17+ years, MDS specialists, microscope dentistry, implants, root canal, braces, whitening & more.',
   keywords:
     'best dental clinic in Tirupati, dentist in Tirupati, dental hospital Tirupati, dental implants Tirupati, root canal Tirupati, orthodontist Tirupati, braces Tirupati, dental clinic Andhra Pradesh, MDS specialist dentist Tirupati',
   authors: [{ name: 'Meghana Dental Hospital' }],

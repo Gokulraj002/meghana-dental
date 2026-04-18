@@ -14,9 +14,9 @@ import Footer              from '@/components/Footer';
 import SchemaMarkup        from '@/components/shared/SchemaMarkup';
 
 export const metadata = {
-  title: 'Best Dental Clinic in Tirupati | Meghana Dental Hospital',
+  title: { absolute: 'Best Dental Clinic in Tirupati | Meghana Dental' },
   description:
-    'Meghana Dental Hospital — best dental clinic in Tirupati with 17+ years. MDS specialists, Carl Zeiss microscope, dental implants, single-sitting root canal, braces, clear aligners & more. Trusted by 50,000+ patients. Book now.',
+    'Best dental clinic in Tirupati — 17+ years, MDS specialists, Carl Zeiss microscope, implants, root canal, braces, aligners. 50,000+ happy patients.',
   keywords:
     'best dental clinic in Tirupati, dentist in Tirupati, dental hospital Tirupati, dental implants Tirupati, root canal treatment Tirupati, braces Tirupati, orthodontist Tirupati, MDS specialist Tirupati, microscope dentistry Tirupati, best dentist Tirupati Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.com/' },

@@ -5,9 +5,9 @@ import ServicesListing from '@/components/Services/ServicesListing';
 import ServicesListingCTA from '@/components/Services/ServicesListingCTA';
 
 export const metadata = {
-  title: 'Dental Services in Tirupati | All Treatments — Meghana Dental Hospital',
+  title: 'All Dental Services in Tirupati',
   description:
-    'Complete dental services in Tirupati — dental implants, root canal, braces, clear aligners, teeth whitening, dentures, pediatric dentistry, microscope dentistry & more. MDS specialists at Meghana Dental Hospital, Tirupati, Andhra Pradesh.',
+    '14 specialist dental treatments in Tirupati — implants, root canal, braces, aligners, whitening, pediatric dentistry, microscope dentistry & more.',
   keywords:
     'dental services Tirupati, dental treatments Tirupati, dental implants Tirupati, root canal Tirupati, braces Tirupati, teeth whitening Tirupati, pediatric dentist Tirupati, microscope dentistry Tirupati, dental hospital Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.com/services' },

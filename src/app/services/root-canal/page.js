@@ -4,9 +4,9 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import RootCanalContent from '@/components/ServicePages/RootCanalContent';
 
 export const metadata = {
-  title: 'Root Canal Treatment in Tirupati | Single Sitting RCT — Meghana Dental',
+  title: 'Root Canal Treatment in Tirupati',
   description:
-    'Painless, microscope-guided root canal treatment (RCT) in Tirupati. Single-sitting RCT with Carl Zeiss precision, highest success rates by expert endodontist at Meghana Dental Hospital, Tirupati, Andhra Pradesh.',
+    'Painless, microscope-guided root canal treatment in Tirupati. Single-sitting RCT available. Carl Zeiss 25x microscope, MDS endodontists. Book now.',
   keywords:
     'root canal treatment Tirupati, painless root canal Tirupati, single sitting root canal Tirupati, root canal cost Tirupati, microscope root canal Tirupati, endodontist Tirupati, RCT specialist Tirupati, root canal Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.com/services/root-canal' },

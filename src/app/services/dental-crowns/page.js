@@ -4,9 +4,9 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import DentalCrownsContent from '@/components/ServicePages/DentalCrownsContent';
 
 export const metadata = {
-  title: 'Dental Crowns & Bridges in Tirupati | Zirconia Crowns — Meghana Dental',
+  title: 'Dental Crowns & Bridges in Tirupati',
   description:
-    'Premium dental crowns and bridges in Tirupati — zirconia, e.max, PFM and metal crowns. Protect damaged teeth and replace missing teeth with expert prosthodontists at Meghana Dental Hospital, Tirupati, Andhra Pradesh.',
+    'Premium zirconia, e.max & PFM crowns & bridges in Tirupati. Natural-looking, long-lasting restorations by MDS prosthodontists. Transparent pricing.',
   keywords:
     'dental crowns Tirupati, dental bridges Tirupati, zirconia crown Tirupati, tooth cap Tirupati, crown cost Tirupati, dental cap Tirupati, broken tooth crown Tirupati, prosthodontist Tirupati',
   alternates: { canonical: 'https://meghanadental.com/services/dental-crowns' },

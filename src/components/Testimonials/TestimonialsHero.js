@@ -10,7 +10,7 @@ export default function TestimonialsHero() {
         </div>
         <div className="row align-items-center">
           <div className="col-lg-8">
-            <h1>Patient <span>Testimonials</span></h1>
+            <h1>Patient <span>Reviews</span> — Dental Clinic in Tirupati</h1>
             <p>
               Real stories from real patients who trust us with their dental care.
               Read what our patients have to say about their experience at Meghana Dental Hospital.

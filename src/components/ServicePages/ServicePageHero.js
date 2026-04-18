@@ -8,6 +8,7 @@ import Link from 'next/link';
  * Props:
  *   titleBefore    {string}  – text before the highlight span
  *   titleHighlight {string}  – text inside the highlight span
+ *   titleAfter     {string}  – text after the highlight span (e.g. "in Tirupati")
  *   description    {string}  – tagline
  *   crumbs         {Array}   – breadcrumbs
  *   image          {string}  – hero background image
@@ -17,6 +18,7 @@ import Link from 'next/link';
 export default function ServicePageHero({
   titleBefore,
   titleHighlight,
+  titleAfter = ' in Tirupati',
   description,
   crumbs = [],
   image = null,
@@ -61,6 +63,7 @@ export default function ServicePageHero({
               <h1 className="sph-title">
                 {titleBefore}{' '}
                 <span style={{ color: accent }}>{titleHighlight}</span>
+                {titleAfter}
               </h1>
               <p className="sph-desc">{description}</p>
               <div className="sph-actions">

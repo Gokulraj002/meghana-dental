@@ -4,9 +4,9 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import DenturesContent from '@/components/ServicePages/DenturesContent';
 
 export const metadata = {
-  title: 'Dentures in Tirupati | BPS & Flexible Dentures — Meghana Dental',
+  title: 'Dentures & Prosthetics in Tirupati',
   description:
-    'Premium BPS dentures, flexible partial dentures, and full denture solutions in Tirupati. Comfortable, natural-looking tooth replacement by expert prosthodontist at Meghana Dental Hospital, Tirupati, Andhra Pradesh.',
+    'Premium dentures in Tirupati — BPS precision dentures, flexible partials, implant-supported dentures. Natural look, perfect fit, MDS prosthodontist.',
   keywords:
     'dentures Tirupati, BPS dentures Tirupati, flexible dentures Tirupati, full dentures Tirupati, partial dentures Tirupati, denture specialist Tirupati, dental prosthetics Tirupati, full mouth dentures Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.com/services/dentures' },

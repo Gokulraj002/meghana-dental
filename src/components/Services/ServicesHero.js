@@ -10,7 +10,7 @@ export default function ServicesHero() {
         </div>
         <div className="row align-items-center">
           <div className="col-lg-8">
-            <h1>Our <span>Services</span></h1>
+            <h1>Our Dental <span>Services</span> in Tirupati</h1>
             <p>
               From routine check-ups to advanced dental surgeries, we offer a complete range of
               dental treatments using the latest technology and techniques. Explore our specialised
