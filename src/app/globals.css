@@ -2129,10 +2129,10 @@ img { max-width: 100%; height: auto; }
   border-color: transparent;
 }
 
-/* ── Top area (fixed 210px) ── */
+/* ── Top area (fixed 250px) ── */
 .svc-top {
   position: relative;
-  height: 210px;
+  height: 250px;
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -2150,8 +2150,8 @@ img { max-width: 100%; height: auto; }
 .svc-vignette {
   position: absolute;
   bottom: 0; left: 0; right: 0;
-  height: 90px;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.45));
+  height: 70px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.28));
   pointer-events: none;
 }
 

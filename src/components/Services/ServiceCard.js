@@ -18,8 +18,8 @@ export default function ServiceCard({ service, index }) {
                   src={service.image}
                   alt={service.title}
                   width={440}
-                  height={210}
-                  style={{ width: '100%', height: '210px', objectFit: 'cover', display: 'block' }}
+                  height={250}
+                  style={{ width: '100%', height: '250px', objectFit: 'cover', display: 'block' }}
                 />
                 {/* Bottom-of-image vignette so badge is readable */}
                 <div className="svc-vignette" />
