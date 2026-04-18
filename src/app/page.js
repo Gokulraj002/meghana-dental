@@ -9,6 +9,8 @@ import FacilitiesGallery   from '@/components/Facilities';
 import ResultsGallery      from '@/components/ResultsGallery';
 import DoctorsSection      from '@/components/Doctors';
 import TestimonialsSection from '@/components/Testimonials';
+import VideoTestimonial    from '@/components/VideoTestimonial';
+import FAQSection          from '@/components/FAQSection';
 import AppointmentSection  from '@/components/Appointment';
 import Footer              from '@/components/Footer';
 import SchemaMarkup        from '@/components/shared/SchemaMarkup';
@@ -47,6 +49,8 @@ export default function Home() {
       <ResultsGallery />
       <DoctorsSection />
       <TestimonialsSection />
+      <VideoTestimonial />
+      <FAQSection />
       <AppointmentSection />
       <Footer />
     </>
