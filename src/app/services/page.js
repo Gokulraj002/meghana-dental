@@ -14,7 +14,7 @@ export const metadata = {
   openGraph: {
     title: 'All Dental Services in Tirupati | Meghana Dental Hospital',
     description:
-      '13+ specialist dental treatments under one roof in Tirupati. From implants to aligners, root canals to smile makeovers — expert MDS team, state-of-the-art technology.',
+      '14 specialist dental treatments under one roof in Tirupati. From implants to aligners, root canals to smile makeovers — expert MDS team, state-of-the-art technology.',
     url: 'https://meghanadental.com/services',
     siteName: 'Meghana Dental Hospital',
     type: 'website',

@@ -16,7 +16,7 @@ export const metadata = {
       'Restore your smile permanently with expert dental implants in Tirupati. Single implants, All-on-4, same-day implants. Transparent pricing. Book a consultation.',
     url: 'https://meghanadental.com/services/dental-implants',
     siteName: 'Meghana Dental Hospital',
-    images: [{ url: '/images/implant-denture.jpg', width: 1200, height: 630, alt: 'Dental Implants in Tirupati — Meghana Dental Hospital' }],
+    images: [{ url: '/services/dental-implants.jpg', width: 1200, height: 630, alt: 'Dental Implants in Tirupati — Meghana Dental Hospital' }],
     type: 'website',
   },
 };

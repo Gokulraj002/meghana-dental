@@ -15,6 +15,7 @@ export const metadata = {
     description: 'Safe, comfortable tooth extractions including impacted wisdom tooth surgery in Tirupati. Experienced oral surgeons, minimal discomfort, and same-day appointments.',
     url: 'https://meghanadental.com/services/tooth-extraction',
     siteName: 'Meghana Dental Hospital',
+    images: [{ url: '/images/dental-chair.jpg', width: 1200, height: 630, alt: 'Tooth Extraction in Tirupati' }],
     type: 'website',
   },
 };

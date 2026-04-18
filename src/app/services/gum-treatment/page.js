@@ -15,6 +15,7 @@ export const metadata = {
     description: 'Treat bleeding gums, receding gums & gum disease in Tirupati. Professional scaling, laser gum therapy & periodontal surgery by expert periodontists.',
     url: 'https://meghanadental.com/services/gum-treatment',
     siteName: 'Meghana Dental Hospital',
+    images: [{ url: '/services/Gum-Treatment.jpg', width: 1200, height: 630, alt: 'Gum Disease Treatment in Tirupati' }],
     type: 'website',
   },
 };

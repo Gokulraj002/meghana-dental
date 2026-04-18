@@ -15,6 +15,7 @@ export const metadata = {
     description: 'Restore damaged and missing teeth with premium zirconia, e.max & PFM crowns in Tirupati. Expert prosthodontists, natural-looking results, transparent pricing.',
     url: 'https://meghanadental.com/services/dental-crowns',
     siteName: 'Meghana Dental Hospital',
+    images: [{ url: '/images/dental-clinic-interior.jpg', width: 1200, height: 630, alt: 'Dental Crowns and Bridges in Tirupati' }],
     type: 'website',
   },
 };

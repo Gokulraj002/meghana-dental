@@ -15,6 +15,7 @@ export const metadata = {
     description: 'Rebuild your complete smile with our multi-specialist full mouth rehabilitation programme in Tirupati. Digital smile design, phased treatment, and long-lasting results.',
     url: 'https://meghanadental.com/services/full-mouth-rehab',
     siteName: 'Meghana Dental Hospital',
+    images: [{ url: '/images/dental-team.jpg', width: 1200, height: 630, alt: 'Full Mouth Rehabilitation in Tirupati' }],
     type: 'website',
   },
 };
