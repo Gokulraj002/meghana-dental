@@ -2432,21 +2432,21 @@ img { max-width: 100%; height: auto; }
 /* ── Image header ── */
 .sl-img-wrap {
   position: relative;
-  height: 200px;
+  height: 240px;
   overflow: hidden;
   flex-shrink: 0;
 }
 
-/* DARK overlay — preserves natural image colours, no colour tinting */
+/* Light bottom-only vignette — keeps image bright, just darkens the bottom edge */
 .sl-img-dark {
   position: absolute;
   inset: 0;
-  background: rgba(8, 15, 30, 0.42);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.04) 0%, rgba(0,0,0,0.22) 100%);
   transition: background 0.3s ease;
 }
 
 .sl-link:hover .sl-img-dark {
-  background: rgba(8, 15, 30, 0.55);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.06) 0%, rgba(0,0,0,0.32) 100%);
 }
 
 /* thin accent colour strip at the very bottom of the image */
@@ -2467,38 +2467,39 @@ img { max-width: 100%; height: auto; }
   transform: scale(1.06);
 }
 
-/* icon + number badge sit on top of image */
+/* icon badge — bottom-left corner, not centre */
 .sl-img-meta {
   position: absolute;
-  inset: 0;
+  bottom: 14px;
+  left: 14px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 0;
 }
 
 /* Shared icon circle */
 .sl-icon {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.15);
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.18);
   display: flex;
   align-items: center;
   justify-content: center;
-  backdrop-filter: blur(8px);
-  /* border-color set inline via style prop (service accent) */
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  transition: background 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1.5px solid rgba(255, 255, 255, 0.45);
+  transition: background 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
 
 .sl-link:hover .sl-icon {
-  background: rgba(255, 255, 255, 0.25);
-  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.28);
+  transform: scale(1.08);
 }
 
 .sl-icon i {
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   color: #fff;
 }
 

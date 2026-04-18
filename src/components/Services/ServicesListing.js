@@ -159,8 +159,8 @@ export default function ServicesListing() {
                     src={service.image}
                     alt={service.title}
                     width={480}
-                    height={220}
-                    style={{ width: '100%', height: '200px', objectFit: 'cover', display: 'block' }}
+                    height={240}
+                    style={{ width: '100%', height: '240px', objectFit: 'cover', display: 'block' }}
                   />
                   {/* dark overlay — preserves natural image colours */}
                   <div className="sl-img-dark" />
