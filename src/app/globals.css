@@ -2129,10 +2129,10 @@ img { max-width: 100%; height: auto; }
   border-color: transparent;
 }
 
-/* ── Top area (fixed 250px) ── */
+/* ── Top area (fixed 200px) ── */
 .svc-top {
   position: relative;
-  height: 250px;
+  height: 200px;
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -2221,7 +2221,7 @@ img { max-width: 100%; height: auto; }
 
 /* ── Bottom content ── */
 .svc-body {
-  padding: 20px 22px 22px;
+  padding: 16px 18px 18px;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -2231,7 +2231,7 @@ img { max-width: 100%; height: auto; }
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 /* Small gradient pill icon */
