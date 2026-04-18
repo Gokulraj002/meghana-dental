@@ -1,18 +1,18 @@
+import SchemaMarkup        from '@/components/shared/SchemaMarkup';
 import Navbar              from '@/components/Navbar';
 import HeroSection         from '@/components/Hero';
-import AboutSection        from '@/components/About';
-import TechnologyShowcase  from '@/components/Technology';
+import WhyChooseUs         from '@/components/WhyChooseUs';
 import ServicesSection     from '@/components/Services';
 import ProblemsSection     from '@/components/Problems';
-import WhyChooseUs         from '@/components/WhyChooseUs';
+import AboutSection        from '@/components/About';
+import TechnologyShowcase  from '@/components/Technology';
 import FacilitiesGallery   from '@/components/Facilities';
 import DoctorsSection      from '@/components/Doctors';
 import TestimonialsSection from '@/components/Testimonials';
 import VideoTestimonial    from '@/components/VideoTestimonial';
-import FAQSection          from '@/components/FAQSection';
+import FAQSection          from '@/components/FAQ';
 import AppointmentSection  from '@/components/Appointment';
 import Footer              from '@/components/Footer';
-import SchemaMarkup        from '@/components/shared/SchemaMarkup';
 
 export const metadata = {
   title: { absolute: 'Best Dental Clinic in Tirupati | Meghana Dental' },
@@ -38,18 +38,43 @@ export default function Home() {
     <>
       <SchemaMarkup />
       <Navbar />
+
+      {/* 1. Hero — instant hook + primary CTA */}
       <HeroSection />
-      <AboutSection />
-      <TechnologyShowcase />
-      <ServicesSection />
-      <ProblemsSection />
+
+      {/* 2. Why Choose Us — stats bar + 6 key differentiators (trust right after hero) */}
       <WhyChooseUs />
+
+      {/* 3. Services — what treatments we offer */}
+      <ServicesSection />
+
+      {/* 4. Problems — "we solve YOUR problem" (emotional connection) */}
+      <ProblemsSection />
+
+      {/* 5. About — who we are, 17+ years, expertise */}
+      <AboutSection />
+
+      {/* 6. Technology — Carl Zeiss microscope showcase (credibility) */}
+      <TechnologyShowcase />
+
+      {/* 7. Facilities — photo gallery of clinic */}
       <FacilitiesGallery />
+
+      {/* 8. Doctors — meet our lead specialist */}
       <DoctorsSection />
+
+      {/* 9. Testimonials — patient reviews (social proof) */}
       <TestimonialsSection />
+
+      {/* 10. Video Testimonial — real patient story (deeper social proof) */}
       <VideoTestimonial />
+
+      {/* 11. FAQ — answer questions, remove objections */}
       <FAQSection />
+
+      {/* 12. Appointment — final booking CTA */}
       <AppointmentSection />
+
       <Footer />
     </>
   );
