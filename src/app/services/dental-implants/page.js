@@ -62,7 +62,7 @@ const faqSchema = {
       name: 'Who is the best dental implant specialist in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Meghana Dental Hospital in Tirupati has MDS-qualified prosthodontists and oral surgeons specialising in dental implants, with 15+ years of experience and 50,000+ treated patients. Our team uses advanced implant systems for predictable, long-lasting results.',
+        text: 'Meghana Dental Hospital in Tirupati has MDS-qualified prosthodontists and oral surgeons specialising in dental implants, with 17+ years of experience and 50,000+ treated patients. Our team uses advanced implant systems for predictable, long-lasting results.',
       },
     },
   ],

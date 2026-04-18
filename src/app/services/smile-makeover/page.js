@@ -36,7 +36,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'Are smile makeover results permanent?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Veneers last 10–15+ years. Crowns last 15–25+ years. Teeth whitening lasts 1–2 years with touch-ups. Dental bonding lasts 5–7 years. Results are long-lasting with proper maintenance.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Veneers last 10–17+ years. Crowns last 15–25+ years. Teeth whitening lasts 1–2 years with touch-ups. Dental bonding lasts 5–7 years. Results are long-lasting with proper maintenance.' },
     },
     {
       '@type': 'Question',

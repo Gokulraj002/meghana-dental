@@ -12,7 +12,7 @@ export default function AboutImage() {
           style={{ objectFit: 'cover', width: '100%', height: 'auto' }}
         />
         <div className="about-experience-badge">
-          <span className="number">15+</span>
+          <span className="number">17+</span>
           <span className="label">Years of Excellence</span>
         </div>
       </div>

@@ -1,5 +1,5 @@
 const stats = [
-  { number: '15', suffix: '+', label: 'Years Experience' },
+  { number: '17', suffix: '+', label: 'Years Experience' },
   { number: '50K', suffix: '+', label: 'Happy Patients' },
   { number: '6',  suffix: '+', label: 'Specialist Doctors' },
   { number: '12', suffix: '+', label: 'Dental Services' },

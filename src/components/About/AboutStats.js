@@ -1,6 +1,6 @@
 const stats = [
   { value: '50K+', label: 'Happy Patients' },
-  { value: '15+', label: 'Years Experience' },
+  { value: '17+', label: 'Years Experience' },
   { value: '6', label: 'Expert Doctors' },
   { value: '4.9', label: 'Google Rating' },
 ];

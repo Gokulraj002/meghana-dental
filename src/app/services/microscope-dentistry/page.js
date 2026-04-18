@@ -77,7 +77,7 @@ export default function MicroscopeDentistryPage() {
           { icon: 'bi-search', label: 'Magnification', value: 'Up to 25×' },
           { icon: 'bi-patch-check', label: 'Technology', value: 'Carl Zeiss OPMI' },
           { icon: 'bi-geo-alt-fill', label: 'Availability', value: 'Only in Tirupati' },
-          { icon: 'bi-award', label: 'Experience', value: '15+ Years' },
+          { icon: 'bi-award', label: 'Experience', value: '17+ Years' },
         ]}
       />
       <MicroscopeContent />

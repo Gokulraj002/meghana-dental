@@ -20,7 +20,7 @@ const outcomes = [
   { icon: 'bi-people-fill',         value: '50,000+',  label: 'Patients Treated',    gradient: 'linear-gradient(135deg, #0ea5e9, #0d9488)' },
   { icon: 'bi-star-fill',           value: '4.9 ★',    label: 'Google Rating',        gradient: 'linear-gradient(135deg, #f59e0b, #ea580c)' },
   { icon: 'bi-chat-quote-fill',     value: '850+',     label: 'Verified Reviews',     gradient: 'linear-gradient(135deg, #8b5cf6, #db2777)' },
-  { icon: 'bi-patch-check-fill',    value: '15+',      label: 'Years of Excellence',  gradient: 'linear-gradient(135deg, #10b981, #059669)' },
+  { icon: 'bi-patch-check-fill',    value: '17+',      label: 'Years of Excellence',  gradient: 'linear-gradient(135deg, #10b981, #059669)' },
 ];
 
 export default function ResultsGallery() {

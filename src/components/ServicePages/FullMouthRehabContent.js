@@ -19,7 +19,7 @@ const serviceData = {
   highlights: [
     { icon: 'bi-people-fill', text: 'Multi-Specialist Team Under One Roof' },
     { icon: 'bi-laptop', text: 'Digital Treatment Planning' },
-    { icon: 'bi-award', text: '15+ Years Treating Complex Cases in Tirupati' },
+    { icon: 'bi-award', text: '17+ Years Treating Complex Cases in Tirupati' },
   ],
 
   conditions: [

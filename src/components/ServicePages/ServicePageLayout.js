@@ -279,7 +279,7 @@ export default function ServicePageLayout({ data }) {
                   { icon: 'bi-award', text: 'MDS Qualified Specialists' },
                   { icon: 'bi-search', text: 'Carl Zeiss 25× Microscope' },
                   { icon: 'bi-people-fill', text: '50,000+ Treated Patients' },
-                  { icon: 'bi-clock-history', text: '15+ Years of Excellence' },
+                  { icon: 'bi-clock-history', text: '17+ Years of Excellence' },
                   { icon: 'bi-geo-alt-fill', text: 'Only Clinic in Tirupati' },
                 ].map((w, i) => (
                   <li key={i}>

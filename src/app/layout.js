@@ -10,7 +10,7 @@ export const metadata = {
     template: '%s | Meghana Dental Hospital, Tirupati',
   },
   description:
-    'Meghana Dental Hospital — best dental clinic in Tirupati with 15+ years of excellence. MDS specialists, Carl Zeiss microscope dentistry, dental implants, root canal, braces, clear aligners, teeth whitening & more. Serving Tirupati, Andhra Pradesh.',
+    'Meghana Dental Hospital — best dental clinic in Tirupati with 17+ years of excellence. MDS specialists, Carl Zeiss microscope dentistry, dental implants, root canal, braces, clear aligners, teeth whitening & more. Serving Tirupati, Andhra Pradesh.',
   keywords:
     'best dental clinic in Tirupati, dentist in Tirupati, dental hospital Tirupati, dental implants Tirupati, root canal Tirupati, orthodontist Tirupati, braces Tirupati, dental clinic Andhra Pradesh, MDS specialist dentist Tirupati',
   authors: [{ name: 'Meghana Dental Hospital' }],
@@ -47,7 +47,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Best Dental Clinic in Tirupati | Meghana Dental Hospital',
-    description: 'Super speciality dental care in Tirupati. 15+ years, 50,000+ patients, 4.9★ Google rating.',
+    description: 'Super speciality dental care in Tirupati. 17+ years, 50,000+ patients, 4.9★ Google rating.',
     images: ['/images/about-clinic.png'],
   },
   alternates: {

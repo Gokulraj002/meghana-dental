@@ -19,7 +19,7 @@ export default function AboutStory() {
             style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
           />
           <div className="about-experience-badge">
-            <span className="number">15+</span>
+            <span className="number">17+</span>
             <span className="label">Years Experience</span>
           </div>
         </div>
