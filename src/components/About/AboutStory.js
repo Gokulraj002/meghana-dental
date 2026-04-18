@@ -30,7 +30,7 @@ export default function AboutStory() {
         <p style={{ fontSize: '1.05rem', lineHeight: '1.9', color: 'var(--text-body)', marginBottom: '24px' }}>
           Meghana Dental Hospital was founded with a vision to provide comprehensive,
           affordable, and pain-free dental care to the people of Tirupati and surrounding areas.
-          Over 15 years, we have grown into one of the most trusted dental hospitals in
+          Over 17+ years, we have grown into one of the most trusted dental hospitals in
           Andhra Pradesh, serving over 50,000 happy patients.
         </p>
         <p style={{ fontSize: '1.05rem', lineHeight: '1.9', color: 'var(--text-body)', marginBottom: '24px' }}>
