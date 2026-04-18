@@ -1,33 +1,29 @@
 const infoCards = [
   {
-    icon: '📍',
-    title: 'Visit Us',
-    content: <>No. 18-2-91B, Ashok Nagar,<br />Tirupati, Andhra Pradesh 517501</>,
+    icon: 'bi-geo-alt-fill',
+    accent: '#0ea5e9',
+    title: 'Visit Our Clinic',
+    lines: ['No. 18-2-91B, Ashok Nagar,', 'Tirupati, Andhra Pradesh 517501'],
   },
   {
-    icon: '📞',
-    title: 'Call Us',
-    content: (
-      <>
-        <a href="tel:+919876543210" style={{ color: 'var(--primary)', fontWeight: '600' }}>+91 98765 43210</a>
-        <br />
-        <a href="tel:+919876543211" style={{ color: 'var(--primary)', fontWeight: '600' }}>+91 98765 43211</a>
-      </>
-    ),
+    icon: 'bi-telephone-fill',
+    accent: '#10b981',
+    title: 'Call Us Anytime',
+    lines: ['+91 98765 43210', '+91 98765 43211'],
+    hrefs: ['tel:+919876543210', 'tel:+919876543211'],
   },
   {
-    icon: '✉️',
+    icon: 'bi-envelope-fill',
+    accent: '#8b5cf6',
     title: 'Email Us',
-    content: (
-      <a href="mailto:info@meghanadental.com" style={{ color: 'var(--primary)', fontWeight: '600' }}>
-        info@meghanadental.com
-      </a>
-    ),
+    lines: ['info@meghanadental.com'],
+    hrefs: ['mailto:info@meghanadental.com'],
   },
   {
-    icon: '🕐',
+    icon: 'bi-clock-fill',
+    accent: '#f59e0b',
     title: 'Working Hours',
-    content: <>Mon - Sat: 9:00 AM - 8:00 PM<br />Sunday: 10:00 AM - 2:00 PM</>,
+    lines: ['Mon – Sat: 9:00 AM – 8:00 PM', 'Sunday: 10:00 AM – 2:00 PM'],
   },
 ];
 
@@ -35,18 +31,23 @@ export default function ContactInfoCards() {
   return (
     <div className="row g-4 mb-5">
       {infoCards.map((card, i) => (
-        <div className="col-md-3" key={i}>
-          <div className="service-info-card" style={{ height: '100%', textAlign: 'center' }}>
-            <div style={{
-              width: '60px', height: '60px', borderRadius: '16px',
-              background: 'var(--primary-gradient)', display: 'flex',
-              alignItems: 'center', justifyContent: 'center', fontSize: '1.5rem',
-              margin: '0 auto 16px', color: '#fff',
-            }}>
-              {card.icon}
+        <div className="col-md-3 col-sm-6" key={i}>
+          <div className="ci-card">
+            <div className="ci-icon-wrap" style={{ background: card.accent + '18', color: card.accent }}>
+              <i className={`bi ${card.icon}`} />
             </div>
-            <h3 style={{ fontSize: '1.1rem' }}>{card.title}</h3>
-            <p>{card.content}</p>
+            <h5 className="ci-title">{card.title}</h5>
+            <div className="ci-lines">
+              {card.lines.map((line, j) =>
+                card.hrefs?.[j] ? (
+                  <a key={j} href={card.hrefs[j]} className="ci-link" style={{ color: card.accent }}>
+                    {line}
+                  </a>
+                ) : (
+                  <span key={j}>{line}</span>
+                )
+              )}
+            </div>
           </div>
         </div>
       ))}
