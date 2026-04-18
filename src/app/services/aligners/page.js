@@ -1,6 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import ServicePageHero from '@/components/shared/ServicePageHero';
+import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import AlignersContent from '@/components/ServicePages/AlignersContent';
 
 export const metadata = {

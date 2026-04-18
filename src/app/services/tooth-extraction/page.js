@@ -1,6 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import ServicePageHero from '@/components/shared/ServicePageHero';
+import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import ToothExtractionContent from '@/components/ServicePages/ToothExtractionContent';
 
 export const metadata = {

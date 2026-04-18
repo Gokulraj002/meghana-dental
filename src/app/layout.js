@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './globals.css';
-import BootstrapProvider from '@/components/BootstrapProvider';
+import BootstrapProvider from '@/components/shared/BootstrapProvider';
 import FloatingWhatsApp from '@/components/shared/FloatingWhatsApp';
 import ScrollToTop from '@/components/shared/ScrollToTop';
 
