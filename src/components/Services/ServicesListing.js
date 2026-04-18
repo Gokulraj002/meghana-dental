@@ -118,7 +118,7 @@ const services = [
     icon: 'bi-award-fill',
     gradient: 'linear-gradient(135deg, #d97706 0%, #b45309 100%)',
     accent: '#d97706',
-    image: null,
+    image: '/images/dental-clinic-interior.jpg',
     link: '/services/dental-crowns',
     features: ['Zirconia Crowns', 'e.max Crowns', 'PFM Crowns', 'Fixed Dental Bridges'],
   },
