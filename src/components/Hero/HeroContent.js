@@ -7,14 +7,14 @@ export default function HeroContent() {
     <div className="col-lg-6 animate-fade-up">
       <HeroBadge />
       <h1 className="hero-title">
-        Tirupati&apos;s Most <br />
-        Trusted <span>Dental Care</span>
+        Your Smile <br />
+        Deserves the <span>Best Care</span>
       </h1>
       <p className="hero-text">
-        Meghana Multispeciality Dental Hospital — Tirupati&apos;s most trusted
+        Meghana Dental Hospital — Guntur&apos;s most trusted super speciality
         dental centre with 17+ years of excellence. Advanced microscope-guided
-        treatments, laser-assisted painless procedures, advanced implant
-        solutions, and a team of MDS specialists dedicated to your perfect smile.
+        treatments, painless procedures, and a team of MDS specialists
+        dedicated to your perfect smile.
       </p>
       <div className="hero-buttons">
         <Link href="/contact" className="btn-hero-primary pulse-btn">
