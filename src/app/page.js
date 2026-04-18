@@ -12,7 +12,6 @@ import TestimonialsSection from '@/components/Testimonials';
 import AppointmentSection  from '@/components/Appointment';
 import Footer              from '@/components/Footer';
 import SchemaMarkup        from '@/components/shared/SchemaMarkup';
-import FloatingWhatsApp    from '@/components/shared/FloatingWhatsApp';
 
 export const metadata = {
   title: 'Best Dental Clinic in Tirupati | Meghana Dental Hospital',
@@ -50,7 +49,6 @@ export default function Home() {
       <TestimonialsSection />
       <AppointmentSection />
       <Footer />
-      <FloatingWhatsApp />
     </>
   );
 }

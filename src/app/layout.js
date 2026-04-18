@@ -2,6 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './globals.css';
 import BootstrapProvider from '@/components/BootstrapProvider';
+import FloatingWhatsApp from '@/components/shared/FloatingWhatsApp';
+import ScrollToTop from '@/components/shared/ScrollToTop';
 
 export const metadata = {
   metadataBase: new URL('https://meghanadental.com'),
@@ -67,6 +69,8 @@ export default function RootLayout({ children }) {
       <body>
         <BootstrapProvider>
           {children}
+          <FloatingWhatsApp />
+          <ScrollToTop />
         </BootstrapProvider>
       </body>
     </html>
