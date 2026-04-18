@@ -1,6 +1,5 @@
 'use client';
 
-import StatsBar from './StatsBar';
 import WhyCard from './WhyCard';
 
 const reasons = [
@@ -40,8 +39,7 @@ export default function WhyChooseUs() {
   return (
     <section className="why-choose-section section-padding">
       <div className="container">
-        <StatsBar />
-        <div className="section-header" style={{ marginTop: '60px' }}>
+        <div className="section-header">
           <span className="subtitle">WHY CHOOSE US</span>
           <h2>What Sets Us Apart</h2>
           <p>
