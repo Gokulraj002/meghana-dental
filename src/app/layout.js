@@ -1,22 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './globals.css';
-import { Plus_Jakarta_Sans, Inter } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import BootstrapProvider from '@/components/shared/BootstrapProvider';
 import FloatingWhatsApp from '@/components/shared/FloatingWhatsApp';
 import ScrollToTop from '@/components/shared/ScrollToTop';
 
-const plusJakarta = Plus_Jakarta_Sans({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700', '800'],
-  variable: '--font-plus-jakarta',
-  display: 'swap',
-  preload: true,
-});
-
+// Single font — Inter covers all weights used across the site
 const inter = Inter({
   subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
+  weight: ['300', '400', '500', '600', '700', '800', '900'],
   variable: '--font-inter',
   display: 'swap',
   preload: true,
@@ -78,7 +71,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en-IN" className={`${plusJakarta.variable} ${inter.variable}`}>
+    <html lang="en-IN" className={inter.variable}>
       <body>
         <BootstrapProvider>
           {children}

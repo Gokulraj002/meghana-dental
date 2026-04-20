@@ -231,7 +231,7 @@ export default function VideoTestimonial() {
         }
 
         .vt-stat-number {
-          font-family: 'Plus Jakarta Sans', sans-serif;
+          font-family: var(--font-inter), 'Inter', sans-serif;
           font-size: 1.5rem;
           font-weight: 800;
           color: var(--primary);

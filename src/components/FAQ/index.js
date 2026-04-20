@@ -148,7 +148,7 @@ export default function FAQSection() {
         }
 
         .faq-question span {
-          font-family: 'Plus Jakarta Sans', sans-serif;
+          font-family: var(--font-inter), 'Inter', sans-serif;
           font-weight: 600;
           font-size: 0.97rem;
           color: var(--text-heading);
