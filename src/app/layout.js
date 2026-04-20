@@ -1,9 +1,26 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './globals.css';
+import { Plus_Jakarta_Sans, Inter } from 'next/font/google';
 import BootstrapProvider from '@/components/shared/BootstrapProvider';
 import FloatingWhatsApp from '@/components/shared/FloatingWhatsApp';
 import ScrollToTop from '@/components/shared/ScrollToTop';
+
+const plusJakarta = Plus_Jakarta_Sans({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700', '800'],
+  variable: '--font-plus-jakarta',
+  display: 'swap',
+  preload: true,
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-inter',
+  display: 'swap',
+  preload: true,
+});
 
 export const metadata = {
   metadataBase: new URL('https://meghanadental.com'),
@@ -55,17 +72,13 @@ export const metadata = {
   alternates: {
     canonical: 'https://meghanadental.com',
   },
-  verification: {
-    google: '',   // add Google Search Console verification ID when available
-  },
+  // verification: { google: 'ADD_GSC_ID_HERE' },  // Uncomment and add ID once Google Search Console is set up
+  // To add Google Analytics, install 'next/third-parties' and add <GoogleAnalytics gaId="G-XXXXXXXXXX" /> in RootLayout
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en-IN">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-      </head>
+    <html lang="en-IN" className={`${plusJakarta.variable} ${inter.variable}`}>
       <body>
         <BootstrapProvider>
           {children}

@@ -9,6 +9,7 @@ export default function NavBrand() {
         alt="Meghana Dental"
         width={82}
         height={62}
+        priority
         style={{ borderRadius: '10px', cursor: 'pointer' }}
       />
       <h4>Meghana <span>Dental</span></h4>

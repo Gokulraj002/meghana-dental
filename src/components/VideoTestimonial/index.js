@@ -27,11 +27,12 @@ export default function VideoTestimonial() {
               <video
                 ref={videoRef}
                 className="vt-video"
-                src="/images/patient-testimonial.mp4"
                 playsInline
                 onEnded={() => setPlaying(false)}
-                preload="metadata"
-              />
+                preload="none"
+              >
+                <source src="/images/patient-testimonial.mp4" type="video/mp4" />
+              </video>
               {!playing && (
                 <div className="vt-play-overlay">
                   <div className="vt-play-btn">

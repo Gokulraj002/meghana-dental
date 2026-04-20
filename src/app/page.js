@@ -1,18 +1,21 @@
-import SchemaMarkup        from '@/components/shared/SchemaMarkup';
-import Navbar              from '@/components/Navbar';
-import HeroSection         from '@/components/Hero';
-import WhyChooseUs         from '@/components/WhyChooseUs';
-import ServicesSection     from '@/components/Services';
-import ProblemsSection     from '@/components/Problems';
-import AboutSection        from '@/components/About';
-import TechnologyShowcase  from '@/components/Technology';
-import FacilitiesGallery   from '@/components/Facilities';
-import DoctorsSection      from '@/components/Doctors';
-import TestimonialsSection from '@/components/Testimonials';
-import VideoTestimonial    from '@/components/VideoTestimonial';
-import FAQSection          from '@/components/FAQ';
-import AppointmentSection  from '@/components/Appointment';
-import Footer              from '@/components/Footer';
+import dynamic from 'next/dynamic';
+import SchemaMarkup  from '@/components/shared/SchemaMarkup';
+import Navbar        from '@/components/Navbar';
+import HeroSection   from '@/components/Hero';   // above-fold — eager
+
+// Below-fold sections — lazy loaded to reduce initial JS bundle
+const AboutSection        = dynamic(() => import('@/components/About'));
+const WhyChooseUs         = dynamic(() => import('@/components/WhyChooseUs'));
+const ServicesSection     = dynamic(() => import('@/components/Services'));
+const ProblemsSection     = dynamic(() => import('@/components/Problems'));
+const TechnologyShowcase  = dynamic(() => import('@/components/Technology'));
+const FacilitiesGallery   = dynamic(() => import('@/components/Facilities'));
+const DoctorsSection      = dynamic(() => import('@/components/Doctors'));
+const TestimonialsSection = dynamic(() => import('@/components/Testimonials'));
+const VideoTestimonial    = dynamic(() => import('@/components/VideoTestimonial'));
+const FAQSection          = dynamic(() => import('@/components/FAQ'));
+const AppointmentSection  = dynamic(() => import('@/components/Appointment'));
+const Footer              = dynamic(() => import('@/components/Footer'));
 
 export const metadata = {
   title: { absolute: 'Best Dental Clinic in Tirupati | Meghana Dental' },
@@ -42,6 +45,9 @@ export default function Home() {
       {/* 1. Hero — instant hook + primary CTA */}
       <HeroSection />
 
+          {/* 5. About — who we are, 17+ years, expertise */}
+      <AboutSection />
+
       {/* 2. Why Choose Us — stats bar + 6 key differentiators (trust right after hero) */}
       <WhyChooseUs />
 
@@ -51,8 +57,7 @@ export default function Home() {
       {/* 4. Problems — "we solve YOUR problem" (emotional connection) */}
       <ProblemsSection />
 
-      {/* 5. About — who we are, 17+ years, expertise */}
-      <AboutSection />
+  
 
       {/* 6. Technology — Carl Zeiss microscope showcase (credibility) */}
       <TechnologyShowcase />

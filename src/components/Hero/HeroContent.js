@@ -11,7 +11,7 @@ export default function HeroContent() {
         Deserves the <span>Best Care</span>
       </h1>
       <p className="hero-text">
-        Meghana Dental Hospital — Guntur&apos;s most trusted super speciality
+        Meghana Dental Hospital — Tirupati&apos;s most trusted super speciality
         dental centre with 17+ years of excellence. Advanced microscope-guided
         treatments, painless procedures, and a team of MDS specialists
         dedicated to your perfect smile.
