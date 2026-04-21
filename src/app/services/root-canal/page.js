@@ -4,7 +4,7 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import RootCanalContent from '@/components/ServicePages/RootCanalContent';
 
 export const metadata = {
-  title: 'Root Canal Treatment in Tirupati',
+  title: 'Painless Root Canal Treatment Tirupati | Single Sitting',
   description:
     'Painless, microscope-guided root canal treatment in Tirupati. Single-sitting RCT available. Carl Zeiss 25x microscope, MDS endodontists. Book now.',
   keywords:

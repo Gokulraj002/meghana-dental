@@ -19,7 +19,7 @@ export const metadata = {
   metadataBase: new URL('https://meghanadental.com'),
   title: {
     default: 'Best Dental Clinic in Tirupati | Meghana Dental',
-    template: '%s | Meghana Dental',
+    template: '%s',  // No brand suffix — full 60 chars used for keywords on every page
   },
   description:
     'Meghana Dental Hospital — best dental clinic in Tirupati. 17+ years, MDS specialists, microscope dentistry, implants, root canal, braces, whitening & more.',

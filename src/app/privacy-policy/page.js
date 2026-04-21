@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Privacy Policy | Meghana Dental Tirupati',
+  title: 'Privacy Policy | Meghana Dental Hospital, Tirupati',
   description: 'Read the privacy policy of Meghana Dental Hospital, Tirupati. Learn how we collect, use, and protect your personal data when you use our website or services.',
   keywords: 'Meghana Dental privacy policy, dental hospital data policy Tirupati, patient data protection dental clinic',
   alternates: { canonical: 'https://meghanadental.com/privacy-policy' },

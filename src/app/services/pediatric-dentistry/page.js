@@ -4,7 +4,7 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import PediatricContent from '@/components/ServicePages/PediatricContent';
 
 export const metadata = {
-  title: "Children's Dentist in Tirupati",
+  title: "Best Children's Dentist in Tirupati | Gentle Dental Care",
   description:
     'Tirupati’s most loved children’s dentist. Gentle, fun, fear-free dental care for kids — baby teeth care, fluoride, sealants, first visit by age 1.',
   keywords:

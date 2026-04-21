@@ -5,7 +5,7 @@ import ServicesListing from '@/components/Services/ServicesListing';
 import ServicesListingCTA from '@/components/Services/ServicesListingCTA';
 
 export const metadata = {
-  title: 'All Dental Services in Tirupati',
+  title: 'Dental Treatments in Tirupati | 14 Specialist Services',
   description:
     '14 specialist dental treatments in Tirupati — implants, root canal, braces, aligners, whitening, pediatric dentistry, microscope dentistry & more.',
   keywords:

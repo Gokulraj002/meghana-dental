@@ -6,7 +6,7 @@ import ContactForm from '@/components/Contact/ContactForm';
 import ContactMapSection from '@/components/Contact/ContactMapSection';
 
 export const metadata = {
-  title: 'Contact & Book Appointment in Tirupati',
+  title: 'Book Dental Appointment in Tirupati | Call & WhatsApp',
   description:
     'Contact Meghana Dental Hospital Tirupati. Book a dental appointment via WhatsApp, call, or visit our clinic at Ashok Nagar, Tirupati, Andhra Pradesh.',
   keywords:

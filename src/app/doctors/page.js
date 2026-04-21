@@ -5,7 +5,7 @@ import DoctorsProfiles from '@/components/Doctors/DoctorsProfiles';
 import DoctorsCTASection from '@/components/Doctors/DoctorsCTASection';
 
 export const metadata = {
-  title: 'Best Dentists in Tirupati | MDS Specialists',
+  title: 'Best MDS Dentist Specialists in Tirupati | Expert Team',
   description:
     'Meet the MDS-qualified dental specialists at Meghana Dental Hospital Tirupati — expert team with decades of combined experience in every speciality.',
   keywords:

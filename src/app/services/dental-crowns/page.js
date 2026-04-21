@@ -4,7 +4,7 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import DentalCrownsContent from '@/components/ServicePages/DentalCrownsContent';
 
 export const metadata = {
-  title: 'Dental Crowns & Bridges in Tirupati',
+  title: 'Best Dental Crowns & Bridges in Tirupati | Zirconia',
   description:
     'Premium zirconia, e.max & PFM crowns & bridges in Tirupati. Natural-looking, long-lasting restorations by MDS prosthodontists. Transparent pricing.',
   keywords:

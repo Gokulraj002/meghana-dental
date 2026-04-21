@@ -4,7 +4,7 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import TeethWhiteningContent from '@/components/ServicePages/TeethWhiteningContent';
 
 export const metadata = {
-  title: 'Teeth Whitening in Tirupati',
+  title: 'Laser Teeth Whitening Tirupati | 8 Shades Brighter',
   description:
     'Professional teeth whitening in Tirupati — in-office laser whitening up to 8 shades brighter in one visit. Safe, pain-free, long-lasting results.',
   keywords:

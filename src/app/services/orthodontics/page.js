@@ -4,7 +4,7 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import OrthodonticsContent from '@/components/ServicePages/OrthodonticsContent';
 
 export const metadata = {
-  title: 'Orthodontist in Tirupati | Braces',
+  title: 'Best Orthodontist in Tirupati | Braces & Teeth Alignment',
   description:
     'Tirupati’s trusted orthodontist for dental braces & teeth alignment. Metal, ceramic & self-ligating braces. 3D oral scanning. Free assessment.',
   keywords:

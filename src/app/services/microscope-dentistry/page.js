@@ -4,7 +4,7 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import MicroscopeContent from '@/components/ServicePages/MicroscopeContent';
 
 export const metadata = {
-  title: 'Microscope Dentistry in Tirupati',
+  title: 'Carl Zeiss Microscope Dentistry Tirupati | Precision RCT',
   description:
     'Carl Zeiss 25x microscope dentistry in Tirupati — only clinic with this gold-standard technology. Precision root canals, microsurgery, crack detection.',
   keywords:

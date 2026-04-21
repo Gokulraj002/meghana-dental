@@ -4,7 +4,7 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import DentalImplantsContent from '@/components/ServicePages/DentalImplantsContent';
 
 export const metadata = {
-  title: 'Dental Implants in Tirupati',
+  title: 'Best Dental Implants in Tirupati | Affordable Cost',
   description:
     'Dental implants in Tirupati by expert MDS prosthodontists. Single & multiple implants, All-on-4, same-day implants. Transparent pricing. Book now.',
   keywords:

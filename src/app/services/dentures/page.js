@@ -4,7 +4,7 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import DenturesContent from '@/components/ServicePages/DenturesContent';
 
 export const metadata = {
-  title: 'Dentures & Prosthetics in Tirupati',
+  title: 'Dentures in Tirupati | BPS Precision & Implant Supported',
   description:
     'Premium dentures in Tirupati — BPS precision dentures, flexible partials, implant-supported dentures. Natural look, perfect fit, MDS prosthodontist.',
   keywords:

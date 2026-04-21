@@ -4,7 +4,7 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import GumTreatmentContent from '@/components/ServicePages/GumTreatmentContent';
 
 export const metadata = {
-  title: 'Gum Disease Treatment in Tirupati',
+  title: 'Gum Disease Treatment Tirupati | Stop Bleeding Gums',
   description:
     'Stop bleeding gums & protect your smile in Tirupati. Professional scaling, laser gum therapy, flap surgery by MDS periodontist. Book assessment.',
   keywords:

@@ -4,7 +4,7 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import FullMouthRehabContent from '@/components/ServicePages/FullMouthRehabContent';
 
 export const metadata = {
-  title: 'Full Mouth Rehabilitation, Tirupati',
+  title: 'Full Mouth Rehabilitation Tirupati | Complete Smile Restore',
   description:
     'Complete smile reconstruction in Tirupati with multi-specialist team — implants, crowns, orthodontics, phased treatment plan. EMI available.',
   keywords:

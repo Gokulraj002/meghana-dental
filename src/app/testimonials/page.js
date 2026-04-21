@@ -6,7 +6,7 @@ import TestimonialsGrid from '@/components/Testimonials/TestimonialsGrid';
 import TestimonialsCTASection from '@/components/Testimonials/TestimonialsCTASection';
 
 export const metadata = {
-  title: 'Patient Reviews | 4.9★ in Tirupati',
+  title: 'Dental Patient Reviews Tirupati | 4.9★ Google Rating',
   description:
     'Read real patient reviews & testimonials for Meghana Dental Hospital Tirupati. 4.9★ Google rating from 850+ reviews. 50,000+ happy patients.',
   keywords:

@@ -4,7 +4,7 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import LaserDentistryContent from '@/components/ServicePages/LaserDentistryContent';
 
 export const metadata = {
-  title: 'Laser Dentistry in Tirupati',
+  title: 'Laser Dentistry Tirupati | Painless Drill-Free Treatment',
   description:
     'Drill-free, painless dental treatments in Tirupati with advanced Diode laser. Gum contouring, cavity treatment, ulcer healing. Same-day recovery.',
   keywords:

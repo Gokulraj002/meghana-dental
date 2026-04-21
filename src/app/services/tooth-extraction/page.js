@@ -4,7 +4,7 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import ToothExtractionContent from '@/components/ServicePages/ToothExtractionContent';
 
 export const metadata = {
-  title: 'Tooth Extraction in Tirupati',
+  title: 'Painless Tooth Extraction Tirupati | Wisdom Tooth Removal',
   description:
     'Safe, painless tooth extraction & wisdom tooth removal in Tirupati. Experienced oral surgeons, OPG X-ray planning, minimal recovery. Same-day option.',
   keywords:

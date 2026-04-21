@@ -4,7 +4,7 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import SmileMakeoverContent from '@/components/ServicePages/SmileMakeoverContent';
 
 export const metadata = {
-  title: 'Smile Makeover in Tirupati',
+  title: 'Smile Makeover Tirupati | Cosmetic Dentistry Specialist',
   description:
     'Transform your smile in Tirupati with Digital Smile Design — veneers, whitening, aligners, gum contouring. See your new smile before treatment.',
   keywords:

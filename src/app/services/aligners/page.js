@@ -4,7 +4,7 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import AlignersContent from '@/components/ServicePages/AlignersContent';
 
 export const metadata = {
-  title: 'Clear Aligners in Tirupati',
+  title: 'Clear Aligners Tirupati | Invisible Teeth Straightening',
   description:
     'Invisible teeth straightening in Tirupati with custom clear aligners. 3D intra-oral scanning, removable trays, no metal braces. Book free 3D scan.',
   keywords:
