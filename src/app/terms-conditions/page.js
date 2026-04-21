@@ -3,8 +3,9 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Terms & Conditions | Meghana Dental Hospital, Tirupati',
-  description: 'Terms and conditions for using the Meghana Dental Hospital website and services in Tirupati, Andhra Pradesh.',
+  title: 'Terms & Conditions | Dental Clinic Tirupati',
+  description: 'Terms and conditions governing the use of Meghana Dental Hospital website and dental services in Tirupati, Andhra Pradesh. Please read before using our site.',
+  keywords: 'Meghana Dental terms and conditions, dental hospital terms of use Tirupati, dental clinic website terms',
   alternates: { canonical: 'https://meghanadental.com/terms-conditions' },
   robots: { index: true, follow: true },
 };
