@@ -9,12 +9,12 @@ export const metadata = {
     'Carl Zeiss 25x microscope dentistry in Tirupati — only clinic with this gold-standard technology. Precision root canals, microsurgery, crack detection.',
   keywords:
     'microscope dentistry Tirupati, Carl Zeiss dental Tirupati, microscope root canal Tirupati, precision dentist Tirupati, microscopic root canal Andhra Pradesh, operating microscope dentist Tirupati, Carl Zeiss microscope dentist India',
-  alternates: { canonical: 'https://meghanadental.com/services/microscope-dentistry' },
+  alternates: { canonical: 'https://meghanadental.in/services/microscope-dentistry' },
   openGraph: {
     title: 'Microscope Dentistry in Tirupati | Carl Zeiss Precision — Meghana Dental',
     description:
       'Tirupati\'s only Carl Zeiss dental operating microscope. 25x magnification for precision root canals, microsurgery, and crack detection. See more, treat better.',
-    url: 'https://meghanadental.com/services/microscope-dentistry',
+    url: 'https://meghanadental.in/services/microscope-dentistry',
     siteName: 'Meghana Dental Hospital',
     images: [{ url: '/images/microscope-equipment.jpg', width: 1200, height: 630, alt: 'Carl Zeiss Dental Operating Microscope — Tirupati' }],
     type: 'website',

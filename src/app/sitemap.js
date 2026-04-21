@@ -1,4 +1,4 @@
-const BASE = 'https://meghanadental.com';
+const BASE = 'https://meghanadental.in';
 
 const services = [
   'dental-implants',

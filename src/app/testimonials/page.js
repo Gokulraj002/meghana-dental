@@ -11,12 +11,12 @@ export const metadata = {
     'Read real patient reviews & testimonials for Meghana Dental Hospital Tirupati. 4.9★ Google rating from 850+ reviews. 50,000+ happy patients.',
   keywords:
     'Meghana Dental reviews Tirupati, dental hospital reviews Tirupati, best dentist Tirupati reviews, dental testimonials Tirupati, patient feedback dental Tirupati, 4.9 star dental Tirupati',
-  alternates: { canonical: 'https://meghanadental.com/testimonials' },
+  alternates: { canonical: 'https://meghanadental.in/testimonials' },
   openGraph: {
     title: 'Patient Testimonials — 4.9★ Rated Dental Hospital in Tirupati | Meghana Dental',
     description:
       '850+ Google reviews, 98% patient satisfaction. See what real patients in Tirupati say about their experience at Meghana Dental Hospital.',
-    url: 'https://meghanadental.com/testimonials',
+    url: 'https://meghanadental.in/testimonials',
     siteName: 'Meghana Dental Hospital',
     type: 'website',
   },

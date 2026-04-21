@@ -9,11 +9,11 @@ export const metadata = {
     'Safe, painless tooth extraction & wisdom tooth removal in Tirupati. Experienced oral surgeons, OPG X-ray planning, minimal recovery. Same-day option.',
   keywords:
     'tooth extraction Tirupati, wisdom tooth removal Tirupati, dental extraction Tirupati, painless tooth removal Tirupati, surgical extraction Tirupati, wisdom tooth surgery Tirupati, oral surgeon Tirupati',
-  alternates: { canonical: 'https://meghanadental.com/services/tooth-extraction' },
+  alternates: { canonical: 'https://meghanadental.in/services/tooth-extraction' },
   openGraph: {
     title: 'Tooth Extraction & Wisdom Tooth Removal in Tirupati — Meghana Dental',
     description: 'Safe, comfortable tooth extractions including impacted wisdom tooth surgery in Tirupati. Experienced oral surgeons, minimal discomfort, and same-day appointments.',
-    url: 'https://meghanadental.com/services/tooth-extraction',
+    url: 'https://meghanadental.in/services/tooth-extraction',
     siteName: 'Meghana Dental Hospital',
     images: [{ url: '/images/dental-chair.jpg', width: 1200, height: 630, alt: 'Tooth Extraction in Tirupati' }],
     type: 'website',

@@ -16,8 +16,8 @@ const infoCards = [
     icon: 'bi-envelope-fill',
     accent: '#8b5cf6',
     title: 'Email Us',
-    lines: ['info@meghanadental.com'],
-    hrefs: ['mailto:info@meghanadental.com'],
+    lines: ['info@meghanadental.in'],
+    hrefs: ['mailto:info@meghanadental.in'],
   },
   {
     icon: 'bi-clock-fill',

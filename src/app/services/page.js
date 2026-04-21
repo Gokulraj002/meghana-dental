@@ -10,12 +10,12 @@ export const metadata = {
     '14 specialist dental treatments in Tirupati — implants, root canal, braces, aligners, whitening, pediatric dentistry, microscope dentistry & more.',
   keywords:
     'dental services Tirupati, dental treatments Tirupati, dental implants Tirupati, root canal Tirupati, braces Tirupati, teeth whitening Tirupati, pediatric dentist Tirupati, microscope dentistry Tirupati, dental hospital Andhra Pradesh',
-  alternates: { canonical: 'https://meghanadental.com/services' },
+  alternates: { canonical: 'https://meghanadental.in/services' },
   openGraph: {
     title: 'All Dental Services in Tirupati | Meghana Dental Hospital',
     description:
       '14 specialist dental treatments under one roof in Tirupati. From implants to aligners, root canals to smile makeovers — expert MDS team, state-of-the-art technology.',
-    url: 'https://meghanadental.com/services',
+    url: 'https://meghanadental.in/services',
     siteName: 'Meghana Dental Hospital',
     type: 'website',
   },

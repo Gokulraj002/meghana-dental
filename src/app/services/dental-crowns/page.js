@@ -9,11 +9,11 @@ export const metadata = {
     'Premium zirconia, e.max & PFM crowns & bridges in Tirupati. Natural-looking, long-lasting restorations by MDS prosthodontists. Transparent pricing.',
   keywords:
     'dental crowns Tirupati, dental bridges Tirupati, zirconia crown Tirupati, tooth cap Tirupati, crown cost Tirupati, dental cap Tirupati, broken tooth crown Tirupati, prosthodontist Tirupati',
-  alternates: { canonical: 'https://meghanadental.com/services/dental-crowns' },
+  alternates: { canonical: 'https://meghanadental.in/services/dental-crowns' },
   openGraph: {
     title: 'Dental Crowns & Bridges in Tirupati | Zirconia & e.max — Meghana Dental',
     description: 'Restore damaged and missing teeth with premium zirconia, e.max & PFM crowns in Tirupati. Expert prosthodontists, natural-looking results, transparent pricing.',
-    url: 'https://meghanadental.com/services/dental-crowns',
+    url: 'https://meghanadental.in/services/dental-crowns',
     siteName: 'Meghana Dental Hospital',
     images: [{ url: '/images/dental-clinic-interior.jpg', width: 1200, height: 630, alt: 'Dental Crowns and Bridges in Tirupati' }],
     type: 'website',

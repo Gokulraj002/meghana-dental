@@ -7,7 +7,7 @@ export default function robots() {
         disallow: ['/api/', '/_next/', '/admin/'],
       },
     ],
-    sitemap: 'https://meghanadental.com/sitemap.xml',
-    host: 'https://meghanadental.com',
+    sitemap: 'https://meghanadental.in/sitemap.xml',
+    host: 'https://meghanadental.in',
   };
 }

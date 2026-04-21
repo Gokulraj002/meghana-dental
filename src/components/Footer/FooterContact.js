@@ -18,7 +18,7 @@ export default function FooterContact() {
         <div className="footer-contact-icon">
           <i className="bi bi-envelope-fill"></i>
         </div>
-        <p><a href="mailto:info@meghanadental.com">info@meghanadental.com</a></p>
+        <p><a href="mailto:info@meghanadental.in">info@meghanadental.in</a></p>
       </div>
     </div>
   );

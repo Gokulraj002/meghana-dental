@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://meghanadental.com'),
+  metadataBase: new URL('https://meghanadental.in'),
   title: {
     default: 'Best Dental Clinic in Tirupati | Meghana Dental',
     template: '%s',  // No brand suffix — full 60 chars used for keywords on every page
@@ -42,7 +42,7 @@ export const metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://meghanadental.com',
+    url: 'https://meghanadental.in',
     siteName: 'Meghana Dental Hospital',
     title: 'Best Dental Clinic in Tirupati | Meghana Dental Hospital',
     description:
@@ -63,7 +63,7 @@ export const metadata = {
     images: ['/images/about-clinic.png'],
   },
   alternates: {
-    canonical: 'https://meghanadental.com',
+    canonical: 'https://meghanadental.in',
   },
   // verification: { google: 'ADD_GSC_ID_HERE' },  // Uncomment and add ID once Google Search Console is set up
   // To add Google Analytics, install 'next/third-parties' and add <GoogleAnalytics gaId="G-XXXXXXXXXX" /> in RootLayout

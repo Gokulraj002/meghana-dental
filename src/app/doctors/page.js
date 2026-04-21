@@ -10,12 +10,12 @@ export const metadata = {
     'Meet the MDS-qualified dental specialists at Meghana Dental Hospital Tirupati — expert team with decades of combined experience in every speciality.',
   keywords:
     'best dentist in Tirupati, MDS specialist Tirupati, orthodontist Tirupati, endodontist Tirupati, pediatric dentist Tirupati, implant specialist Tirupati, Meghana Dental doctors, dental specialist Andhra Pradesh',
-  alternates: { canonical: 'https://meghanadental.com/doctors' },
+  alternates: { canonical: 'https://meghanadental.in/doctors' },
   openGraph: {
     title: 'Best Dentists in Tirupati | Meet Our MDS Specialist Team — Meghana Dental',
     description:
       'Our team of 6 MDS-qualified specialists brings expertise across every major dental field in Tirupati. Personalised, compassionate care for every patient.',
-    url: 'https://meghanadental.com/doctors',
+    url: 'https://meghanadental.in/doctors',
     siteName: 'Meghana Dental Hospital',
     images: [{ url: '/images/dr-hemu.jpg', width: 1200, height: 630, alt: 'MDS Dental Specialists at Meghana Dental Hospital, Tirupati' }],
     type: 'website',
