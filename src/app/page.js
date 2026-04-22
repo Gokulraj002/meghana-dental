@@ -11,6 +11,7 @@ const ProblemsSection     = dynamic(() => import('@/components/Problems'));
 const TechnologyShowcase  = dynamic(() => import('@/components/Technology'));
 const FacilitiesGallery   = dynamic(() => import('@/components/Facilities'));
 const DoctorsSection      = dynamic(() => import('@/components/Doctors'));
+const EmpanelledSection   = dynamic(() => import('@/components/Empanelled'));
 const TestimonialsSection = dynamic(() => import('@/components/Testimonials'));
 const VideoTestimonial    = dynamic(() => import('@/components/VideoTestimonial'));
 const FAQSection          = dynamic(() => import('@/components/FAQ'));
@@ -65,7 +66,10 @@ export default function Home() {
       {/* 7. Facilities — photo gallery of clinic */}
       <FacilitiesGallery />
 
-      {/* 8. Doctors — meet our lead specialist */}
+      {/* 8. Empanelled — NABH + govt organisations trust block */}
+      <EmpanelledSection />
+
+      {/* 9. Doctors — meet our lead specialist */}
       <DoctorsSection />
 
       {/* 9. Testimonials — patient reviews (social proof) */}
