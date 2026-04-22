@@ -23,7 +23,7 @@ export default function DoctorsSection() {
           </p>
         </div>
 
-        {/* Lead Doctor — Dr. Hemanth Kumar */}
+        {/* Lead Doctor — Dr. M. Hemadri */}
         <div className="row justify-content-center mb-5">
           <div className="col-lg-8">
             <div className="lead-doctor-card">
@@ -32,32 +32,33 @@ export default function DoctorsSection() {
                   <div className="lead-doctor-image">
                     <Image
                       src="/images/dr-hemu.jpg"
-                      alt="Dr. Hemanth Kumar — Chief Dental Surgeon"
+                      alt="Dr. M. Hemadri — Founder & Chief Endodontist"
                       width={480}
                       height={560}
                       style={{ width: '100%', height: '360px', objectFit: 'cover', objectPosition: 'top center' }}
                     />
-                    <div className="doc-badge">Chief Surgeon</div>
+                    <div className="doc-badge">Founder & Director</div>
                   </div>
                 </div>
                 <div className="col-md-7">
                   <div className="lead-doctor-info">
                     <div className="doc-tag">Lead Specialist</div>
-                    <h3>Dr. Hemanth Kumar</h3>
-                    <p className="doc-specialty">Oral &amp; Maxillofacial Surgeon</p>
-                    <p className="doc-qual">MDS, PhD</p>
+                    <h3>Dr. M. Hemadri</h3>
+                    <p className="doc-specialty">Endodontist &amp; Implantologist</p>
+                    <p className="doc-qual">MDS (Conservative Dentistry &amp; Endodontics), ICOI Fellow</p>
                     <p className="doc-desc">
-                      With years of experience in advanced dental surgery and microscope-guided treatments,
-                      Dr. Hemanth Kumar leads our super-specialty centre with a commitment to precision,
-                      patient comfort, and outstanding outcomes.
+                      Founder and Director of Meghana Multi-Speciality Dental Hospital. A distinguished
+                      endodontist with 17 years of experience, Dr. Hemadri is widely acclaimed for
+                      single-visit root canal treatment, microscope-guided endodontics, LASER dentistry,
+                      and full-mouth rehabilitation. He holds an ICOI Fellowship in Implant Dentistry.
                     </p>
                     <div className="doc-stats">
                       <div className="doc-stat">
-                        <strong>10+</strong>
+                        <strong>17+</strong>
                         <span>Years Exp.</span>
                       </div>
                       <div className="doc-stat">
-                        <strong>5000+</strong>
+                        <strong>50,000+</strong>
                         <span>Patients</span>
                       </div>
                       <div className="doc-stat">
@@ -66,7 +67,7 @@ export default function DoctorsSection() {
                       </div>
                     </div>
                     <a
-                      href="https://wa.me/919876543210?text=Hello%2C%20I%27d%20like%20to%20book%20a%20consultation%20with%20Dr.%20Hemanth%20Kumar."
+                      href="https://wa.me/919876543210?text=Hello%2C%20I%27d%20like%20to%20book%20a%20consultation%20with%20Dr.%20M.%20Hemadri."
                       className="doc-wa-btn"
                       target="_blank"
                       rel="noopener noreferrer"

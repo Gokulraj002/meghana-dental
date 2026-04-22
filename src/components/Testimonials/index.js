@@ -3,7 +3,7 @@ import GoogleBadge from './GoogleBadge';
 
 const testimonials = [
   {
-    text: 'Excellent dental care! Dr. Hemanth Kumar performed my root canal treatment with microscope — absolutely painless. The best dental experience I have ever had.',
+    text: 'Excellent dental care! Dr. M. Hemadri performed my root canal treatment with microscope — absolutely painless. The best dental experience I have ever had.',
     name: 'Srinivas Reddy',
     role: 'Business Owner',
     initial: 'S',

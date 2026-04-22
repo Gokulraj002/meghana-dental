@@ -2,7 +2,7 @@ const testimonials = [
   {
     name: 'Srinivas Reddy',
     occupation: 'Business Owner',
-    text: 'Excellent dental care! Dr. Hemanth Kumar performed my root canal treatment with microscope — absolutely painless. The best dental experience I have ever had. The clinic is modern and hygienic, and the staff is very friendly.',
+    text: 'Excellent dental care! Dr. M. Hemadri performed my root canal treatment with microscope — absolutely painless. The best dental experience I have ever had. The clinic is modern and hygienic, and the staff is very friendly.',
     rating: 5,
     treatment: 'Root Canal Treatment',
   },
@@ -44,7 +44,7 @@ const testimonials = [
   {
     name: 'Sudheer Kumar',
     occupation: 'Government Employee',
-    text: 'I had my wisdom tooth removed here. The entire procedure was painless and the recovery was smooth. Dr. Hemanth Kumar is an excellent surgeon. The post-operative care instructions were very helpful.',
+    text: 'I had my wisdom tooth removed here. The entire procedure was painless and the recovery was smooth. Dr. M. Hemadri is an excellent surgeon. The post-operative care instructions were very helpful.',
     rating: 5,
     treatment: 'Tooth Extraction',
   },
