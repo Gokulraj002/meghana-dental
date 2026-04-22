@@ -21,12 +21,14 @@ const serviceData = {
   ],
 
   conditions: [
-    { icon: 'bi-virus', label: 'Severely decayed tooth — beyond restoration' },
-    { icon: 'bi-lightning', label: 'Fractured tooth below the gumline' },
-    { icon: 'bi-exclamation-octagon', label: 'Impacted or partially erupted wisdom teeth' },
-    { icon: 'bi-arrows-expand', label: 'Overcrowding before orthodontic treatment' },
-    { icon: 'bi-heart-pulse', label: 'Advanced gum disease loosening the tooth' },
-    { icon: 'bi-clock', label: 'Baby teeth delaying permanent eruption' },
+    { icon: 'bi-exclamation-octagon', label: 'Impacted teeth causing pain and swelling' },
+    { icon: 'bi-bandaid-fill', label: 'Infection in the gums (pericoronitis)' },
+    { icon: 'bi-virus', label: 'Food lodgement leading to tooth decay' },
+    { icon: 'bi-heart-pulse', label: 'Gum disease or dental abscess' },
+    { icon: 'bi-circle-fill', label: 'Cyst formation around the tooth' },
+    { icon: 'bi-arrow-left-right', label: 'Damage to nearby teeth or bone' },
+    { icon: 'bi-arrows-expand', label: 'Crowding — wisdom tooth pushing adjacent teeth' },
+    { icon: 'bi-x-circle', label: 'Difficulty in opening mouth (trismus)' },
   ],
 
   benefits: [
@@ -90,6 +92,10 @@ const serviceData = {
     {
       q: 'Does tooth extraction hurt? What will I actually feel?',
       a: 'During extraction you will not feel pain — the area is fully anaesthetised. You will feel pressure and movement as the tooth is loosened, but no sharp or burning sensations. After the anaesthetic wears off (2–4 hours later), mild soreness is normal and is managed well with ibuprofen or paracetamol.',
+    },
+    {
+      q: 'What problems can a wisdom tooth cause if not removed?',
+      a: 'Wisdom teeth cause several problems when they lack space to erupt properly: (1) Crowding — the erupting wisdom tooth pushes adjacent teeth causing misalignment. (2) Pain & discomfort — especially when the tooth is impacted or erupting at an angle. (3) Infection & abscess — partially erupted wisdom teeth create a flap of gum tissue that traps food, leading to decay, gum swelling, and abscess. (4) Cyst formation around the tooth root. (5) Difficulty opening the mouth (trismus). Early removal prevents all of these complications.',
     },
     {
       q: 'My wisdom tooth is impacted. Do I need surgery, and is it complicated?',
