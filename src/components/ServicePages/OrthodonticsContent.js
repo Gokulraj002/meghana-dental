@@ -2,19 +2,19 @@ import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
   accent: '#8b5cf6',
-  contentImage: '/images/ortho-metal-braces.jpg',
+  contentImage: '/services/ortho-img-p1-1.jpg',
 
   gallery: [
-    { src: '/images/ortho-ceramic-braces.jpg', caption: 'Ceramic (tooth-coloured) braces' },
-    { src: '/images/ortho-self-ligating-braces.jpg', caption: 'Self-ligating braces — faster & comfortable' },
-    { src: '/images/ortho-before-after-1.jpg', caption: 'Before & after orthodontic treatment' },
-    { src: '/images/ortho-before-after-2.png', caption: 'Smile transformation results' },
-    { src: '/images/ortho-crooked-teeth.jpg', caption: 'Crowded teeth — treatable with braces' },
-    { src: '/images/ortho-crossbite.jpg', caption: 'Crossbite correction' },
+    { src: '/services/ortho-img-p5-1.jpg', caption: 'Metal braces with coloured ligature ties — full arch' },
+    { src: '/services/ortho-img-p5-2.jpg', caption: 'Ceramic (tooth-coloured) braces — discreet option' },
+    { src: '/services/ortho-img-p6-1.jpg', caption: 'Self-ligating braces — no ties, gentler forces' },
+    { src: '/services/ortho-img-p7-1.jpg', caption: 'Patient before & after — crowded teeth corrected' },
+    { src: '/services/ortho-img-p8-1.jpg', caption: 'Before & after — protruded bite fully corrected' },
+    { src: '/services/ortho-img-p6-2.jpg', caption: 'Bite alignment result — side-view comparison' },
   ],
 
   overview:
-    'Orthodontic treatment uses braces or aligners to straighten misaligned teeth, correct jaw positioning, and improve facial symmetry. Beyond aesthetics, properly aligned teeth are easier to clean, reducing the risk of cavities and gum disease. At Meghana Dental Hospital, Tirupati, our MDS-qualified orthodontist uses advanced 3D oral scanning technology to map your teeth precisely before treatment begins — creating a fully digital treatment plan for predictable, efficient results. We offer metal, ceramic, and self-ligating braces for children, teenagers, and adults of all ages.',
+    'Dental braces are a proven orthodontic treatment to align the teeth, improve jaw positioning, enhance facial aesthetics, and restore symmetry. At Meghana Dental Hospital, Tirupati, our MDS orthodontist Dr. Lakshmikar Reddy corrects a full range of problems — crowded, spaced, protruded, and rotated teeth; overbites and underbites; crossbites; open bites; and midline diastemas. Using advanced 3D oral scanning technology, we map your teeth precisely before treatment begins and show you a digital simulation of your final smile. We offer metal, ceramic, and self-ligating braces for children, teenagers, and adults — as well as Invisalign clear aligners and fixed functional appliances for growing patients.',
 
   highlights: [
     { icon: 'bi-phone-fill', text: '3D Oral Scanner Planning' },
@@ -77,6 +77,7 @@ const serviceData = {
     {
       title: 'Brace Placement',
       desc: 'Brackets are bonded to your teeth and connected with an archwire. The type of brace — metal, ceramic, or self-ligating — is chosen based on your clinical needs and aesthetic preference.',
+      image: '/services/ortho-img-p5-1.jpg',
     },
     {
       title: 'Regular Adjustment Appointments',
@@ -85,6 +86,7 @@ const serviceData = {
     {
       title: 'Braces Removal & Retention',
       desc: 'Once your teeth reach their target positions, braces are removed and custom retainers are provided to hold teeth in their new positions while bone stabilises.',
+      image: '/services/ortho-img-p7-1.jpg',
     },
   ],
 

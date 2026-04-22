@@ -2,18 +2,17 @@ import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
   accent: '#0891b2',
-  contentImage: '/images/aligners-wearing.jpg',
+  contentImage: '/services/aligners-img2.jpg',
 
   gallery: [
-    { src: '/images/aligners-trays.jpg', caption: 'Custom-fabricated aligner trays' },
-    { src: '/images/ortho-before-after-1.jpg', caption: 'Before & after aligner treatment' },
-    { src: '/images/ortho-before-after-2.png', caption: 'Complete smile transformation results' },
-    { src: '/images/ortho-spaced-tooth.jpg', caption: 'Spacing between teeth — correctable with aligners' },
-    { src: '/images/ortho-self-ligating-braces.jpg', caption: 'Alternative: self-ligating braces for complex cases' },
+    { src: '/services/aligners-img2.jpg', caption: 'Inserting a clear aligner tray — comfortable and discreet' },
+    { src: '/services/aligners-img1.jpg', caption: 'Custom-fabricated transparent aligner trays' },
+    { src: '/images/ortho-before-after-1.jpg', caption: 'Before & after clear aligner treatment' },
+    { src: '/images/ortho-before-after-2.png', caption: 'Complete smile transformation with aligners' },
   ],
 
   overview:
-    'Clear aligners are a series of custom-fabricated, virtually invisible plastic trays that gradually move your teeth into the desired alignment — without a single metal bracket or wire. Each set of trays is worn for approximately 1–2 weeks before progressing to the next. At Meghana Dental Hospital, Tirupati, our aligners are designed using a 3D intra-oral scanner, which captures a precise digital model of your teeth. This digital data drives a step-by-step treatment simulation, so you can see your projected final smile before treatment even begins. Aligners are fully removable, meaning no food restrictions, no hygiene compromises, and complete discretion throughout treatment.',
+    'Clear aligners consist of a series of custom-fitted, transparent trays that gradually shift your teeth into the desired position. Unlike traditional braces, they are fully removable — so you can easily eat your favourite foods and clean your teeth normally throughout treatment. At Meghana Dental Hospital, Tirupati, our aligners are designed using a 3D intra-oral scanner that captures a precise digital model of your teeth. This digital data drives a step-by-step treatment simulation, so you can see your projected final smile before treatment even begins. No metal, no wires, no food restrictions — just a clear path to a confident smile.',
 
   highlights: [
     { icon: 'bi-eye-slash-fill', text: 'Virtually Invisible' },
