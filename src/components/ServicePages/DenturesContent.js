@@ -2,19 +2,17 @@ import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
   accent: '#10b981',
-  contentImage: '/services/Dentures-Prosthetics.jpg',
+  contentImage: '/services/denture-img1.jpg',
 
   gallery: [
-    { src: '/images/bps-dentures.jpg', caption: 'BPS precision dentures — gold standard' },
-    { src: '/images/denture-types.jpg', caption: 'Types of dentures available' },
-    { src: '/image/flexible-partial-dentures-types.jpg', caption: 'Flexible partial denture options', contain: true },
-    { src: '/images/implant-denture.jpg', caption: 'Implant-retained overdenture' },
-    { src: '/image/Implant Retained Denture.jpg', caption: 'Implant denture illustration', contain: true },
-    { src: '/images/about-clinic.png', caption: 'Our prosthetics clinic' },
+    { src: '/services/denture-img1.jpg', caption: 'Complete dentures — full upper & lower set' },
+    { src: '/services/denture-img2.jpg', caption: 'BPS partial denture with metal clasps — superior stability' },
+    { src: '/services/denture-img3.jpg', caption: 'Patient transformation — before & after complete dentures' },
+    { src: '/images/about-clinic.png', caption: 'Our prosthetics clinic — Meghana Dental Hospital' },
   ],
 
   overview:
-    'Missing teeth affect far more than your smile — they impair chewing, compromise speech, cause neighbouring teeth to shift, and accelerate jawbone resorption, leading to a sunken facial appearance over time. Dentures are removable prosthetic appliances that replace missing teeth and restore your mouth to full function and natural aesthetics. At Meghana Dental Hospital, Tirupati, our MDS-qualified prosthodontist offers the complete spectrum of denture solutions — from economical conventional acrylic dentures to precision-engineered BPS (Bio-Functional Prosthetic System) dentures, flexible partial dentures, and implant-supported overdentures — each crafted to fit your anatomy, restore your confidence, and stand up to daily use.',
+    'Dentures are custom-made appliances that replace missing teeth and surrounding tissues, restoring your smile, speech, and chewing ability. At Meghana Dental Hospital, Tirupati, we offer the full spectrum — from conventional complete dentures for fully edentulous patients to precision partial dentures and premium BPS (Biofunctional Prosthetic System) dentures. Complete dentures are advised when all teeth are missing; partial dentures fill the gaps when some natural teeth remain. Our MDS Prosthodontist Dr. Dinakar Reddy crafts every denture individually to match your gum line, facial structure, and natural aesthetics — so you get a fit that feels and looks entirely natural.',
 
   highlights: [
     { icon: 'bi-patch-check-fill', text: 'BPS Precision Dentures Available' },
@@ -33,34 +31,34 @@ const serviceData = {
 
   benefits: [
     {
+      icon: 'bi-emoji-smile-fill',
+      title: 'Natural Looking Smile',
+      desc: 'Custom-made dentures enhance your facial expression and give you a natural, beautiful smile with improved confidence and self-esteem.',
+    },
+    {
       icon: 'bi-cup-hot-fill',
-      title: 'Restored Chewing Ability',
-      desc: 'Modern dentures restore up to 80% of natural chewing efficiency, letting you enjoy a varied, nutritious diet without difficulty.',
+      title: 'Proper Chewing & Digestion',
+      desc: 'Dentures restore your ability to chew properly, enabling better digestion and letting you enjoy a full, varied and nutritious diet.',
     },
     {
       icon: 'bi-chat-fill',
-      title: 'Clearer Speech',
+      title: 'Improved Speech',
       desc: 'Missing teeth cause slurring and lisping. Well-fitted dentures restore proper tooth positioning for clearer, more confident speech.',
     },
     {
-      icon: 'bi-person-fill',
-      title: 'Restored Facial Contours',
-      desc: 'Dentures support your lips and cheeks, reversing the sunken, aged look that develops when teeth and bone are lost.',
-    },
-    {
-      icon: 'bi-shield-fill-check',
-      title: 'Prevents Further Bone Loss',
-      desc: 'Replacing missing teeth helps distribute chewing forces that stimulate the jaw, slowing the bone resorption associated with tooth loss.',
+      icon: 'bi-person-heart-fill',
+      title: 'Restored Self-Esteem',
+      desc: 'A complete smile dramatically improves confidence in social and professional settings — patients consistently report feeling years younger.',
     },
     {
       icon: 'bi-stars',
-      title: 'Natural Aesthetics',
-      desc: 'Our denture teeth and gum-coloured bases are individually selected to match your natural appearance — creating an indistinguishable, beautiful smile.',
+      title: 'BPS Superior Aesthetics',
+      desc: 'BPS dentures mimic natural teeth movement for better chewing & speech. They offer superior stability, high durability, natural aesthetics, enhanced functionality, and biocompatibility.',
     },
     {
       icon: 'bi-currency-rupee',
-      title: 'Cost-Effective Solution',
-      desc: 'Dentures provide an effective tooth replacement solution across all budgets — from conventional acrylic dentures to premium BPS and implant-supported options.',
+      title: 'Affordable Tooth Replacement',
+      desc: 'Dentures are an affordable solution for teeth replacement, available across budgets — from conventional acrylic to premium BPS and implant-supported options.',
     },
   ],
 

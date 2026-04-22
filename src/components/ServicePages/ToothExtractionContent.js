@@ -2,23 +2,22 @@ import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
   accent: '#64748b',
-  contentImage: '/images/microscope-treatment.jpg',
+  contentImage: '/services/wisdom-img1.jpg',
 
   gallery: [
-    { src: '/images/dental-chair.jpg', caption: 'Comfortable extraction environment' },
-    { src: '/images/dental-equipment.jpg', caption: 'Surgical instruments and equipment' },
-    { src: '/images/dental-clinic-interior.jpg', caption: 'Our modern surgical suite' },
-    { src: '/images/implant-denture.jpg', caption: 'Tooth replacement options post-extraction' },
-    { src: '/services/dental-implants.jpg', caption: 'Dental implants — the gold standard replacement' },
+    { src: '/services/wisdom-img1.jpg', caption: 'Impacted wisdom tooth — 3D anatomical view' },
+    { src: '/services/wisdom-img2.jpg', caption: 'Wisdom tooth anatomy — eruption patterns explained' },
+    { src: '/services/wisdom-img3.jpg', caption: 'Six types of wisdom tooth impaction — clinical classification' },
+    { src: '/services/wisdom-img4.jpg', caption: 'OPG X-ray with impacted wisdom teeth highlighted — pre-surgical planning' },
   ],
 
   overview:
-    'At Meghana Dental Hospital, Tirupati, our philosophy is simple: save every tooth possible. We explore every option — root canal treatment, build-ups, crowns — before recommending extraction. But when a tooth is beyond saving, a safe, painless extraction is the kindest thing we can do for your long-term oral health. Our oral surgeons perform both simple extractions and complex surgical extractions, including impacted wisdom tooth removal, under complete local anaesthesia. Every surgical extraction is planned with an OPG digital X-ray — no guesswork, no surprises. Post-extraction, we walk you through a clear aftercare plan and discuss tooth replacement options so your smile does not have a gap for long.',
+    'Wisdom teeth (third molars) typically emerge between ages 17–25 when there is often insufficient space in the jaw, causing them to become impacted — partially or fully trapped beneath the gumline. At Meghana Dental Hospital, Tirupati, our philosophy is simple: save every tooth possible. But when a tooth is beyond saving or is causing active harm — infection, crowding, cyst formation — a safe, painless extraction is the best treatment. Our MDS Oral & Maxillofacial Surgeon Dr. Eswar performs both routine extractions and complex surgical wisdom tooth removals under complete local anaesthesia. Every surgical case is planned with an OPG or CBCT scan to precisely map root morphology and proximity to the inferior alveolar nerve, eliminating risk of nerve paresthesia. Post-extraction, we provide a clear aftercare plan and discuss tooth replacement options so your smile never has a gap for long.',
 
   highlights: [
-    { icon: 'bi-shield-check', text: 'OPG X-Ray Planned Extractions' },
+    { icon: 'bi-shield-check', text: 'OPG & CBCT Planned Extractions' },
     { icon: 'bi-emoji-smile', text: 'Painless Under Local Anaesthesia' },
-    { icon: 'bi-tooth', text: 'Simple & Complex Wisdom Tooth Surgery' },
+    { icon: 'bi-tooth', text: 'Complex Impacted Wisdom Tooth Surgery' },
   ],
 
   conditions: [
@@ -66,7 +65,8 @@ const serviceData = {
   process: [
     {
       title: 'Assessment & OPG X-Ray',
-      desc: 'The tooth is examined clinically and an OPG X-ray is taken to assess root morphology, bone levels, and the relationship of the tooth to adjacent structures. For wisdom teeth, the proximity to the inferior alveolar nerve is checked.',
+      desc: 'The tooth is examined clinically and an OPG X-ray is taken to assess root morphology, bone levels, and the relationship of the tooth to adjacent structures. For wisdom teeth, the proximity to the inferior alveolar nerve is checked. Where nerve proximity is critical, a CBCT scan provides a 3D map to eliminate any risk of nerve paresthesia.',
+      image: '/services/wisdom-img4.jpg',
     },
     {
       title: 'Anaesthesia & Preparation',
@@ -113,7 +113,7 @@ const serviceData = {
     { icon: 'bi-clock', label: 'Simple Extraction', value: '10–20 min' },
     { icon: 'bi-clock-fill', label: 'Surgical Extraction', value: '30–45 min' },
     { icon: 'bi-house-check', label: 'Recovery', value: '1–3 days' },
-    { icon: 'bi-file-earmark-image', label: 'X-Ray Planning', value: 'OPG Included' },
+    { icon: 'bi-file-earmark-image', label: 'X-Ray Planning', value: 'OPG / CBCT' },
   ],
 
   ctaTitle: 'Tooth Pain? Book a Same-Day Consultation',
