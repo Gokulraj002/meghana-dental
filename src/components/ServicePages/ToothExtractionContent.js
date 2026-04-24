@@ -5,14 +5,14 @@ const serviceData = {
   contentImage: '/services/wisdom-img1.jpg',
 
   gallery: [
-    { src: '/services/wisdom-img1.jpg', caption: 'Impacted wisdom tooth — 3D anatomical view' },
-    { src: '/services/wisdom-img2.jpg', caption: 'Wisdom tooth anatomy — eruption patterns explained' },
-    { src: '/services/wisdom-img3.jpg', caption: 'Six types of wisdom tooth impaction — clinical classification' },
-    { src: '/services/wisdom-img4.jpg', caption: 'OPG X-ray with impacted wisdom teeth highlighted — pre-surgical planning' },
     { src: '/services/pdf-wisdom-p1.jpg', caption: 'Wisdom tooth impaction angles — mesioangular, distoangular, horizontal, vertical' },
     { src: '/services/pdf-wisdom-p2.jpg', caption: 'Surgical extraction procedure — incision, bone access, and sectioning steps' },
     { src: '/services/pdf-wisdom-p3.jpg', caption: 'Inferior alveolar nerve proximity — pre-surgical nerve mapping' },
     { src: '/services/pdf-wisdom-p4.jpg', caption: 'Post-extraction socket healing — blood clot to bone regeneration stages' },
+    { src: '/services/wisdom-img1.jpg', caption: 'Impacted wisdom tooth — 3D anatomical view' },
+    { src: '/services/wisdom-img2.jpg', caption: 'Wisdom tooth anatomy — eruption patterns explained' },
+    { src: '/services/wisdom-img3.jpg', caption: 'Six types of wisdom tooth impaction — clinical classification' },
+    { src: '/services/wisdom-img4.jpg', caption: 'OPG X-ray with impacted wisdom teeth highlighted — pre-surgical planning' },
   ],
 
   overview:

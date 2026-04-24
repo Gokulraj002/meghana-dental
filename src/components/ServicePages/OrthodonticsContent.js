@@ -5,18 +5,18 @@ const serviceData = {
   contentImage: '/services/ortho-img-p1-1.jpg',
 
   gallery: [
-    { src: '/services/ortho-img-p5-1.jpg', caption: 'Metal braces with coloured ligature ties — full arch' },
-    { src: '/services/ortho-img-p5-2.jpg', caption: 'Ceramic (tooth-coloured) braces — discreet option' },
-    { src: '/services/ortho-img-p6-1.jpg', caption: 'Self-ligating braces — no ties, gentler forces' },
-    { src: '/services/ortho-img-p6-2.jpg', caption: 'Bite alignment result — side-view comparison' },
-    { src: '/services/ortho-img-p7-1.jpg', caption: 'Patient before & after — crowded teeth corrected' },
-    { src: '/services/ortho-img-p8-1.jpg', caption: 'Before & after — protruded bite fully corrected' },
     { src: '/services/ortho-img-p2-1.jpg', caption: 'Open bite — front teeth do not meet when biting' },
     { src: '/services/ortho-img-p2-2.jpg', caption: 'Deep bite — upper teeth fully cover the lower teeth' },
     { src: '/services/ortho-img-p3-1.jpg', caption: 'Severe crowding — overlapping and rotated teeth' },
     { src: '/services/ortho-img-p3-2.jpg', caption: 'Decalcification — white spot lesions from poor hygiene during braces' },
     { src: '/services/ortho-img-p4-1.jpg', caption: 'Midline diastema — gap between upper front teeth' },
     { src: '/services/ortho-img-p4-2.jpg', caption: 'Protruding teeth — upper front teeth pushed forward' },
+    { src: '/services/ortho-img-p5-1.jpg', caption: 'Metal braces with coloured ligature ties — full arch' },
+    { src: '/services/ortho-img-p5-2.jpg', caption: 'Ceramic (tooth-coloured) braces — discreet option' },
+    { src: '/services/ortho-img-p6-1.jpg', caption: 'Self-ligating braces — no ties, gentler forces' },
+    { src: '/services/ortho-img-p6-2.jpg', caption: 'Bite alignment result — side-view comparison' },
+    { src: '/services/ortho-img-p7-1.jpg', caption: 'Patient before & after — crowded teeth corrected' },
+    { src: '/services/ortho-img-p8-1.jpg', caption: 'Before & after — protruded bite fully corrected' },
   ],
 
   overview:
