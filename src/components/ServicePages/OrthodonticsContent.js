@@ -6,7 +6,7 @@ const serviceData = {
 
   gallery: [
     { src: '/images/ortho-open-bite.jpg', caption: 'Open bite — front teeth do not meet when biting' },
-    { src: '/images/ortho-deep-bite.png', caption: 'Deep bite — upper teeth excessively cover lower teeth' },
+    { src: '/images/ortho-deep-bite.png', caption: 'Protruded teeth with deep bite — upper teeth cover lower' },
     { src: '/images/ortho-protruded-tooth.jpg', caption: 'Protruded teeth — upper front teeth pushed forward' },
     { src: '/images/ortho-crossbite.jpg', caption: 'Cross bite — upper and lower teeth misaligned laterally' },
     { src: '/images/ortho-crooked-teeth.jpg', caption: 'Crowded & crooked teeth — overlapping and rotated' },
