@@ -8,7 +8,7 @@ const serviceData = {
     { src: '/images/children-dentist.jpg', caption: 'Gentle care for young patients' },
     { src: '/images/dental-care-children.jpg', caption: 'Children\'s dental health education' },
     { src: '/images/children-happy.png', caption: 'Happy, anxiety-free dental visits' },
-    { src: '/image/Childrens-Dentist-in-San-Jose.jpg', caption: 'Child-friendly dental environment' },
+    { src: '/images/child-dental.png', caption: 'Child-friendly dental environment' },
     { src: '/images/fluoride-kids.png', caption: 'Fluoride treatment for children' },
     { src: '/images/about-clinic.png', caption: 'Our welcoming clinic interior' },
   ],

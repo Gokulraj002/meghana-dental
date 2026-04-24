@@ -8,6 +8,7 @@ const serviceData = {
     { src: '/services/pdf-dentures-p1.jpg', caption: 'Types of dentures — complete, partial, and implant-retained options' },
     { src: '/services/pdf-dentures-p2.jpg', caption: 'Denture fabrication process — from impression to final prosthesis' },
     { src: '/services/pdf-dentures-p3.jpg', caption: 'BPS denture components — precision materials for natural aesthetics' },
+    { src: '/images/denture-types.jpg', caption: 'Types of dentures — complete, partial, flexible & BPS' },
     { src: '/services/denture-img1.jpg', caption: 'Complete dentures — full upper & lower set' },
     { src: '/services/denture-img2.jpg', caption: 'BPS partial denture with metal clasps — superior stability' },
     { src: '/services/denture-img3.jpg', caption: 'Patient transformation — before & after complete dentures' },

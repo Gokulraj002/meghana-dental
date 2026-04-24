@@ -6,7 +6,7 @@ const serviceData = {
 
   gallery: [
     { src: '/images/microscope.jpg', caption: 'The dental operating microscope' },
-    { src: '/image/M320-features-dental-microscope-intro.jpg', caption: 'Dental microscope precision features — 25× magnification', contain: true },
+    { src: '/images/microscope-use.jpg', caption: 'Dental microscope in use — 25× magnification precision' },
     { src: '/images/microscope-equipment.jpg', caption: 'Microscope dental equipment setup' },
     { src: '/images/microscope-treatment.jpg', caption: 'Microscope-guided endodontic treatment' },
     { src: '/images/root-canal-process.jpg', caption: 'Precision root canal under magnification' },

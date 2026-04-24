@@ -6,8 +6,7 @@ const serviceData = {
   contentImage: '/services/dental-implants.jpg',
 
   gallery: [
-    { src: '/images/implant-denture.jpg', caption: 'Implant-retained denture' },
-    { src: '/image/Implant Retained Denture.jpg', caption: 'Implant placement illustration', contain: true },
+    { src: '/images/implant-denture.jpg', caption: 'Implant-retained denture — full arch restoration' },
     { src: '/images/microscope.jpg', caption: 'dental microscope with 25× magnification used for precision' },
     { src: '/images/microscope-treatment.jpg', caption: 'Microscope-guided implant treatment' },
     { src: '/images/about-clinic.png', caption: 'Our modern clinic interior' },

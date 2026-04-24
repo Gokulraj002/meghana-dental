@@ -6,6 +6,7 @@ const serviceData = {
 
   gallery: [
     { src: '/images/root-canal.jpg', caption: 'Root canal treatment overview' },
+    { src: '/images/root-canal-need.png', caption: 'When do you need a root canal — signs & symptoms' },
     { src: '/images/root-canal-signs.jpg', caption: 'Signs you may need RCT' },
     { src: '/images/root-canal-process.jpg', caption: 'Step-by-step RCT process' },
     { src: '/images/single-sitting-rct.jpg', caption: 'Single-sitting RCT available' },
