@@ -5,6 +5,9 @@ const serviceData = {
   contentImage: '/images/dental-clinic-interior.jpg',
 
   gallery: [
+    { src: '/services/crown-zirconia.jpg', caption: 'Zirconia crown — metal-free, biocompatible & MRI-safe' },
+    { src: '/services/crown-metal-ceramic.jpg', caption: 'Metal ceramic crown (PFM) — durable with natural-looking porcelain facing' },
+    { src: '/services/crown-metal.jpg', caption: 'Full metal crown — maximum strength for back teeth' },
     { src: '/images/microscope.jpg', caption: 'dental microscope with 25× magnification-guided crown preparation' },
     { src: '/images/microscope-treatment.jpg', caption: 'Precision tooth preparation under magnification' },
     { src: '/images/dental-equipment.jpg', caption: 'CAD/CAM crown fabrication equipment' },
@@ -14,7 +17,7 @@ const serviceData = {
   ],
 
   overview:
-    'A dental crown — sometimes called a tooth cap — is a full-coverage restoration that encases a damaged, weakened, or badly discoloured tooth from gumline to biting surface, restoring its original shape, strength, and appearance. At Meghana Dental Hospital, Tirupati, we offer the complete range of modern crowns: full-zirconia for unmatched strength, e.max lithium disilicate for exceptional aesthetics, and porcelain-fused-to-metal for durable value. When one or more teeth are missing, a fixed dental bridge — three or more crowns fused together — fills the gap permanently without surgery. Every crown and bridge is prepared under our dental operating microscope with 25× magnification for precision that guarantees the perfect fit and maximum preservation of your healthy tooth structure.',
+    'A dental crown — sometimes called a tooth cap — is a full-coverage restoration that encases a damaged, weakened, or badly discoloured tooth from gumline to biting surface, restoring its original shape, strength, and appearance. At Meghana Dental Hospital, Tirupati, we offer the complete range of modern crowns: full-zirconia for unmatched strength, e.max lithium disilicate for exceptional aesthetics, and porcelain-fused-to-metal for durable value. Full ceramic crowns and zirconia crowns are completely metal-free, 100% biocompatible, and MRI-safe — an important advantage for patients who may require medical imaging. When one or more teeth are missing, a fixed dental bridge — three or more crowns fused together — fills the gap permanently without surgery. Every crown and bridge is prepared under our dental operating microscope with 25× magnification for precision that guarantees the perfect fit and maximum preservation of your healthy tooth structure.',
 
   highlights: [
     { icon: 'bi-gem', text: 'Zirconia, e.max & PFM Crowns' },
@@ -75,7 +78,7 @@ const serviceData = {
     },
     {
       title: 'Laboratory Fabrication',
-      desc: 'Your custom crown is fabricated by skilled dental technicians over 5–7 working days. Zirconia crowns are milled by computer (CAD/CAM) and hand-characterised by the ceramist for a truly natural appearance.',
+      desc: 'Your custom crown is fabricated by skilled dental technicians over 3–5 working days. Zirconia crowns are milled by computer (CAD/CAM) and hand-characterised by the ceramist for a truly natural appearance.',
     },
     {
       title: 'Appointment 2 — Try-In, Adjustment & Cementation',
@@ -102,7 +105,7 @@ const serviceData = {
     },
     {
       q: 'Will I be without a tooth between the two appointments?',
-      a: 'Never. A temporary crown — shaped and shaded to closely match your final restoration — is placed at the end of your first appointment and remains in place for the 5–7 days while your permanent crown is fabricated in the lab.',
+      a: 'Never. A temporary crown — shaped and shaded to closely match your final restoration — is placed at the end of your first appointment and remains in place for the 3–5 days while your permanent crown is fabricated in the lab.',
     },
     {
       q: 'Do I need a crown after a root canal? Can I just fill the tooth?',
@@ -112,7 +115,7 @@ const serviceData = {
 
   stats: [
     { icon: 'bi-calendar-event', label: 'Appointments', value: '2 Visits' },
-    { icon: 'bi-clock', label: 'Lab Time', value: '5–7 Working Days' },
+    { icon: 'bi-clock', label: 'Lab Time', value: '3–5 Working Days' },
     { icon: 'bi-clock-history', label: 'Lifespan', value: '15–25+ Years' },
     { icon: 'bi-syringe', label: 'Anaesthesia', value: 'Local' },
   ],

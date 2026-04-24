@@ -37,7 +37,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'Is getting a dental crown painful?',
-      acceptedAnswer: { '@type': 'Answer', text: 'No. The tooth is numbed with local anaesthesia. A temporary crown is provided while your permanent crown is being fabricated in 5–7 working days.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'No. The tooth is numbed with local anaesthesia. A temporary crown is provided while your permanent crown is being fabricated in 3–5 working days.' },
     },
     {
       '@type': 'Question',
@@ -64,7 +64,7 @@ export default function DentalCrownsPage() {
           { icon: 'bi-gem', label: 'Crown Types', value: 'Zirconia, e.max, PFM' },
           { icon: 'bi-calendar-event', label: 'Appointments', value: '2 Visits' },
           { icon: 'bi-clock-history', label: 'Lifespan', value: '15–25+ Years' },
-          { icon: 'bi-clock', label: 'Lab Time', value: '5–7 Working Days' },
+          { icon: 'bi-clock', label: 'Lab Time', value: '3–5 Working Days' },
         ]}
       />
       <DentalCrownsContent />
