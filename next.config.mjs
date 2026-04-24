@@ -1,20 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Static export — generates /out folder ready for any static host
+  output: 'export',
+
   // Enable gzip/brotli compression
   compress: true,
 
   // Remove X-Powered-By header
   poweredByHeader: false,
 
-  // Image optimization
+  // Image optimization requires a server — use unoptimized for static export
   images: {
-    // Serve WebP/AVIF — much smaller than PNG/JPG
-    formats: ['image/avif', 'image/webp'],
-    // Cache optimised images for 30 days
-    minimumCacheTTL: 2592000,
-    // Only the sizes actually used in the app
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    unoptimized: true,
   },
 
   async headers() {
