@@ -6,7 +6,7 @@ import DentalImplantsContent from '@/components/ServicePages/DentalImplantsConte
 export const metadata = {
   title: 'Best Dental Implants in Tirupati | Affordable Cost',
   description:
-    'Dental implants in Tirupati by expert MDS prosthodontists. Single & multiple implants, All-on-4, same-day implants. Transparent pricing. Book now.',
+    'Dental implants in Tirupati by expert MDS specialists. Single & multiple implants, All-on-4, same-day implants. Transparent pricing. Book now.',
   keywords:
     'dental implants Tirupati, dental implants cost Tirupati, best implant dentist Tirupati, all on 4 implants Tirupati, single tooth implant Tirupati, full mouth implants Tirupati, titanium implants Tirupati, implant specialist Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.in/services/dental-implants' },
@@ -54,7 +54,7 @@ const faqSchema = {
       name: 'How long does it take to get dental implants in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'The full dental implant process typically takes 3–6 months at Meghana Dental Hospital, Tirupati. This includes healing time for osseointegration. In some cases, same-day or immediate loading implants are possible. We will advise the best approach after your initial consultation.',
+        text: 'The full dental implant process typically takes 2–3 months at Meghana Dental Hospital, Tirupati. This includes healing time for osseointegration. In some cases, same-day or immediate loading implants are possible. We will advise the best approach after your initial consultation.',
       },
     },
     {
@@ -76,13 +76,13 @@ export default function DentalImplantsPage() {
       <ServicePageHero
         titleBefore="Dental"
         titleHighlight="Implants"
-        description="Restore your smile permanently with world-class dental implants in Tirupati. Our MDS prosthodontists use cutting-edge titanium implant systems for natural-looking, lifelong tooth replacement."
+        description="Restore your smile permanently with world-class dental implants in Tirupati. Our MDS specialists use cutting-edge titanium implant systems for natural-looking, lifelong tooth replacement."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Dental Implants' }]}
         image="/services/dental-implants.jpg"
         accent="#0ea5e9"
         stats={[
           { icon: 'bi-clock', label: 'Surgery Duration', value: '30–90 min' },
-          { icon: 'bi-calendar', label: 'Healing Time', value: '3–6 months' },
+          { icon: 'bi-calendar', label: 'Healing Time', value: '2–3 months' },
           { icon: 'bi-shield-check', label: 'Success Rate', value: '95%+' },
           { icon: 'bi-heart-fill', label: 'Lifespan', value: '20+ years' },
         ]}

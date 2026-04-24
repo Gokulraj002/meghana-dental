@@ -15,7 +15,7 @@ export const metadata = {
     description: 'Rebuild your complete smile with our multi-specialist full mouth rehabilitation programme in Tirupati. Digital smile design, phased treatment, and long-lasting results.',
     url: 'https://meghanadental.in/services/full-mouth-rehab',
     siteName: 'Meghana Dental Hospital',
-    images: [{ url: '/images/dental-team.jpg', width: 1200, height: 630, alt: 'Full Mouth Rehabilitation in Tirupati' }],
+    images: [{ url: '/images/about-clinic.png', width: 1200, height: 630, alt: 'Full Mouth Rehabilitation in Tirupati' }],
     type: 'website',
   },
 };
@@ -32,7 +32,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'How long does full mouth rehabilitation take in Tirupati?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Treatment time varies from 3 months for simpler cases to 12–18 months for complex rehabilitation. We give you a clear timeline at your first consultation at Meghana Dental Hospital, Tirupati.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Most full mouth rehabilitation cases are completed in 3–4 months. We give you a clear timeline at your first consultation at Meghana Dental Hospital, Tirupati.' },
     },
     {
       '@type': 'Question',
@@ -57,11 +57,11 @@ export default function FullMouthRehabPage() {
         titleHighlight="Rehabilitation"
         description="Complete smile reconstruction for patients with multiple damaged, decayed, or missing teeth. Our multi-specialist team in Tirupati restores your oral health, function, and confidence — all under one roof."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Full Mouth Rehab' }]}
-        image="/images/ortho-self-ligating-braces.jpg"
+        image="/services/fmr-before-after-1.jpg"
         gradient="linear-gradient(135deg, #0f766e 0%, #1e3a5f 100%)"
         accent="#0f766e"
         stats={[
-          { icon: 'bi-calendar2-range', label: 'Duration', value: '3–18 Months' },
+          { icon: 'bi-calendar2-range', label: 'Duration', value: '3–4 Months' },
           { icon: 'bi-people-fill', label: 'Specialists', value: 'Full Team On-Site' },
           { icon: 'bi-laptop', label: 'Smile Preview', value: 'Digital Design' },
           { icon: 'bi-credit-card', label: 'Payment', value: 'EMI Available' },

@@ -5,7 +5,7 @@ const serviceData = {
   contentImage: '/images/dental-clinic-interior.jpg',
 
   gallery: [
-    { src: '/images/microscope.jpg', caption: 'Carl Zeiss microscope-guided crown preparation' },
+    { src: '/images/microscope.jpg', caption: 'dental microscope with 25× magnification-guided crown preparation' },
     { src: '/images/microscope-treatment.jpg', caption: 'Precision tooth preparation under magnification' },
     { src: '/images/dental-equipment.jpg', caption: 'CAD/CAM crown fabrication equipment' },
     { src: '/images/dental-chair.jpg', caption: 'Crown fitting appointment' },
@@ -14,7 +14,7 @@ const serviceData = {
   ],
 
   overview:
-    'A dental crown — sometimes called a tooth cap — is a full-coverage restoration that encases a damaged, weakened, or badly discoloured tooth from gumline to biting surface, restoring its original shape, strength, and appearance. At Meghana Dental Hospital, Tirupati, we offer the complete range of modern crowns: full-zirconia for unmatched strength, e.max lithium disilicate for exceptional aesthetics, and porcelain-fused-to-metal for durable value. When one or more teeth are missing, a fixed dental bridge — three or more crowns fused together — fills the gap permanently without surgery. Every crown and bridge is prepared under our Carl Zeiss operating microscope for precision that guarantees the perfect fit and maximum preservation of your healthy tooth structure.',
+    'A dental crown — sometimes called a tooth cap — is a full-coverage restoration that encases a damaged, weakened, or badly discoloured tooth from gumline to biting surface, restoring its original shape, strength, and appearance. At Meghana Dental Hospital, Tirupati, we offer the complete range of modern crowns: full-zirconia for unmatched strength, e.max lithium disilicate for exceptional aesthetics, and porcelain-fused-to-metal for durable value. When one or more teeth are missing, a fixed dental bridge — three or more crowns fused together — fills the gap permanently without surgery. Every crown and bridge is prepared under our dental operating microscope with 25× magnification for precision that guarantees the perfect fit and maximum preservation of your healthy tooth structure.',
 
   highlights: [
     { icon: 'bi-gem', text: 'Zirconia, e.max & PFM Crowns' },
@@ -50,7 +50,7 @@ const serviceData = {
     {
       icon: 'bi-search',
       title: 'Microscope Preparation',
-      desc: 'Carl Zeiss microscope-guided tooth preparation removes only as much healthy tooth as necessary, maximising the tooth structure preserved under the crown.',
+      desc: 'dental microscope with 25× magnification-guided tooth preparation removes only as much healthy tooth as necessary, maximising the tooth structure preserved under the crown.',
     },
     {
       icon: 'bi-house-check',
@@ -71,7 +71,7 @@ const serviceData = {
     },
     {
       title: 'Appointment 1 — Tooth Preparation & Impression',
-      desc: 'Under local anaesthesia, the tooth is shaped under the Carl Zeiss microscope — a precise amount of structure is removed on all surfaces to create space for the crown. Digital or putty impressions are taken and sent to our specialist dental laboratory. A temporary crown is fitted the same day.',
+      desc: 'Under local anaesthesia, the tooth is shaped under the dental microscope with 25× magnification — a precise amount of structure is removed on all surfaces to create space for the crown. Digital or putty impressions are taken and sent to our specialist dental laboratory. A temporary crown is fitted the same day.',
     },
     {
       title: 'Laboratory Fabrication',
@@ -140,7 +140,7 @@ const serviceData = {
       desc: 'Ceramic crowns and veneers combined for a complete aesthetic transformation.',
     },
     {
-      image: '/images/dental-team.jpg',
+      image: '/images/about-clinic.png',
       href: '/services/full-mouth-rehab',
       title: 'Full Mouth Rehabilitation',
       desc: 'Crowns and bridges form the core of most full-mouth reconstruction programmes.',

@@ -5,7 +5,7 @@ import { useState } from 'react';
 const faqs = [
   {
     q: 'Is root canal treatment painful?',
-    a: 'No. At Meghana Dental Hospital, we use advanced local anesthesia techniques combined with our Carl Zeiss dental microscope for precision. Most patients feel little to no discomfort during and after the procedure. We also offer single-sitting RCT to minimize the number of visits.',
+    a: 'No. At Meghana Dental Hospital, we use advanced local anesthesia techniques combined with our dental microscope with 25× magnification for precision. Most patients feel little to no discomfort during and after the procedure. We also offer single-sitting RCT to minimize the number of visits.',
   },
   {
     q: 'How long do dental implants last?',
@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: 'What is microscope dentistry and why is it better?',
-    a: 'Microscope dentistry uses a Carl Zeiss dental microscope with up to 25x magnification to see and treat dental issues with far greater precision than the naked eye. This means better outcomes for root canals, cavity preparations, and surgical procedures — with minimal damage to healthy tooth structure.',
+    a: 'Microscope dentistry uses a dental microscope with up to 25× magnification to see and treat dental issues with far greater precision than the naked eye. This means better outcomes for root canals, cavity preparations, and surgical procedures — with minimal damage to healthy tooth structure.',
   },
   {
     q: 'Are the sterilization standards safe?',

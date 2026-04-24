@@ -129,7 +129,7 @@ const serviceData = {
       desc: 'Permanent tooth replacement — the most stable foundation for implant-retained dentures.',
     },
     {
-      image: '/images/dental-team.jpg',
+      image: '/images/about-clinic.png',
       href: '/services/full-mouth-rehab',
       title: 'Full Mouth Rehabilitation',
       desc: 'Comprehensive multi-phase programme for complete oral reconstruction.',

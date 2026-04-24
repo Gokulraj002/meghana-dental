@@ -2,12 +2,12 @@ import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
   accent: '#0f766e',
-  contentImage: '/images/dental-team.jpg',
+  contentImage: '/services/fmr-before-after-1.jpg',
 
   gallery: [
-    { src: '/images/ortho-before-after-1.jpg', caption: 'Full mouth rehabilitation result' },
+    { src: '/services/fmr-before-after-1.jpg', caption: 'Full mouth rehabilitation — before & after (worn teeth restored)' },
+    { src: '/services/fmr-before-after-2.jpg', caption: 'Full mouth rehabilitation — before & after (broken teeth to perfect smile)' },
     { src: '/images/microscope.jpg', caption: 'Microscope-guided precision restorations' },
-    { src: '/images/ortho-self-ligating-braces.jpg', caption: 'Orthodontic phase of rehabilitation' },
     { src: '/images/dental-clinic-interior.jpg', caption: 'Our specialist rehabilitation suite' },
     { src: '/images/microscope-treatment.jpg', caption: 'Advanced treatment technology' },
     { src: '/images/about-clinic.png', caption: 'All specialists under one roof' },
@@ -94,7 +94,7 @@ const serviceData = {
     },
     {
       q: 'How long does full mouth rehabilitation take in Tirupati?',
-      a: 'Simpler cases — such as replacing multiple failing crowns and some missing teeth — may be completed in 3–6 months. Complex cases involving implants, orthodontics, bone grafts, and multiple specialist phases typically take 12–18 months. We give you a detailed phase-by-phase timeline at your treatment planning appointment.',
+      a: 'Most full mouth rehabilitation cases at Meghana Dental Hospital are completed in 3–4 months. We give you a detailed phase-by-phase timeline at your treatment planning appointment.',
     },
     {
       q: 'Is full mouth rehabilitation done by one doctor or multiple?',
@@ -111,7 +111,7 @@ const serviceData = {
   ],
 
   stats: [
-    { icon: 'bi-calendar2-range', label: 'Treatment Duration', value: '3–18 months' },
+    { icon: 'bi-calendar2-range', label: 'Treatment Duration', value: '3–4 months' },
     { icon: 'bi-people', label: 'Specialists', value: 'Full Team On-Site' },
     { icon: 'bi-laptop', label: 'Smile Preview', value: 'Digital Design Included' },
     { icon: 'bi-credit-card', label: 'Payment', value: 'EMI Options Available' },

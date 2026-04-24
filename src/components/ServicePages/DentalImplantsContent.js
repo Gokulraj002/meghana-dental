@@ -8,14 +8,14 @@ const serviceData = {
   gallery: [
     { src: '/images/implant-denture.jpg', caption: 'Implant-retained denture' },
     { src: '/image/Implant Retained Denture.jpg', caption: 'Implant placement illustration', contain: true },
-    { src: '/images/microscope.jpg', caption: 'Carl Zeiss 25× microscope used for precision' },
+    { src: '/images/microscope.jpg', caption: 'dental microscope with 25× magnification used for precision' },
     { src: '/images/microscope-treatment.jpg', caption: 'Microscope-guided implant treatment' },
     { src: '/images/about-clinic.png', caption: 'Our modern clinic interior' },
     { src: '/services/Dentures-Prosthetics.jpg', caption: 'Finished full-arch prosthetic' },
   ],
 
   overview:
-    'A dental implant is a small titanium post that is surgically placed into the jawbone to replace the root of a missing tooth. Over 3–6 months, the bone fuses with the implant through a natural process called osseointegration. A custom crown is then fitted on top — looking, feeling and functioning exactly like a natural tooth. Unlike bridges or dentures, implants do not damage neighbouring teeth and actively preserve the jawbone.',
+    'A dental implant is a small titanium post that is surgically placed into the jawbone to replace the root of a missing tooth. Over 2–3 months, the bone fuses with the implant through a natural process called osseointegration. A custom crown is then fitted on top — looking, feeling and functioning exactly like a natural tooth. Unlike bridges or dentures, implants do not damage neighbouring teeth and actively preserve the jawbone.',
 
   highlights: [
     { icon: 'bi-shield-check', text: '95%+ Success Rate' },
@@ -52,7 +52,7 @@ const serviceData = {
     },
     {
       title: 'Healing & Osseointegration',
-      desc: 'Over 3–6 months, the implant fuses naturally with the jawbone.',
+      desc: 'Over 2–3 months, the implant fuses naturally with the jawbone.',
     },
     {
       title: 'Crown / Bridge Fitting',
@@ -67,7 +67,7 @@ const serviceData = {
   faqs: [
     {
       q: 'How much do dental implants cost in Tirupati?',
-      a: 'At Meghana Dental Hospital, single implant treatment starts from ₹25,000 (implant + abutment + crown). The final cost depends on the implant brand (Nobel Biocare, Osstem, Dentium, MIS, Adin), case complexity, and whether bone grafting is needed. We provide transparent, upfront quotes — no hidden charges. EMI options are also available.',
+      a: 'At Meghana Dental Hospital, single implant treatment starts from ₹25,000 (implant + abutment + crown). The final cost depends on the implant brand (Nobel Biocare, Osstem, Dentium, MIS, Adin), case complexity, crown material selected, and whether bone grafting is needed. We provide transparent, upfront quotes — no hidden charges. EMI options are also available.',
     },
     {
       q: 'Is dental implant surgery painful?',
@@ -75,7 +75,7 @@ const serviceData = {
     },
     {
       q: 'How long does the whole implant process take?',
-      a: 'From first consultation to final crown, most cases are completed in 3–6 months. The surgery itself takes only 30–90 minutes. The waiting period is for osseointegration — the implant bonding with your jawbone. Immediate loading implants are available for suitable cases.',
+      a: 'From first consultation to final crown, most cases are completed in 2–3 months. The surgery itself takes only 30–90 minutes. The waiting period is for osseointegration — the implant bonding with your jawbone. Immediate loading implants are available for suitable cases.',
     },
     {
       q: 'Am I too old for dental implants?',
@@ -89,7 +89,7 @@ const serviceData = {
 
   stats: [
     { icon: 'bi-clock', label: 'Surgery Duration', value: '30–90 min' },
-    { icon: 'bi-calendar', label: 'Healing Time', value: '3–6 months' },
+    { icon: 'bi-calendar', label: 'Healing Time', value: '2–3 months' },
     { icon: 'bi-shield-check', label: 'Success Rate', value: '95%+' },
     { icon: 'bi-heart-fill', label: 'Lifespan', value: '20+ years' },
     { icon: 'bi-currency-rupee', label: 'Starts From', value: '₹25,000' },
@@ -112,7 +112,7 @@ const serviceData = {
       desc: 'BPS precision and implant-retained dentures for full-arch restoration.',
     },
     {
-      image: '/images/dental-team.jpg',
+      image: '/images/about-clinic.png',
       href: '/services/full-mouth-rehab',
       title: 'Full Mouth Rehabilitation',
       desc: 'Multi-specialist programme to rebuild your entire smile from the ground up.',

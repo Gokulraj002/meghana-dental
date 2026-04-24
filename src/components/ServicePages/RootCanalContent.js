@@ -9,15 +9,15 @@ const serviceData = {
     { src: '/images/root-canal-signs.jpg', caption: 'Signs you may need RCT' },
     { src: '/images/root-canal-process.jpg', caption: 'Step-by-step RCT process' },
     { src: '/images/single-sitting-rct.jpg', caption: 'Single-sitting RCT available' },
-    { src: '/images/microscope.jpg', caption: 'Carl Zeiss 25× microscope used' },
+    { src: '/images/microscope.jpg', caption: 'Dental microscope with 25× magnification' },
     { src: '/images/root-canal-smile.jpg', caption: 'Restored healthy smile after RCT' },
   ],
 
   overview:
-    'Root canal treatment (RCT), or endodontic therapy, is a procedure to remove infected, inflamed, or damaged pulp from inside the tooth — the soft tissue containing nerves and blood vessels. Rather than extracting the tooth, RCT saves it, eliminates the pain, and seals the tooth against future infection. At Meghana Dental Hospital, Tirupati, our endodontists perform microscope-guided root canal treatment using a Carl Zeiss operating microscope at 25× magnification and advanced rotary instruments, ensuring the highest levels of precision and success in the region.',
+    'Root canal treatment (RCT), or endodontic therapy, is a procedure to remove infected, inflamed, or damaged pulp from inside the tooth — the soft tissue containing nerves and blood vessels. Rather than extracting the tooth, RCT saves it, eliminates the pain, and seals the tooth against future infection. At Meghana Dental Hospital, Tirupati, our endodontists perform microscope-guided root canal treatment using a dental operating microscope at 25× magnification and advanced rotary instruments, ensuring the highest levels of precision and success in the region.',
 
   highlights: [
-    { icon: 'bi-search', text: 'Carl Zeiss 25× Microscope' },
+    { icon: 'bi-search', text: 'Dental Microscope — 25× Magnification' },
     { icon: 'bi-1-circle-fill', text: 'Single-Sitting RCT Available' },
     { icon: 'bi-emoji-smile-fill', text: 'Completely Painless Procedure' },
   ],
@@ -45,7 +45,7 @@ const serviceData = {
     {
       icon: 'bi-search',
       title: 'Microscope-Guided Precision',
-      desc: 'Our Carl Zeiss microscope reveals hidden canals, micro-cracks, and tissue invisible to the naked eye — dramatically improving success rates.',
+      desc: 'Our dental microscope with 25× magnification reveals hidden canals, micro-cracks, and tissue invisible to the naked eye — dramatically improving success rates.',
     },
     {
       icon: 'bi-lightning-charge-fill',
@@ -75,7 +75,7 @@ const serviceData = {
     },
     {
       title: 'Pulp Removal Under Microscope',
-      desc: 'Using the Carl Zeiss operating microscope at 25× magnification, our endodontist opens the crown of the tooth and removes the infected or inflamed pulp with precision rotary instruments.',
+      desc: 'Using the dental operating microscope at 25× magnification, our endodontist opens the crown of the tooth and removes the infected or inflamed pulp with precision rotary instruments.',
     },
     {
       title: 'Canal Cleaning, Shaping & Disinfection',
@@ -94,7 +94,7 @@ const serviceData = {
     },
     {
       q: 'Can root canal be done in a single sitting in Tirupati?',
-      a: 'Yes. We offer single-sitting RCT for eligible cases using our advanced rotary endodontic system and Carl Zeiss microscope. Complex multi-rooted teeth or severe infections may require two visits. We will let you know at consultation what to expect.',
+      a: 'Yes. We offer single-sitting RCT for eligible cases using our advanced rotary endodontic system and dental microscope with 25× magnification. Complex multi-rooted teeth or severe infections may require two visits. We will let you know at consultation what to expect.',
     },
     {
       q: 'How much does root canal treatment cost in Tirupati?',
@@ -102,7 +102,7 @@ const serviceData = {
     },
     {
       q: 'Why choose microscope-guided RCT over regular RCT?',
-      a: 'The Carl Zeiss microscope provides 25× magnification, illuminating hidden canals, fractures, and calcified tissue invisible to the naked eye. This means fewer missed canals, higher success rates, and significantly better long-term outcomes. Meghana Dental Hospital is one of very few clinics in Tirupati with this technology.',
+      a: 'The dental microscope with 25× magnification illuminates hidden canals, fractures, and calcified tissue invisible to the naked eye. This means fewer missed canals, higher success rates, and significantly better long-term outcomes. Meghana Dental Hospital is one of very few clinics in Tirupati with this technology.',
     },
     {
       q: 'Do I need a crown after root canal treatment?',
@@ -137,7 +137,7 @@ const serviceData = {
       image: '/images/microscope-use.jpg',
       href: '/services/microscope-dentistry',
       title: 'Microscope Dentistry',
-      desc: 'Carl Zeiss 25× precision for complex RCT retreatments and hidden canals.',
+      desc: 'Dental microscope 25× precision for complex RCT retreatments and hidden canals.',
     },
     {
       image: '/services/Dentures-Prosthetics.jpg',

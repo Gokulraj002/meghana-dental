@@ -46,7 +46,7 @@ export const metadata = {
     siteName: 'Meghana Dental Hospital',
     title: 'Best Dental Clinic in Tirupati | Meghana Dental Hospital',
     description:
-      'Trusted by 50,000+ patients. Super speciality dental centre in Tirupati with Carl Zeiss microscope, MDS specialists, dental implants, braces, root canal & more.',
+      'Trusted by 50,000+ patients. Super speciality dental centre in Tirupati with dental microscope with 25× magnification, MDS specialists, dental implants, braces, root canal & more.',
     images: [
       {
         url: '/images/about-clinic.png',

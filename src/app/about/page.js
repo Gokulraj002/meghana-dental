@@ -17,7 +17,7 @@ export const metadata = {
   openGraph: {
     title: 'About Meghana Dental Hospital — Tirupati\'s Most Trusted Dental Centre',
     description:
-      '17+ years of dental excellence in Tirupati. Meet our MDS specialist team, explore our Carl Zeiss facility, and discover why 50,000+ patients trust Meghana Dental Hospital.',
+      '17+ years of dental excellence in Tirupati. Meet our MDS specialist team, explore our dental microscope facility, and discover why 50,000+ patients trust Meghana Dental Hospital.',
     url: 'https://meghanadental.in/about',
     siteName: 'Meghana Dental Hospital',
     images: [{ url: '/images/about-clinic.png', width: 1200, height: 630, alt: 'Meghana Dental Hospital — Tirupati, Andhra Pradesh' }],

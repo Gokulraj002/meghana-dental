@@ -3,7 +3,7 @@ import FacilityCard from './FacilityCard';
 const facilities = [
   {
     image: '/images/microscope.jpg',
-    title: 'Carl Zeiss Microscope',
+    title: 'Dental Microscope (25× Magnification)',
     desc: '25x magnification — precision dentistry',
   },
   {

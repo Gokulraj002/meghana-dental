@@ -6,14 +6,14 @@ import RootCanalContent from '@/components/ServicePages/RootCanalContent';
 export const metadata = {
   title: 'Painless Root Canal Treatment Tirupati | Single Sitting',
   description:
-    'Painless, microscope-guided root canal treatment in Tirupati. Single-sitting RCT available. Carl Zeiss 25x microscope, MDS endodontists. Book now.',
+    'Painless, microscope-guided root canal treatment in Tirupati. Single-sitting RCT available. Dental microscope with 25× magnification, MDS endodontists. Book now.',
   keywords:
     'root canal treatment Tirupati, painless root canal Tirupati, single sitting root canal Tirupati, root canal cost Tirupati, microscope root canal Tirupati, endodontist Tirupati, RCT specialist Tirupati, root canal Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.in/services/root-canal' },
   openGraph: {
     title: 'Painless Root Canal Treatment in Tirupati | Single-Sitting RCT — Meghana Dental',
     description:
-      'Save your natural teeth with microscope-guided, single-sitting root canal in Tirupati. Carl Zeiss precision, experienced endodontist. No pain, no multiple visits.',
+      'Save your natural teeth with microscope-guided, single-sitting root canal in Tirupati. Dental microscope precision, experienced endodontist. No pain, no multiple visits.',
     url: 'https://meghanadental.in/services/root-canal',
     siteName: 'Meghana Dental Hospital',
     images: [{ url: '/images/microscope-treatment.jpg', width: 1200, height: 630, alt: 'Microscope-Guided Root Canal Treatment in Tirupati' }],
@@ -38,7 +38,7 @@ const faqSchema = {
       name: 'Can root canal be done in a single sitting in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Meghana Dental Hospital offers single-sitting root canal treatment in Tirupati using advanced rotary endodontic technology and Carl Zeiss microscope guidance. Most cases can be completed in one visit, saving you time and multiple trips to the clinic.',
+        text: 'Yes. Meghana Dental Hospital offers single-sitting root canal treatment in Tirupati using advanced rotary endodontic technology and dental microscope with 25× magnification guidance. Most cases can be completed in one visit, saving you time and multiple trips to the clinic.',
       },
     },
     {
@@ -54,7 +54,7 @@ const faqSchema = {
       name: 'Why choose microscope-guided root canal in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Meghana Dental Hospital is one of the very few clinics in Tirupati with a Carl Zeiss operating microscope providing 25x magnification. This allows the endodontist to see tiny canals, cracks, and infected tissue invisible to the naked eye — resulting in higher success rates and better long-term outcomes.',
+        text: 'Meghana Dental Hospital is one of the very few clinics in Tirupati with a dental operating microscope providing 25× magnification. This allows the endodontist to see tiny canals, cracks, and infected tissue invisible to the naked eye — resulting in higher success rates and better long-term outcomes.',
       },
     },
   ],
@@ -76,7 +76,7 @@ export default function RootCanalPage() {
         stats={[
           { icon: 'bi-clock', label: 'Duration', value: '30–60 min' },
           { icon: 'bi-calendar-check', label: 'Sittings', value: '1–2 visits' },
-          { icon: 'bi-search', label: 'Microscope', value: 'Carl Zeiss 25×' },
+          { icon: 'bi-search', label: 'Microscope', value: '25× Magnification' },
           { icon: 'bi-activity', label: 'Recovery', value: 'Same day' },
         ]}
       />

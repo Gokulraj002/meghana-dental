@@ -3,6 +3,26 @@ import Link from 'next/link';
 
 const services = [
   {
+    title: 'Smile Makeover',
+    desc: 'Personalised combination of cosmetic and restorative treatments to transform your smile completely.',
+    icon: 'bi-stars',
+    gradient: 'linear-gradient(135deg, #a21caf 0%, #7c3aed 100%)',
+    accent: '#a21caf',
+    image: '/services/smile-makeover-cover.jpg',
+    link: '/services/smile-makeover',
+    features: ['Digital Smile Design', 'Porcelain Veneers', 'Gum Contouring', 'Composite Bonding'],
+  },
+  {
+    title: 'Full Mouth Rehabilitation',
+    desc: 'Complete smile reconstruction combining multiple specialist treatments for total oral health restoration.',
+    icon: 'bi-layout-text-window-reverse',
+    gradient: 'linear-gradient(135deg, #0f766e 0%, #1e3a5f 100%)',
+    accent: '#0f766e',
+    image: '/services/fmr-before-after-1.jpg',
+    link: '/services/full-mouth-rehab',
+    features: ['Multi-Specialty Approach', 'Digital Treatment Planning', 'Implants + Crowns + Ortho', 'Phased Treatment'],
+  },
+  {
     title: 'Dental Implants',
     desc: 'Permanent, natural-looking tooth replacement with titanium implants. Our prosthodontists use cutting-edge implant systems for lifelong results.',
     icon: 'bi-hospital-fill',
@@ -74,7 +94,7 @@ const services = [
   },
   {
     title: 'Microscope Dentistry',
-    desc: 'Experience the highest precision with Carl Zeiss 25× dental operating microscope — only clinic in Tirupati.',
+    desc: 'Experience the highest precision with dental microscope 25× dental operating microscope — only clinic in Tirupati.',
     icon: 'bi-search',
     gradient: 'linear-gradient(135deg, #4f46e5 0%, #0f766e 100%)',
     accent: '#4f46e5',
@@ -121,26 +141,6 @@ const services = [
     image: '/images/dental-clinic-interior.jpg',
     link: '/services/dental-crowns',
     features: ['Zirconia Crowns', 'e.max Crowns', 'PFM Crowns', 'Fixed Dental Bridges'],
-  },
-  {
-    title: 'Smile Makeover',
-    desc: 'Personalised combination of cosmetic and restorative treatments to transform your smile completely.',
-    icon: 'bi-stars',
-    gradient: 'linear-gradient(135deg, #a21caf 0%, #7c3aed 100%)',
-    accent: '#a21caf',
-    image: '/images/ortho-before-after-1.jpg',
-    link: '/services/smile-makeover',
-    features: ['Digital Smile Design', 'Porcelain Veneers', 'Gum Contouring', 'Composite Bonding'],
-  },
-  {
-    title: 'Full Mouth Rehabilitation',
-    desc: 'Complete smile reconstruction combining multiple specialist treatments for total oral health restoration.',
-    icon: 'bi-layout-text-window-reverse',
-    gradient: 'linear-gradient(135deg, #0f766e 0%, #1e3a5f 100%)',
-    accent: '#0f766e',
-    image: '/images/ortho-self-ligating-braces.jpg',
-    link: '/services/full-mouth-rehab',
-    features: ['Multi-Specialty Approach', 'Digital Treatment Planning', 'Implants + Crowns + Ortho', 'Phased Treatment'],
   },
 ];
 

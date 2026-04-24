@@ -19,7 +19,7 @@ export default function HeroImage() {
           <div className="hfb-icon">🔬</div>
           <div>
             <strong>Microscope Dentistry</strong>
-            <span>Carl Zeiss Precision</span>
+            <span>Microscope Precision</span>
           </div>
         </div>
         <div className="hero-floating-badge hero-badge-bottom">

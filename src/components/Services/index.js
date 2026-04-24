@@ -53,7 +53,7 @@ const services = [
   },
   {
     title: 'Microscope Dentistry',
-    desc: 'Carl Zeiss 25× microscope-enhanced precision — the only clinic in Tirupati with this technology.',
+    desc: 'dental microscope with 25× magnification-enhanced precision — the only clinic in Tirupati with this technology.',
     tag: 'Advanced',
     image: '/images/microscope-use.jpg',
     link: '/services/microscope-dentistry',

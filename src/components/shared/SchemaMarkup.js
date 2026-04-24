@@ -21,7 +21,7 @@ export default function SchemaMarkup() {
         },
         image: 'https://meghanadental.in/images/about-clinic.png',
         description:
-          'Meghana Dental Hospital is a super speciality dental centre in Tirupati, Andhra Pradesh with 17+ years of excellence. Expert MDS specialists, Carl Zeiss microscope dentistry, dental implants, root canal, orthodontics, clear aligners, pediatric dentistry and full mouth rehabilitation.',
+          'Meghana Dental Hospital is a super speciality dental centre in Tirupati, Andhra Pradesh with 17+ years of excellence. Expert MDS specialists, dental microscope with 25× magnification dentistry, dental implants, root canal, orthodontics, clear aligners, pediatric dentistry and full mouth rehabilitation.',
         telephone: '+91-98765-43210',
         email: 'info@meghanadental.in',
         address: {

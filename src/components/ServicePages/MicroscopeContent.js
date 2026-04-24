@@ -5,8 +5,8 @@ const serviceData = {
   contentImage: '/images/microscope-use.jpg',
 
   gallery: [
-    { src: '/images/microscope.jpg', caption: 'The Carl Zeiss OPMI operating microscope' },
-    { src: '/image/M320-features-dental-microscope-intro.jpg', caption: 'Zeiss dental microscope precision features', contain: true },
+    { src: '/images/microscope.jpg', caption: 'The dental operating microscope' },
+    { src: '/image/M320-features-dental-microscope-intro.jpg', caption: 'Dental microscope precision features — 25× magnification', contain: true },
     { src: '/images/microscope-equipment.jpg', caption: 'Microscope dental equipment setup' },
     { src: '/images/microscope-treatment.jpg', caption: 'Microscope-guided endodontic treatment' },
     { src: '/images/root-canal-process.jpg', caption: 'Precision root canal under magnification' },
@@ -14,10 +14,10 @@ const serviceData = {
   ],
 
   overview:
-    'Meghana Dental Hospital is the only dental clinic in Tirupati equipped with the Carl Zeiss OPMI operating microscope — the same gold-standard instrument used in leading dental universities worldwide. At up to 25× magnification, our specialist endodontist can visualise the entire root canal system, detect hairline fractures invisible to the naked eye, and perform microsurgical procedures with sub-millimetre precision. The result: treatments that are more thorough, more conservative, and significantly more successful than conventional approaches. If you have been told a tooth "cannot be saved" or a previous root canal has failed, microscope dentistry at Meghana Dental Hospital offers a second chance backed by technology.',
+    'Meghana Dental Hospital is the only dental clinic in Tirupati equipped with the dental operating microscope — the same gold-standard instrument used in leading dental universities worldwide. At up to 25× magnification, our specialist endodontist can visualise the entire root canal system, detect hairline fractures invisible to the naked eye, and perform microsurgical procedures with sub-millimetre precision. The result: treatments that are more thorough, more conservative, and significantly more successful than conventional approaches. If you have been told a tooth "cannot be saved" or a previous root canal has failed, microscope dentistry at Meghana Dental Hospital offers a second chance backed by technology.',
 
   highlights: [
-    { icon: 'bi-search', text: 'Carl Zeiss 25× Magnification' },
+    { icon: 'bi-search', text: 'Dental Microscope — 25× Magnification' },
     { icon: 'bi-award', text: 'Only Clinic in Tirupati' },
     { icon: 'bi-shield-check', text: 'Higher Root Canal Success Rates' },
   ],
@@ -71,7 +71,7 @@ const serviceData = {
     },
     {
       title: 'Microscope-Assisted Access & Canal Location',
-      desc: 'Under the Carl Zeiss microscope at 8–25× magnification, the dentist creates a precisely sized access cavity. All canals — including calcified, curved, and accessory canals — are identified with certainty.',
+      desc: 'Under the dental microscope at 8–25× magnification, the dentist creates a precisely sized access cavity. All canals — including calcified, curved, and accessory canals — are identified with certainty.',
     },
     {
       title: 'Cleaning, Shaping & Disinfection',
@@ -90,11 +90,11 @@ const serviceData = {
   faqs: [
     {
       q: 'What exactly is microscope dentistry and how is it different from regular dental treatment?',
-      a: 'In conventional dentistry, the dentist works largely by feel and limited vision. With the Carl Zeiss operating microscope, our specialist sees the treatment field at up to 25× magnification — every canal, crack, and tissue detail in vivid clarity. This transforms the precision of diagnosis and treatment in the same way that microsurgery transformed medicine.',
+      a: 'In conventional dentistry, the dentist works largely by feel and limited vision. With the dental operating microscope, our specialist sees the treatment field at up to 25× magnification — every canal, crack, and tissue detail in vivid clarity. This transforms the precision of diagnosis and treatment in the same way that microsurgery transformed medicine.',
     },
     {
       q: 'Why is Meghana Dental Hospital the only clinic in Tirupati with this technology?',
-      a: 'The Carl Zeiss OPMI microscope is a significant investment in both equipment and specialist training. Most dental clinics do not prioritise this level of technology. At Meghana Dental Hospital we believe every patient in Tirupati deserves world-class precision dentistry — so we brought the technology here.',
+      a: 'The dental operating microscope is a significant investment in both equipment and specialist training. Most dental clinics do not prioritise this level of technology. At Meghana Dental Hospital we believe every patient in Tirupati deserves world-class precision dentistry — so we brought the technology here.',
     },
     {
       q: 'Which procedures are performed under the microscope at your clinic?',
@@ -113,12 +113,12 @@ const serviceData = {
   stats: [
     { icon: 'bi-search', label: 'Magnification', value: 'Up to 25×' },
     { icon: 'bi-clock', label: 'Procedure Time', value: '60–90 min' },
-    { icon: 'bi-patch-check', label: 'Technology', value: 'Carl Zeiss OPMI' },
+    { icon: 'bi-patch-check', label: 'Technology', value: 'dental operating microscope' },
     { icon: 'bi-geo-alt-fill', label: 'Availability', value: 'Only in Tirupati' },
   ],
 
   ctaTitle: 'Book a Microscope Dentistry Consultation',
-  ctaDesc: 'Experience the most precise dental care in Tirupati. Whether it is your first root canal or a complex retreatment, our Carl Zeiss microscope makes the difference.',
+  ctaDesc: 'Experience the most precise dental care in Tirupati. Whether it is your first root canal or a complex retreatment, our dental microscope with 25× magnification makes the difference.',
 
   relatedServices: [
     {
@@ -140,7 +140,7 @@ const serviceData = {
       desc: 'Microscope-precision crown preparations for the perfect fit and minimal tooth reduction.',
     },
     {
-      image: '/images/dental-team.jpg',
+      image: '/images/about-clinic.png',
       href: '/services/full-mouth-rehab',
       title: 'Full Mouth Rehabilitation',
       desc: 'Multi-specialist reconstruction combining microscope RCT, implants, and crowns.',

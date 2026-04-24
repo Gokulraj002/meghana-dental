@@ -7,7 +7,7 @@ const serviceData = {
   gallery: [
     { src: '/images/dental-clinic-interior.jpg', caption: 'Modern laser treatment room' },
     { src: '/images/dental-chair.jpg', caption: 'Comfortable treatment setting' },
-    { src: '/images/dental-team.jpg', caption: 'Our trained laser dentistry team' },
+    { src: '/images/about-clinic.png', caption: 'Our trained laser dentistry team' },
     { src: '/images/microscope-treatment.jpg', caption: 'Precision dental procedures at Meghana Dental' },
     { src: '/images/about-clinic.png', caption: 'State-of-the-art clinic facilities' },
   ],
@@ -126,7 +126,7 @@ const serviceData = {
       image: '/images/microscope-use.jpg',
       href: '/services/microscope-dentistry',
       title: 'Microscope Dentistry',
-      desc: 'Carl Zeiss 25× precision for root canals and complex dental procedures.',
+      desc: 'dental microscope 25× precision for root canals and complex dental procedures.',
     },
     {
       image: '/images/ortho-before-after-1.jpg',

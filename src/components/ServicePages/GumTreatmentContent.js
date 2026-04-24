@@ -9,7 +9,7 @@ const serviceData = {
     { src: '/images/dental-equipment.jpg', caption: 'Advanced periodontal treatment equipment' },
     { src: '/images/microscope-treatment.jpg', caption: 'Microscope-assisted periodontal care' },
     { src: '/images/dental-clinic-interior.jpg', caption: 'Our modern periodontics suite' },
-    { src: '/images/dental-team.jpg', caption: 'Our MDS periodontist team' },
+    { src: '/images/about-clinic.png', caption: 'Our MDS periodontist team' },
     { src: '/images/about-clinic.png', caption: 'Comprehensive periodontal facilities' },
   ],
 
@@ -134,7 +134,7 @@ const serviceData = {
       desc: 'Permanent tooth replacement after gum disease is fully controlled and treated.',
     },
     {
-      image: '/images/dental-team.jpg',
+      image: '/images/about-clinic.png',
       href: '/services/full-mouth-rehab',
       title: 'Full Mouth Rehabilitation',
       desc: 'Comprehensive oral reconstruction — gum treatment is always the first phase.',

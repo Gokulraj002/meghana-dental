@@ -15,7 +15,7 @@ export const metadata = {
     description: 'Get your dream smile with a personalised smile makeover in Tirupati. Veneers, whitening, aligners, gum contouring — see your new smile before treatment with digital design.',
     url: 'https://meghanadental.in/services/smile-makeover',
     siteName: 'Meghana Dental Hospital',
-    images: [{ url: '/images/ortho-before-after-1.jpg', width: 1200, height: 630, alt: 'Smile Makeover in Tirupati' }],
+    images: [{ url: '/services/smile-makeover-cover.jpg', width: 1200, height: 630, alt: 'Smile Makeover in Tirupati' }],
     type: 'website',
   },
 };
@@ -57,7 +57,7 @@ export default function SmileMakeoverPage() {
         titleHighlight="Makeover"
         description="Transform your smile with our personalised smile makeover programme in Tirupati. Digital Smile Design, porcelain veneers, whitening, and more — see your perfect smile before treatment starts."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Smile Makeover' }]}
-        image="/images/ortho-before-after-1.jpg"
+        image="/services/smile-makeover-cover.jpg"
         gradient="linear-gradient(135deg, #a21caf 0%, #7c3aed 100%)"
         accent="#a21caf"
         stats={[

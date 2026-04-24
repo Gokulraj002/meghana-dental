@@ -9,6 +9,7 @@ const WhyChooseUs         = dynamic(() => import('@/components/WhyChooseUs'));
 const ServicesSection     = dynamic(() => import('@/components/Services'));
 const ProblemsSection     = dynamic(() => import('@/components/Problems'));
 const TechnologyShowcase  = dynamic(() => import('@/components/Technology'));
+const QuoteStrip          = dynamic(() => import('@/components/QuoteStrip'));
 const FacilitiesGallery   = dynamic(() => import('@/components/Facilities'));
 const DoctorsSection      = dynamic(() => import('@/components/Doctors'));
 const EmpanelledSection   = dynamic(() => import('@/components/Empanelled'));
@@ -21,7 +22,7 @@ const Footer              = dynamic(() => import('@/components/Footer'));
 export const metadata = {
   title: { absolute: 'Best Dental Clinic in Tirupati | Meghana Dental' },
   description:
-    'Best dental clinic in Tirupati — 17+ years, MDS specialists, Carl Zeiss microscope, implants, root canal, braces, aligners. 50,000+ happy patients.',
+    'Best dental clinic in Tirupati — 17+ years, MDS specialists, dental microscope with 25× magnification, implants, root canal, braces, aligners. 50,000+ happy patients.',
   keywords:
     'best dental clinic in Tirupati, dentist in Tirupati, dental hospital Tirupati, dental implants Tirupati, root canal treatment Tirupati, braces Tirupati, orthodontist Tirupati, MDS specialist Tirupati, microscope dentistry Tirupati, best dentist Tirupati Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.in/' },
@@ -60,7 +61,10 @@ export default function Home() {
 
   
 
-      {/* 6. Technology — Carl Zeiss microscope showcase (credibility) */}
+      {/* 6. Quote Strip — brand values */}
+      <QuoteStrip />
+
+      {/* 7. Technology — dental microscope with 25× magnification showcase (credibility) */}
       <TechnologyShowcase />
 
       {/* 7. Facilities — photo gallery of clinic */}

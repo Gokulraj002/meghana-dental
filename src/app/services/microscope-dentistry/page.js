@@ -4,19 +4,19 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import MicroscopeContent from '@/components/ServicePages/MicroscopeContent';
 
 export const metadata = {
-  title: 'Carl Zeiss Microscope Dentistry Tirupati | Precision RCT',
+  title: 'Dental Microscope (25× Magnification) Dentistry Tirupati | Precision RCT',
   description:
-    'Carl Zeiss 25x microscope dentistry in Tirupati — only clinic with this gold-standard technology. Precision root canals, microsurgery, crack detection.',
+    'Dental microscope with 25× magnification — only clinic in Tirupati with this gold-standard technology. Precision root canals, microsurgery, crack detection.',
   keywords:
-    'microscope dentistry Tirupati, Carl Zeiss dental Tirupati, microscope root canal Tirupati, precision dentist Tirupati, microscopic root canal Andhra Pradesh, operating microscope dentist Tirupati, Carl Zeiss microscope dentist India',
+    'microscope dentistry Tirupati, dental microscope Tirupati, microscope root canal Tirupati, precision dentist Tirupati, microscopic root canal Andhra Pradesh, operating microscope dentist Tirupati, dental microscope dentist India',
   alternates: { canonical: 'https://meghanadental.in/services/microscope-dentistry' },
   openGraph: {
-    title: 'Microscope Dentistry in Tirupati | Carl Zeiss Precision — Meghana Dental',
+    title: 'Microscope Dentistry in Tirupati | Microscope Precision — Meghana Dental',
     description:
-      'Tirupati\'s only Carl Zeiss dental operating microscope. 25x magnification for precision root canals, microsurgery, and crack detection. See more, treat better.',
+      'Tirupati\'s only dental operating microscope. 25x magnification for precision root canals, microsurgery, and crack detection. See more, treat better.',
     url: 'https://meghanadental.in/services/microscope-dentistry',
     siteName: 'Meghana Dental Hospital',
-    images: [{ url: '/images/microscope-equipment.jpg', width: 1200, height: 630, alt: 'Carl Zeiss Dental Operating Microscope — Tirupati' }],
+    images: [{ url: '/images/microscope-equipment.jpg', width: 1200, height: 630, alt: 'Dental Operating Microscope (25× Magnification) — Meghana Dental Hospital Tirupati' }],
     type: 'website',
   },
 };
@@ -30,15 +30,15 @@ const faqSchema = {
       name: 'What is microscope dentistry in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Microscope dentistry uses a dental operating microscope — at Meghana Dental Hospital a Carl Zeiss OPMI — providing up to 25x magnification. This allows the dentist to see tiny canals, hairline cracks, and infected tissue invisible to the naked eye, resulting in more precise, conservative, and successful treatments.',
+        text: 'Microscope dentistry uses a dental operating microscope providing up to 25× magnification. This allows the dentist to see tiny canals, hairline cracks, and infected tissue invisible to the naked eye, resulting in more precise, conservative, and successful treatments.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Which is the only clinic with Carl Zeiss microscope in Tirupati?',
+      name: 'Which is the only clinic with dental microscope with 25× magnification in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Meghana Dental Hospital is one of the very few dental clinics in Tirupati and Andhra Pradesh equipped with a Carl Zeiss operating microscope. This technology is standard in leading dental institutions worldwide and is now available in Tirupati at Meghana Dental.',
+        text: 'Meghana Dental Hospital is one of the very few dental clinics in Tirupati and Andhra Pradesh equipped with a dental operating microscope with 25× magnification. This technology is standard in leading dental institutions worldwide and is now available in Tirupati at Meghana Dental.',
       },
     },
     {
@@ -68,14 +68,14 @@ export default function MicroscopeDentistryPage() {
       <ServicePageHero
         titleBefore="Microscope"
         titleHighlight="Dentistry"
-        description="Tirupati's most precise dental care — powered by Carl Zeiss operating microscope with 25x magnification. See more, treat better, heal faster. Available only at Meghana Dental Hospital."
+        description="Tirupati's most precise dental care — powered by dental operating microscope with 25× magnification. See more, treat better, heal faster. Available only at Meghana Dental Hospital."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Microscope Dentistry' }]}
         image="/images/microscope-use.jpg"
         gradient="linear-gradient(135deg, #4f46e5 0%, #0f766e 100%)"
         accent="#4f46e5"
         stats={[
           { icon: 'bi-search', label: 'Magnification', value: 'Up to 25×' },
-          { icon: 'bi-patch-check', label: 'Technology', value: 'Carl Zeiss OPMI' },
+          { icon: 'bi-patch-check', label: 'Technology', value: 'Operating Microscope' },
           { icon: 'bi-geo-alt-fill', label: 'Availability', value: 'Only in Tirupati' },
           { icon: 'bi-award', label: 'Experience', value: '17+ Years' },
         ]}

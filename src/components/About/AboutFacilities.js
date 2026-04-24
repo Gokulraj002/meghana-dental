@@ -9,9 +9,9 @@ const facilities = [
   },
   {
     image: '/images/microscope.jpg',
-    alt: 'Carl Zeiss Dental Microscope',
+    alt: 'Dental Microscope (25× Magnification)',
     title: '🔬 Dental Microscope',
-    desc: 'Carl Zeiss operating microscope for precision root canals, microsurgery, and magnified diagnosis — one of the few in the region.',
+    desc: 'dental operating microscope with 25× magnification for precision root canals, microsurgery, and magnified diagnosis — one of the few in the region.',
   },
   {
     image: '/images/dental-equipment.jpg',

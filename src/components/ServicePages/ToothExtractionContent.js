@@ -149,7 +149,7 @@ const serviceData = {
       desc: 'We always try to save your tooth with RCT before recommending extraction.',
     },
     {
-      image: '/images/dental-team.jpg',
+      image: '/images/about-clinic.png',
       href: '/services/full-mouth-rehab',
       title: 'Full Mouth Rehabilitation',
       desc: 'Comprehensive reconstruction after multiple extractions or complex cases.',

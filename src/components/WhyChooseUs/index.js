@@ -6,7 +6,7 @@ const reasons = [
   {
     icon: '🔬',
     title: 'Microscope-Guided',
-    desc: 'Carl Zeiss dental microscopes for 25x magnification — see more, treat better, and achieve superior outcomes in root canals and microsurgery.',
+    desc: 'Dental microscopes with 25× magnification — see more, treat better, and achieve superior outcomes in root canals and microsurgery.',
   },
   {
     icon: '💉',

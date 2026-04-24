@@ -277,7 +277,7 @@ export default function ServicePageLayout({ data }) {
               <ul className="sp-why-list">
                 {[
                   { icon: 'bi-award', text: 'MDS Qualified Specialists' },
-                  { icon: 'bi-search', text: 'Carl Zeiss 25× Microscope' },
+                  { icon: 'bi-search', text: 'Dental Microscope — 25× Magnification' },
                   { icon: 'bi-people-fill', text: '50,000+ Treated Patients' },
                   { icon: 'bi-clock-history', text: '17+ Years of Excellence' },
                   { icon: 'bi-geo-alt-fill', text: 'Only Clinic in Tirupati' },

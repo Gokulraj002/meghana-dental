@@ -5,7 +5,7 @@ const techPoints = [
   { icon: 'bi-search', label: '25× Magnification', desc: 'See what is invisible to the naked eye' },
   { icon: 'bi-shield-fill-check', label: 'Zero Margin for Error', desc: 'Micron-level precision in every procedure' },
   { icon: 'bi-lightning-fill', label: 'Faster Healing', desc: 'Minimally invasive — less trauma, less pain' },
-  { icon: 'bi-patch-check-fill', label: 'Only Clinic in Tirupati', desc: 'Carl Zeiss operating microscope technology' },
+  { icon: 'bi-patch-check-fill', label: 'Only Clinic in Tirupati', desc: 'Dental operating microscope with 25× magnification' },
 ];
 
 export default function TechnologyShowcase() {
@@ -19,7 +19,7 @@ export default function TechnologyShowcase() {
             <div className="tech-img-wrap">
               <Image
                 src="/images/microscope-treatment.jpg"
-                alt="Carl Zeiss microscope dental treatment at Meghana Dental Hospital Tirupati"
+                alt="Dental operating microscope treatment at Meghana Dental Hospital Tirupati"
                 width={540}
                 height={480}
                 style={{ width: '100%', height: 'auto', borderRadius: '20px', display: 'block' }}
@@ -39,11 +39,11 @@ export default function TechnologyShowcase() {
             <span className="subtitle">OUR TECHNOLOGY</span>
             <h2 style={{ marginBottom: '16px' }}>
               Tirupati's Only Clinic with<br />
-              <span>Carl Zeiss Operating Microscope</span>
+              <span>Dental Operating Microscope — 25× Magnification</span>
             </h2>
             <p style={{ color: 'var(--text-muted)', marginBottom: '32px', fontSize: '1.05rem', lineHeight: 1.8 }}>
               While most clinics rely on naked-eye procedures, Meghana Dental Hospital uses a
-              Carl Zeiss surgical microscope with 25× magnification — the same technology used
+              dental surgical microscope with 25× magnification — the same technology used
               in neurosurgery. Every root canal, restoration, and implant placement is
               performed with unmatched clarity and precision.
             </p>

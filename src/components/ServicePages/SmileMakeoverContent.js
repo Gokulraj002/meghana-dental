@@ -2,14 +2,15 @@ import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
   accent: '#a21caf',
-  contentImage: '/images/ortho-before-after-1.jpg',
+  contentImage: '/services/smile-makeover-cover.jpg',
 
   gallery: [
+    { src: '/services/smile-makeover-cover.jpg', caption: 'Perfect smile — cosmetic dentistry result' },
     { src: '/images/ortho-before-after-2.png', caption: 'Complete smile makeover result' },
     { src: '/images/aligners-wearing.jpg', caption: 'Clear aligners as part of smile design' },
     { src: '/services/Teeth-Whitening.jpg', caption: 'Professional whitening in smile makeovers' },
     { src: '/images/dental-clinic-interior.jpg', caption: 'Digital smile design suite' },
-    { src: '/images/dental-team.jpg', caption: 'Our cosmetic dentistry specialists' },
+    { src: '/images/about-clinic.png', caption: 'Our cosmetic dentistry specialists' },
     { src: '/images/about-clinic.png', caption: 'Our state-of-the-art facilities' },
   ],
 
@@ -79,7 +80,7 @@ const serviceData = {
     },
     {
       title: 'Treatment Execution — Phase by Phase',
-      desc: 'Each treatment phase is completed with precision. Veneers are prepared under our Carl Zeiss microscope, ensuring minimal enamel removal. Composite bonding is sculpted freehand by our cosmetic specialists. Gum contouring is done with our Diode laser — precise and comfortable.',
+      desc: 'Each treatment phase is completed with precision. Veneers are prepared under our dental microscope with 25× magnification, ensuring minimal enamel removal. Composite bonding is sculpted freehand by our cosmetic specialists. Gum contouring is done with our Diode laser — precise and comfortable.',
     },
     {
       title: 'Reveal, Photography & Maintenance',
@@ -140,7 +141,7 @@ const serviceData = {
       desc: 'Reshape your gumline with a Diode laser for perfect smile proportions.',
     },
     {
-      image: '/images/dental-team.jpg',
+      image: '/images/about-clinic.png',
       href: '/services/full-mouth-rehab',
       title: 'Full Mouth Rehabilitation',
       desc: 'For complex cases needing comprehensive structural and cosmetic restoration.',
