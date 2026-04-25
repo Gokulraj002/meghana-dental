@@ -22,9 +22,54 @@ export const metadata = {
   },
 };
 
+const doctorsSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'MedicalOrganization',
+  '@id': 'https://meghanadental.in/#doctors',
+  name: 'Meghana Dental Hospital',
+  url: 'https://meghanadental.in/doctors',
+  employee: [
+    {
+      '@type': 'Physician',
+      name: 'Dr. Hema Latha',
+      jobTitle: 'Chief Dental Surgeon & Prosthodontist',
+      description: 'MDS Prosthodontist with 17+ years of experience. Specialises in dental implants, full mouth rehabilitation, and digital smile design at Meghana Dental Hospital, Tirupati.',
+      image: 'https://meghanadental.in/images/dr-hemu.jpg',
+      worksFor: { '@type': 'MedicalOrganization', name: 'Meghana Dental Hospital' },
+      medicalSpecialty: 'Prosthodontics',
+      hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'MDS Prosthodontics' },
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Tirupati',
+        addressRegion: 'Andhra Pradesh',
+        addressCountry: 'IN',
+      },
+    },
+    {
+      '@type': 'Physician',
+      name: 'Dr. Meghana Dental Specialist',
+      jobTitle: 'Orthodontist — Braces & Aligners',
+      description: 'MDS Orthodontist specialising in metal braces, ceramic braces, self-ligating braces, and clear aligners for all ages at Meghana Dental Hospital, Tirupati.',
+      worksFor: { '@type': 'MedicalOrganization', name: 'Meghana Dental Hospital' },
+      medicalSpecialty: 'Orthodontics',
+      hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'MDS Orthodontics' },
+    },
+    {
+      '@type': 'Physician',
+      name: 'Dr. Meghana Endodontist',
+      jobTitle: 'Endodontist — Root Canal Specialist',
+      description: 'MDS Endodontist performing microscope-guided root canal treatments and single-sitting RCT at Meghana Dental Hospital, Tirupati.',
+      worksFor: { '@type': 'MedicalOrganization', name: 'Meghana Dental Hospital' },
+      medicalSpecialty: 'Endodontics',
+      hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'MDS Endodontics' },
+    },
+  ],
+};
+
 export default function DoctorsPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(doctorsSchema) }} />
       <Navbar />
       <DoctorsHero />
       <section className="service-detail-section">

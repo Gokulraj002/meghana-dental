@@ -6,14 +6,57 @@ export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: '', email: '', phone: '', date: '', time: '', type: 'in-person', message: '',
   });
+  const [status, setStatus] = useState('idle'); // idle | loading | success | error
 
   const handleChange = (e) => setFormData({ ...formData, [e.target.name]: e.target.value });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const waMessage = `Hello! I'd like to book an appointment.\n\nName: ${formData.name}\nPhone: ${formData.phone}\nEmail: ${formData.email}\nPreferred Date: ${formData.date}\nTime: ${formData.time}\nConsultation: ${formData.type}\nMessage: ${formData.message}`;
-    window.open(`https://wa.me/919876543210?text=${encodeURIComponent(waMessage)}`, '_blank');
+    setStatus('loading');
+
+    const data = new FormData();
+    data.append('access_key', '59f91b22-58d0-456a-a517-e3200e18d713');
+    data.append('name', formData.name);
+    data.append('email', formData.email);
+    data.append('phone', formData.phone);
+    data.append('preferred_date', formData.date);
+    data.append('preferred_time', formData.time);
+    data.append('consultation_type', formData.type);
+    data.append('message', formData.message || 'No message provided');
+    data.append('subject', `New Appointment Request — ${formData.name}`);
+
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', { method: 'POST', body: data });
+      const json = await res.json();
+      if (json.success) {
+        setStatus('success');
+        setFormData({ name: '', email: '', phone: '', date: '', time: '', type: 'in-person', message: '' });
+      } else {
+        setStatus('error');
+      }
+    } catch {
+      setStatus('error');
+    }
   };
+
+  if (status === 'success') {
+    return (
+      <div className="cf-card cf-success-card">
+        <div className="cf-success-icon"><i className="bi bi-check-circle-fill" /></div>
+        <h3 className="cf-success-title">Appointment Request Sent!</h3>
+        <p className="cf-success-msg">Thank you! We've received your request and will confirm your appointment shortly via call or WhatsApp.</p>
+        <button className="cf-submit" style={{ marginTop: '24px' }} onClick={() => setStatus('idle')}>
+          Book Another Appointment
+        </button>
+        <style>{`
+          .cf-success-card { text-align: center; padding: 60px 32px; }
+          .cf-success-icon { font-size: 4rem; color: #0ea5a0; margin-bottom: 16px; }
+          .cf-success-title { font-size: 1.5rem; font-weight: 700; color: var(--text-heading); margin-bottom: 12px; }
+          .cf-success-msg { color: var(--text-muted); font-size: 0.95rem; line-height: 1.7; max-width: 380px; margin: 0 auto; }
+        `}</style>
+      </div>
+    );
+  }
 
   return (
     <div className="cf-card">
@@ -27,6 +70,12 @@ export default function ContactForm() {
           <p className="cf-subtitle">Fill in your details and we'll confirm via WhatsApp or call.</p>
         </div>
       </div>
+
+      {status === 'error' && (
+        <div className="cf-error-banner">
+          <i className="bi bi-exclamation-triangle-fill" /> Something went wrong. Please try again or call us directly.
+        </div>
+      )}
 
       <form onSubmit={handleSubmit} className="cf-form">
         <div className="row g-3">
@@ -124,15 +173,36 @@ export default function ContactForm() {
 
           {/* Submit */}
           <div className="col-12">
-            <button type="submit" className="cf-submit">
-              <i className="bi bi-whatsapp" />
-              Confirm Appointment via WhatsApp
-              <i className="bi bi-arrow-right-short cf-submit-arrow" />
+            <button type="submit" className="cf-submit" disabled={status === 'loading'}>
+              {status === 'loading' ? (
+                <><i className="bi bi-hourglass-split" /> Sending...</>
+              ) : (
+                <><i className="bi bi-send-fill" /> Send Appointment Request <i className="bi bi-arrow-right-short cf-submit-arrow" /></>
+              )}
             </button>
           </div>
 
         </div>
       </form>
+
+      <style>{`
+        .cf-error-banner {
+          background: #fef2f2;
+          border: 1px solid #fecaca;
+          color: #dc2626;
+          border-radius: 8px;
+          padding: 12px 16px;
+          font-size: 0.875rem;
+          margin-bottom: 16px;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+        .cf-submit:disabled {
+          opacity: 0.7;
+          cursor: not-allowed;
+        }
+      `}</style>
     </div>
   );
 }

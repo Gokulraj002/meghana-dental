@@ -5,6 +5,8 @@ import { Inter } from 'next/font/google';
 import BootstrapProvider from '@/components/shared/BootstrapProvider';
 import FloatingWhatsApp from '@/components/shared/FloatingWhatsApp';
 import ScrollToTop from '@/components/shared/ScrollToTop';
+import Analytics from '@/components/shared/Analytics';
+import SchemaMarkup from '@/components/shared/SchemaMarkup';
 
 // Single font — Inter covers all weights used across the site
 const inter = Inter({
@@ -65,6 +67,10 @@ export const metadata = {
   alternates: {
     canonical: 'https://meghanadental.in',
   },
+  icons: {
+    icon: '/images/logo.png',
+    apple: '/images/logo.png',
+  },
   // verification: { google: 'ADD_GSC_ID_HERE' },  // Uncomment and add ID once Google Search Console is set up
   // To add Google Analytics, install 'next/third-parties' and add <GoogleAnalytics gaId="G-XXXXXXXXXX" /> in RootLayout
 };
@@ -72,12 +78,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en-IN" className={inter.variable}>
+      <head>
+        <SchemaMarkup />
+      </head>
       <body>
         <BootstrapProvider>
           {children}
           <FloatingWhatsApp />
           <ScrollToTop />
         </BootstrapProvider>
+        <Analytics />
       </body>
     </html>
   );

@@ -20,7 +20,7 @@ const services = [
     title: 'Orthodontic Treatment',
     desc: 'Ceramic, metal & self-ligating braces for perfectly aligned teeth and confident jaw correction.',
     tag: 'All Ages',
-    image: '/images/ortho-self-ligating-braces.jpg',
+    image: '/services/ortho-img-p5-1.jpg',
     link: '/services/orthodontics',
   },
   {

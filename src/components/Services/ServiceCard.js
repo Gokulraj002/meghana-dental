@@ -6,17 +6,21 @@ export default function ServiceCard({ service }) {
     <div className="col-lg-3 col-md-4 col-sm-6">
       <Link href={service.link} style={{ textDecoration: 'none' }}>
         <div className="service-card-v2">
-          <div className="sc-image-wrapper">
-            <Image
-              src={service.image}
-              alt={service.title}
-              width={400}
-              height={220}
-              style={{ width: '100%', height: '180px', objectFit: 'cover' }}
-            />
-            <div className="sc-tag">{service.tag}</div>
-            <div className="sc-overlay"></div>
-          </div>
+          {service.image ? (
+            <div className="sc-image-wrapper">
+              <Image
+                src={service.image}
+                alt={service.title}
+                width={400}
+                height={220}
+                style={{ width: '100%', height: '180px', objectFit: 'cover' }}
+              />
+              <div className="sc-tag">{service.tag}</div>
+              <div className="sc-overlay"></div>
+            </div>
+          ) : (
+            <div className="sc-tag sc-tag-top">{service.tag}</div>
+          )}
           <div className="sc-body">
             <h4>{service.title}</h4>
             <p>{service.desc}</p>
@@ -71,6 +75,13 @@ export default function ServiceCard({ service }) {
           letter-spacing: 0.5px;
           text-transform: uppercase;
           z-index: 2;
+        }
+        .sc-tag-top {
+          position: relative;
+          top: auto;
+          right: auto;
+          display: inline-block;
+          margin: 16px 16px 0;
         }
         .sc-body {
           padding: 20px;

@@ -15,6 +15,22 @@ import Link from 'next/link';
  *   accent         {string}  – single accent colour (used only for highlight text + small CTA)
  *   stats          {Array}   – [{ icon, label, value }] stats strip
  */
+const BASE = 'https://meghanadental.in';
+
+function buildBreadcrumbSchema(crumbs) {
+  const items = [{ name: 'Home', item: BASE }, ...crumbs.map((c) => ({ name: c.label, ...(c.href ? { item: `${BASE}${c.href}` } : {}) }))];
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((it, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: it.name,
+      ...(it.item ? { item: it.item } : {}),
+    })),
+  };
+}
+
 export default function ServicePageHero({
   titleBefore,
   titleHighlight,
@@ -25,7 +41,11 @@ export default function ServicePageHero({
   accent = '#0ea5e9',
   stats = [],
 }) {
+  const breadcrumbSchema = buildBreadcrumbSchema(crumbs);
+
   return (
+    <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
     <section className="sph-section">
       {/* ── Background layer ── */}
       <div className="sph-bg">
@@ -98,5 +118,6 @@ export default function ServicePageHero({
         </div>
       )}
     </section>
+    </>
   );
 }

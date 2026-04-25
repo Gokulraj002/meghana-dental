@@ -4,7 +4,7 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import MicroscopeContent from '@/components/ServicePages/MicroscopeContent';
 
 export const metadata = {
-  title: 'Dental Microscope (25× Magnification) Dentistry Tirupati | Precision RCT',
+  title: 'Dental Microscope Dentist Tirupati | 25× Magnification RCT',
   description:
     'Dental microscope with 25× magnification — only clinic in Tirupati with this gold-standard technology. Precision root canals, microsurgery, crack detection.',
   keywords:
