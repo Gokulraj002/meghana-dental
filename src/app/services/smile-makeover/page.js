@@ -2,8 +2,12 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import SmileMakeoverContent from '@/components/ServicePages/SmileMakeoverContent';
+import { getSeo, buildMetadata } from '@/lib/seo';
+import { getServicePageOverrides } from '@/lib/servicePage';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('service:smile-makeover');
+  return buildMetadata(seo, {
   title: 'Smile Makeover Tirupati | Cosmetic Dentistry Specialist',
   description:
     'Transform your smile in Tirupati with Digital Smile Design — veneers, whitening, aligners, gum contouring. See your new smile before treatment.',
@@ -18,7 +22,8 @@ export const metadata = {
     images: [{ url: '/services/smile-makeover-cover.jpg', width: 1200, height: 630, alt: 'Smile Makeover in Tirupati' }],
     type: 'website',
   },
-};
+});
+}
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -47,27 +52,29 @@ const faqSchema = {
   ],
 };
 
-export default function SmileMakeoverPage() {
+export default async function SmileMakeoverPage() {
+  const ov = await getServicePageOverrides('smile-makeover');
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Navbar />
       <ServicePageHero
-        titleBefore="Smile"
-        titleHighlight="Makeover"
-        description="Transform your smile with our personalised smile makeover programme in Tirupati. Digital Smile Design, porcelain veneers, whitening, and more — see your perfect smile before treatment starts."
+        titleBefore={ov.titleBefore || 'Smile'}
+        titleHighlight={ov.titleHighlight || 'Makeover'}
+        description={ov.description || "Transform your smile with our personalised smile makeover programme in Tirupati. Digital Smile Design, porcelain veneers, whitening, and more — see your perfect smile before treatment starts."}
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Smile Makeover' }]}
-        image="/services/smile-makeover-cover.jpg"
+        titleAfter={ov.titleAfter || ' in Tirupati'}
+        image={ov.heroImage || '/services/smile-makeover-cover.jpg'}
         gradient="linear-gradient(135deg, #a21caf 0%, #7c3aed 100%)"
         accent="#a21caf"
-        stats={[
+        stats={Array.isArray(ov.stats) && ov.stats.length > 0 ? ov.stats : [
           { icon: 'bi-laptop', label: 'Digital Design', value: 'Included' },
           { icon: 'bi-gem', label: 'Veneers', value: 'Porcelain & Composite' },
           { icon: 'bi-calendar2-range', label: 'Duration', value: '1 Visit – 9 Months' },
           { icon: 'bi-clock-history', label: 'Veneer Lifespan', value: '10–15+ Years' },
         ]}
       />
-      <SmileMakeoverContent />
+      <SmileMakeoverContent overrides={ov} />
       <Footer />
     </>
   );

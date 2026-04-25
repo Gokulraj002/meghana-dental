@@ -1,6 +1,6 @@
 import ServicePageLayout from './ServicePageLayout';
 
-const serviceData = {
+export const serviceData = {
   accent: '#f97316',
   contentImage: '/images/dental-equipment.jpg',
 
@@ -143,6 +143,6 @@ const serviceData = {
   ],
 };
 
-export default function LaserDentistryContent() {
-  return <ServicePageLayout data={serviceData} />;
+export default function LaserDentistryContent({ overrides = {} }) {
+  return <ServicePageLayout data={{ ...serviceData, ...overrides }} />;
 }

@@ -2,11 +2,15 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import RootCanalContent from '@/components/ServicePages/RootCanalContent';
+import { getSeo, buildMetadata } from '@/lib/seo';
+import { getServicePageOverrides } from '@/lib/servicePage';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('service:root-canal');
+  return buildMetadata(seo, {
   title: 'Painless Root Canal Treatment Tirupati | Single Sitting',
   description:
-    'Painless, microscope-guided root canal treatment in Tirupati. Single-sitting RCT available. Dental microscope with 25× magnification, MDS endodontists. Book now.',
+    'Painless, microscope-guided root canal treatment in Tirupati. Single-sitting RCT available. Expert MDS endodontist with 25× magnification. Book now.',
   keywords:
     'root canal treatment Tirupati, painless root canal Tirupati, single sitting root canal Tirupati, root canal cost Tirupati, microscope root canal Tirupati, endodontist Tirupati, RCT specialist Tirupati, root canal Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.in/services/root-canal' },
@@ -19,7 +23,8 @@ export const metadata = {
     images: [{ url: '/images/microscope-treatment.jpg', width: 1200, height: 630, alt: 'Microscope-Guided Root Canal Treatment in Tirupati' }],
     type: 'website',
   },
-};
+});
+}
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -60,27 +65,29 @@ const faqSchema = {
   ],
 };
 
-export default function RootCanalPage() {
+export default async function RootCanalPage() {
+  const ov = await getServicePageOverrides('root-canal');
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Navbar />
       <ServicePageHero
-        titleBefore="Root Canal"
-        titleHighlight="Treatment"
-        description="Save your natural teeth with Tirupati's most advanced root canal therapy — single-sitting, painless, and microscope-guided for precision results you can count on."
+        titleBefore={ov.titleBefore || 'Root Canal'}
+        titleHighlight={ov.titleHighlight || 'Treatment'}
+        description={ov.description || "Save your natural teeth with Tirupati's most advanced root canal therapy — single-sitting, painless, and microscope-guided for precision results you can count on."}
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Root Canal Treatment' }]}
-        image="/services/Root-Canal-Treatment.jpg"
+        titleAfter={ov.titleAfter || ' in Tirupati'}
+        image={ov.heroImage || '/services/Root-Canal-Treatment.jpg'}
         gradient="linear-gradient(135deg, #3b82f6 0%, #7c3aed 100%)"
         accent="#3b82f6"
-        stats={[
+        stats={Array.isArray(ov.stats) && ov.stats.length > 0 ? ov.stats : [
           { icon: 'bi-clock', label: 'Duration', value: '30–60 min' },
           { icon: 'bi-calendar-check', label: 'Sittings', value: '1–2 visits' },
           { icon: 'bi-search', label: 'Microscope', value: '25× Magnification' },
           { icon: 'bi-activity', label: 'Recovery', value: 'Same day' },
         ]}
       />
-      <RootCanalContent />
+      <RootCanalContent overrides={ov} />
       <Footer />
     </>
   );

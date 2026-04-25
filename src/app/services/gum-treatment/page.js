@@ -2,8 +2,12 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import GumTreatmentContent from '@/components/ServicePages/GumTreatmentContent';
+import { getSeo, buildMetadata } from '@/lib/seo';
+import { getServicePageOverrides } from '@/lib/servicePage';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('service:gum-treatment');
+  return buildMetadata(seo, {
   title: 'Gum Disease Treatment Tirupati | Stop Bleeding Gums',
   description:
     'Stop bleeding gums & protect your smile in Tirupati. Professional scaling, laser gum therapy, flap surgery by MDS periodontist. Book assessment.',
@@ -18,7 +22,8 @@ export const metadata = {
     images: [{ url: '/services/Gum-Treatment.jpg', width: 1200, height: 630, alt: 'Gum Disease Treatment in Tirupati' }],
     type: 'website',
   },
-};
+});
+}
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -47,27 +52,29 @@ const faqSchema = {
   ],
 };
 
-export default function GumTreatmentPage() {
+export default async function GumTreatmentPage() {
+  const ov = await getServicePageOverrides('gum-treatment');
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Navbar />
       <ServicePageHero
-        titleBefore="Gum"
-        titleHighlight="Treatment"
-        description="Stop bleeding gums and protect your smile. Our MDS periodontist in Tirupati provides complete periodontal care — from professional scaling to advanced laser gum surgery and bone grafting."
+        titleBefore={ov.titleBefore || 'Gum'}
+        titleHighlight={ov.titleHighlight || 'Treatment'}
+        description={ov.description || "Stop bleeding gums and protect your smile. Our MDS periodontist in Tirupati provides complete periodontal care — from professional scaling to advanced laser gum surgery and bone grafting."}
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Gum Treatment' }]}
-        image="/services/Gum-Treatment.jpg"
+        titleAfter={ov.titleAfter || ' in Tirupati'}
+        image={ov.heroImage || '/services/Gum-Treatment.jpg'}
         gradient="linear-gradient(135deg, #14b8a6 0%, #0284c7 100%)"
         accent="#14b8a6"
-        stats={[
+        stats={Array.isArray(ov.stats) && ov.stats.length > 0 ? ov.stats : [
           { icon: 'bi-activity', label: 'Scaling Session', value: '30–60 min' },
           { icon: 'bi-calendar2', label: 'Deep Cleaning', value: '1–2 sessions' },
           { icon: 'bi-calendar-check', label: 'Maintenance', value: 'Every 3–6 months' },
           { icon: 'bi-lightning', label: 'Laser Therapy', value: 'Available' },
         ]}
       />
-      <GumTreatmentContent />
+      <GumTreatmentContent overrides={ov} />
       <Footer />
     </>
   );

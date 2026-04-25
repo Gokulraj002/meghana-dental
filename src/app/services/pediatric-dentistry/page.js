@@ -2,8 +2,12 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import PediatricContent from '@/components/ServicePages/PediatricContent';
+import { getSeo, buildMetadata } from '@/lib/seo';
+import { getServicePageOverrides } from '@/lib/servicePage';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('service:pediatric-dentistry');
+  return buildMetadata(seo, {
   title: "Best Children's Dentist in Tirupati | Gentle Dental Care",
   description:
     'Tirupati’s most loved children’s dentist. Gentle, fun, fear-free dental care for kids — baby teeth care, fluoride, sealants, first visit by age 1.',
@@ -19,7 +23,8 @@ export const metadata = {
     images: [{ url: '/images/children-dentist.jpg', width: 1200, height: 630, alt: "Best Children's Dentist in Tirupati — Meghana Dental" }],
     type: 'website',
   },
-};
+});
+}
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -52,27 +57,29 @@ const faqSchema = {
   ],
 };
 
-export default function PediatricDentistryPage() {
+export default async function PediatricDentistryPage() {
+  const ov = await getServicePageOverrides('pediatric-dentistry');
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Navbar />
       <ServicePageHero
-        titleBefore="Pediatric"
-        titleHighlight="Dentistry"
-        description="Tirupati's most loved children's dental clinic — gentle, compassionate, and fun. From baby teeth to braces, we make every dental visit a positive experience for your little ones."
+        titleBefore={ov.titleBefore || 'Pediatric'}
+        titleHighlight={ov.titleHighlight || 'Dentistry'}
+        description={ov.description || "Tirupati's most loved children's dental clinic — gentle, compassionate, and fun. From baby teeth to braces, we make every dental visit a positive experience for your little ones."}
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Pediatric Dentistry' }]}
-        image="/services/Pediatric-Dentistry.jpg"
+        titleAfter={ov.titleAfter || ' in Tirupati'}
+        image={ov.heroImage || '/services/Pediatric-Dentistry.jpg'}
         gradient="linear-gradient(135deg, #ec4899 0%, #f43f5e 100%)"
         accent="#ec4899"
-        stats={[
+        stats={Array.isArray(ov.stats) && ov.stats.length > 0 ? ov.stats : [
           { icon: 'bi-calendar-heart', label: 'First Visit Age', value: 'By age 1' },
           { icon: 'bi-arrow-repeat', label: 'Check-up Frequency', value: 'Every 6 months' },
           { icon: 'bi-shield-fill-check', label: 'Fluoride Varnish', value: '2–4 times/year' },
           { icon: 'bi-clock-fill', label: 'Sealant Age', value: 'Age 6 & 12' },
         ]}
       />
-      <PediatricContent />
+      <PediatricContent overrides={ov} />
       <Footer />
     </>
   );

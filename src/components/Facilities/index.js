@@ -1,29 +1,17 @@
 import FacilityCard from './FacilityCard';
+import { getFacilities } from '@/lib/content';
 
-const facilities = [
-  {
-    image: '/images/microscope.jpg',
-    title: 'Dental Microscope (25× Magnification)',
-    desc: '25x magnification — precision dentistry',
-  },
-  {
-    image: '/images/microscope-use.jpg',
-    title: 'Microscope Treatment',
-    desc: 'Doctor performing microscope-guided procedure',
-  },
-  {
-    image: '/images/microscope-treatment.jpg',
-    title: 'Advanced Treatment Room',
-    desc: 'Ergonomic, hygienic treatment suites',
-  },
-  {
-    image: '/images/microscope-equipment.jpg',
-    title: 'Precision In Action',
-    desc: 'Magnified view for superior outcomes',
-  },
+const FALLBACK = [
+  { image: '/images/microscope.jpg', title: 'Dental Microscope (25× Magnification)', desc: '25x magnification — precision dentistry' },
+  { image: '/images/microscope-use.jpg', title: 'Microscope Treatment', desc: 'Doctor performing microscope-guided procedure' },
+  { image: '/images/microscope-treatment.jpg', title: 'Advanced Treatment Room', desc: 'Ergonomic, hygienic treatment suites' },
+  { image: '/images/microscope-equipment.jpg', title: 'Precision In Action', desc: 'Magnified view for superior outcomes' },
 ];
 
-export default function FacilitiesGallery() {
+export default async function FacilitiesGallery() {
+  const rows = await getFacilities();
+  const facilities = rows.length > 0 ? rows : FALLBACK;
+
   return (
     <section className="facilities-section section-padding">
       <div className="container">
@@ -36,7 +24,7 @@ export default function FacilitiesGallery() {
         </div>
         <div className="row g-4">
           {facilities.map((f, i) => (
-            <FacilityCard key={i} facility={f} />
+            <FacilityCard key={f.id || i} facility={f} />
           ))}
         </div>
       </div>

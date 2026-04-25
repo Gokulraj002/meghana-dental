@@ -3,8 +3,11 @@ import Footer from '@/components/Footer';
 import ServicesHero from '@/components/Services/ServicesHero';
 import ServicesListing from '@/components/Services/ServicesListing';
 import ServicesListingCTA from '@/components/Services/ServicesListingCTA';
+import { getSeo, buildMetadata } from '@/lib/seo';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('services');
+  return buildMetadata(seo, {
   title: 'Dental Treatments in Tirupati | 14 Specialist Services',
   description:
     '14 specialist dental treatments in Tirupati — implants, root canal, braces, aligners, whitening, pediatric dentistry, microscope dentistry & more.',
@@ -19,7 +22,8 @@ export const metadata = {
     siteName: 'Meghana Dental Hospital',
     type: 'website',
   },
-};
+});
+}
 
 export default function ServicesPage() {
   return (

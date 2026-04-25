@@ -6,8 +6,11 @@ import AboutMissionVision from '@/components/About/AboutMissionVision';
 import AboutFacilities from '@/components/About/AboutFacilities';
 import AboutStats from '@/components/About/AboutStats';
 import AboutCTA from '@/components/About/AboutCTA';
+import { getSeo, buildMetadata } from '@/lib/seo';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('about');
+  return buildMetadata(seo, {
   title: 'Best Dental Hospital in Tirupati | 17+ Years of Care',
   description:
     'Meghana Dental Hospital in Tirupati — 17+ years of excellence, 50,000+ patients, MDS specialists delivering world-class dental care in Andhra Pradesh.',
@@ -23,7 +26,8 @@ export const metadata = {
     images: [{ url: '/images/about-clinic.png', width: 1200, height: 630, alt: 'Meghana Dental Hospital — Tirupati, Andhra Pradesh' }],
     type: 'website',
   },
-};
+});
+}
 
 export default function AboutPage() {
   return (

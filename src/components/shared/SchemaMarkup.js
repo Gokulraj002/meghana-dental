@@ -1,121 +1,89 @@
 /**
  * JSON-LD structured data for Meghana Dental Hospital.
  * Implements: Dentist (LocalBusiness) + WebSite schemas.
- * Placed in <head> via Next.js App Router layout.
+ * Reads clinic info dynamically from siteSetting; falls back to safe defaults.
  */
-export default function SchemaMarkup() {
+import { getSettings } from '@/lib/settings';
+
+export default async function SchemaMarkup() {
+  const s = await getSettings();
+  const siteUrl = s.site_url || 'https://meghanadental.in';
+  const name = s.clinic_name || 'Meghana Dental Hospital';
+  const phone = s.phone || '+91-98765-43210';
+  const email = s.email || 'info@meghanadental.in';
+  const address = s.address || 'No. 18-2-91B, Ashok Nagar, Tirupati, Andhra Pradesh 517501';
+  const ratingValue = (s.google_rating || '4.9').replace('★', '').trim();
+  const reviewCount = (s.reviews_count || '850').replace(/\D/g, '') || '850';
+  const sameAs = [
+    s.facebook_url, s.instagram_url, s.youtube_url, s.linkedin_url, s.twitter_url, s.google_maps_link,
+  ].filter(Boolean);
+
+  // Address parts (best effort split)
+  const parts = address.split(',').map(p => p.trim());
+  const streetAddress = parts.slice(0, parts.length - 2).join(', ') || address;
+  const localityRaw = parts[parts.length - 2] || 'Tirupati';
+  const regionPart = parts[parts.length - 1] || 'Andhra Pradesh 517501';
+  const postal = (regionPart.match(/\d{6}/) || ['517501'])[0];
+  const region = regionPart.replace(/\d{6}/, '').trim() || 'Andhra Pradesh';
+
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': ['Dentist', 'MedicalBusiness'],
-        '@id': 'https://meghanadental.in/#dentist',
-        name: 'Meghana Dental Hospital',
-        alternateName: [
-          'Meghana Dental',
-          'Meghana Dental Tirupati',
-          'Meghana Multispeciality Dental Hospital',
-          'Best Dental Clinic Tirupati',
-        ],
-        url: 'https://meghanadental.in',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://meghanadental.in/images/logo.png',
-          width: 200,
-          height: 80,
-        },
+        '@id': `${siteUrl}/#dentist`,
+        name,
+        alternateName: ['Meghana Dental', 'Meghana Dental Tirupati', 'Meghana Multispeciality Dental Hospital', 'Best Dental Clinic Tirupati'],
+        url: siteUrl,
+        logo: { '@type': 'ImageObject', url: `${siteUrl}${s.logo_url || '/images/logo.png'}`, width: 200, height: 80 },
         image: [
-          'https://meghanadental.in/images/about-clinic.png',
-          'https://meghanadental.in/images/dental-clinic-interior.jpg',
-          'https://meghanadental.in/images/microscope-use.jpg',
+          `${siteUrl}/images/about-clinic.png`,
+          `${siteUrl}/images/dental-clinic-interior.jpg`,
+          `${siteUrl}/images/microscope-use.jpg`,
         ],
-        description:
-          'Meghana Dental Hospital is a super speciality dental centre in Tirupati, Andhra Pradesh with 17+ years of excellence. Expert MDS specialists, dental microscope with 25× magnification dentistry, dental implants, root canal, orthodontics, clear aligners, pediatric dentistry and full mouth rehabilitation.',
-        telephone: '+91-98765-43210',
-        email: 'info@meghanadental.in',
+        description: s.about_story || 'Super speciality dental centre in Tirupati with 17+ years of excellence. MDS specialists, microscope dentistry, implants, RCT, orthodontics & more.',
+        telephone: phone,
+        email,
         address: {
           '@type': 'PostalAddress',
-          streetAddress: 'No. 18-2-91B, Ashok Nagar',
-          addressLocality: 'Tirupati',
-          addressRegion: 'Andhra Pradesh',
-          postalCode: '517501',
+          streetAddress,
+          addressLocality: localityRaw,
+          addressRegion: region,
+          postalCode: postal,
           addressCountry: 'IN',
         },
-        geo: {
-          '@type': 'GeoCoordinates',
-          latitude: 13.6288,
-          longitude: 79.4192,
-        },
-        hasMap: 'https://www.google.com/maps/search/?api=1&query=Meghana+Dental+Hospital+Ashok+Nagar+Tirupati',
-        sameAs: [
-          'https://www.google.com/maps/search/?api=1&query=Meghana+Dental+Hospital+Tirupati',
+        geo: { '@type': 'GeoCoordinates', latitude: 13.6288, longitude: 79.4192 },
+        hasMap: s.google_maps_link || 'https://www.google.com/maps/search/?api=1&query=Meghana+Dental+Hospital+Ashok+Nagar+Tirupati',
+        sameAs: sameAs.length > 0 ? sameAs : [
           'https://www.facebook.com/meghanadental',
           'https://www.instagram.com/meghanadental',
           'https://www.youtube.com/@meghanadental',
-          'https://www.justdial.com/Tirupati/Meghana-Dental-Hospital',
         ],
         contactPoint: [
-          {
-            '@type': 'ContactPoint',
-            telephone: '+91-98765-43210',
-            contactType: 'customer service',
-            areaServed: 'IN',
-            availableLanguage: ['English', 'Telugu', 'Hindi'],
-            contactOption: 'TollFree',
-          },
-          {
-            '@type': 'ContactPoint',
-            telephone: '+91-98765-43210',
-            contactType: 'reservations',
-            areaServed: 'IN',
-            availableLanguage: ['English', 'Telugu'],
-          },
+          { '@type': 'ContactPoint', telephone: phone, contactType: 'customer service', areaServed: 'IN', availableLanguage: ['English', 'Telugu', 'Hindi'] },
+          { '@type': 'ContactPoint', telephone: phone, contactType: 'reservations', areaServed: 'IN', availableLanguage: ['English', 'Telugu'] },
         ],
         openingHoursSpecification: [
-          {
-            '@type': 'OpeningHoursSpecification',
-            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-            opens: '09:00',
-            closes: '20:00',
-          },
-          {
-            '@type': 'OpeningHoursSpecification',
-            dayOfWeek: 'Sunday',
-            opens: '10:00',
-            closes: '14:00',
-          },
+          { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], opens: '09:00', closes: '20:00' },
+          { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Sunday', opens: '10:00', closes: '14:00' },
         ],
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '850',
-          bestRating: '5',
-          worstRating: '1',
-        },
-        medicalSpecialty: [
-          'Dentistry',
-          'Orthodontics',
-          'Endodontics',
-          'Periodontics',
-          'Prosthodontics',
-          'Pediatric Dentistry',
-          'Oral Surgery',
-        ],
+        aggregateRating: { '@type': 'AggregateRating', ratingValue, reviewCount, bestRating: '5', worstRating: '1' },
+        medicalSpecialty: ['Dentistry', 'Orthodontics', 'Endodontics', 'Periodontics', 'Prosthodontics', 'Pediatric Dentistry', 'Oral Surgery'],
         availableService: [
-          { '@type': 'MedicalProcedure', name: 'Dental Implants', url: 'https://meghanadental.in/services/dental-implants' },
-          { '@type': 'MedicalProcedure', name: 'Root Canal Treatment', url: 'https://meghanadental.in/services/root-canal' },
-          { '@type': 'MedicalProcedure', name: 'Orthodontic Treatment', url: 'https://meghanadental.in/services/orthodontics' },
-          { '@type': 'MedicalProcedure', name: 'Clear Aligners', url: 'https://meghanadental.in/services/aligners' },
-          { '@type': 'MedicalProcedure', name: 'Teeth Whitening', url: 'https://meghanadental.in/services/teeth-whitening' },
-          { '@type': 'MedicalProcedure', name: 'Dentures & Prosthetics', url: 'https://meghanadental.in/services/dentures' },
-          { '@type': 'MedicalProcedure', name: 'Pediatric Dentistry', url: 'https://meghanadental.in/services/pediatric-dentistry' },
-          { '@type': 'MedicalProcedure', name: 'Microscope Dentistry', url: 'https://meghanadental.in/services/microscope-dentistry' },
-          { '@type': 'MedicalProcedure', name: 'Laser Dentistry', url: 'https://meghanadental.in/services/laser-dentistry' },
-          { '@type': 'MedicalProcedure', name: 'Gum Treatment', url: 'https://meghanadental.in/services/gum-treatment' },
-          { '@type': 'MedicalProcedure', name: 'Tooth Extraction', url: 'https://meghanadental.in/services/tooth-extraction' },
-          { '@type': 'MedicalProcedure', name: 'Dental Crowns & Bridges', url: 'https://meghanadental.in/services/dental-crowns' },
-          { '@type': 'MedicalProcedure', name: 'Full Mouth Rehabilitation', url: 'https://meghanadental.in/services/full-mouth-rehab' },
-          { '@type': 'MedicalProcedure', name: 'Smile Makeover', url: 'https://meghanadental.in/services/smile-makeover' },
+          { '@type': 'MedicalProcedure', name: 'Dental Implants', url: `${siteUrl}/services/dental-implants` },
+          { '@type': 'MedicalProcedure', name: 'Root Canal Treatment', url: `${siteUrl}/services/root-canal` },
+          { '@type': 'MedicalProcedure', name: 'Orthodontic Treatment', url: `${siteUrl}/services/orthodontics` },
+          { '@type': 'MedicalProcedure', name: 'Clear Aligners', url: `${siteUrl}/services/aligners` },
+          { '@type': 'MedicalProcedure', name: 'Teeth Whitening', url: `${siteUrl}/services/teeth-whitening` },
+          { '@type': 'MedicalProcedure', name: 'Dentures & Prosthetics', url: `${siteUrl}/services/dentures` },
+          { '@type': 'MedicalProcedure', name: 'Pediatric Dentistry', url: `${siteUrl}/services/pediatric-dentistry` },
+          { '@type': 'MedicalProcedure', name: 'Microscope Dentistry', url: `${siteUrl}/services/microscope-dentistry` },
+          { '@type': 'MedicalProcedure', name: 'Laser Dentistry', url: `${siteUrl}/services/laser-dentistry` },
+          { '@type': 'MedicalProcedure', name: 'Gum Treatment', url: `${siteUrl}/services/gum-treatment` },
+          { '@type': 'MedicalProcedure', name: 'Tooth Extraction', url: `${siteUrl}/services/tooth-extraction` },
+          { '@type': 'MedicalProcedure', name: 'Dental Crowns & Bridges', url: `${siteUrl}/services/dental-crowns` },
+          { '@type': 'MedicalProcedure', name: 'Full Mouth Rehabilitation', url: `${siteUrl}/services/full-mouth-rehab` },
+          { '@type': 'MedicalProcedure', name: 'Smile Makeover', url: `${siteUrl}/services/smile-makeover` },
         ],
         areaServed: [
           { '@type': 'City', name: 'Tirupati' },
@@ -135,18 +103,15 @@ export default function SchemaMarkup() {
       },
       {
         '@type': 'WebSite',
-        '@id': 'https://meghanadental.in/#website',
-        url: 'https://meghanadental.in',
-        name: 'Meghana Dental Hospital',
-        description: 'Best Dental Hospital in Tirupati, Andhra Pradesh',
+        '@id': `${siteUrl}/#website`,
+        url: siteUrl,
+        name,
+        description: s.site_tagline || 'Best Dental Hospital in Tirupati, Andhra Pradesh',
         inLanguage: 'en-IN',
-        publisher: { '@id': 'https://meghanadental.in/#dentist' },
+        publisher: { '@id': `${siteUrl}/#dentist` },
         potentialAction: {
           '@type': 'SearchAction',
-          target: {
-            '@type': 'EntryPoint',
-            urlTemplate: 'https://meghanadental.in/services?q={search_term_string}',
-          },
+          target: { '@type': 'EntryPoint', urlTemplate: `${siteUrl}/services?q={search_term_string}` },
           'query-input': 'required name=search_term_string',
         },
       },

@@ -53,3 +53,5 @@ next-env.d.ts
 *.indd
 public/image/*.pdf
 public/image/brochure*
+
+/src/generated/prisma

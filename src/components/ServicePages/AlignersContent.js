@@ -1,6 +1,6 @@
 import ServicePageLayout from './ServicePageLayout';
 
-const serviceData = {
+export const serviceData = {
   accent: '#0891b2',
   contentImage: '/services/aligners-img2.jpg',
 
@@ -146,6 +146,6 @@ const serviceData = {
   ],
 };
 
-export default function AlignersContent() {
-  return <ServicePageLayout data={serviceData} />;
+export default function AlignersContent({ overrides = {} }) {
+  return <ServicePageLayout data={{ ...serviceData, ...overrides }} />;
 }

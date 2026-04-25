@@ -2,8 +2,12 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import MicroscopeContent from '@/components/ServicePages/MicroscopeContent';
+import { getSeo, buildMetadata } from '@/lib/seo';
+import { getServicePageOverrides } from '@/lib/servicePage';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('service:microscope-dentistry');
+  return buildMetadata(seo, {
   title: 'Dental Microscope Dentist Tirupati | 25× Magnification RCT',
   description:
     'Dental microscope with 25× magnification — only clinic in Tirupati with this gold-standard technology. Precision root canals, microsurgery, crack detection.',
@@ -19,7 +23,8 @@ export const metadata = {
     images: [{ url: '/images/microscope-equipment.jpg', width: 1200, height: 630, alt: 'Dental Operating Microscope (25× Magnification) — Meghana Dental Hospital Tirupati' }],
     type: 'website',
   },
-};
+});
+}
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -60,27 +65,29 @@ const faqSchema = {
   ],
 };
 
-export default function MicroscopeDentistryPage() {
+export default async function MicroscopeDentistryPage() {
+  const ov = await getServicePageOverrides('microscope-dentistry');
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Navbar />
       <ServicePageHero
-        titleBefore="Microscope"
-        titleHighlight="Dentistry"
-        description="Tirupati's most precise dental care — powered by dental operating microscope with 25× magnification. See more, treat better, heal faster. Available only at Meghana Dental Hospital."
+        titleBefore={ov.titleBefore || 'Microscope'}
+        titleHighlight={ov.titleHighlight || 'Dentistry'}
+        description={ov.description || "Tirupati's most precise dental care — powered by dental operating microscope with 25× magnification. See more, treat better, heal faster. Available only at Meghana Dental Hospital."}
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Microscope Dentistry' }]}
-        image="/images/microscope-use.jpg"
+        titleAfter={ov.titleAfter || ' in Tirupati'}
+        image={ov.heroImage || '/images/microscope-use.jpg'}
         gradient="linear-gradient(135deg, #4f46e5 0%, #0f766e 100%)"
         accent="#4f46e5"
-        stats={[
+        stats={Array.isArray(ov.stats) && ov.stats.length > 0 ? ov.stats : [
           { icon: 'bi-search', label: 'Magnification', value: 'Up to 25×' },
           { icon: 'bi-patch-check', label: 'Technology', value: 'Operating Microscope' },
           { icon: 'bi-geo-alt-fill', label: 'Availability', value: 'Only in Tirupati' },
           { icon: 'bi-award', label: 'Experience', value: '17+ Years' },
         ]}
       />
-      <MicroscopeContent />
+      <MicroscopeContent overrides={ov} />
       <Footer />
     </>
   );

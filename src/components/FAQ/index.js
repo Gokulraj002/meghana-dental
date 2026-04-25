@@ -2,42 +2,7 @@
 
 import { useState } from 'react';
 
-const faqs = [
-  {
-    q: 'Is root canal treatment painful?',
-    a: 'No. At Meghana Dental Hospital, we use advanced local anesthesia techniques combined with our dental microscope with 25× magnification for precision. Most patients feel little to no discomfort during and after the procedure. We also offer single-sitting RCT to minimize the number of visits.',
-  },
-  {
-    q: 'How long do dental implants last?',
-    a: 'Dental implants are designed to be permanent — with proper care, they can last a lifetime. The titanium post fuses with your jawbone in a process called osseointegration, creating a stable, natural-feeling tooth that looks and functions like a real one.',
-  },
-  {
-    q: 'At what age can my child get braces?',
-    a: 'Orthodontic treatment can typically begin around age 10–14 when most permanent teeth have come in. However, early consultation at age 7–8 helps us identify any developing issues. Adults can get braces or clear aligners at any age.',
-  },
-  {
-    q: 'How often should I visit the dentist?',
-    a: 'We recommend a dental check-up and professional cleaning every 6 months. Regular visits help detect problems early — including cavities, gum disease, and oral cancer — before they become more serious and expensive to treat.',
-  },
-  {
-    q: 'Do you offer payment plans or EMI options?',
-    a: 'Yes. We believe quality dental care should be accessible to everyone. We offer flexible payment plans and zero-cost EMI options on major treatments including dental implants, orthodontics, and full-mouth rehabilitation. Speak to our team at reception.',
-  },
-  {
-    q: 'What is microscope dentistry and why is it better?',
-    a: 'Microscope dentistry uses a dental microscope with up to 25× magnification to see and treat dental issues with far greater precision than the naked eye. This means better outcomes for root canals, cavity preparations, and surgical procedures — with minimal damage to healthy tooth structure.',
-  },
-  {
-    q: 'Are the sterilization standards safe?',
-    a: 'Absolutely. We follow international infection control protocols including Class B autoclave sterilization for all instruments, disposable single-use items wherever required, and strict surface disinfection between patients. Your safety is our top priority.',
-  },
-  {
-    q: 'Can I book an appointment on WhatsApp?',
-    a: "Yes! You can message us directly on WhatsApp to book an appointment, ask questions, or get a treatment quote. Just tap the WhatsApp button on our website and we'll respond promptly during clinic hours.",
-  },
-];
-
-export default function FAQSection() {
+export default function FAQSection({ faqs = [] }) {
   const [open, setOpen] = useState(null);
 
   const toggle = (i) => setOpen(open === i ? null : i);
@@ -77,12 +42,12 @@ export default function FAQSection() {
             <div className="faq-list">
               {faqs.map((faq, i) => (
                 <div
-                  key={i}
+                  key={faq.id || i}
                   className={`faq-item ${open === i ? 'open' : ''}`}
                   onClick={() => toggle(i)}
                 >
                   <div className="faq-question">
-                    <span>{faq.q}</span>
+                    <span>{faq.q || faq.question}</span>
                     <div className="faq-icon">
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" width="16" height="16">
                         {open === i
@@ -94,7 +59,7 @@ export default function FAQSection() {
                   </div>
                   {open === i && (
                     <div className="faq-answer">
-                      <p>{faq.a}</p>
+                      <p>{faq.a || faq.answer}</p>
                     </div>
                   )}
                 </div>

@@ -4,8 +4,11 @@ import ContactHero from '@/components/Contact/ContactHero';
 import ContactInfoCards from '@/components/Contact/ContactInfoCards';
 import ContactForm from '@/components/Contact/ContactForm';
 import ContactMapSection from '@/components/Contact/ContactMapSection';
+import { getSeo, buildMetadata } from '@/lib/seo';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('contact');
+  return buildMetadata(seo, {
   title: 'Book Dental Appointment in Tirupati | Call & WhatsApp',
   description:
     'Contact Meghana Dental Hospital Tirupati. Book a dental appointment via WhatsApp, call, or visit our clinic at Ashok Nagar, Tirupati, Andhra Pradesh.',
@@ -20,7 +23,8 @@ export const metadata = {
     siteName: 'Meghana Dental Hospital',
     type: 'website',
   },
-};
+});
+}
 
 export default function ContactPage() {
   return (

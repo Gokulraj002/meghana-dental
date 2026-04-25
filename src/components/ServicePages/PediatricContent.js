@@ -1,6 +1,6 @@
 import ServicePageLayout from './ServicePageLayout';
 
-const serviceData = {
+export const serviceData = {
   accent: '#ec4899',
   contentImage: '/services/Pediatric-Dentistry.jpg',
 
@@ -148,6 +148,6 @@ const serviceData = {
   ],
 };
 
-export default function PediatricContent() {
-  return <ServicePageLayout data={serviceData} />;
+export default function PediatricContent({ overrides = {} }) {
+  return <ServicePageLayout data={{ ...serviceData, ...overrides }} />;
 }

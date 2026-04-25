@@ -2,8 +2,12 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import FullMouthRehabContent from '@/components/ServicePages/FullMouthRehabContent';
+import { getSeo, buildMetadata } from '@/lib/seo';
+import { getServicePageOverrides } from '@/lib/servicePage';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('service:full-mouth-rehab');
+  return buildMetadata(seo, {
   title: 'Full Mouth Rehabilitation Tirupati | Complete Smile Restore',
   description:
     'Complete smile reconstruction in Tirupati with multi-specialist team — implants, crowns, orthodontics, phased treatment plan. EMI available.',
@@ -18,7 +22,8 @@ export const metadata = {
     images: [{ url: '/images/about-clinic.png', width: 1200, height: 630, alt: 'Full Mouth Rehabilitation in Tirupati' }],
     type: 'website',
   },
-};
+});
+}
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -47,27 +52,29 @@ const faqSchema = {
   ],
 };
 
-export default function FullMouthRehabPage() {
+export default async function FullMouthRehabPage() {
+  const ov = await getServicePageOverrides('full-mouth-rehab');
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Navbar />
       <ServicePageHero
-        titleBefore="Full Mouth"
-        titleHighlight="Rehabilitation"
-        description="Complete smile reconstruction for patients with multiple damaged, decayed, or missing teeth. Our multi-specialist team in Tirupati restores your oral health, function, and confidence — all under one roof."
+        titleBefore={ov.titleBefore || 'Full Mouth'}
+        titleHighlight={ov.titleHighlight || 'Rehabilitation'}
+        description={ov.description || "Complete smile reconstruction for patients with multiple damaged, decayed, or missing teeth. Our multi-specialist team in Tirupati restores your oral health, function, and confidence — all under one roof."}
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Full Mouth Rehab' }]}
-        image="/services/fmr-before-after-1.jpg"
+        titleAfter={ov.titleAfter || ' in Tirupati'}
+        image={ov.heroImage || '/services/fmr-before-after-1.jpg'}
         gradient="linear-gradient(135deg, #0f766e 0%, #1e3a5f 100%)"
         accent="#0f766e"
-        stats={[
+        stats={Array.isArray(ov.stats) && ov.stats.length > 0 ? ov.stats : [
           { icon: 'bi-calendar2-range', label: 'Duration', value: '3–4 Months' },
           { icon: 'bi-people-fill', label: 'Specialists', value: 'Full Team On-Site' },
           { icon: 'bi-laptop', label: 'Smile Preview', value: 'Digital Design' },
           { icon: 'bi-credit-card', label: 'Payment', value: 'EMI Available' },
         ]}
       />
-      <FullMouthRehabContent />
+      <FullMouthRehabContent overrides={ov} />
       <Footer />
     </>
   );

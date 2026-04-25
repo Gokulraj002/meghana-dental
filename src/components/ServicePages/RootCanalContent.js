@@ -1,6 +1,6 @@
 import ServicePageLayout from './ServicePageLayout';
 
-const serviceData = {
+export const serviceData = {
   accent: '#3b82f6',
   contentImage: '/services/Root-Canal-Treatment.jpg',
 
@@ -149,6 +149,6 @@ const serviceData = {
   ],
 };
 
-export default function RootCanalContent() {
-  return <ServicePageLayout data={serviceData} />;
+export default function RootCanalContent({ overrides = {} }) {
+  return <ServicePageLayout data={{ ...serviceData, ...overrides }} />;
 }

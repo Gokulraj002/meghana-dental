@@ -2,8 +2,12 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import DentalCrownsContent from '@/components/ServicePages/DentalCrownsContent';
+import { getSeo, buildMetadata } from '@/lib/seo';
+import { getServicePageOverrides } from '@/lib/servicePage';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('service:dental-crowns');
+  return buildMetadata(seo, {
   title: 'Best Dental Crowns & Bridges in Tirupati | Zirconia',
   description:
     'Premium zirconia, e.max & PFM crowns & bridges in Tirupati. Natural-looking, long-lasting restorations by MDS prosthodontists. Transparent pricing.',
@@ -18,7 +22,8 @@ export const metadata = {
     images: [{ url: '/images/dental-clinic-interior.jpg', width: 1200, height: 630, alt: 'Dental Crowns and Bridges in Tirupati' }],
     type: 'website',
   },
-};
+});
+}
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -47,27 +52,29 @@ const faqSchema = {
   ],
 };
 
-export default function DentalCrownsPage() {
+export default async function DentalCrownsPage() {
+  const ov = await getServicePageOverrides('dental-crowns');
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Navbar />
       <ServicePageHero
-        titleBefore="Dental Crowns"
-        titleHighlight="& Bridges"
-        description="Protect damaged teeth and replace missing ones with premium zirconia, e.max, and PFM crowns. Natural-looking, long-lasting restorations crafted by specialist prosthodontists in Tirupati."
+        titleBefore={ov.titleBefore || 'Dental Crowns'}
+        titleHighlight={ov.titleHighlight || '& Bridges'}
+        description={ov.description || "Protect damaged teeth and replace missing ones with premium zirconia, e.max, and PFM crowns. Natural-looking, long-lasting restorations crafted by specialist prosthodontists in Tirupati."}
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Crowns & Bridges' }]}
-        image="/images/about-clinic.png"
+        titleAfter={ov.titleAfter || ' in Tirupati'}
+        image={ov.heroImage || '/images/about-clinic.png'}
         gradient="linear-gradient(135deg, #d97706 0%, #b45309 100%)"
         accent="#d97706"
-        stats={[
+        stats={Array.isArray(ov.stats) && ov.stats.length > 0 ? ov.stats : [
           { icon: 'bi-gem', label: 'Crown Types', value: 'Zirconia, e.max, PFM' },
           { icon: 'bi-calendar-event', label: 'Appointments', value: '2 Visits' },
           { icon: 'bi-clock-history', label: 'Lifespan', value: '15–25+ Years' },
           { icon: 'bi-clock', label: 'Lab Time', value: '3–5 Working Days' },
         ]}
       />
-      <DentalCrownsContent />
+      <DentalCrownsContent overrides={ov} />
       <Footer />
     </>
   );

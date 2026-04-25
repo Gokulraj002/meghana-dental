@@ -3,8 +3,11 @@ import Footer from '@/components/Footer';
 import DoctorsHero from '@/components/Doctors/DoctorsHero';
 import DoctorsProfiles from '@/components/Doctors/DoctorsProfiles';
 import DoctorsCTASection from '@/components/Doctors/DoctorsCTASection';
+import { getSeo, buildMetadata } from '@/lib/seo';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('doctors');
+  return buildMetadata(seo, {
   title: 'Best MDS Dentist Specialists in Tirupati | Expert Team',
   description:
     'Meet the MDS-qualified dental specialists at Meghana Dental Hospital Tirupati — expert team with decades of combined experience in every speciality.',
@@ -20,7 +23,8 @@ export const metadata = {
     images: [{ url: '/images/dr-hemu.jpg', width: 1200, height: 630, alt: 'MDS Dental Specialists at Meghana Dental Hospital, Tirupati' }],
     type: 'website',
   },
-};
+});
+}
 
 const doctorsSchema = {
   '@context': 'https://schema.org',

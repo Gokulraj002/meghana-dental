@@ -1,5 +1,3 @@
-"use client";
-
 import HeroContent from './HeroContent';
 import HeroImage from './HeroImage';
 import HeroMarquee from './HeroMarquee';

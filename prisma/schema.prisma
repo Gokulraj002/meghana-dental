@@ -1,0 +1,193 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model AdminUser {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+  @@map("admin_users")
+}
+
+model Service {
+  id          Int      @id @default(autoincrement())
+  title       String
+  slug        String   @unique
+  description String?  @db.Text
+  shortDesc   String?  @db.VarChar(500)
+  icon        String?  @db.VarChar(100)
+  image       String?  @db.VarChar(500)
+  accentColor String   @default("#0ea5e9") @db.VarChar(20)
+  isActive    Boolean  @default(true)
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  @@map("services")
+}
+
+model Doctor {
+  id            Int      @id @default(autoincrement())
+  name          String
+  qualification String?
+  speciality    String?
+  experience    String?  @db.VarChar(100)
+  photo         String?  @db.VarChar(500)
+  bio           String?  @db.Text
+  isActive      Boolean  @default(true)
+  sortOrder     Int      @default(0)
+  createdAt     DateTime @default(now())
+  @@map("doctors")
+}
+
+model Testimonial {
+  id            Int      @id @default(autoincrement())
+  patientName   String
+  rating        Int      @default(5)
+  review        String   @db.Text
+  service       String?
+  datePublished DateTime @default(now())
+  isActive      Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  @@map("testimonials")
+}
+
+model SiteSetting {
+  id           Int      @id @default(autoincrement())
+  settingKey   String   @unique
+  settingValue String?  @db.Text
+  settingGroup String   @default("general") @db.VarChar(100)
+  updatedAt    DateTime @updatedAt
+  @@map("site_settings")
+}
+
+model Faq {
+  id        Int      @id @default(autoincrement())
+  question  String   @db.Text
+  answer    String   @db.Text
+  sortOrder Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  @@map("faqs")
+}
+
+model Gallery {
+  id        Int      @id @default(autoincrement())
+  imageUrl  String   @db.VarChar(500)
+  title     String?  @db.VarChar(255)
+  category  String   @default("general") @db.VarChar(100)
+  sortOrder Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  @@map("gallery")
+}
+
+model SeoMeta {
+  id              Int      @id @default(autoincrement())
+  pageKey         String   @unique @db.VarChar(150)
+  pageTitle       String?  @db.VarChar(255)
+  metaTitle       String?  @db.VarChar(255)
+  metaDescription String?  @db.Text
+  metaKeywords    String?  @db.Text
+  canonical       String?  @db.VarChar(500)
+  ogTitle         String?  @db.VarChar(255)
+  ogDescription   String?  @db.Text
+  ogImage         String?  @db.VarChar(500)
+  schemaJson      String?  @db.Text
+  updatedAt       DateTime @updatedAt
+  @@map("seo_meta")
+}
+
+model MenuItem {
+  id        Int      @id @default(autoincrement())
+  label     String   @db.VarChar(100)
+  href      String   @db.VarChar(500)
+  location  String   @default("navbar") @db.VarChar(50)
+  parentId  Int?
+  sortOrder Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  @@map("menu_items")
+}
+
+model Partner {
+  id        Int      @id @default(autoincrement())
+  name      String   @db.VarChar(200)
+  logo      String?  @db.VarChar(500)
+  url       String?  @db.VarChar(500)
+  sortOrder Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  @@map("partners")
+}
+
+model Problem {
+  id        Int      @id @default(autoincrement())
+  title     String   @db.VarChar(200)
+  desc      String?  @db.Text
+  icon      String?  @db.VarChar(100)
+  color     String?  @db.VarChar(50)
+  sortOrder Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  @@map("problems")
+}
+
+model Facility {
+  id        Int      @id @default(autoincrement())
+  title     String   @db.VarChar(200)
+  desc      String?  @db.Text
+  image     String?  @db.VarChar(500)
+  icon      String?  @db.VarChar(100)
+  sortOrder Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  @@map("facilities")
+}
+
+model AboutFeature {
+  id        Int      @id @default(autoincrement())
+  title     String   @db.VarChar(200)
+  desc      String?  @db.Text
+  icon      String?  @db.VarChar(100)
+  sortOrder Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  @@map("about_features")
+}
+
+model HeroStat {
+  id        Int      @id @default(autoincrement())
+  label     String   @db.VarChar(100)
+  value     String   @db.VarChar(100)
+  icon      String?  @db.VarChar(100)
+  sortOrder Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  @@map("hero_stats")
+}
+
+model MarqueeItem {
+  id        Int      @id @default(autoincrement())
+  text      String   @db.VarChar(255)
+  icon      String?  @db.VarChar(100)
+  sortOrder Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  @@map("marquee_items")
+}
+
+model Quote {
+  id        Int      @id @default(autoincrement())
+  text      String   @db.Text
+  icon      String?  @db.VarChar(100)
+  sortOrder Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  @@map("quotes")
+}

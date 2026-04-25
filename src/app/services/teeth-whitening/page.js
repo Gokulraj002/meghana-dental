@@ -2,8 +2,12 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import TeethWhiteningContent from '@/components/ServicePages/TeethWhiteningContent';
+import { getSeo, buildMetadata } from '@/lib/seo';
+import { getServicePageOverrides } from '@/lib/servicePage';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('service:teeth-whitening');
+  return buildMetadata(seo, {
   title: 'Laser Teeth Whitening Tirupati | 8 Shades Brighter',
   description:
     'Professional teeth whitening in Tirupati — in-office laser whitening up to 8 shades brighter in one visit. Safe, pain-free, long-lasting results.',
@@ -19,7 +23,8 @@ export const metadata = {
     images: [{ url: '/images/dental-chair.jpg', width: 1200, height: 630, alt: 'Teeth Whitening Treatment in Tirupati — Meghana Dental' }],
     type: 'website',
   },
-};
+});
+}
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -52,27 +57,29 @@ const faqSchema = {
   ],
 };
 
-export default function TeethWhiteningPage() {
+export default async function TeethWhiteningPage() {
+  const ov = await getServicePageOverrides('teeth-whitening');
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Navbar />
       <ServicePageHero
-        titleBefore="Teeth Whitening &"
-        titleHighlight="Cosmetic Dentistry"
-        description="Unlock a brighter, more confident smile in Tirupati — professional laser whitening, smile makeovers, veneers, and complete cosmetic dental transformations at Meghana Dental Hospital."
+        titleBefore={ov.titleBefore || 'Teeth Whitening &'}
+        titleHighlight={ov.titleHighlight || 'Cosmetic Dentistry'}
+        description={ov.description || "Unlock a brighter, more confident smile in Tirupati — professional laser whitening, smile makeovers, veneers, and complete cosmetic dental transformations at Meghana Dental Hospital."}
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Teeth Whitening' }]}
-        image="/services/Teeth-Whitening01.jpg"
+        titleAfter={ov.titleAfter || ' in Tirupati'}
+        image={ov.heroImage || '/services/Teeth-Whitening01.jpg'}
         gradient="linear-gradient(135deg, #f59e0b 0%, #ea580c 100%)"
         accent="#f59e0b"
-        stats={[
+        stats={Array.isArray(ov.stats) && ov.stats.length > 0 ? ov.stats : [
           { icon: 'bi-clock', label: 'In-Office Duration', value: '45–60 min' },
           { icon: 'bi-brightness-high-fill', label: 'Shade Improvement', value: 'Up to 8 shades' },
           { icon: 'bi-calendar-check', label: 'Results Last', value: '1–3 years' },
           { icon: 'bi-house-fill', label: 'Take-Home Kit', value: '2–3 weeks' },
         ]}
       />
-      <TeethWhiteningContent />
+      <TeethWhiteningContent overrides={ov} />
       <Footer />
     </>
   );

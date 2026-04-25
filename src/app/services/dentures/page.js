@@ -2,8 +2,12 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import DenturesContent from '@/components/ServicePages/DenturesContent';
+import { getSeo, buildMetadata } from '@/lib/seo';
+import { getServicePageOverrides } from '@/lib/servicePage';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('service:dentures');
+  return buildMetadata(seo, {
   title: 'Dentures in Tirupati | BPS Precision & Implant Supported',
   description:
     'Premium dentures in Tirupati — BPS precision dentures, flexible partials, implant-supported dentures. Natural look, perfect fit, MDS prosthodontist.',
@@ -19,7 +23,8 @@ export const metadata = {
     images: [{ url: '/images/bps-dentures.jpg', width: 1200, height: 630, alt: 'BPS Precision Dentures in Tirupati — Meghana Dental' }],
     type: 'website',
   },
-};
+});
+}
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -52,27 +57,29 @@ const faqSchema = {
   ],
 };
 
-export default function DenturesPage() {
+export default async function DenturesPage() {
+  const ov = await getServicePageOverrides('dentures');
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Navbar />
       <ServicePageHero
-        titleBefore="Dentures &"
-        titleHighlight="Prosthetics"
-        description="Restore your complete smile in Tirupati with premium denture solutions — BPS precision dentures, flexible partials, and implant-supported options for maximum comfort and a natural appearance."
+        titleBefore={ov.titleBefore || 'Dentures &'}
+        titleHighlight={ov.titleHighlight || 'Prosthetics'}
+        description={ov.description || "Restore your complete smile in Tirupati with premium denture solutions — BPS precision dentures, flexible partials, and implant-supported options for maximum comfort and a natural appearance."}
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Dentures' }]}
-        image="/services/Dentures-Prosthetics.jpg"
+        titleAfter={ov.titleAfter || ' in Tirupati'}
+        image={ov.heroImage || '/services/Dentures-Prosthetics.jpg'}
         gradient="linear-gradient(135deg, #10b981 0%, #059669 100%)"
         accent="#10b981"
-        stats={[
+        stats={Array.isArray(ov.stats) && ov.stats.length > 0 ? ov.stats : [
           { icon: 'bi-calendar', label: 'Treatment Visits', value: '4–5 visits' },
           { icon: 'bi-clock-history', label: 'Lifespan', value: '5–8+ years' },
           { icon: 'bi-person-check-fill', label: 'Specialist', value: 'Prosthodontist' },
           { icon: 'bi-list-ul', label: 'Types Available', value: '5 types' },
         ]}
       />
-      <DenturesContent />
+      <DenturesContent overrides={ov} />
       <Footer />
     </>
   );

@@ -1,25 +1,34 @@
 import Image from 'next/image';
+import { getPartners } from '@/lib/content';
 
-const panels = [
-  { src: '/empanelled/govt-of-india.png',     alt: 'Government of India',                   label: 'Govt. of India' },
-  { src: '/empanelled/echs.png',              alt: 'ECHS — Ex-servicemen Health Scheme',     label: 'ECHS' },
-  { src: '/empanelled/ttd.png',               alt: 'Tirumala Tirupati Devasthanams',          label: 'TTD' },
-  { src: '/empanelled/ap-police.png',         alt: 'Andhra Pradesh Police',                  label: 'AP Police' },
-  { src: '/empanelled/apsrtc.png',            alt: 'APSRTC',                                 label: 'APSRTC' },
-  { src: '/empanelled/southern-power-ap.png', alt: 'Southern Power Distribution AP',         label: 'Southern Power AP' },
-  { src: '/empanelled/aptransco.png',         alt: 'APTRANSCO',                              label: 'APTRANSCO' },
-  { src: '/empanelled/bsnl.png',              alt: 'BSNL',                                   label: 'BSNL' },
-  { src: '/empanelled/india-post.png',        alt: 'India Post',                             label: 'India Post' },
-  { src: '/empanelled/ntr-vaidyaseva.png',    alt: 'Dr. NTR Vaidya Seva',                    label: 'NTR Vaidya Seva' },
-  { src: '/empanelled/bank.png',              alt: 'Bank Employees',                         label: 'Bank Employees' },
+const FALLBACK = [
+  { name: 'Government of India', logo: '/empanelled/govt-of-india.png' },
+  { name: 'ECHS', logo: '/empanelled/echs.png' },
+  { name: 'Tirumala Tirupati Devasthanams', logo: '/empanelled/ttd.png' },
+  { name: 'Andhra Pradesh Police', logo: '/empanelled/ap-police.png' },
+  { name: 'APSRTC', logo: '/empanelled/apsrtc.png' },
+  { name: 'Southern Power Distribution AP', logo: '/empanelled/southern-power-ap.png' },
+  { name: 'APTRANSCO', logo: '/empanelled/aptransco.png' },
+  { name: 'BSNL', logo: '/empanelled/bsnl.png' },
+  { name: 'India Post', logo: '/empanelled/india-post.png' },
+  { name: 'Dr. NTR Vaidya Seva', logo: '/empanelled/ntr-vaidyaseva.png' },
+  { name: 'Bank Employees', logo: '/empanelled/bank.png' },
 ];
 
-export default function EmpanelledSection() {
+function shortLabel(name) {
+  if (!name) return '';
+  // Strip parenthetical, take first phrase before " — "
+  const trimmed = name.split('—')[0].split('-').slice(0, 2).join('-').trim();
+  return trimmed.length > 22 ? trimmed.split(' ').slice(0, 3).join(' ') : trimmed;
+}
+
+export default async function EmpanelledSection() {
+  const rows = await getPartners();
+  const panels = rows.length > 0 ? rows : FALLBACK;
+
   return (
     <section className="empanelled-section section-padding">
       <div className="container">
-
-        {/* Header */}
         <div className="section-header">
           <span className="subtitle">RECOGNISED & EMPANELLED</span>
           <h2>Trusted by Government & Public Sector</h2>
@@ -31,7 +40,6 @@ export default function EmpanelledSection() {
           </p>
         </div>
 
-        {/* NABH badge + empanelment count */}
         <div className="empanelled-badges">
           <div className="emp-badge emp-badge--nabh">
             <i className="bi bi-patch-check-fill" />
@@ -43,30 +51,30 @@ export default function EmpanelledSection() {
           <div className="emp-badge emp-badge--count">
             <i className="bi bi-building-fill" />
             <div>
-              <strong>11+ Organisations</strong>
+              <strong>{panels.length}+ Organisations</strong>
               <span>Empanelled Government & PSU Bodies</span>
             </div>
           </div>
         </div>
 
-        {/* Logo grid */}
         <div className="empanelled-grid">
           {panels.map((p, i) => (
-            <div className="emp-logo-card" key={i} title={p.alt}>
+            <div className="emp-logo-card" key={p.id || i} title={p.name}>
               <div className="emp-logo-img">
-                <Image
-                  src={p.src}
-                  alt={p.alt}
-                  width={120}
-                  height={80}
-                  style={{ objectFit: 'contain', width: '100%', height: '100%' }}
-                />
+                {p.logo && (
+                  <Image
+                    src={p.logo}
+                    alt={p.name}
+                    width={120}
+                    height={80}
+                    style={{ objectFit: 'contain', width: '100%', height: '100%' }}
+                  />
+                )}
               </div>
-              <span className="emp-logo-label">{p.label}</span>
+              <span className="emp-logo-label">{shortLabel(p.name)}</span>
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );

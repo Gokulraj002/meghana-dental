@@ -1,21 +1,34 @@
-const stats = [
-  { number: '17', suffix: '+', label: 'Years Experience' },
-  { number: '50K', suffix: '+', label: 'Happy Patients' },
-  { number: '6',  suffix: '+', label: 'Specialist Doctors' },
-  { number: '12', suffix: '+', label: 'Dental Services' },
+import { getHeroStats } from '@/lib/content';
+
+const FALLBACK = [
+  { value: '17+', label: 'Years Experience' },
+  { value: '50K+', label: 'Happy Patients' },
+  { value: '6+', label: 'Specialist Doctors' },
+  { value: '14+', label: 'Dental Services' },
 ];
 
-export default function HeroStats() {
+function splitValue(v) {
+  const m = String(v || '').match(/^([\d.,]+)(.*)$/);
+  return m ? { number: m[1], suffix: m[2] || '' } : { number: v || '', suffix: '' };
+}
+
+export default async function HeroStats() {
+  const rows = await getHeroStats();
+  const stats = rows.length > 0 ? rows : FALLBACK;
+
   return (
     <div className="hero-stats">
-      {stats.map((s, i) => (
-        <div className="hero-stat" key={i}>
-          <div className="hero-stat-number">
-            {s.number}<span>{s.suffix}</span>
+      {stats.map((s, i) => {
+        const { number, suffix } = splitValue(s.value);
+        return (
+          <div className="hero-stat" key={s.id || i}>
+            <div className="hero-stat-number">
+              {number}<span>{suffix}</span>
+            </div>
+            <div className="hero-stat-label">{s.label}</div>
           </div>
-          <div className="hero-stat-label">{s.label}</div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 }

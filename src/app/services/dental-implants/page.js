@@ -2,8 +2,12 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import DentalImplantsContent from '@/components/ServicePages/DentalImplantsContent';
+import { getSeo, buildMetadata } from '@/lib/seo';
+import { getServicePageOverrides } from '@/lib/servicePage';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('service:dental-implants');
+  return buildMetadata(seo, {
   title: 'Best Dental Implants in Tirupati | Affordable Cost',
   description:
     'Dental implants in Tirupati by expert MDS specialists. Single & multiple implants, All-on-4, same-day implants. Transparent pricing. Book now.',
@@ -19,7 +23,8 @@ export const metadata = {
     images: [{ url: '/services/dental-implants.jpg', width: 1200, height: 630, alt: 'Dental Implants in Tirupati — Meghana Dental Hospital' }],
     type: 'website',
   },
-};
+});
+}
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -68,26 +73,28 @@ const faqSchema = {
   ],
 };
 
-export default function DentalImplantsPage() {
+export default async function DentalImplantsPage() {
+  const ov = await getServicePageOverrides('dental-implants');
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Navbar />
       <ServicePageHero
-        titleBefore="Dental"
-        titleHighlight="Implants"
-        description="Restore your smile permanently with world-class dental implants in Tirupati. Our MDS specialists use cutting-edge titanium implant systems for natural-looking, lifelong tooth replacement."
+        titleBefore={ov.titleBefore || 'Dental'}
+        titleHighlight={ov.titleHighlight || 'Implants'}
+        description={ov.description || "Restore your smile permanently with world-class dental implants in Tirupati. Our MDS specialists use cutting-edge titanium implant systems for natural-looking, lifelong tooth replacement."}
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Dental Implants' }]}
-        image="/services/dental-implants.jpg"
+        titleAfter={ov.titleAfter || ' in Tirupati'}
+        image={ov.heroImage || '/services/dental-implants.jpg'}
         accent="#0ea5e9"
-        stats={[
+        stats={Array.isArray(ov.stats) && ov.stats.length > 0 ? ov.stats : [
           { icon: 'bi-clock', label: 'Surgery Duration', value: '30–90 min' },
           { icon: 'bi-calendar', label: 'Healing Time', value: '2–3 months' },
           { icon: 'bi-shield-check', label: 'Success Rate', value: '95%+' },
           { icon: 'bi-heart-fill', label: 'Lifespan', value: '20+ years' },
         ]}
       />
-      <DentalImplantsContent />
+      <DentalImplantsContent overrides={ov} />
       <Footer />
     </>
   );

@@ -1,6 +1,6 @@
 import ServicePageLayout from './ServicePageLayout';
 
-const serviceData = {
+export const serviceData = {
   accent: '#4f46e5',
   contentImage: '/images/microscope-use.jpg',
 
@@ -148,6 +148,6 @@ const serviceData = {
   ],
 };
 
-export default function MicroscopeContent() {
-  return <ServicePageLayout data={serviceData} />;
+export default function MicroscopeContent({ overrides = {} }) {
+  return <ServicePageLayout data={{ ...serviceData, ...overrides }} />;
 }

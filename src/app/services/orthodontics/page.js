@@ -2,8 +2,12 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import OrthodonticsContent from '@/components/ServicePages/OrthodonticsContent';
+import { getSeo, buildMetadata } from '@/lib/seo';
+import { getServicePageOverrides } from '@/lib/servicePage';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('service:orthodontics');
+  return buildMetadata(seo, {
   title: 'Best Orthodontist in Tirupati | Braces & Teeth Alignment',
   description:
     'Tirupati’s trusted orthodontist for dental braces & teeth alignment. Metal, ceramic & self-ligating braces. 3D oral scanning. Free assessment.',
@@ -19,7 +23,8 @@ export const metadata = {
     images: [{ url: '/images/ortho-metal-braces.jpg', width: 1200, height: 630, alt: 'Orthodontic Braces Treatment in Tirupati — Meghana Dental' }],
     type: 'website',
   },
-};
+});
+}
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -52,27 +57,29 @@ const faqSchema = {
   ],
 };
 
-export default function OrthodonticsPage() {
+export default async function OrthodonticsPage() {
+  const ov = await getServicePageOverrides('orthodontics');
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Navbar />
       <ServicePageHero
-        titleBefore="Orthodontic"
-        titleHighlight="Treatment"
-        description="Tirupati's trusted orthodontist for braces and teeth alignment. We deliver the right treatment after precise evaluation using advanced 3D oral scanners — for a confident, balanced smile."
+        titleBefore={ov.titleBefore || 'Orthodontic'}
+        titleHighlight={ov.titleHighlight || 'Treatment'}
+        description={ov.description || "Tirupati's trusted orthodontist for braces and teeth alignment. We deliver the right treatment after precise evaluation using advanced 3D oral scanners — for a confident, balanced smile."}
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Orthodontic Treatment' }]}
-        image="/images/ortho-metal-braces.jpg"
+        titleAfter={ov.titleAfter || ' in Tirupati'}
+        image={ov.heroImage || '/images/ortho-metal-braces.jpg'}
         gradient="linear-gradient(135deg, #8b5cf6 0%, #db2777 100%)"
         accent="#8b5cf6"
-        stats={[
+        stats={Array.isArray(ov.stats) && ov.stats.length > 0 ? ov.stats : [
           { icon: 'bi-calendar-range', label: 'Treatment Duration', value: '12–24 months' },
           { icon: 'bi-arrow-repeat', label: 'Visit Frequency', value: 'Every 4–6 wks' },
           { icon: 'bi-person-fill', label: 'Minimum Age', value: '7 years' },
           { icon: 'bi-shield-check', label: 'Technology', value: '3D Oral Scanner' },
         ]}
       />
-      <OrthodonticsContent />
+      <OrthodonticsContent overrides={ov} />
       <Footer />
     </>
   );

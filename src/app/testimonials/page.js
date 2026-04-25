@@ -4,8 +4,11 @@ import TestimonialsHero from '@/components/Testimonials/TestimonialsHero';
 import TestimonialsStatsBanner from '@/components/Testimonials/TestimonialsStatsBanner';
 import TestimonialsGrid from '@/components/Testimonials/TestimonialsGrid';
 import TestimonialsCTASection from '@/components/Testimonials/TestimonialsCTASection';
+import { getSeo, buildMetadata } from '@/lib/seo';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('testimonials');
+  return buildMetadata(seo, {
   title: 'Dental Patient Reviews Tirupati | 4.9★ Google Rating',
   description:
     'Read real patient reviews & testimonials for Meghana Dental Hospital Tirupati. 4.9★ Google rating from 850+ verified reviews. 50,000+ happy patients served.',
@@ -21,7 +24,8 @@ export const metadata = {
     images: [{ url: '/images/about-clinic.png', width: 1200, height: 630, alt: 'Patient Testimonials — Meghana Dental Hospital Tirupati' }],
     type: 'website',
   },
-};
+});
+}
 
 const reviewSchema = {
   '@context': 'https://schema.org',

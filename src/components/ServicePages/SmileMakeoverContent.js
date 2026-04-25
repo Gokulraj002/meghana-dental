@@ -1,6 +1,6 @@
 import ServicePageLayout from './ServicePageLayout';
 
-const serviceData = {
+export const serviceData = {
   accent: '#a21caf',
   contentImage: '/services/smile-makeover-cover.jpg',
 
@@ -149,6 +149,6 @@ const serviceData = {
   ],
 };
 
-export default function SmileMakeoverContent() {
-  return <ServicePageLayout data={serviceData} />;
+export default function SmileMakeoverContent({ overrides = {} }) {
+  return <ServicePageLayout data={{ ...serviceData, ...overrides }} />;
 }

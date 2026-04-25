@@ -2,8 +2,12 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import AlignersContent from '@/components/ServicePages/AlignersContent';
+import { getSeo, buildMetadata } from '@/lib/seo';
+import { getServicePageOverrides } from '@/lib/servicePage';
 
-export const metadata = {
+export async function generateMetadata() {
+  const seo = await getSeo('service:aligners');
+  return buildMetadata(seo, {
   title: 'Clear Aligners Tirupati | Invisible Teeth Straightening',
   description:
     'Invisible teeth straightening in Tirupati with custom clear aligners. 3D intra-oral scanning, removable trays, no metal braces. Book free 3D scan.',
@@ -19,7 +23,8 @@ export const metadata = {
     images: [{ url: '/images/aligners-trays.jpg', width: 1200, height: 630, alt: 'Clear Aligners in Tirupati — Meghana Dental Hospital' }],
     type: 'website',
   },
-};
+});
+}
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -52,27 +57,29 @@ const faqSchema = {
   ],
 };
 
-export default function AlignersPage() {
+export default async function AlignersPage() {
+  const ov = await getServicePageOverrides('aligners');
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Navbar />
       <ServicePageHero
-        titleBefore="Clear"
-        titleHighlight="Aligners"
-        description="Straighten your teeth discreetly in Tirupati with custom-fitted, transparent clear aligners — no metal braces, no wires, just a confident smile at your own pace."
+        titleBefore={ov.titleBefore || 'Clear'}
+        titleHighlight={ov.titleHighlight || 'Aligners'}
+        description={ov.description || "Straighten your teeth discreetly in Tirupati with custom-fitted, transparent clear aligners — no metal braces, no wires, just a confident smile at your own pace."}
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Clear Aligners' }]}
-        image="/images/aligners-wearing.jpg"
+        titleAfter={ov.titleAfter || ' in Tirupati'}
+        image={ov.heroImage || '/images/aligners-wearing.jpg'}
         gradient="linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)"
         accent="#0891b2"
-        stats={[
+        stats={Array.isArray(ov.stats) && ov.stats.length > 0 ? ov.stats : [
           { icon: 'bi-layers-fill', label: 'Aligner Sets', value: '14–26 trays' },
           { icon: 'bi-clock-fill', label: 'Daily Wear', value: '20–22 hrs/day' },
           { icon: 'bi-arrow-repeat', label: 'Change Every', value: '1–2 weeks' },
           { icon: 'bi-calendar-range', label: 'Total Duration', value: '6–18 months' },
         ]}
       />
-      <AlignersContent />
+      <AlignersContent overrides={ov} />
       <Footer />
     </>
   );

@@ -1,6 +1,6 @@
 import ServicePageLayout from './ServicePageLayout';
 
-const serviceData = {
+export const serviceData = {
   accent: '#0f766e',
   contentImage: '/services/fmr-before-after-1.jpg',
 
@@ -148,6 +148,6 @@ const serviceData = {
   ],
 };
 
-export default function FullMouthRehabContent() {
-  return <ServicePageLayout data={serviceData} />;
+export default function FullMouthRehabContent({ overrides = {} }) {
+  return <ServicePageLayout data={{ ...serviceData, ...overrides }} />;
 }

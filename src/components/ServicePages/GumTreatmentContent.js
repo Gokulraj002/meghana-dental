@@ -1,6 +1,6 @@
 import ServicePageLayout from './ServicePageLayout';
 
-const serviceData = {
+export const serviceData = {
   accent: '#14b8a6',
   contentImage: '/services/Gum-Treatment.jpg',
 
@@ -148,6 +148,6 @@ const serviceData = {
   ],
 };
 
-export default function GumTreatmentContent() {
-  return <ServicePageLayout data={serviceData} />;
+export default function GumTreatmentContent({ overrides = {} }) {
+  return <ServicePageLayout data={{ ...serviceData, ...overrides }} />;
 }
