@@ -12,6 +12,13 @@
  *      it feel broken when the DB is edited directly. Skip it in dev so every
  *      request always gets live data.
  *
+ * Error handling:
+ *   The try/catch is placed INSIDE the cached function (not outside it).
+ *   This prevents unstable_cache from logging the error internally before
+ *   a wrapper has a chance to catch it. When the DB is unavailable the
+ *   cached function quietly returns the fallback value so the build succeeds
+ *   and the site renders with the static defaults already in the components.
+ *
  * Tags (used by admin write handlers via revalidateTag):
  *   settings · menu · seo · services · doctors · testimonials · faqs ·
  *   gallery · partners · problems · facilities · quotes · about-features ·
@@ -23,11 +30,6 @@ import prisma from './prisma';
 
 const IS_DEV = process.env.NODE_ENV === 'development';
 const REVALIDATE = 3600; // seconds (production only)
-
-/** Wrap fn so it silently returns `fallback` on any error. */
-const safe = (fn, fallback) => async (...args) => {
-  try { return await fn(...args); } catch { return fallback; }
-};
 
 /**
  * In production: wrap with unstable_cache (disk-backed, tag-invalidatable).
@@ -42,16 +44,17 @@ const withCache = (fn, keys, tag) =>
 /*  SETTINGS                                                                  */
 /* -------------------------------------------------------------------------- */
 export const getSettings = cache(
-  safe(
-    withCache(
-      async () => {
+  withCache(
+    async () => {
+      try {
         const rows = await prisma.siteSetting.findMany();
         return Object.fromEntries(rows.map(r => [r.settingKey, r.settingValue]));
-      },
-      ['settings:all'],
-      'settings'
-    ),
-    {}
+      } catch {
+        return {};
+      }
+    },
+    ['settings:all'],
+    'settings'
   )
 );
 
@@ -59,17 +62,19 @@ export const getSettings = cache(
 /*  MENU                                                                      */
 /* -------------------------------------------------------------------------- */
 export const getMenu = cache(
-  safe(
-    withCache(
-      async (location) =>
-        prisma.menuItem.findMany({
+  withCache(
+    async (location) => {
+      try {
+        return await prisma.menuItem.findMany({
           where: { location, isActive: true },
           orderBy: { sortOrder: 'asc' },
-        }),
-      ['menu:by-location'],
-      'menu'
-    ),
-    []
+        });
+      } catch {
+        return [];
+      }
+    },
+    ['menu:by-location'],
+    'menu'
   )
 );
 
@@ -77,13 +82,16 @@ export const getMenu = cache(
 /*  SEO                                                                       */
 /* -------------------------------------------------------------------------- */
 export const getSeo = cache(
-  safe(
-    withCache(
-      async (pageKey) => prisma.seoMeta.findUnique({ where: { pageKey } }),
-      ['seo:by-key'],
-      'seo'
-    ),
-    null
+  withCache(
+    async (pageKey) => {
+      try {
+        return await prisma.seoMeta.findUnique({ where: { pageKey } });
+      } catch {
+        return null;
+      }
+    },
+    ['seo:by-key'],
+    'seo'
   )
 );
 
@@ -92,26 +100,31 @@ export const getSeo = cache(
 /* -------------------------------------------------------------------------- */
 const list = (model, tag, opts = {}) => {
   const fn = withCache(
-    async () =>
-      prisma[model].findMany({
-        where: { isActive: true },
-        orderBy: opts.orderBy || [{ sortOrder: 'asc' }, { createdAt: 'asc' }],
-      }),
+    async () => {
+      try {
+        return await prisma[model].findMany({
+          where: { isActive: true },
+          orderBy: opts.orderBy || [{ sortOrder: 'asc' }, { createdAt: 'asc' }],
+        });
+      } catch {
+        return [];
+      }
+    },
     [`${tag}:active`],
     tag
   );
-  return cache(safe(fn, []));
+  return cache(fn);
 };
 
-export const getServices       = list('service',       'services');
-export const getDoctors        = list('doctor',        'doctors');
-export const getTestimonials   = list('testimonial',   'testimonials', { orderBy: { createdAt: 'desc' } });
-export const getFaqs           = list('faq',           'faqs');
-export const getGalleryImages  = list('gallery',       'gallery');
-export const getPartners       = list('partner',       'partners');
-export const getProblems       = list('problem',       'problems');
-export const getFacilities     = list('facility',      'facilities');
-export const getQuotes         = list('quote',         'quotes');
-export const getAboutFeatures  = list('aboutFeature',  'about-features');
-export const getHeroStats      = list('heroStat',      'hero-stats');
-export const getMarqueeItems   = list('marqueeItem',   'marquee');
+export const getServices      = list('service',      'services');
+export const getDoctors       = list('doctor',       'doctors');
+export const getTestimonials  = list('testimonial',  'testimonials', { orderBy: { createdAt: 'desc' } });
+export const getFaqs          = list('faq',          'faqs');
+export const getGalleryImages = list('gallery',      'gallery');
+export const getPartners      = list('partner',      'partners');
+export const getProblems      = list('problem',      'problems');
+export const getFacilities    = list('facility',     'facilities');
+export const getQuotes        = list('quote',        'quotes');
+export const getAboutFeatures = list('aboutFeature', 'about-features');
+export const getHeroStats     = list('heroStat',     'hero-stats');
+export const getMarqueeItems  = list('marqueeItem',  'marquee');
