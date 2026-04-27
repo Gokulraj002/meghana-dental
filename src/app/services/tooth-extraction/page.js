@@ -57,9 +57,9 @@ export default function ToothExtractionPage() {
         titleHighlight="Extraction"
         description="Safe, painless tooth extraction and wisdom tooth removal in Tirupati. Our experienced oral surgeons use OPG X-ray planning for comfortable, precise procedures with minimal recovery time."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Tooth Extraction' }]}
-        image="/images/microscope-treatment.jpg"
-        gradient="linear-gradient(135deg, #64748b 0%, #334155 100%)"
-        accent="#64748b"
+        image="/services/wisdom-img1.jpg"
+        gradient="linear-gradient(135deg, #0EA5A0 0%, #12C4BE 100%)"
+        accent="#0EA5A0"
         stats={[
           { icon: 'bi-clock', label: 'Simple Extraction', value: '10–20 min' },
           { icon: 'bi-clock-fill', label: 'Surgical Extraction', value: '30–45 min' },

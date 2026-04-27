@@ -58,8 +58,8 @@ export default function GumTreatmentPage() {
         description="Stop bleeding gums and protect your smile. Our MDS periodontist in Tirupati provides complete periodontal care — from professional scaling to advanced laser gum surgery and bone grafting."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Gum Treatment' }]}
         image="/services/Gum-Treatment.jpg"
-        gradient="linear-gradient(135deg, #14b8a6 0%, #0284c7 100%)"
-        accent="#14b8a6"
+        gradient="linear-gradient(135deg, #0EA5A0 0%, #12C4BE 100%)"
+        accent="#0EA5A0"
         stats={[
           { icon: 'bi-activity', label: 'Scaling Session', value: '30–60 min' },
           { icon: 'bi-calendar2', label: 'Deep Cleaning', value: '1–2 sessions' },

@@ -1,16 +1,15 @@
 import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
-  accent: '#0f766e',
-  contentImage: '/services/fmr-before-after-1.jpg',
+  accent: '#0EA5A0',
+  contentImage: '/services/smile-makeover-5.jpg',
 
   gallery: [
-    { src: '/services/fmr-before-after-1.jpg', caption: 'Full mouth rehabilitation — before & after (worn teeth restored)' },
-    { src: '/services/fmr-before-after-2.jpg', caption: 'Full mouth rehabilitation — before & after (broken teeth to perfect smile)' },
-    { src: '/images/microscope.jpg', caption: 'Microscope-guided precision restorations' },
-    { src: '/images/dental-clinic-interior.jpg', caption: 'Our specialist rehabilitation suite' },
-    { src: '/images/microscope-treatment.jpg', caption: 'Advanced treatment technology' },
-    { src: '/images/about-clinic.png', caption: 'All specialists under one roof' },
+    { src: '/services/smile-makeover-5.jpg', caption: 'Before & after: worn teeth and gummy smile reconstructed with ceramic crowns and gum contouring', contain: true },
+    { src: '/services/smile-makeover-2.jpg', caption: 'Before & after: damaged front teeth rebuilt with full-ceramic crowns as part of a multi-phase rehabilitation', contain: true },
+    { src: '/services/smile-makeover-4.jpg', caption: 'Before & after: discoloured worn dentition restored with crowns and shade-matched ceramics', contain: true },
+    { src: '/services/dental-implants.jpg', caption: 'Anatomy diagram — dental implants form the structural foundation of full-arch reconstruction' },
+    { src: '/services/crown-zirconia.jpg', caption: 'Zirconia crown — used in the final reconstructive phase for natural aesthetics & strength' },
   ],
 
   overview:

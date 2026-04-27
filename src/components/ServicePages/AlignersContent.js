@@ -1,31 +1,32 @@
 import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
-  accent: '#0891b2',
+  accent: '#0EA5A0',
   contentImage: '/services/aligners-img2.jpg',
 
   gallery: [
-    { src: '/services/aligners-img2.jpg', caption: 'Inserting a clear aligner tray — comfortable and discreet' },
-    { src: '/services/aligners-img1.jpg', caption: 'Custom-fabricated transparent aligner trays' },
-    { src: '/images/ortho-before-after-1.jpg', caption: 'Before & after clear aligner treatment' },
-    { src: '/images/ortho-before-after-2.png', caption: 'Complete smile transformation with aligners' },
+    { src: '/images/aligners-trays.jpg', caption: 'Pair of custom-fabricated BPA-free clear aligner trays — virtually invisible when worn' },
+    { src: '/images/aligners-wearing.jpg', caption: 'Removable aligner being placed over the upper teeth — worn 20–22 hours per day' },
+    { src: '/images/ortho-before-after-1.jpg', caption: 'Before & after: severely crowded teeth aligned to a straight, even smile', contain: true },
+    { src: '/images/ortho-before-after-2.png', caption: 'Before & after (side profile): bite and alignment corrected', contain: true },
   ],
 
   overview:
-    'Clear aligners consist of a series of custom-fitted, transparent trays that gradually shift your teeth into the desired position. Unlike traditional braces, they are fully removable — so you can easily eat your favourite foods and clean your teeth normally throughout treatment. At Meghana Dental Hospital, Tirupati, our aligners are designed using a 3D intra-oral scanner that captures a precise digital model of your teeth. This digital data drives a step-by-step treatment simulation, so you can see your projected final smile before treatment even begins. No metal, no wires, no food restrictions — just a clear path to a confident smile.',
+    'Meghana Dental Hospital, Tirupati is one of the best providers of Invisalign — the world\'s most advanced clear aligner system. Unlike generic clear aligners, Invisalign uniquely involves functional jaw movements, giving it the most desired result for dental malocclusion correction. Using precise 3D imaging, Invisalign discreetly straightens teeth — often faster and more comfortable than traditional braces or other aligner brands. The trays are fully removable for eating and brushing and must be worn 20–22 hours a day. Our specialists combine digital planning, advanced diagnostics, and personalised care to design your perfect smile from start to finish.',
 
   highlights: [
-    { icon: 'bi-eye-slash-fill', text: 'Virtually Invisible' },
-    { icon: 'bi-phone-fill', text: '3D Intra-oral Scanner' },
-    { icon: 'bi-bag-check-fill', text: 'No Food Restrictions' },
+    { icon: 'bi-award-fill', text: 'Official Invisalign Provider' },
+    { icon: 'bi-phone-fill', text: '3D Imaging & Digital Planning' },
+    { icon: 'bi-arrow-left-right', text: 'Functional Jaw Movement Correction' },
   ],
 
   conditions: [
     { icon: 'bi-arrows-angle-expand', label: 'Mild to moderate crowding' },
     { icon: 'bi-arrows-expand', label: 'Gaps and spacing between teeth' },
-    { icon: 'bi-arrow-down-up', label: 'Mild overbite correction' },
-    { icon: 'bi-arrow-up-down', label: 'Mild underbite correction' },
+    { icon: 'bi-arrow-down-up', label: 'Overbite correction' },
+    { icon: 'bi-arrow-up-down', label: 'Underbite correction' },
     { icon: 'bi-arrow-left-right', label: 'Crossbite (minor to moderate)' },
+    { icon: 'bi-gear-fill', label: 'Functional jaw movement issues' },
     { icon: 'bi-dot', label: 'Relapse after previous braces treatment' },
   ],
 

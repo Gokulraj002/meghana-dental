@@ -1,16 +1,11 @@
 import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
-  accent: '#14b8a6',
+  accent: '#0EA5A0',
   contentImage: '/services/Gum-Treatment.jpg',
 
   gallery: [
-    { src: '/images/bad-smell.jpg', caption: 'Bad breath — a key sign of gum disease' },
-    { src: '/images/dental-equipment.jpg', caption: 'Advanced periodontal treatment equipment' },
-    { src: '/images/microscope-treatment.jpg', caption: 'Microscope-assisted periodontal care' },
-    { src: '/images/dental-clinic-interior.jpg', caption: 'Our modern periodontics suite' },
-    { src: '/images/about-clinic.png', caption: 'Our MDS periodontist team' },
-    { src: '/images/about-clinic.png', caption: 'Comprehensive periodontal facilities' },
+    { src: '/services/Gum-Treatment.jpg', caption: 'Periodontal examination at Meghana Dental Hospital' },
   ],
 
   overview:

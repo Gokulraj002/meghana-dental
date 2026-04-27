@@ -58,8 +58,8 @@ export default function DentalCrownsPage() {
         description="Protect damaged teeth and replace missing ones with premium zirconia, e.max, and PFM crowns. Natural-looking, long-lasting restorations crafted by specialist prosthodontists in Tirupati."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Crowns & Bridges' }]}
         image="/images/about-clinic.png"
-        gradient="linear-gradient(135deg, #d97706 0%, #b45309 100%)"
-        accent="#d97706"
+        gradient="linear-gradient(135deg, #0EA5A0 0%, #12C4BE 100%)"
+        accent="#0EA5A0"
         stats={[
           { icon: 'bi-gem', label: 'Crown Types', value: 'Zirconia, e.max, PFM' },
           { icon: 'bi-calendar-event', label: 'Appointments', value: '2 Visits' },

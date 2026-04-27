@@ -71,8 +71,8 @@ export default function RootCanalPage() {
         description="Save your natural teeth with Tirupati's most advanced root canal therapy — single-sitting, painless, and microscope-guided for precision results you can count on."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Root Canal Treatment' }]}
         image="/services/Root-Canal-Treatment.jpg"
-        gradient="linear-gradient(135deg, #3b82f6 0%, #7c3aed 100%)"
-        accent="#3b82f6"
+        gradient="linear-gradient(135deg, #0EA5A0 0%, #12C4BE 100%)"
+        accent="#0EA5A0"
         stats={[
           { icon: 'bi-clock', label: 'Duration', value: '30–60 min' },
           { icon: 'bi-calendar-check', label: 'Sittings', value: '1–2 visits' },

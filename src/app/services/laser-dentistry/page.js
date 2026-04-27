@@ -58,8 +58,8 @@ export default function LaserDentistryPage() {
         description="Painless, drill-free dental treatments using advanced Diode laser technology. Gum contouring, cavity treatment, ulcer healing, and more — all with minimal discomfort and faster healing."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Laser Dentistry' }]}
         image="/images/about-clinic.png"
-        gradient="linear-gradient(135deg, #f97316 0%, #dc2626 100%)"
-        accent="#f97316"
+        gradient="linear-gradient(135deg, #0EA5A0 0%, #12C4BE 100%)"
+        accent="#0EA5A0"
         stats={[
           { icon: 'bi-lightning-charge', label: 'Technology', value: 'Diode Laser' },
           { icon: 'bi-clock', label: 'Procedure Time', value: '5–60 min' },

@@ -1,15 +1,14 @@
 import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
-  accent: '#f59e0b',
-  contentImage: '/services/Teeth-Whitening.jpg',
+  accent: '#0EA5A0',
+  contentImage: '/services/teeth-whitening-cover.jpg',
 
   gallery: [
-    { src: '/services/Teeth-Whitening01.jpg', caption: 'In-office laser whitening procedure' },
-    { src: '/images/dental-chair.jpg', caption: 'Comfortable treatment setting' },
-    { src: '/images/dental-equipment.jpg', caption: 'Professional whitening equipment' },
-    { src: '/images/dental-clinic-interior.jpg', caption: 'Our modern clinic environment' },
-    { src: '/images/about-clinic.png', caption: 'State-of-the-art facilities' },
+    { src: '/services/whitening-laser-procedure.jpg', caption: 'Laser whitening in progress — blue-light activated bleaching gel applied with cheek retractor', contain: true },
+    { src: '/services/whitening-fluorosis-before-after.jpg', caption: 'Before & after: yellow-brown fluorosis stains bleached to a uniform white shade', contain: true },
+    { src: '/services/Teeth-Whitening.jpg', caption: 'Before & after split — yellow-toned teeth visibly brightened after professional whitening', contain: true },
+    { src: '/services/whitening-procedure-2.jpg', caption: 'Before & after split — stained smile transformed by in-office whitening', contain: true },
   ],
 
   overview:

@@ -1,16 +1,14 @@
 import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
-  accent: '#4f46e5',
+  accent: '#0EA5A0',
   contentImage: '/images/microscope-use.jpg',
 
   gallery: [
-    { src: '/images/microscope.jpg', caption: 'The dental operating microscope' },
-    { src: '/images/microscope-use.jpg', caption: 'Dental microscope in use — 25× magnification precision' },
-    { src: '/images/microscope-equipment.jpg', caption: 'Microscope dental equipment setup' },
-    { src: '/images/microscope-treatment.jpg', caption: 'Microscope-guided endodontic treatment' },
-    { src: '/images/root-canal-process.jpg', caption: 'Precision root canal under magnification' },
-    { src: '/images/about-clinic.png', caption: 'Our specialist clinic — the only microscope clinic in Tirupati' },
+    { src: '/images/microscope-equipment.jpg', caption: 'Dental operating microscope — gold-standard precision tool', contain: true },
+    { src: '/images/microscope-use.jpg', caption: 'Endodontist working through the Zeiss dental microscope' },
+    { src: '/images/microscope-treatment.jpg', caption: 'Microscope-guided treatment of a patient at 25× magnification' },
+    { src: '/images/advanced-endo-logo.png', caption: 'Advanced endodontics — microsurgery and retreatment specialty', contain: true },
   ],
 
   overview:

@@ -58,8 +58,8 @@ export default function SmileMakeoverPage() {
         description="Transform your smile with our personalised smile makeover programme in Tirupati. Digital Smile Design, porcelain veneers, whitening, and more — see your perfect smile before treatment starts."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Smile Makeover' }]}
         image="/services/smile-makeover-cover.jpg"
-        gradient="linear-gradient(135deg, #a21caf 0%, #7c3aed 100%)"
-        accent="#a21caf"
+        gradient="linear-gradient(135deg, #0EA5A0 0%, #12C4BE 100%)"
+        accent="#0EA5A0"
         stats={[
           { icon: 'bi-laptop', label: 'Digital Design', value: 'Included' },
           { icon: 'bi-gem', label: 'Veneers', value: 'Porcelain & Composite' },

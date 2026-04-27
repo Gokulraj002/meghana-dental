@@ -71,8 +71,8 @@ export default function MicroscopeDentistryPage() {
         description="Tirupati's most precise dental care — powered by dental operating microscope with 25× magnification. See more, treat better, heal faster. Available only at Meghana Dental Hospital."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Microscope Dentistry' }]}
         image="/images/microscope-use.jpg"
-        gradient="linear-gradient(135deg, #4f46e5 0%, #0f766e 100%)"
-        accent="#4f46e5"
+        gradient="linear-gradient(135deg, #0EA5A0 0%, #12C4BE 100%)"
+        accent="#0EA5A0"
         stats={[
           { icon: 'bi-search', label: 'Magnification', value: 'Up to 25×' },
           { icon: 'bi-patch-check', label: 'Technology', value: 'Operating Microscope' },

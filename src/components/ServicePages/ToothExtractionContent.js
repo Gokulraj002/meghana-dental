@@ -1,22 +1,20 @@
 import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
-  accent: '#64748b',
+  accent: '#0EA5A0',
   contentImage: '/services/wisdom-img1.jpg',
 
   gallery: [
-    { src: '/services/pdf-wisdom-p1.jpg', caption: 'Wisdom tooth impaction angles — mesioangular, distoangular, horizontal, vertical' },
-    { src: '/services/pdf-wisdom-p2.jpg', caption: 'Surgical extraction procedure — incision, bone access, and sectioning steps' },
-    { src: '/services/pdf-wisdom-p3.jpg', caption: 'Inferior alveolar nerve proximity — pre-surgical nerve mapping' },
-    { src: '/services/pdf-wisdom-p4.jpg', caption: 'Post-extraction socket healing — blood clot to bone regeneration stages' },
-    { src: '/services/wisdom-img1.jpg', caption: 'Impacted wisdom tooth — 3D anatomical view' },
-    { src: '/services/wisdom-img2.jpg', caption: 'Wisdom tooth anatomy — eruption patterns explained' },
-    { src: '/services/wisdom-img3.jpg', caption: 'Six types of wisdom tooth impaction — clinical classification' },
-    { src: '/services/wisdom-img4.jpg', caption: 'OPG X-ray with impacted wisdom teeth highlighted — pre-surgical planning' },
+    { src: '/services/wisdom-img1.jpg', caption: 'Impacted wisdom tooth — 3D anatomical view of third molar pressing against the second molar' },
+    { src: '/services/pdf-wisdom-p1.jpg', caption: 'Wisdom tooth / impacted tooth extraction — clinical overview & common problems', contain: true },
+    { src: '/services/wisdom-img2.jpg', caption: 'Wisdom teeth anatomy — angular, partial eruption, horizontal & vertical impactions', contain: true },
+    { src: '/services/wisdom-img3.jpg', caption: 'Six classifications of wisdom tooth impaction — vertical, distoangular, horizontal, mesioangular, transverse, inverted', contain: true },
+    { src: '/services/pdf-wisdom-p2.jpg', caption: 'Common situations requiring wisdom tooth removal — impaction types & indications', contain: true },
+    { src: '/services/wisdom-img4.jpg', caption: 'OPG panoramic X-ray showing both lower impacted wisdom teeth — pre-surgical planning' },
   ],
 
   overview:
-    'Wisdom teeth (third molars) typically emerge between ages 17–25 when there is often insufficient space in the jaw, causing them to become impacted — partially or fully trapped beneath the gumline. At Meghana Dental Hospital, Tirupati, our philosophy is simple: save every tooth possible. But when a tooth is beyond saving or is causing active harm — infection, crowding, cyst formation — a safe, painless extraction is the best treatment. Our MDS Oral & Maxillofacial Surgeon Dr. Eswar performs both routine extractions and complex surgical wisdom tooth removals under complete local anaesthesia. Every surgical case is planned with an OPG or CBCT scan to precisely map root morphology and proximity to the inferior alveolar nerve, eliminating risk of nerve paresthesia. Post-extraction, we provide a clear aftercare plan and discuss tooth replacement options so your smile never has a gap for long.',
+    'Wisdom teeth (third molars) typically emerge between ages 17–25 when there is often insufficient space in the jaw, causing them to become impacted — partially or fully trapped beneath the gumline. At Meghana Dental Hospital, Tirupati, our philosophy is simple: save every tooth possible. But when a tooth is beyond saving or is causing active harm — infection, crowding, cyst formation — a safe, painless extraction is the best treatment. Our MDS Oral & Maxillofacial Surgeon performs both routine extractions and complex surgical wisdom tooth removals under complete local anaesthesia. Every surgical case is planned with an OPG or CBCT scan to precisely map root morphology and proximity to the inferior alveolar nerve, eliminating risk of nerve paresthesia. Post-extraction, we provide a clear aftercare plan and discuss tooth replacement options so your smile never has a gap for long.',
 
   highlights: [
     { icon: 'bi-shield-check', text: 'OPG & CBCT Planned Extractions' },

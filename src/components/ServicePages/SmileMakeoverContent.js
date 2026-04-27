@@ -1,17 +1,16 @@
 import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
-  accent: '#a21caf',
+  accent: '#0EA5A0',
   contentImage: '/services/smile-makeover-cover.jpg',
 
   gallery: [
-    { src: '/services/smile-makeover-cover.jpg', caption: 'Perfect smile — cosmetic dentistry result' },
-    { src: '/images/ortho-before-after-2.png', caption: 'Complete smile makeover result' },
-    { src: '/images/aligners-wearing.jpg', caption: 'Clear aligners as part of smile design' },
-    { src: '/services/Teeth-Whitening.jpg', caption: 'Professional whitening in smile makeovers' },
-    { src: '/images/dental-clinic-interior.jpg', caption: 'Digital smile design suite' },
-    { src: '/images/about-clinic.png', caption: 'Our cosmetic dentistry specialists' },
-    { src: '/images/about-clinic.png', caption: 'Our state-of-the-art facilities' },
+    { src: '/services/smile-makeover-1.jpg', caption: 'Before & after: misaligned, gappy front teeth realigned and brightened for an even, harmonious smile line', contain: true },
+    { src: '/services/smile-makeover-2.jpg', caption: 'Before & after: damaged front teeth rebuilt with full-ceramic crowns for a seamless, natural-looking smile', contain: true },
+    { src: '/services/smile-makeover-3.jpg', caption: 'Before & after: chipped front tooth rebuilt with direct composite bonding in a single visit', contain: true },
+    { src: '/services/smile-makeover-4.jpg', caption: 'Before & after: gappy, discoloured front teeth transformed into an even, brighter smile', contain: true },
+    { src: '/services/smile-makeover-5.jpg', caption: 'Before & after: gummy smile with worn, discoloured teeth rebuilt with ceramic crowns and improved gum proportions', contain: true },
+    { src: '/services/smile-makeover-cover.jpg', caption: 'Bright, healthy smile result — the goal of every Digital Smile Design plan' },
   ],
 
   overview:

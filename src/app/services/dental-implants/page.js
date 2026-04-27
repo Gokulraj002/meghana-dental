@@ -79,7 +79,7 @@ export default function DentalImplantsPage() {
         description="Restore your smile permanently with world-class dental implants in Tirupati. Our MDS specialists use cutting-edge titanium implant systems for natural-looking, lifelong tooth replacement."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Dental Implants' }]}
         image="/services/dental-implants.jpg"
-        accent="#0ea5e9"
+        accent="#0EA5A0"
         stats={[
           { icon: 'bi-clock', label: 'Surgery Duration', value: '30–90 min' },
           { icon: 'bi-calendar', label: 'Healing Time', value: '2–3 months' },

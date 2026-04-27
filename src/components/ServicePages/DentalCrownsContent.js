@@ -1,19 +1,15 @@
 import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
-  accent: '#d97706',
+  accent: '#0EA5A0',
   contentImage: '/images/dental-clinic-interior.jpg',
 
   gallery: [
-    { src: '/services/crown-zirconia.jpg', caption: 'Zirconia crown — metal-free, biocompatible & MRI-safe' },
-    { src: '/services/crown-metal-ceramic.jpg', caption: 'Metal ceramic crown (PFM) — durable with natural-looking porcelain facing' },
-    { src: '/services/crown-metal.jpg', caption: 'Full metal crown — maximum strength for back teeth' },
-    { src: '/images/microscope.jpg', caption: 'dental microscope with 25× magnification-guided crown preparation' },
-    { src: '/images/microscope-treatment.jpg', caption: 'Precision tooth preparation under magnification' },
-    { src: '/images/dental-equipment.jpg', caption: 'CAD/CAM crown fabrication equipment' },
-    { src: '/images/dental-chair.jpg', caption: 'Crown fitting appointment' },
-    { src: '/images/ortho-before-after-1.jpg', caption: 'Beautiful results with ceramic crowns' },
-    { src: '/images/about-clinic.png', caption: 'Our specialist prosthodontics clinic' },
+    { src: '/services/crown-zirconia.jpg', caption: 'Full-zirconia crown on a working model — metal-free, biocompatible and MRI-safe, ideal for both front and back teeth' },
+    { src: '/services/crown-metal-ceramic.jpg', caption: 'Porcelain-fused-to-metal (PFM) crown — durable metal substructure with tooth-coloured porcelain facing' },
+    { src: '/services/crown-metal.jpg', caption: 'Full-metal crowns — maximum strength and minimal tooth reduction for posterior teeth' },
+    { src: '/services/smile-makeover-2.jpg', caption: 'Before & after: damaged front teeth rebuilt with full-ceramic crowns for a natural appearance', contain: true },
+    { src: '/services/smile-makeover-5.jpg', caption: 'Before & after: worn and discoloured front teeth fully restored with ceramic crowns', contain: true },
   ],
 
   overview:

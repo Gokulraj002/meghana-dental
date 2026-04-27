@@ -63,8 +63,8 @@ export default function AlignersPage() {
         description="Straighten your teeth discreetly in Tirupati with custom-fitted, transparent clear aligners — no metal braces, no wires, just a confident smile at your own pace."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Clear Aligners' }]}
         image="/images/aligners-wearing.jpg"
-        gradient="linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)"
-        accent="#0891b2"
+        gradient="linear-gradient(135deg, #0EA5A0 0%, #12C4BE 100%)"
+        accent="#0EA5A0"
         stats={[
           { icon: 'bi-layers-fill', label: 'Aligner Sets', value: '14–26 trays' },
           { icon: 'bi-clock-fill', label: 'Daily Wear', value: '20–22 hrs/day' },

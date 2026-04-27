@@ -1,17 +1,15 @@
 import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
-  accent: '#3b82f6',
+  accent: '#0EA5A0',
   contentImage: '/services/Root-Canal-Treatment.jpg',
 
   gallery: [
-    { src: '/images/root-canal.jpg', caption: 'Root canal treatment overview' },
-    { src: '/images/root-canal-need.png', caption: 'When do you need a root canal — signs & symptoms' },
-    { src: '/images/root-canal-signs.jpg', caption: 'Signs you may need RCT' },
-    { src: '/images/root-canal-process.jpg', caption: 'Step-by-step RCT process' },
-    { src: '/images/single-sitting-rct.jpg', caption: 'Single-sitting RCT available' },
-    { src: '/images/microscope.jpg', caption: 'Dental microscope with 25× magnification' },
-    { src: '/images/root-canal-smile.jpg', caption: 'Restored healthy smile after RCT' },
+    { src: '/services/Root-Canal-Treatment.jpg', caption: 'Cross-section tooth model showing decay reaching the pulp' },
+    { src: '/images/root-canal-need.png', caption: 'Signs that you may need a root canal', contain: true },
+    { src: '/images/root-canal-signs.jpg', caption: 'Common warning signs of pulp infection', contain: true },
+    { src: '/images/root-canal-process.jpg', caption: 'Step-by-step RCT — opening, cleaning, filling and crown', contain: true },
+    { src: '/images/microscope-treatment.jpg', caption: 'Microscope-guided canal cleaning at 25× magnification' },
   ],
 
   overview:

@@ -63,8 +63,8 @@ export default function OrthodonticsPage() {
         description="Tirupati's trusted orthodontist for braces and teeth alignment. We deliver the right treatment after precise evaluation using advanced 3D oral scanners — for a confident, balanced smile."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Orthodontic Treatment' }]}
         image="/images/ortho-metal-braces.jpg"
-        gradient="linear-gradient(135deg, #8b5cf6 0%, #db2777 100%)"
-        accent="#8b5cf6"
+        gradient="linear-gradient(135deg, #0EA5A0 0%, #12C4BE 100%)"
+        accent="#0EA5A0"
         stats={[
           { icon: 'bi-calendar-range', label: 'Treatment Duration', value: '12–24 months' },
           { icon: 'bi-arrow-repeat', label: 'Visit Frequency', value: 'Every 4–6 wks' },

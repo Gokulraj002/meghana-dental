@@ -63,8 +63,8 @@ export default function DenturesPage() {
         description="Restore your complete smile in Tirupati with premium denture solutions — BPS precision dentures, flexible partials, and implant-supported options for maximum comfort and a natural appearance."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Dentures' }]}
         image="/services/Dentures-Prosthetics.jpg"
-        gradient="linear-gradient(135deg, #10b981 0%, #059669 100%)"
-        accent="#10b981"
+        gradient="linear-gradient(135deg, #0EA5A0 0%, #12C4BE 100%)"
+        accent="#0EA5A0"
         stats={[
           { icon: 'bi-calendar', label: 'Treatment Visits', value: '4–5 visits' },
           { icon: 'bi-clock-history', label: 'Lifespan', value: '5–8+ years' },

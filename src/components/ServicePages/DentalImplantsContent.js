@@ -1,16 +1,14 @@
 import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
-  accent: '#0ea5e9',
+  accent: '#0EA5A0',
 
   contentImage: '/services/dental-implants.jpg',
 
   gallery: [
-    { src: '/images/implant-denture.jpg', caption: 'Implant-retained denture — full arch restoration' },
-    { src: '/images/microscope.jpg', caption: 'dental microscope with 25× magnification used for precision' },
-    { src: '/images/microscope-treatment.jpg', caption: 'Microscope-guided implant treatment' },
-    { src: '/images/about-clinic.png', caption: 'Our modern clinic interior' },
-    { src: '/services/Dentures-Prosthetics.jpg', caption: 'Finished full-arch prosthetic' },
+    { src: '/services/dental-implants.jpg', caption: 'Anatomy diagram comparing a natural tooth, a tooth cross-section, and a titanium dental implant in the jawbone' },
+    { src: '/images/implant-denture.jpg', caption: 'Implant-retained overdenture diagram — a full arch stabilised on multiple implants for a fixed-feel restoration' },
+    { src: '/services/smile-makeover-5.jpg', caption: 'Before & after: missing and damaged teeth restored with implant-supported crowns', contain: true },
   ],
 
   overview:

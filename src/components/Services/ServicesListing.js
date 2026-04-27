@@ -18,7 +18,7 @@ const services = [
     icon: 'bi-layout-text-window-reverse',
     gradient: 'linear-gradient(135deg, #0f766e 0%, #1e3a5f 100%)',
     accent: '#0f766e',
-    image: '/services/fmr-before-after-1.jpg',
+    image: '/services/smile-makeover-5.jpg',
     link: '/services/full-mouth-rehab',
     features: ['Multi-Specialty Approach', 'Digital Treatment Planning', 'Implants + Crowns + Ortho', 'Phased Treatment'],
   },
@@ -98,7 +98,7 @@ const services = [
     icon: 'bi-search',
     gradient: 'linear-gradient(135deg, #4f46e5 0%, #0f766e 100%)',
     accent: '#4f46e5',
-    image: '/images/microscope-use.jpg',
+    image: '/images/microscope-treatment.jpg',
     link: '/services/microscope-dentistry',
     features: ['Precision Root Canals', 'Microsurgery', 'Crack Detection', 'Magnified Restorations'],
   },
@@ -108,7 +108,7 @@ const services = [
     icon: 'bi-lightning-fill',
     gradient: 'linear-gradient(135deg, #f97316 0%, #dc2626 100%)',
     accent: '#f97316',
-    image: '/images/about-clinic.png',
+    image: '/services/whitening-laser-procedure.jpg',
     link: '/services/laser-dentistry',
     features: ['Laser Gum Surgery', 'Gum Contouring', 'Painless Cavity Prep', 'Ulcer Treatment'],
   },
@@ -138,7 +138,7 @@ const services = [
     icon: 'bi-award-fill',
     gradient: 'linear-gradient(135deg, #d97706 0%, #b45309 100%)',
     accent: '#d97706',
-    image: '/images/dental-clinic-interior.jpg',
+    image: '/services/crown-zirconia.jpg',
     link: '/services/dental-crowns',
     features: ['Zirconia Crowns', 'e.max Crowns', 'PFM Crowns', 'Fixed Dental Bridges'],
   },
@@ -148,7 +148,7 @@ export default function ServicesListing() {
   return (
     <div className="row g-4">
       {services.map((service, index) => (
-        <div className="col-lg-4 col-md-6" key={index}>
+        <div className="col-xl-3 col-lg-4 col-md-6" key={index}>
           <Link href={service.link} className="sl-link">
             <div className="sl-card">
 
@@ -158,20 +158,20 @@ export default function ServicesListing() {
                   <Image
                     src={service.image}
                     alt={service.title}
-                    width={480}
-                    height={240}
-                    style={{ width: '100%', height: '240px', objectFit: 'cover', display: 'block' }}
+                    width={560}
+                    height={340}
+                    className="sl-img-cover"
                   />
-                  {/* dark overlay — preserves natural image colours */}
+                  {/* gradient overlay for badge legibility */}
                   <div className="sl-img-dark" />
-                  {/* thin accent bar at bottom edge */}
+                  {/* accent gradient bar at bottom */}
                   <div className="sl-img-accent" style={{ background: service.gradient }} />
-                  <div className="sl-img-meta">
-                    <div className="sl-icon" style={{ borderColor: service.accent }}>
-                      <i className={`bi ${service.icon}`} />
-                    </div>
-                    <span className="sl-num">{String(index + 1).padStart(2, '0')}</span>
+                  {/* gradient icon badge top-left */}
+                  <div className="sl-img-tag" style={{ background: service.gradient }}>
+                    <i className={`bi ${service.icon}`} />
                   </div>
+                  {/* number chip top-right */}
+                  <span className="sl-num">{String(index + 1).padStart(2, '0')}</span>
                 </div>
               ) : (
                 <div className="sl-header" style={{ background: service.gradient }}>

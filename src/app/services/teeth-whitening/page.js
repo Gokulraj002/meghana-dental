@@ -62,9 +62,9 @@ export default function TeethWhiteningPage() {
         titleHighlight="Cosmetic Dentistry"
         description="Unlock a brighter, more confident smile in Tirupati — professional laser whitening, smile makeovers, veneers, and complete cosmetic dental transformations at Meghana Dental Hospital."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Teeth Whitening' }]}
-        image="/services/Teeth-Whitening01.jpg"
-        gradient="linear-gradient(135deg, #f59e0b 0%, #ea580c 100%)"
-        accent="#f59e0b"
+        image="/services/teeth-whitening-cover.jpg"
+        gradient="linear-gradient(135deg, #0EA5A0 0%, #12C4BE 100%)"
+        accent="#0EA5A0"
         stats={[
           { icon: 'bi-clock', label: 'In-Office Duration', value: '45–60 min' },
           { icon: 'bi-brightness-high-fill', label: 'Shade Improvement', value: 'Up to 8 shades' },

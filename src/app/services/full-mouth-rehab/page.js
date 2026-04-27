@@ -58,8 +58,8 @@ export default function FullMouthRehabPage() {
         description="Complete smile reconstruction for patients with multiple damaged, decayed, or missing teeth. Our multi-specialist team in Tirupati restores your oral health, function, and confidence — all under one roof."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Full Mouth Rehab' }]}
         image="/services/fmr-before-after-1.jpg"
-        gradient="linear-gradient(135deg, #0f766e 0%, #1e3a5f 100%)"
-        accent="#0f766e"
+        gradient="linear-gradient(135deg, #0EA5A0 0%, #12C4BE 100%)"
+        accent="#0EA5A0"
         stats={[
           { icon: 'bi-calendar2-range', label: 'Duration', value: '3–4 Months' },
           { icon: 'bi-people-fill', label: 'Specialists', value: 'Full Team On-Site' },

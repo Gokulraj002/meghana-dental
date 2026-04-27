@@ -1,26 +1,19 @@
 import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
-  accent: '#8b5cf6',
+  accent: '#0EA5A0',
   contentImage: '/services/ortho-img-p1-1.jpg',
 
   gallery: [
-    { src: '/images/ortho-open-bite.jpg', caption: 'Open bite — front teeth do not meet when biting' },
-    { src: '/images/ortho-deep-bite.png', caption: 'Protruded teeth with deep bite — upper teeth cover lower' },
-    { src: '/images/ortho-protruded-tooth.jpg', caption: 'Protruded teeth — upper front teeth pushed forward' },
-    { src: '/images/ortho-crossbite.jpg', caption: 'Cross bite — upper and lower teeth misaligned laterally' },
-    { src: '/images/ortho-crooked-teeth.jpg', caption: 'Crowded & crooked teeth — overlapping and rotated' },
-    { src: '/images/ortho-spaced-tooth.jpg', caption: 'Spaced teeth — gaps and diastema between teeth' },
-    { src: '/images/ortho-midline-diastema.jpg', caption: 'Midline diastema — gap between upper front teeth' },
-    { src: '/images/ortho-metal-braces.jpg', caption: 'Metal braces with coloured ligature ties — full arch' },
-    { src: '/images/ortho-ceramic-braces.jpg', caption: 'Ceramic (tooth-coloured) braces — discreet option' },
-    { src: '/images/ortho-self-ligating-braces.jpg', caption: 'Self-ligating braces — no ties, gentler forces' },
-    { src: '/services/ortho-img-p7-1.jpg', caption: 'Patient before & after — crowded teeth corrected' },
-    { src: '/services/ortho-img-p8-1.jpg', caption: 'Before & after — protruded bite fully corrected' },
+    { src: '/images/ortho-crooked-teeth.jpg', caption: 'Severely crowded and overlapping teeth — a typical case for fixed-brace treatment' },
+    { src: '/images/ortho-protruded-tooth.jpg', caption: 'Midline diastema — gap between the upper front teeth' },
+    { src: '/images/ortho-metal-braces.jpg', caption: 'Stainless steel metal braces with archwire on upper and lower arches' },
+    { src: '/images/ortho-ceramic-braces.jpg', caption: 'Ceramic tooth-coloured braces — a discreet aesthetic option' },
+    { src: '/images/ortho-before-after-1.jpg', caption: 'Before & after — crooked, crowded teeth fully aligned with braces', contain: true },
   ],
 
   overview:
-    'Dental braces are a proven orthodontic treatment to align the teeth, improve jaw positioning, enhance facial aesthetics, and restore symmetry. At Meghana Dental Hospital, Tirupati, our MDS orthodontist Dr. Lakshmikar Reddy corrects a full range of problems — crowded, spaced, protruded, and rotated teeth; overbites and underbites; crossbites; open bites; and midline diastemas. Using advanced 3D oral scanning technology, we map your teeth precisely before treatment begins and show you a digital simulation of your final smile. We offer metal, ceramic, and self-ligating braces for children, teenagers, and adults — as well as Invisalign clear aligners and fixed functional appliances for growing patients.',
+    'Dental braces are a proven orthodontic treatment to align the teeth, improve jaw positioning, enhance facial aesthetics, and restore symmetry. At Meghana Dental Hospital, Tirupati, our MDS orthodontist corrects a full range of problems — crowded, spaced, protruded, and rotated teeth; overbites and underbites; crossbites; open bites; and midline diastemas. Using advanced 3D oral scanning technology, we map your teeth precisely before treatment begins and show you a digital simulation of your final smile. We offer metal, ceramic, and self-ligating braces for children, teenagers, and adults — as well as Invisalign clear aligners and fixed functional appliances for growing patients.',
 
   highlights: [
     { icon: 'bi-phone-fill', text: '3D Oral Scanner Planning' },

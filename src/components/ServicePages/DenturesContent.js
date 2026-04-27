@@ -1,22 +1,20 @@
 import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
-  accent: '#10b981',
+  accent: '#0EA5A0',
   contentImage: '/services/denture-img1.jpg',
 
   gallery: [
-    { src: '/services/pdf-dentures-p1.jpg', caption: 'Types of dentures — complete, partial, and implant-retained options' },
-    { src: '/services/pdf-dentures-p2.jpg', caption: 'Denture fabrication process — from impression to final prosthesis' },
-    { src: '/services/pdf-dentures-p3.jpg', caption: 'BPS denture components — precision materials for natural aesthetics' },
-    { src: '/images/denture-types.jpg', caption: 'Types of dentures — complete, partial, flexible & BPS' },
-    { src: '/services/denture-img1.jpg', caption: 'Complete dentures — full upper & lower set' },
-    { src: '/services/denture-img2.jpg', caption: 'BPS partial denture with metal clasps — superior stability' },
-    { src: '/services/denture-img3.jpg', caption: 'Patient transformation — before & after complete dentures' },
-    { src: '/images/about-clinic.png', caption: 'Our prosthetics clinic — Meghana Dental Hospital' },
+    { src: '/services/denture-img1.jpg', caption: 'Complete acrylic denture — full upper and lower set with natural-looking gum and teeth' },
+    { src: '/services/denture-img2.jpg', caption: 'Partial denture restoring missing lower teeth with a precision clasp' },
+    { src: '/services/denture-img3.jpg', caption: 'Before & after: a fully edentulous mouth restored with a complete denture', contain: true },
+    { src: '/images/denture-types.jpg', caption: 'Partial denture clasp options — flexible aesthetic clasp vs rigid metal clasp', contain: true },
+    { src: '/images/bps-dentures.jpg', caption: 'BPS (Bio-Functional Prosthetic System) — premium dentures, no adhesive needed', contain: true },
+    { src: '/images/implant-denture.jpg', caption: 'Implant-retained overdenture — snap-on stability anchored to dental implants', contain: true },
   ],
 
   overview:
-    'Dentures are custom-made appliances that replace missing teeth and surrounding tissues, restoring your smile, speech, and chewing ability. At Meghana Dental Hospital, Tirupati, we offer the full spectrum — from conventional complete dentures for fully edentulous patients to precision partial dentures and premium BPS (Biofunctional Prosthetic System) dentures. Complete dentures are advised when all teeth are missing; partial dentures fill the gaps when some natural teeth remain. Our MDS Prosthodontist Dr. Dinakar Reddy crafts every denture individually to match your gum line, facial structure, and natural aesthetics — so you get a fit that feels and looks entirely natural.',
+    'Dentures are custom-made appliances that replace missing teeth and surrounding tissues, restoring your smile, speech, and chewing ability. At Meghana Dental Hospital, Tirupati, we offer the full spectrum — from conventional complete dentures for fully edentulous patients to precision partial dentures and premium BPS (Biofunctional Prosthetic System) dentures. Complete dentures are advised when all teeth are missing; partial dentures fill the gaps when some natural teeth remain. Our MDS Prosthodontist crafts every denture individually to match your gum line, facial structure, and natural aesthetics — so you get a fit that feels and looks entirely natural.',
 
   highlights: [
     { icon: 'bi-patch-check-fill', text: 'BPS Precision Dentures Available' },

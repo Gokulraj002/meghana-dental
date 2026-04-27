@@ -1,33 +1,32 @@
 import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
-  accent: '#f97316',
+  accent: '#0EA5A0',
   contentImage: '/images/dental-equipment.jpg',
 
   gallery: [
-    { src: '/images/dental-clinic-interior.jpg', caption: 'Modern laser treatment room' },
-    { src: '/images/dental-chair.jpg', caption: 'Comfortable treatment setting' },
-    { src: '/images/about-clinic.png', caption: 'Our trained laser dentistry team' },
-    { src: '/images/microscope-treatment.jpg', caption: 'Precision dental procedures at Meghana Dental' },
-    { src: '/images/about-clinic.png', caption: 'State-of-the-art clinic facilities' },
+    { src: '/services/Gum-Treatment.jpg', caption: 'Soft-tissue treatment area — the kind of case suited to laser dentistry' },
   ],
 
   overview:
-    'At Meghana Dental Hospital, Tirupati, we use advanced Diode laser technology to deliver dental treatments that are faster, gentler, and dramatically more comfortable than traditional methods. Laser dentistry replaces the scalpel with a precise beam of focused light energy — no cutting, no sutures in most cases, and minimal bleeding. From gum surgery and gum contouring to cavity preparation, mouth ulcer treatment, and laser-assisted teeth whitening, our laser procedures are designed around your comfort. Many treatments require no anaesthetic injection at all. If you have been avoiding the dentist because of fear or anxiety, laser dentistry at Meghana Dental is the answer.',
+    'At Meghana Dental Hospital, Tirupati, we use the advanced BIOLASE Epic Pro laser — one of the most precise dental laser systems available — to deliver treatments that are faster, gentler, and dramatically more comfortable than traditional methods. A narrow, focused beam of light energy reacts with tissue to remove or reshape it with pinpoint accuracy. No Cut. No Sew. No Fear. From gummy smile correction and tongue-tie release to gum pigmentation removal, root canal disinfection, ulcer healing, flap surgery, and laser teeth whitening — our BIOLASE laser handles it all with minimal bleeding, no anaesthesia in most cases, and same-day recovery. Laser Dentistry is an advanced method of dental care and we at Meghana Dental provide this technology to enhance your every dental visit.',
 
   highlights: [
-    { icon: 'bi-lightning-charge', text: 'Advanced Diode Laser Technology' },
-    { icon: 'bi-emoji-smile', text: 'Painless — Often No Injections' },
-    { icon: 'bi-bandaid', text: 'Same-Day Recovery for Most Procedures' },
+    { icon: 'bi-lightning-charge', text: 'BIOLASE Epic Pro Laser' },
+    { icon: 'bi-slash-circle', text: 'No Cut • No Sew • No Fear' },
+    { icon: 'bi-bandaid', text: 'Same-Day Recovery' },
   ],
 
   conditions: [
-    { icon: 'bi-heart-pulse', label: 'Gum disease (gingivitis & periodontitis)' },
-    { icon: 'bi-symmetry-horizontal', label: 'Gummy smile / uneven gumline' },
-    { icon: 'bi-droplet', label: 'Recurrent mouth ulcers (aphthous stomatitis)' },
-    { icon: 'bi-scissors', label: 'Tongue-tie or lip-tie (frenectomy)' },
-    { icon: 'bi-brightness-high', label: 'Stained or yellowed teeth for whitening' },
-    { icon: 'bi-thermometer-half', label: 'Tooth sensitivity to hot and cold' },
+    { icon: 'bi-symmetry-horizontal', label: 'Gummy smile correction' },
+    { icon: 'bi-scissors', label: 'Tongue-tie & lip-tie (Frenectomy)' },
+    { icon: 'bi-palette', label: 'Gum pigmentation removal' },
+    { icon: 'bi-droplet', label: 'Mouth ulcers & cold sore treatment' },
+    { icon: 'bi-heart-pulse', label: 'Gum infection & flap surgery' },
+    { icon: 'bi-activity', label: 'Laser-assisted root canal disinfection' },
+    { icon: 'bi-brightness-high', label: 'Laser teeth whitening' },
+    { icon: 'bi-circle', label: 'Second stage implant surgery' },
+    { icon: 'bi-tooth', label: 'Operculectomy (wisdom tooth gum flap)' },
   ],
 
   benefits: [
@@ -65,20 +64,24 @@ const serviceData = {
 
   process: [
     {
-      title: 'Consultation & Laser Treatment Planning',
-      desc: 'Our dentist conducts a thorough clinical assessment and explains which laser procedure is appropriate for your condition. Photographs and measurements are taken. You will understand exactly what will happen before the appointment.',
+      title: 'Gummy Smile Correction',
+      desc: 'Excess gum tissue covering the teeth is precisely removed using the BIOLASE laser. This eliminates bleeding, surgical cuts, and the need for anaesthesia that traditional surgical methods require — revealing more of your natural tooth.',
     },
     {
-      title: 'Preparation & Comfort Measures',
-      desc: 'Protective eyewear is provided for both patient and clinical team. For gum procedures, a topical anaesthetic gel is applied to the treatment area. Injections are required for fewer than 30% of laser treatments at our clinic.',
+      title: 'Tongue-Tie & Lip-Tie Release (Frenectomy)',
+      desc: 'The laser releases tongue-tie to improve clarity of speech. Lip-tie, which causes spacing between front teeth, is also corrected painlessly. Hassle-free removal with no cuts, no stitches, and faster healing.',
     },
     {
-      title: 'Laser Treatment',
-      desc: 'The calibrated Diode laser handpiece delivers focused energy to the target tissue. The procedure is quiet, vibration-free, and precise. Gum contouring takes 15–30 minutes; ulcer treatment takes as little as 5 minutes.',
+      title: 'Gum Pigmentation Removal',
+      desc: 'Dark gum pigmentation caused by melanin production gives an unpleasant look while smiling. Lasers eliminate pigmentation with faster healing, less bleeding, and far greater comfort compared to traditional methods.',
     },
     {
-      title: 'Post-Treatment Review & Instructions',
-      desc: 'After treatment, the dentist checks the result and gives you specific aftercare instructions. Most patients return to normal activities the same day. A follow-up appointment confirms complete healing.',
+      title: 'Ulcer, Gum Infection & Root Canal Laser Therapy',
+      desc: 'Cold sores and oral ulcers are treated quickly and painlessly. For gum infections, the laser removes infected tissue and bacteria with precision. In root canal treatment, the laser cleans and disinfects the canal — killing bacteria in hard-to-reach areas, reducing anaesthesia needs, and enabling single-visit procedures.',
+    },
+    {
+      title: 'Flap Surgery, Whitening & Implant Surgery',
+      desc: 'Laser flap surgery achieves excellent periodontal outcomes with minimal recovery. Laser teeth whitening uses a special laser light to activate whitening gel — resulting in brighter teeth faster than traditional methods. In second-stage implant surgery, the laser precisely removes gum tissue over submerged implants without cutting.',
     },
   ],
 
