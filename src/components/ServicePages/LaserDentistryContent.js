@@ -2,10 +2,20 @@ import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
   accent: '#0EA5A0',
-  contentImage: '/images/dental-equipment.jpg',
+  contentImage: '/services/Laser/laser-cover.png',
 
   gallery: [
-    { src: '/services/Gum-Treatment.jpg', caption: 'Soft-tissue treatment area — the kind of case suited to laser dentistry' },
+    { src: '/services/Laser/laser-intro.png',              caption: 'BIOLASE laser in action — precise soft-tissue treatment' },
+    { src: '/services/Laser/laser-frenectomy.jpg',         caption: 'Frenectomy with laser — tongue-tie release without cuts or stitches' },
+    { src: '/services/Laser/laser-depigmentation.jpg',     caption: 'Laser gum depigmentation — removing dark pigmentation for a healthy pink smile' },
+    { src: '/services/Laser/laser-flap-surgery.jpg',       caption: 'Laser flap surgery — before and after results' },
+    { src: '/services/Laser/laser-gingivectomy.jpg',       caption: 'Laser gingivectomy — precise gum reshaping' },
+    { src: '/services/Laser/laser-implant-exposure.png',   caption: 'Laser implant exposure — healing abutment placement without scalpel' },
+    { src: '/services/Laser/laser-teeth-whitening.webp',   caption: 'Laser teeth whitening — dramatically brighter results in a single visit' },
+    { src: '/services/Laser/laser-tongue-tie.jpg',         caption: 'Laser tongue-tie removal — painless release for improved speech' },
+    { src: '/services/Laser/laser-ulcer-treatment.jpg',    caption: 'Laser ulcer treatment — fast, painless healing' },
+    { src: '/services/Laser/laser-operculectomy.jpg',      caption: 'Operculectomy with laser — wisdom tooth gum flap removal' },
+    { src: '/services/Laser/laser-canal-disinfection.gif', caption: 'Laser canal disinfection — killing bacteria in hard-to-reach areas' },
   ],
 
   overview:

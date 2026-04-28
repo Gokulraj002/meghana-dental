@@ -111,7 +111,7 @@ export default function ContactForm() {
               <i className="bi bi-telephone cf-input-icon" />
               <input
                 type="tel" name="phone" value={formData.phone} onChange={handleChange}
-                required placeholder="+91 98765 43210" className="cf-input"
+                required placeholder="08772248330" className="cf-input"
               />
             </div>
           </div>

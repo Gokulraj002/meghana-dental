@@ -2,14 +2,19 @@ import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
   accent: '#0EA5A0',
-  contentImage: '/services/ortho-img-p1-1.jpg',
+  contentImage: '/services/Orthodontic/ortho-metal-braces.webp',
 
   gallery: [
-    { src: '/images/ortho-crooked-teeth.jpg', caption: 'Severely crowded and overlapping teeth — a typical case for fixed-brace treatment' },
-    { src: '/images/ortho-protruded-tooth.jpg', caption: 'Midline diastema — gap between the upper front teeth' },
-    { src: '/images/ortho-metal-braces.jpg', caption: 'Stainless steel metal braces with archwire on upper and lower arches' },
-    { src: '/images/ortho-ceramic-braces.jpg', caption: 'Ceramic tooth-coloured braces — a discreet aesthetic option' },
-    { src: '/images/ortho-before-after-1.jpg', caption: 'Before & after — crooked, crowded teeth fully aligned with braces', contain: true },
+    { src: '/services/Orthodontic/ortho-crowded-teeth.jpg',       caption: 'Severely crowded and overlapping teeth — a typical case for fixed-brace treatment' },
+    { src: '/services/Orthodontic/ortho-midline-diastema.jpg',    caption: 'Midline diastema — gap between the upper front teeth' },
+    { src: '/services/Orthodontic/ortho-ceramic-braces.jpg',      caption: 'Ceramic tooth-coloured braces — a discreet aesthetic option' },
+    { src: '/services/Orthodontic/ortho-self-ligating-braces.webp', caption: 'Self-ligating metal braces — faster treatment, fewer visits' },
+    { src: '/services/Orthodontic/ortho-spacings-correction.jpg', caption: 'Before & after — spacing and proclination correction with braces' },
+    { src: '/services/Orthodontic/ortho-cross-bite.png',          caption: 'Crossbite — upper and lower teeth misaligned laterally' },
+    { src: '/services/Orthodontic/ortho-deep-bite.jpg',           caption: 'Deep bite — upper front teeth excessively overlap the lower' },
+    { src: '/services/Orthodontic/ortho-open-bite.jpg',           caption: 'Open bite — front teeth do not meet when mouth is closed' },
+    { src: '/services/Orthodontic/ortho-protruded-teeth.jpg',     caption: 'Severely protruded teeth with deep bite — corrected with orthodontic treatment' },
+    { src: '/services/Orthodontic/ortho-spaced-teeth.webp',       caption: 'Spaced teeth — gaps between teeth corrected with braces' },
   ],
 
   overview:
@@ -76,7 +81,7 @@ const serviceData = {
     {
       title: 'Brace Placement',
       desc: 'Brackets are bonded to your teeth and connected with an archwire. The type of brace — metal, ceramic, or self-ligating — is chosen based on your clinical needs and aesthetic preference.',
-      image: '/services/ortho-img-p5-1.jpg',
+      image: '/services/Orthodontic/ortho-metal-braces.webp',
     },
     {
       title: 'Regular Adjustment Appointments',
@@ -85,7 +90,7 @@ const serviceData = {
     {
       title: 'Braces Removal & Retention',
       desc: 'Once your teeth reach their target positions, braces are removed and custom retainers are provided to hold teeth in their new positions while bone stabilises.',
-      image: '/services/ortho-img-p7-1.jpg',
+      image: '/services/Orthodontic/ortho-spacings-correction.jpg',
     },
   ],
 

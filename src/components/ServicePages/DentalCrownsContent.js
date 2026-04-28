@@ -1,15 +1,16 @@
 import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
-  accent: '#0EA5A0',
-  contentImage: '/images/dental-clinic-interior.jpg',
+  accent: '#d97706',
+  contentImage: '/services/Dental-Crown/crown-zirconia.jpg',
 
   gallery: [
-    { src: '/services/crown-zirconia.jpg', caption: 'Full-zirconia crown on a working model — metal-free, biocompatible and MRI-safe, ideal for both front and back teeth' },
-    { src: '/services/crown-metal-ceramic.jpg', caption: 'Porcelain-fused-to-metal (PFM) crown — durable metal substructure with tooth-coloured porcelain facing' },
-    { src: '/services/crown-metal.jpg', caption: 'Full-metal crowns — maximum strength and minimal tooth reduction for posterior teeth' },
-    { src: '/services/smile-makeover-2.jpg', caption: 'Before & after: damaged front teeth rebuilt with full-ceramic crowns for a natural appearance', contain: true },
-    { src: '/services/smile-makeover-5.jpg', caption: 'Before & after: worn and discoloured front teeth fully restored with ceramic crowns', contain: true },
+    { src: '/services/Dental-Crown/crown-zirconia.jpg',              caption: 'Zirconia crown — metal-free, biocompatible and MRI-safe, ideal for both front and back teeth' },
+    { src: '/services/Dental-Crown/crown-zirconia-single.webp',      caption: 'Single zirconia crown — precision-milled for a perfect fit and natural translucency' },
+    { src: '/services/Dental-Crown/crown-zirconia-bridge.png',       caption: 'Zirconia bridge replacing a missing tooth — fixed, natural-looking, and metal-free' },
+    { src: '/services/Dental-Crown/crown-porcelain-fused-metal.jpg', caption: 'Porcelain-fused-to-metal (PFM) crown — durable metal substructure with tooth-coloured porcelain facing' },
+    { src: '/services/Dental-Crown/crown-metal.jpg',                 caption: 'Full-metal crown — maximum strength and minimal tooth reduction for posterior teeth' },
+    { src: '/services/Dental-Crown/crown-dental-bridge.jpg',         caption: 'Dental bridge — three-unit fixed bridge restoring a missing tooth without surgery' },
   ],
 
   overview:

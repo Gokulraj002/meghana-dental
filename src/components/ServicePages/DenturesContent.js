@@ -1,16 +1,13 @@
 import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
-  accent: '#0EA5A0',
-  contentImage: '/services/denture-img1.jpg',
+  accent: '#10b981',
+  contentImage: '/services/Dentures/denture-complete.webp',
 
   gallery: [
-    { src: '/services/denture-img1.jpg', caption: 'Complete acrylic denture — full upper and lower set with natural-looking gum and teeth' },
-    { src: '/services/denture-img2.jpg', caption: 'Partial denture restoring missing lower teeth with a precision clasp' },
-    { src: '/services/denture-img3.jpg', caption: 'Before & after: a fully edentulous mouth restored with a complete denture', contain: true },
-    { src: '/images/denture-types.jpg', caption: 'Partial denture clasp options — flexible aesthetic clasp vs rigid metal clasp', contain: true },
-    { src: '/images/bps-dentures.jpg', caption: 'BPS (Bio-Functional Prosthetic System) — premium dentures, no adhesive needed', contain: true },
-    { src: '/images/implant-denture.jpg', caption: 'Implant-retained overdenture — snap-on stability anchored to dental implants', contain: true },
+    { src: '/services/Dentures/denture-complete.webp',         caption: 'Complete acrylic denture — full upper and lower set with natural-looking gum and teeth' },
+    { src: '/services/Dentures/denture-partial-removable.jpg', caption: 'Removable partial denture — restoring missing teeth while keeping remaining natural teeth intact' },
+    { src: '/services/Dentures/denture-before-after.jpg',      caption: 'Before & after: a fully edentulous mouth restored with a complete denture — natural smile regained' },
   ],
 
   overview:

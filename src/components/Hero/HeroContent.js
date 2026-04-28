@@ -21,7 +21,7 @@ export default function HeroContent() {
           <i className="bi bi-calendar-check"></i>
           Book Appointment
         </Link>
-        <a href="tel:+919876543210" className="btn-hero-secondary">
+        <a href="tel:08772248330" className="btn-hero-secondary">
           <i className="bi bi-telephone-fill"></i>
           Call Now
         </a>

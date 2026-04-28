@@ -8,6 +8,14 @@ export const metadata = {
   keywords: 'Meghana Dental privacy policy, dental hospital data policy Tirupati, patient data protection dental clinic',
   alternates: { canonical: 'https://meghanadental.in/privacy-policy' },
   robots: { index: true, follow: true },
+  openGraph: {
+    title: 'Privacy Policy | Meghana Dental Hospital, Tirupati',
+    description: 'Read the privacy policy of Meghana Dental Hospital, Tirupati. Learn how we collect, use, and protect your personal data.',
+    url: 'https://meghanadental.in/privacy-policy',
+    siteName: 'Meghana Dental Hospital',
+    images: [{ url: '/images/about-clinic.png', width: 1200, height: 630, alt: 'Meghana Dental Hospital Tirupati' }],
+    type: 'website',
+  },
 };
 
 export default function PrivacyPolicyPage() {
@@ -179,7 +187,7 @@ export default function PrivacyPolicyPage() {
                 <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us:</p>
                 <ul>
                   <li><strong>Email:</strong> <a href="mailto:info@meghanadental.in">info@meghanadental.in</a></li>
-                  <li><strong>Phone:</strong> <a href="tel:+919876543210">+91 98765 43210</a></li>
+                  <li><strong>Phone:</strong> <a href="tel:08772248330">08772248330</a> / <a href="tel:+917893327036">+91 7893327036</a></li>
                   <li><strong>Address:</strong> Meghana Dental Hospital, No. 18-2-91B, Ashok Nagar, Tirupati, Andhra Pradesh 517501</li>
                   <li><strong>Hours:</strong> Mon–Sat: 9:00 AM – 8:00 PM | Sunday: 10:00 AM – 2:00 PM</li>
                 </ul>

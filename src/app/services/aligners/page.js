@@ -1,7 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServicePageHero from '@/components/ServicePages/ServicePageHero';
-import AlignersContent from '@/components/ServicePages/AlignersContent';
+import AlignersTabsContent from '@/components/ServicePages/AlignersTabsContent';
 
 export const metadata = {
   title: 'Clear Aligners Tirupati | Invisible Teeth Straightening',
@@ -72,7 +72,7 @@ export default function AlignersPage() {
           { icon: 'bi-calendar-range', label: 'Total Duration', value: '6–18 months' },
         ]}
       />
-      <AlignersContent />
+      <AlignersTabsContent />
       <Footer />
     </>
   );

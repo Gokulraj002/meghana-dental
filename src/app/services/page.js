@@ -17,6 +17,7 @@ export const metadata = {
       '14 specialist dental treatments under one roof in Tirupati. From implants to aligners, root canals to smile makeovers — expert MDS team, state-of-the-art technology.',
     url: 'https://meghanadental.in/services',
     siteName: 'Meghana Dental Hospital',
+    images: [{ url: '/images/about-clinic.png', width: 1200, height: 630, alt: 'Dental Services in Tirupati — Meghana Dental Hospital' }],
     type: 'website',
   },
 };

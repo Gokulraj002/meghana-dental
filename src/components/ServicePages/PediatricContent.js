@@ -2,13 +2,12 @@ import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
   accent: '#0EA5A0',
-  contentImage: '/services/Pediatric-Dentistry.jpg',
+  contentImage: '/services/Pediatric/pediatric-fluoride-varnish.png',
 
   gallery: [
-    { src: '/services/Pediatric-Dentistry.jpg', caption: 'Pedodontist examining a young patient with braces during a routine check-up' },
-    { src: '/images/children-dentist.jpg', caption: 'Gentle, child-friendly dental examination in progress' },
-    { src: '/images/fluoride-kids.png', caption: 'Why fluoride varnish 4 times a year matters — patient education poster', contain: true },
-    { src: '/images/children-happy.png', caption: 'Happy, anxiety-free children after a fear-free visit at Meghana Dental', contain: true },
+    { src: '/services/Pediatric/pediatric-fluoride-varnish.png', caption: 'Fluoride varnish application — protecting young teeth from decay' },
+    { src: '/services/Pediatric/pediatric-pit-fissure-sealant.jpg', caption: 'Pit and fissure sealant — sealing molar grooves to prevent cavities' },
+    { src: '/services/Pediatric/pediatric-crown-pulpectomy.jpg', caption: 'Polycarbonate crown placed after pulpectomy — restoring a milk tooth' },
   ],
 
   overview:

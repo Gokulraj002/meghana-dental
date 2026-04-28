@@ -36,8 +36,8 @@ export default function AppointmentInfo() {
         <div>
           <h5>Call Us</h5>
           <p>
-            <a href="tel:+919876543210">+91 98765 43210</a><br />
-            <a href="tel:+919876543211">+91 98765 43211</a>
+            <a href="tel:08772248330">08772248330</a><br />
+            <a href="tel:+917893327036">+91 7893327036</a>
           </p>
         </div>
       </div>

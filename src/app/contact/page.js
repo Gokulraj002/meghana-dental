@@ -18,6 +18,7 @@ export const metadata = {
       'Get in touch or book a dental appointment easily. Call, WhatsApp, or visit our clinic at Ashok Nagar, Tirupati, Andhra Pradesh.',
     url: 'https://meghanadental.in/contact',
     siteName: 'Meghana Dental Hospital',
+    images: [{ url: '/images/about-clinic.png', width: 1200, height: 630, alt: 'Contact Meghana Dental Hospital Tirupati' }],
     type: 'website',
   },
 };

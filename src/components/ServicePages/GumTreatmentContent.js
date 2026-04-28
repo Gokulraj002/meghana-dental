@@ -2,10 +2,13 @@ import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
   accent: '#0EA5A0',
-  contentImage: '/services/Gum-Treatment.jpg',
+  contentImage: '/services/Gum/gum-scaling-root-planing.png',
 
   gallery: [
-    { src: '/services/Gum-Treatment.jpg', caption: 'Periodontal examination at Meghana Dental Hospital' },
+    { src: '/services/Gum/gum-flap-surgery.png',            caption: 'Flap surgery with pocket reduction and gingivectomy' },
+    { src: '/services/Gum/gum-recession-coverage.jpg',      caption: 'Gum recession coverage — restoring receded gum tissue' },
+    { src: '/services/Gum/gum-recession-before-after.jpg',  caption: 'Gum recession coverage — before and after results' },
+    { src: '/services/Gum/gum-scaling-before-after.jpg',    caption: 'Scaling and stain removal — before and after comparison' },
   ],
 
   overview:

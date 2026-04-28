@@ -1,3 +1,5 @@
+import { SITE } from '@/lib/siteConfig';
+
 export default function FooterContact() {
   return (
     <div className="col-lg-3 col-md-4">
@@ -6,19 +8,22 @@ export default function FooterContact() {
         <div className="footer-contact-icon">
           <i className="bi bi-geo-alt-fill"></i>
         </div>
-        <p>No. 18-2-91B, Ashok Nagar,<br />Tirupati, Andhra Pradesh 517501</p>
+        <p>{SITE.address.street},<br />{SITE.address.city}, {SITE.address.state} {SITE.address.pincode}</p>
       </div>
       <div className="footer-contact-item">
         <div className="footer-contact-icon">
           <i className="bi bi-telephone-fill"></i>
         </div>
-        <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+        <p>
+          <a href={`tel:${SITE.phone.landlineTel}`}>{SITE.phone.landline}</a><br />
+          <a href={`tel:${SITE.phone.primaryTel}`}>{SITE.phone.primaryFormatted}</a>
+        </p>
       </div>
       <div className="footer-contact-item">
         <div className="footer-contact-icon">
           <i className="bi bi-envelope-fill"></i>
         </div>
-        <p><a href="mailto:info@meghanadental.in">info@meghanadental.in</a></p>
+        <p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
       </div>
     </div>
   );

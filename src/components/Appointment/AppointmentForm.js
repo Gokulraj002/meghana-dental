@@ -46,7 +46,7 @@ export default function AppointmentForm() {
       `🕐 Time: ${form.time || 'Flexible'}\n` +
       `🏥 Type: ${form.type === 'inperson' ? 'In Person' : 'Virtual'}\n` +
       (form.message ? `💬 Message: ${form.message}` : '');
-    window.open(`https://wa.me/919876543210?text=${encodeURIComponent(msg)}`, '_blank');
+    window.open(`https://wa.me/917893327036?text=${encodeURIComponent(msg)}`, '_blank');
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 5000);
   };
@@ -92,7 +92,7 @@ export default function AppointmentForm() {
             <input
               type="tel" name="phone" value={form.phone}
               onChange={handleChange} required
-              className="form-control" placeholder="+91 98765 43210"
+              className="form-control" placeholder="08772248330"
             />
           </div>
           <div className="col-12">

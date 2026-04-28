@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { SITE } from '@/lib/siteConfig';
 
 /**
  * Rich service-page layout.
@@ -156,7 +157,7 @@ export default function ServicePageLayout({ data }) {
                 </h2>
                 <div className="row g-3">
                   {benefits.map((b, i) => (
-                    <div className="col-md-6" key={i}>
+                    <div className="col-md-4" key={i}>
                       <div className="sp-benefit-card" style={{ '--sp-accent': accent }}>
                         <div className="sp-benefit-icon-v2" style={{ background: tint, color: accent }}>
                           <i className={`bi ${b.icon}`} />
@@ -262,7 +263,7 @@ export default function ServicePageLayout({ data }) {
                   >
                     Book Appointment <i className="bi bi-arrow-right-short" />
                   </Link>
-                  <a href="tel:+919876543210" className="sp-cta-call-v2">
+                  <a href={`tel:${SITE.phone.landlineTel}`} className="sp-cta-call-v2">
                     <i className="bi bi-telephone-fill" /> Call Us Now
                   </a>
                 </div>

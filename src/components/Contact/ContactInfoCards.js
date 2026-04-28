@@ -9,8 +9,8 @@ const infoCards = [
     icon: 'bi-telephone-fill',
     accent: '#10b981',
     title: 'Call Us Anytime',
-    lines: ['+91 98765 43210', '+91 98765 43211'],
-    hrefs: ['tel:+919876543210', 'tel:+919876543211'],
+    lines: ['08772248330', '+91 7893327036'],
+    hrefs: ['tel:08772248330', 'tel:+917893327036'],
   },
   {
     icon: 'bi-envelope-fill',

@@ -91,7 +91,7 @@ export default function VideoTestimonial() {
               </div>
 
               <a
-                href="https://wa.me/919876543210?text=Hello!%20I%27d%20like%20to%20book%20a%20dental%20appointment."
+                href="https://wa.me/917893327036?text=Hello!%20I%27d%20like%20to%20book%20a%20dental%20appointment."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-hero-primary"

@@ -1,9 +1,13 @@
 'use client';
+import { SITE } from '@/lib/siteConfig';
 
 export default function FloatingWhatsApp() {
+  const msg = encodeURIComponent(
+    `Hello! I'd like to book an appointment at ${SITE.name} ${SITE.address.city}.`
+  );
   return (
     <a
-      href="https://wa.me/919876543210?text=Hello!%20I'd%20like%20to%20book%20an%20appointment%20at%20Meghana%20Dental%20Hospital%20Tirupati."
+      href={`https://wa.me/${SITE.phone.whatsapp}?text=${msg}`}
       target="_blank"
       rel="noopener noreferrer"
       className="float-whatsapp"

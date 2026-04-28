@@ -32,17 +32,17 @@ export default function ContactMapSection() {
 
       {/* Quick Contact Strips */}
       <div className="cms-quick-row">
-        <a href="tel:+919876543210" className="cms-quick-item">
+        <a href="tel:08772248330" className="cms-quick-item">
           <div className="cms-quick-icon" style={{ background: '#10b98120', color: '#10b981' }}>
             <i className="bi bi-telephone-fill" />
           </div>
           <div>
             <span className="cms-quick-label">Call Now</span>
-            <span className="cms-quick-val">+91 98765 43210</span>
+            <span className="cms-quick-val">08772248330</span>
           </div>
         </a>
         <a
-          href="https://wa.me/919876543210?text=Hello!%20I'd%20like%20to%20book%20an%20appointment%20at%20Meghana%20Dental%20Hospital%20Tirupati."
+          href="https://wa.me/917893327036?text=Hello!%20I'd%20like%20to%20book%20an%20appointment%20at%20Meghana%20Dental%20Hospital%20Tirupati."
           target="_blank" rel="noopener noreferrer"
           className="cms-quick-item"
         >
@@ -65,7 +65,7 @@ export default function ContactMapSection() {
           <strong>Dental Emergency?</strong>
           <span>Call us immediately — available Mon–Sat 9 AM–8 PM at our Ashok Nagar clinic.</span>
         </div>
-        <a href="tel:+919876543210" className="cms-emergency-btn">
+        <a href="tel:08772248330" className="cms-emergency-btn">
           Call Now
         </a>
       </div>

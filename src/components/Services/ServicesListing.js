@@ -1,155 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
-const services = [
-  {
-    title: 'Smile Makeover',
-    desc: 'Personalised combination of cosmetic and restorative treatments to transform your smile completely.',
-    icon: 'bi-stars',
-    gradient: 'linear-gradient(135deg, #a21caf 0%, #7c3aed 100%)',
-    accent: '#a21caf',
-    image: '/services/smile-makeover-cover.jpg',
-    link: '/services/smile-makeover',
-    features: ['Digital Smile Design', 'Porcelain Veneers', 'Gum Contouring', 'Composite Bonding'],
-  },
-  {
-    title: 'Full Mouth Rehabilitation',
-    desc: 'Complete smile reconstruction combining multiple specialist treatments for total oral health restoration.',
-    icon: 'bi-layout-text-window-reverse',
-    gradient: 'linear-gradient(135deg, #0f766e 0%, #1e3a5f 100%)',
-    accent: '#0f766e',
-    image: '/services/smile-makeover-5.jpg',
-    link: '/services/full-mouth-rehab',
-    features: ['Multi-Specialty Approach', 'Digital Treatment Planning', 'Implants + Crowns + Ortho', 'Phased Treatment'],
-  },
-  {
-    title: 'Dental Implants',
-    desc: 'Permanent, natural-looking tooth replacement with titanium implants. Our prosthodontists use cutting-edge implant systems for lifelong results.',
-    icon: 'bi-hospital-fill',
-    gradient: 'linear-gradient(135deg, #0ea5e9 0%, #0d9488 100%)',
-    accent: '#0ea5e9',
-    image: '/services/dental-implants.jpg',
-    link: '/services/dental-implants',
-    features: ['Single & Multiple Implants', 'All-on-4 / All-on-6', 'Implant-Supported Dentures', 'Immediate Loading'],
-  },
-  {
-    title: 'Root Canal Treatment',
-    desc: 'Advanced, pain-free root canal using microscope-guided precision. Single-sitting RCT with highest success rates in Tirupati.',
-    icon: 'bi-activity',
-    gradient: 'linear-gradient(135deg, #3b82f6 0%, #7c3aed 100%)',
-    accent: '#3b82f6',
-    image: '/services/Root-Canal-Treatment.jpg',
-    link: '/services/root-canal',
-    features: ['Microscope-Guided RCT', 'Single-Sitting Available', 'Rotary Endodontics', 'Re-Root Canal Treatment'],
-  },
-  {
-    title: 'Orthodontic Treatment',
-    desc: 'Dental braces to align teeth for better straightening, jaw positioning, aesthetics, and facial symmetry.',
-    icon: 'bi-emoji-smile',
-    gradient: 'linear-gradient(135deg, #8b5cf6 0%, #db2777 100%)',
-    accent: '#8b5cf6',
-    image: '/services/ortho-img-p5-1.jpg',
-    link: '/services/orthodontics',
-    features: ['Metal Braces', 'Ceramic Braces', 'Self-Ligating Braces', '3D Oral Scanner Planning'],
-  },
-  {
-    title: 'Clear Aligners',
-    desc: 'Custom-fitted transparent trays that gradually shift teeth into position — invisible, removable, and comfortable.',
-    icon: 'bi-gem',
-    gradient: 'linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)',
-    accent: '#0891b2',
-    image: '/services/aligners-img2.jpg',
-    link: '/services/aligners',
-    features: ['Invisible Treatment', 'Removable Trays', '3D Intra-Oral Scanning', 'No Food Restrictions'],
-  },
-  {
-    title: 'Teeth Whitening',
-    desc: 'Professional in-office laser whitening for a brighter, more confident smile in just one visit.',
-    icon: 'bi-brightness-high-fill',
-    gradient: 'linear-gradient(135deg, #f59e0b 0%, #ea580c 100%)',
-    accent: '#f59e0b',
-    image: '/services/Teeth-Whitening.jpg',
-    link: '/services/teeth-whitening',
-    features: ['In-Office Laser Whitening', 'Take-Home Kits', 'Long-Lasting Results', 'Safe & Painless'],
-  },
-  {
-    title: 'Dentures & Prosthetics',
-    desc: 'Premium BPS dentures, flexible partial dentures, and precision-crafted full dentures for a natural look.',
-    icon: 'bi-person-fill',
-    gradient: 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
-    accent: '#10b981',
-    image: '/services/denture-img1.jpg',
-    link: '/services/dentures',
-    features: ['BPS Dentures', 'Flexible Dentures', 'Cast Partial Dentures', 'Implant-Supported Dentures'],
-  },
-  {
-    title: 'Pediatric Dentistry',
-    desc: 'Gentle, child-friendly dental care designed specially for children in a fun, fear-free environment.',
-    icon: 'bi-heart-fill',
-    gradient: 'linear-gradient(135deg, #ec4899 0%, #f43f5e 100%)',
-    accent: '#ec4899',
-    image: '/services/Pediatric-Dentistry.jpg',
-    link: '/services/pediatric-dentistry',
-    features: ['Baby Teeth Care', 'Fluoride Treatment', 'Fissure Sealants', 'Space Maintainers'],
-  },
-  {
-    title: 'Microscope Dentistry',
-    desc: 'Experience the highest precision with dental microscope 25× dental operating microscope — only clinic in Tirupati.',
-    icon: 'bi-search',
-    gradient: 'linear-gradient(135deg, #4f46e5 0%, #0f766e 100%)',
-    accent: '#4f46e5',
-    image: '/images/microscope-treatment.jpg',
-    link: '/services/microscope-dentistry',
-    features: ['Precision Root Canals', 'Microsurgery', 'Crack Detection', 'Magnified Restorations'],
-  },
-  {
-    title: 'Laser Dentistry',
-    desc: 'Minimally invasive laser treatments for gum surgery, cavity treatment, ulcer healing, and gum contouring.',
-    icon: 'bi-lightning-fill',
-    gradient: 'linear-gradient(135deg, #f97316 0%, #dc2626 100%)',
-    accent: '#f97316',
-    image: '/services/whitening-laser-procedure.jpg',
-    link: '/services/laser-dentistry',
-    features: ['Laser Gum Surgery', 'Gum Contouring', 'Painless Cavity Prep', 'Ulcer Treatment'],
-  },
-  {
-    title: 'Gum Treatment',
-    desc: 'Comprehensive periodontal treatment — scaling, root planing, laser gum therapy, and long-term maintenance.',
-    icon: 'bi-heart-pulse-fill',
-    gradient: 'linear-gradient(135deg, #14b8a6 0%, #0284c7 100%)',
-    accent: '#14b8a6',
-    image: '/services/Gum-Treatment.jpg',
-    link: '/services/gum-treatment',
-    features: ['Scaling & Root Planing', 'Laser Gum Therapy', 'Flap Surgery', 'Periodontal Maintenance'],
-  },
-  {
-    title: 'Tooth Extraction',
-    desc: 'Safe and comfortable tooth removal including impacted wisdom tooth surgery with minimal discomfort.',
-    icon: 'bi-shield-fill-check',
-    gradient: 'linear-gradient(135deg, #64748b 0%, #334155 100%)',
-    accent: '#64748b',
-    image: '/services/wisdom-img1.jpg',
-    link: '/services/tooth-extraction',
-    features: ['Simple Extractions', 'Surgical Extractions', 'Wisdom Tooth Removal', 'OPG X-ray Planning'],
-  },
-  {
-    title: 'Dental Crowns & Bridges',
-    desc: 'Custom-crafted zirconia, e.max, and PFM crowns and bridges for restoring damaged or missing teeth.',
-    icon: 'bi-award-fill',
-    gradient: 'linear-gradient(135deg, #d97706 0%, #b45309 100%)',
-    accent: '#d97706',
-    image: '/services/crown-zirconia.jpg',
-    link: '/services/dental-crowns',
-    features: ['Zirconia Crowns', 'e.max Crowns', 'PFM Crowns', 'Fixed Dental Bridges'],
-  },
-];
+import { SERVICES } from '@/lib/services';
 
 export default function ServicesListing() {
   return (
     <div className="row g-4">
-      {services.map((service, index) => (
-        <div className="col-xl-3 col-lg-4 col-md-6" key={index}>
-          <Link href={service.link} className="sl-link">
+      {SERVICES.map((service, index) => (
+        <div className="col-xl-3 col-lg-4 col-md-6" key={service.slug}>
+          <Link href={`/services/${service.slug}`} className="sl-link">
             <div className="sl-card">
 
               {/* Card top — image or gradient */}
@@ -162,15 +20,11 @@ export default function ServicesListing() {
                     height={340}
                     className="sl-img-cover"
                   />
-                  {/* gradient overlay for badge legibility */}
                   <div className="sl-img-dark" />
-                  {/* accent gradient bar at bottom */}
                   <div className="sl-img-accent" style={{ background: service.gradient }} />
-                  {/* gradient icon badge top-left */}
                   <div className="sl-img-tag" style={{ background: service.gradient }}>
                     <i className={`bi ${service.icon}`} />
                   </div>
-                  {/* number chip top-right */}
                   <span className="sl-num">{String(index + 1).padStart(2, '0')}</span>
                 </div>
               ) : (

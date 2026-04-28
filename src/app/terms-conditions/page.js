@@ -8,6 +8,14 @@ export const metadata = {
   keywords: 'Meghana Dental terms and conditions, dental hospital terms of use Tirupati, dental clinic website terms',
   alternates: { canonical: 'https://meghanadental.in/terms-conditions' },
   robots: { index: true, follow: true },
+  openGraph: {
+    title: 'Terms & Conditions | Meghana Dental Hospital, Tirupati',
+    description: 'Terms and conditions governing the use of Meghana Dental Hospital website and dental services in Tirupati, Andhra Pradesh.',
+    url: 'https://meghanadental.in/terms-conditions',
+    siteName: 'Meghana Dental Hospital',
+    images: [{ url: '/images/about-clinic.png', width: 1200, height: 630, alt: 'Meghana Dental Hospital Tirupati' }],
+    type: 'website',
+  },
 };
 
 export default function TermsConditionsPage() {
@@ -170,7 +178,7 @@ export default function TermsConditionsPage() {
                 <p>If you have any questions about these Terms &amp; Conditions, please contact us:</p>
                 <ul>
                   <li><strong>Email:</strong> <a href="mailto:info@meghanadental.in">info@meghanadental.in</a></li>
-                  <li><strong>Phone:</strong> <a href="tel:+919876543210">+91 98765 43210</a></li>
+                  <li><strong>Phone:</strong> <a href="tel:08772248330">08772248330</a> / <a href="tel:+917893327036">+91 7893327036</a></li>
                   <li><strong>Address:</strong> No. 18-2-91B, Ashok Nagar, Tirupati, Andhra Pradesh 517501</li>
                   <li><strong>Hours:</strong> Mon–Sat: 9:00 AM – 8:00 PM | Sunday: 10:00 AM – 2:00 PM</li>
                 </ul>

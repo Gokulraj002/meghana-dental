@@ -1,6 +1,5 @@
 import dynamic from 'next/dynamic';
-import SchemaMarkup  from '@/components/shared/SchemaMarkup';
-import Navbar        from '@/components/Navbar';
+import Navbar from '@/components/Navbar';
 import HeroSection   from '@/components/Hero';   // above-fold — eager
 
 // Below-fold sections — lazy loaded to reduce initial JS bundle
@@ -41,7 +40,6 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <SchemaMarkup />
       <Navbar />
 
       {/* 1. Hero — instant hook + primary CTA */}

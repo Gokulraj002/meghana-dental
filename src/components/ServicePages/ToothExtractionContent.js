@@ -5,7 +5,6 @@ const serviceData = {
   contentImage: '/services/wisdom-img1.jpg',
 
   gallery: [
-    { src: '/services/wisdom-img1.jpg', caption: 'Impacted wisdom tooth — 3D anatomical view of third molar pressing against the second molar' },
     { src: '/services/pdf-wisdom-p1.jpg', caption: 'Wisdom tooth / impacted tooth extraction — clinical overview & common problems', contain: true },
     { src: '/services/wisdom-img2.jpg', caption: 'Wisdom teeth anatomy — angular, partial eruption, horizontal & vertical impactions', contain: true },
     { src: '/services/wisdom-img3.jpg', caption: 'Six classifications of wisdom tooth impaction — vertical, distoangular, horizontal, mesioangular, transverse, inverted', contain: true },

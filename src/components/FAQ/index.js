@@ -58,7 +58,7 @@ export default function FAQSection() {
                 Everything you need to know about our treatments, procedures, and what to expect at Meghana Dental Hospital.
               </p>
               <a
-                href="https://wa.me/919876543210?text=Hello!%20I%20have%20a%20question%20about%20dental%20treatment."
+                href="https://wa.me/917893327036?text=Hello!%20I%20have%20a%20question%20about%20dental%20treatment."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-hero-wa"

@@ -67,7 +67,7 @@ export default function DoctorsSection() {
                       </div>
                     </div>
                     <a
-                      href="https://wa.me/919876543210?text=Hello%2C%20I%27d%20like%20to%20book%20a%20consultation%20with%20Dr.%20M.%20Hemadri."
+                      href="https://wa.me/917893327036?text=Hello%2C%20I%27d%20like%20to%20book%20a%20consultation%20with%20Dr.%20M.%20Hemadri."
                       className="doc-wa-btn"
                       target="_blank"
                       rel="noopener noreferrer"
