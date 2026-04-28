@@ -9,12 +9,12 @@ const serviceData = {
     { src: '/services/Orthodontic/ortho-midline-diastema.jpg',    caption: 'Midline diastema — gap between the upper front teeth' },
     { src: '/services/Orthodontic/ortho-ceramic-braces.jpg',      caption: 'Ceramic tooth-coloured braces — a discreet aesthetic option' },
     { src: '/services/Orthodontic/ortho-self-ligating-braces.webp', caption: 'Self-ligating metal braces — faster treatment, fewer visits' },
-    { src: '/services/Orthodontic/ortho-spacings-correction.jpg', caption: 'Before & after — spacing and proclination correction with braces' },
+    { src: '/services/Orthodontic/ortho-spacings-correction.jpg', caption: 'Before & after — spacing and proclination' },
     { src: '/services/Orthodontic/ortho-cross-bite.png',          caption: 'Crossbite — upper and lower teeth misaligned laterally' },
     { src: '/services/Orthodontic/ortho-deep-bite.jpg',           caption: 'Deep bite — upper front teeth excessively overlap the lower' },
     { src: '/services/Orthodontic/ortho-open-bite.jpg',           caption: 'Open bite — front teeth do not meet when mouth is closed' },
-    { src: '/services/Orthodontic/ortho-protruded-teeth.jpg',     caption: 'Severely protruded teeth with deep bite — corrected with orthodontic treatment' },
-    { src: '/services/Orthodontic/ortho-spaced-teeth.webp',       caption: 'Spaced teeth — gaps between teeth corrected with braces' },
+    { src: '/services/Orthodontic/ortho-protruded-teeth.jpg',     caption: 'Severely protruded teeth with deep bite ' },
+    { src: '/services/Orthodontic/ortho-spaced-teeth.webp',       caption: 'Spaced teeth — gaps between teeth' },
   ],
 
   overview:

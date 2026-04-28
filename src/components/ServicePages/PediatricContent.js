@@ -5,6 +5,7 @@ const serviceData = {
   contentImage: '/services/Pediatric/pediatric-fluoride-varnish.png',
 
   gallery: [
+    { src: '/services/Pediatric/pediatic-fluoride-gel.jpeg', caption: 'Fluoride varnish application — protecting young teeth from decay' },
     { src: '/services/Pediatric/pediatric-fluoride-varnish.png', caption: 'Fluoride varnish application — protecting young teeth from decay' },
     { src: '/services/Pediatric/pediatric-pit-fissure-sealant.jpg', caption: 'Pit and fissure sealant — sealing molar grooves to prevent cavities' },
     { src: '/services/Pediatric/pediatric-crown-pulpectomy.jpg', caption: 'Polycarbonate crown placed after pulpectomy — restoring a milk tooth' },

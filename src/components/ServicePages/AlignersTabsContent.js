@@ -148,7 +148,7 @@ const clearAlignersData = {
 
 const invisalignData = {
   accent: '#0f766e',
-  contentImage: '/images/aligners-wearing.jpg',
+  contentImage: '/services/invisalign.jpeg',
 
   gallery: [
     { src: '/images/aligners-trays.jpg', caption: 'Invisalign precision trays — fabricated by Align Technology using SmartTrack material, engineered for consistent, predictable tooth movement' },

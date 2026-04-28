@@ -2,10 +2,10 @@ import Image from 'next/image';
 
 const facilities = [
   {
-    image: '/images/dental-chair.jpg',
-    alt: 'Modern Dental Chair',
-    title: '🪑 Modern Treatment Rooms',
-    desc: 'Comfortable dental chairs with integrated patient entertainment systems and ergonomic design for painless procedures.',
+    image: '/images/about-itero-scanner.jpg',
+    alt: 'iTero Intraoral Scanner — Digital Impressions at Meghana Dental',
+    title: '📡 iTero Digital Scanner',
+    desc: 'We use the iTero intraoral scanner for fast, accurate, mess-free digital impressions — essential for clear aligners, crowns, and smile makeovers.',
   },
   {
     image: '/images/microscope.jpg',
@@ -13,12 +13,12 @@ const facilities = [
     title: '🔬 Dental Microscope',
     desc: 'dental operating microscope with 25× magnification for precision root canals, microsurgery, and magnified diagnosis — one of the few in the region.',
   },
-  {
-    image: '/images/dental-equipment.jpg',
-    alt: 'Advanced Dental Equipment',
-    title: '⚙️ Digital Equipment',
-    desc: 'Digital X-rays, rotary endodontics, laser dentistry units, and advanced sterilisation ensuring highest standards of infection control.',
-  },
+{
+  image: '/images/about-itero.jpeg',
+  alt: 'iTero Digital Scanner — Advanced 3D Dental Scanning at Meghana Dental Tirupati',
+  title: '🖥️ Digital Smile Scanning',
+  desc: 'Meghana Dental uses the advanced iTero Element® Scanner in Tirupati — providing fast, accurate 3D dental scans for comfortable, mess-free impressions and precise treatment planning.',
+}
 ];
 
 export default function AboutFacilities() {
