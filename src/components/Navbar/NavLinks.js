@@ -1,12 +1,13 @@
 import Link from 'next/link';
 
 const navLinks = [
-  { label: 'Home',         href: '/' },
-  { label: 'About',        href: '/about' },
-  { label: 'Our Services', href: '/services' },
-  { label: 'Doctors',      href: '/doctors' },
-  { label: 'Testimonials', href: '/testimonials' },
-  { label: 'Contact',      href: '/contact' },
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Our Services", href: "/services" },
+  { label: "Doctors", href: "/doctors" },
+  { label: "Testimonials", href: "/testimonials" },
+  { label: "Contact", href: "/contact" },
+  { label: "Gallery", href: "/gallery" },
 ];
 
 export default function NavLinks({ pathname }) {

@@ -81,7 +81,7 @@ export default function RootLayout({ children }) {
       <head>
         <SchemaMarkup />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         <BootstrapProvider>
           {children}
           <FloatingWhatsApp />
