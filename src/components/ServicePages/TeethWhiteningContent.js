@@ -2,13 +2,13 @@ import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
   accent: '#f59e0b',
-  contentImage: '/services/Teeth-Whitening/whitening-cover.webp',
+  contentImage: '/services/teeth-whitening-gallery/whitening-cover.webp',
 
   gallery: [
-    { src: '/services/Teeth-Whitening/whitening-cover.webp',             caption: 'Professional teeth whitening — achieving a brighter, more confident smile at Meghana Dental Hospital' },
-    { src: '/services/Teeth-Whitening/whitening-laser.png',              caption: 'Laser teeth whitening procedure — blue-light activated bleaching gel for maximum results' },
-    { src: '/services/Teeth-Whitening/whitening-fluorosis-bleaching.webp', caption: 'Dental fluorosis treated with bleaching — stains safely removed for a uniform, bright smile' },
-    { src: '/services/Teeth-Whitening/whitening-before-after.jpg',       caption: 'Before & after: dramatic shade improvement after a single professional whitening session' },
+    { src: '/services/teeth-whitening-gallery/whitening-cover.webp',             caption: 'Professional teeth whitening — achieving a brighter, more confident smile at Meghana Dental Hospital' },
+    { src: '/services/teeth-whitening-gallery/whitening-laser.png',              caption: 'Laser teeth whitening procedure — blue-light activated bleaching gel for maximum results' },
+    { src: '/services/teeth-whitening-gallery/whitening-fluorosis-bleaching.webp', caption: 'Dental fluorosis treated with bleaching — stains safely removed for a uniform, bright smile' },
+    { src: '/services/teeth-whitening-gallery/whitening-before-after.jpg',       caption: 'Before & after: dramatic shade improvement after a single professional whitening session' },
   ],
 
   overview:

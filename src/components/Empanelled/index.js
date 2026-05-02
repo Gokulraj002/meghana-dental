@@ -14,37 +14,60 @@ const panels = [
   { src: '/empanelled/bank.png',              alt: 'Bank Employees',                     label: 'Bank Employees' },
 ];
 
-/* Duplicate for seamless infinite loop */
 const track = [...panels, ...panels];
 
 export default function EmpanelledSection() {
   return (
     <section className="empanelled-section">
 
-      {/* Header */}
       <div className="container">
-        <div className="emp-header">
-          <span className="emp-subtitle">RECOGNISED &amp; EMPANELLED</span>
-          <h2 className="emp-title">
-            Trusted by Government &amp; <span>Public Sector</span>
-          </h2>
-          <p className="emp-desc">
-            Meghana Multispeciality Dental Hospital is an <strong>NABH certified</strong> dental
-            hospital, officially empanelled with leading government organisations, defence bodies,
-            and public sector undertakings.
-          </p>
+        <div className="emp-header-row">
 
-          {/* Badges */}
-          <div className="emp-badges-row">
-            <div className="emp-badge-pill emp-badge-nabh">
-              <i className="bi bi-patch-check-fill" />
-              <span><strong>NABH Certified</strong> — National Accreditation Board for Hospitals</span>
+          {/* LEFT — NABH Seal */}
+          <div className="emp-nabh-seal-wrap">
+            <div className="emp-nabh-seal-glow">
+              <div className="emp-nabh-seal">
+                <Image
+                  src="/images/nabh-accredited.jpg"
+                  alt="NABH Accredited — Patient Safety & Quality of Care"
+                  width={200}
+                  height={200}
+                  style={{ objectFit: 'cover', width: '100%', height: '100%', borderRadius: '50%' }}
+                />
+              </div>
             </div>
-            <div className="emp-badge-pill emp-badge-orgs">
-              <i className="bi bi-building-fill" />
-              <span><strong>11+ Organisations</strong> — Empanelled Govt &amp; PSU Bodies</span>
+            <div className="emp-nabh-seal-info">
+              <span className="emp-nabh-seal-title">NABH</span>
+              <span className="emp-nabh-seal-sub">Officially Accredited</span>
             </div>
           </div>
+
+          {/* Divider */}
+          <div className="emp-divider" />
+
+          {/* RIGHT — Text content */}
+          <div className="emp-header">
+            <span className="emp-subtitle">RECOGNISED &amp; EMPANELLED</span>
+            <h2 className="emp-title">
+              Trusted by Government &amp; <span>Public Sector</span>
+            </h2>
+            <p className="emp-desc">
+              Meghana Multispeciality Dental Hospital is an <strong>NABH certified</strong> dental
+              hospital, officially empanelled with leading government organisations, defence bodies,
+              and public sector undertakings.
+            </p>
+            <div className="emp-badges-row">
+              <div className="emp-badge-pill emp-badge-nabh">
+                <i className="bi bi-patch-check-fill" />
+                <span><strong>NABH Certified</strong> — National Accreditation Board for Hospitals</span>
+              </div>
+              <div className="emp-badge-pill emp-badge-orgs">
+                <i className="bi bi-building-fill" />
+                <span><strong>11+ Organisations</strong> — Empanelled Govt &amp; PSU Bodies</span>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 

@@ -2,12 +2,12 @@ import ServicePageLayout from './ServicePageLayout';
 
 const serviceData = {
   accent: '#10b981',
-  contentImage: '/services/Dentures/denture-complete.webp',
+  contentImage: '/services/denture-gallery/denture-complete.webp',
 
   gallery: [
-    { src: '/services/Dentures/denture-complete.webp',         caption: 'Complete acrylic denture — full upper and lower set with natural-looking gum and teeth' },
-    { src: '/services/Dentures/denture-partial-removable.jpg', caption: 'Removable partial denture — restoring missing teeth while keeping remaining natural teeth intact' },
-    { src: '/services/Dentures/denture-before-after.jpg',      caption: 'Before & after: a fully edentulous mouth restored with a complete denture — natural smile regained' },
+    { src: '/services/denture-gallery/denture-complete.webp',         caption: 'Complete acrylic denture — full upper and lower set with natural-looking gum and teeth' },
+    { src: '/services/denture-gallery/denture-partial-removable.jpg', caption: 'Removable partial denture — restoring missing teeth while keeping remaining natural teeth intact' },
+    { src: '/services/denture-gallery/denture-before-after.jpg',      caption: 'Before & after: a fully edentulous mouth restored with a complete denture — natural smile regained' },
   ],
 
   overview:

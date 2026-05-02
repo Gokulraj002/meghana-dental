@@ -38,7 +38,7 @@ export const SERVICES = [
     icon:         'bi-person-fill',
     gradient:     'linear-gradient(135deg, #10b981 0%, #059669 100%)',
     accent:       '#10b981',
-    image:        '/services/Dentures/denture-complete.webp',
+    image:        '/services/denture-gallery/denture-complete.webp',
     features:     ['BPS Dentures', 'Flexible Dentures', 'Cast Partial Dentures', 'Implant-Supported Dentures'],
   },
   {
@@ -93,7 +93,7 @@ export const SERVICES = [
     icon:         'bi-brightness-high-fill',
     gradient:     'linear-gradient(135deg, #f59e0b 0%, #ea580c 100%)',
     accent:       '#f59e0b',
-    image:        '/services/Teeth-Whitening/whitening-cover.webp',
+    image:        '/services/teeth-whitening-gallery/whitening-cover.webp',
     features:     ['In-Office Laser Whitening', 'Take-Home Kits', 'Long-Lasting Results', 'Safe & Painless'],
   },
   // ── Remaining services ──

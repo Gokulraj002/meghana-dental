@@ -3772,12 +3772,91 @@ img { max-width: 100%; height: auto; }
   pointer-events: none;
 }
 
-/* Header */
-.emp-header {
-  text-align: center;
+/* ── Empanelled Header Row ── */
+.emp-header-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 44px;
   position: relative;
   z-index: 1;
-  margin-bottom: 44px;
+}
+
+/* LEFT — NABH Seal */
+.emp-nabh-seal-wrap {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.emp-nabh-seal-glow {
+  padding: 6px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(255,255,255,0.18) 0%, rgba(99,179,237,0.25) 100%);
+  box-shadow: 0 0 40px rgba(99,179,237,0.3), 0 4px 24px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.emp-nabh-seal-glow:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 60px rgba(99,179,237,0.5), 0 4px 32px rgba(0,0,0,0.5);
+}
+.emp-nabh-seal {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #fff;
+  border: 3px solid rgba(255,255,255,0.9);
+}
+.emp-nabh-seal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.emp-nabh-seal-title {
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #63b3ed;
+}
+.emp-nabh-seal-sub {
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+}
+
+/* Vertical divider */
+.emp-divider {
+  flex: 0 0 1px;
+  width: 1px;
+  height: 160px;
+  background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.15) 30%, rgba(255,255,255,0.15) 70%, transparent);
+}
+
+/* RIGHT — Text */
+.emp-header {
+  flex: 1;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .emp-header-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .emp-divider { display: none; }
+  .emp-header { text-align: center; }
+  .emp-nabh-seal { width: 130px; height: 130px; }
+  .emp-badges-row { justify-content: center; }
 }
 .emp-subtitle {
   display: inline-block;
@@ -3808,7 +3887,7 @@ img { max-width: 100%; height: auto; }
   font-size: 0.95rem;
   color: rgba(255,255,255,0.65);
   max-width: 600px;
-  margin: 0 auto 28px;
+  margin: 0 0 28px;
   line-height: 1.7;
 }
 .emp-desc strong { color: rgba(255,255,255,0.9); }
@@ -3818,7 +3897,7 @@ img { max-width: 100%; height: auto; }
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .emp-badge-pill {
   display: flex;
