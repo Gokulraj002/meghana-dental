@@ -1,4 +1,5 @@
 import { SERVICES } from '@/lib/services';
+import blogsData from '@/data/blogs.json';
 
 export const dynamic = 'force-static';
 
@@ -32,7 +33,16 @@ export default function sitemap() {
     { url: `${BASE}/terms-conditions`, priority: 0.3, changeFrequency: 'yearly' },
   ];
 
-  return [...mainPages, ...servicePages, ...fillingSubPages, ...legalPages].map((p) => ({
+  const blogPages = [
+    { url: `${BASE}/blogs`, priority: 0.8, changeFrequency: 'weekly' },
+    ...blogsData.map(post => ({
+      url: `${BASE}/blogs/${post.slug}`,
+      priority: 0.7,
+      changeFrequency: 'monthly',
+    })),
+  ];
+
+  return [...mainPages, ...servicePages, ...fillingSubPages, ...legalPages, ...blogPages].map((p) => ({
     ...p,
     lastModified: now,
   }));

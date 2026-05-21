@@ -15,6 +15,7 @@ const EmpanelledSection   = dynamic(() => import('@/components/Empanelled'));
 const TestimonialsSection = dynamic(() => import('@/components/Testimonials'));
 const VideoTestimonial    = dynamic(() => import('@/components/VideoTestimonial'));
 const FAQSection          = dynamic(() => import('@/components/FAQ'));
+const BlogSection         = dynamic(() => import('@/components/Blog'));
 const AppointmentSection  = dynamic(() => import('@/components/Appointment'));
 const Footer              = dynamic(() => import('@/components/Footer'));
 
@@ -68,7 +69,10 @@ export default function Home() {
       {/* 7. Facilities — photo gallery of clinic */}
       <FacilitiesGallery />
 
-      {/* 8. Empanelled — NABH + govt organisations trust block */}
+      {/* 8. Blog — latest dental health articles */}
+      <BlogSection />
+
+      {/* 9. Empanelled — NABH + govt organisations trust block */}
       <EmpanelledSection />
 
       {/* 9. Doctors — meet our lead specialist */}

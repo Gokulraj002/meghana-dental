@@ -8,6 +8,7 @@ const navLinks = [
   { label: "Testimonials", href: "/testimonials" },
   { label: "Contact", href: "/contact" },
   { label: "Gallery", href: "/gallery" },
+  { label: "Blog", href: "/blogs" },
 ];
 
 export default function NavLinks({ pathname }) {
