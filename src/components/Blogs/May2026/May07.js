@@ -41,6 +41,14 @@ const May07 = () => {
           treatment.
         </p>
 
+        <div>
+          <img
+            src="/blogimage/blog1(3).jpg"
+            alt="AI-Powered Business Communication Automation India 2026 — Ojiva AI"
+            style={{ width: "100%", height: "800px", objectFit: "cover" }}
+          />
+        </div>
+
         {/* What Is a Dental Crown */}
         <div>
           <h2 className="fw-bold mt-5">
@@ -182,6 +190,14 @@ const May07 = () => {
           </p>
         </div>
 
+        <div>
+          <img
+            src="/blogimage/blog1(1).png"
+            alt="AI-Powered Business Communication Automation India 2026 — Ojiva AI"
+            style={{ width: "100%", height: "800px", objectFit: "cover" }}
+          />
+        </div>
+
         {/* Dental Crown Procedure */}
         <div>
           <h2 className="fw-bold mt-5">
@@ -288,6 +304,14 @@ const May07 = () => {
             <strong>Best Dental Clinic In Tirupati</strong>, will serve you
             beautifully for decades.
           </p>
+        </div>
+
+        <div>
+          <img
+            src="/blogimage/blog1(2).jpg"
+            alt="AI-Powered Business Communication Automation India 2026 — Ojiva AI"
+            style={{ width: "100%", height: "800px", objectFit: "cover" }}
+          />
         </div>
 
         {/* Why Meghana Dental */}

@@ -71,6 +71,37 @@ export default async function BlogPost({ params }) {
 
   const BlogComponent = BlogComponents[blog.componentKey.toLowerCase()];
 
+  const blogMeta = meta.find(post => post.slug === slug) || {};
+  const blogUrl = `https://meghanadental.in/blogs/${blog.slug}`;
+  const blogImage = `https://meghanadental.in${blogMeta.image || '/images/about-clinic.png'}`;
+
+  const blogSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    mainEntityOfPage: { '@type': 'WebPage', '@id': blogUrl },
+    headline: blogMeta.title || blog.slug,
+    description: blogMeta.description || '',
+    image: [blogImage],
+    datePublished: blogMeta.date,
+    dateModified: blogMeta.date,
+    author: {
+      '@type': 'Organization',
+      name: 'Meghana Dental Hospital',
+      url: 'https://meghanadental.in',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Meghana Dental Hospital',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://meghanadental.in/images/logo.png',
+      },
+    },
+    articleSection: blogMeta.category,
+    keywords: blogMeta.keywords,
+    inLanguage: 'en-IN',
+  };
+
   if (!BlogComponent) {
     return (
       <>
@@ -89,6 +120,10 @@ export default async function BlogPost({ params }) {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+      />
       <Navbar />
       <div style={{ paddingTop: '80px' }}>
         <BlogComponent />
