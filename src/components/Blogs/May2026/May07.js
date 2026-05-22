@@ -1,4 +1,21 @@
 import React from "react";
+import Link from "next/link";
+import blogsMeta from "@/data/blogs-meta.json";
+
+// Table of contents — section IDs match the h2 anchors below
+const TOC = [
+  { id: "what-is-a-dental-crown", label: "What Is a Dental Crown?" },
+  { id: "types-of-dental-crowns", label: "Types of Dental Crowns" },
+  { id: "who-needs-a-dental-crown", label: "Who Needs a Dental Crown?" },
+  { id: "dental-crown-procedure", label: "Dental Crown Procedure" },
+  { id: "possible-complications", label: "Possible Complications" },
+  { id: "how-long-do-dental-crowns-last", label: "How Long Do Crowns Last?" },
+  { id: "why-meghana-dental", label: "Why Meghana Dental?" },
+];
+
+const CURRENT_SLUG = "best-dental-hospital-tirupati-crown-procedure";
+const ARTICLE_URL = "https://meghanadental.in/blogs/" + CURRENT_SLUG;
+const ARTICLE_TITLE = "Best Dental Hospital In Tirupati For Crown Procedure";
 
 const May07 = () => {
   return (
@@ -8,6 +25,15 @@ const May07 = () => {
         <h1 className="text-brand py-4">
           Best Dental Hospital In Tirupati For Crown Procedure
         </h1>
+
+        {/* Date + read time */}
+        <div className="mb-4" style={{ color: "#6B7280", fontSize: "0.9rem" }}>
+          May 07, 2026 &nbsp;•&nbsp; 6 min read
+        </div>
+
+        <div className="row g-5">
+          {/* ─────── LEFT — Article Content ─────── */}
+          <div className="col-lg-8 blog-article-body" style={{ fontSize: "14px", lineHeight: 1.7 }}>
 
         {/* Introduction */}
         <p>
@@ -19,7 +45,7 @@ const May07 = () => {
           solution. A dental crown is essentially a customised cap placed over
           your damaged tooth to fully restore its original shape, strength,
           size, and appearance. If you are searching for the{" "}
-          <strong>Best Dental Hospital In Tirupati</strong> for a Crown
+          <span style={{ fontWeight: 700 }}>Best Dental Hospital In Tirupati</span> for a Crown
           Procedure, you have found the right place. Meghana Multispeciality
           Dental Hospital has been Tirupati&apos;s most trusted dental centre
           for over 17 years, treating more than 50,000 happy patients with
@@ -37,7 +63,7 @@ const May07 = () => {
           dental crown can protect and beautifully restore it. Here is
           everything you need to know about dental crowns — the types, the
           procedure, who needs one, how long they last, and why Meghana Dental
-          is the <strong>Best Dental Clinic In Tirupati</strong> for your crown
+          is the <span style={{ fontWeight: 700 }}>Best Dental Clinic In Tirupati</span> for your crown
           treatment.
         </p>
 
@@ -45,13 +71,13 @@ const May07 = () => {
           <img
             src="/blogimage/blog1(3).jpg"
             alt="AI-Powered Business Communication Automation India 2026 — Ojiva AI"
-            style={{ width: "100%", height: "800px", objectFit: "cover" }}
+            style={{ width: "100%", height: "700px", objectFit: "cover" }}
           />
         </div>
 
         {/* What Is a Dental Crown */}
         <div>
-          <h2 className="fw-bold mt-5">
+          <h2 id="what-is-a-dental-crown" className="fw-bold mt-5">
             <span className="text-brand">What Is a Dental Crown?</span>
           </h2>
           <p>
@@ -64,7 +90,7 @@ const May07 = () => {
             or gold alloys — and the right material is chosen based on the
             location of the tooth, your bite strength, your aesthetic
             preferences, and your budget. At Meghana Dental, the{" "}
-            <strong>Best Dental Hospital In Tirupati</strong>, our MDS
+            <span style={{ fontWeight: 700 }}>Best Dental Hospital In Tirupati</span>, our MDS
             specialists work closely with you to select the most suitable crown
             material so you get the best combination of strength, beauty, and
             longevity.
@@ -73,7 +99,7 @@ const May07 = () => {
 
         {/* Different Types of Dental Crowns */}
         <div>
-          <h2 className="fw-bold mt-5">
+          <h2 id="types-of-dental-crowns" className="fw-bold mt-5">
             <span className="text-brand">
               Different Types of Dental Crowns Available at Meghana Dental,
               Tirupati
@@ -83,7 +109,7 @@ const May07 = () => {
             <li className="d-flex align-items-start mb-3">
               <i className="bi bi-gem text-brand me-3"></i>
               <span>
-                <strong>Zirconia Crowns</strong> are currently the most popular
+                <span style={{ fontWeight: 700 }}>Zirconia Crowns</span> are currently the most popular
                 and highly recommended type of dental crown at Meghana Dental.
                 Zirconia is an exceptionally strong ceramic material — in fact,
                 it is one of the toughest dental materials available today,
@@ -100,7 +126,7 @@ const May07 = () => {
             <li className="d-flex align-items-start mb-3">
               <i className="bi bi-stars text-brand me-3"></i>
               <span>
-                <strong>Lithium Disilicate Crowns (e-max Crowns)</strong> are
+                <span style={{ fontWeight: 700 }}>Lithium Disilicate Crowns (e-max Crowns)</span> are
                 widely regarded as the most aesthetically superior type of
                 dental crown available today. Made from a high-strength ceramic
                 block, these crowns offer outstanding natural translucency and
@@ -110,7 +136,7 @@ const May07 = () => {
                 disilicate crowns are also highly durable and are one of the
                 biggest advances in cosmetic and restorative dentistry in recent
                 years. At Meghana Dental, the{" "}
-                <strong>Best Dental Clinic In Tirupati</strong>, our cosmetic
+                <span style={{ fontWeight: 700 }}>Best Dental Clinic In Tirupati</span>, our cosmetic
                 dentists use premium e-max crowns for smile makeovers and
                 anterior restorations.
               </span>
@@ -118,7 +144,7 @@ const May07 = () => {
             <li className="d-flex align-items-start mb-3">
               <i className="bi bi-layers-fill text-brand me-3"></i>
               <span>
-                <strong>Porcelain Fused to Metal (PFM) Crowns</strong> have been
+                <span style={{ fontWeight: 700 }}>Porcelain Fused to Metal (PFM) Crowns</span> have been
                 a reliable and widely used crown option for many years. In this
                 type, a metal substructure provides the structural strength, and
                 a layer of tooth-coloured porcelain is fused over it to give a
@@ -134,14 +160,14 @@ const May07 = () => {
             <li className="d-flex align-items-start mb-3">
               <i className="bi bi-droplet-fill text-brand me-3"></i>
               <span>
-                <strong>Porcelain Crowns (All-Ceramic Crowns)</strong> are made
+                <span style={{ fontWeight: 700 }}>Porcelain Crowns (All-Ceramic Crowns)</span> are made
                 entirely from tooth-coloured ceramic material without any metal
                 component. They provide the most natural-looking results and are
                 free from any risk of the dark gum line that can occur with PFM
                 crowns. All-ceramic crowns are an excellent option for patients
                 with metal allergies and for those who want a highly aesthetic
                 outcome for their front teeth. Meghana Dental, the{" "}
-                <strong>Best Dental Hospital In Tirupati</strong>, offers
+                <span style={{ fontWeight: 700 }}>Best Dental Hospital In Tirupati</span>, offers
                 all-ceramic crown options with premium-quality materials for
                 beautiful, long-lasting results.
               </span>
@@ -151,13 +177,13 @@ const May07 = () => {
 
         {/* Who Needs a Dental Crown */}
         <div>
-          <h2 className="fw-bold mt-5">
+          <h2 id="who-needs-a-dental-crown" className="fw-bold mt-5">
             <span className="text-brand">Who Needs a Dental Crown?</span>
           </h2>
           <p>
             Many people assume that a dental crown is only for severely broken
             teeth, but that is not the case. There are several situations where
-            the <strong>Best Dentist In Tirupati</strong> at Meghana Dental may
+            the <span style={{ fontWeight: 700 }}>Best Dentist In Tirupati</span> at Meghana Dental may
             recommend a crown for you. If you have a large cavity that is too
             big to be restored with a filling alone, a crown is the right
             solution to fully protect and strengthen the remaining tooth
@@ -167,7 +193,7 @@ const May07 = () => {
           </p>
           <p>
             One of the most common reasons for a{" "}
-            <strong>dental crown in Tirupati</strong> is after a root canal
+            <span style={{ fontWeight: 700 }}>dental crown in Tirupati</span> is after a root canal
             treatment. When a tooth undergoes RCT, it becomes more brittle and
             prone to fracture because its internal blood and nerve supply has
             been removed. Placing a crown over a root canal treated tooth is
@@ -194,13 +220,13 @@ const May07 = () => {
           <img
             src="/blogimage/blog1(1).png"
             alt="AI-Powered Business Communication Automation India 2026 — Ojiva AI"
-            style={{ width: "100%", height: "800px", objectFit: "cover" }}
+            style={{ width: "100%", height: "700px", objectFit: "cover" }}
           />
         </div>
 
         {/* Dental Crown Procedure */}
         <div>
-          <h2 className="fw-bold mt-5">
+          <h2 id="dental-crown-procedure" className="fw-bold mt-5">
             <span className="text-brand">
               Dental Crown Procedure at Meghana Dental Hospital, Tirupati
             </span>
@@ -236,14 +262,14 @@ const May07 = () => {
             permanently cementing it into place. Any fine adjustments are made
             at this stage to ensure the crown feels completely comfortable and
             natural. The entire experience at Meghana Dental, the{" "}
-            <strong>Best Dental Hospital In Tirupati</strong>, is guided by
+            <span style={{ fontWeight: 700 }}>Best Dental Hospital In Tirupati</span>, is guided by
             precision, care, and a commitment to your perfect smile.
           </p>
         </div>
 
         {/* Possible Complications */}
         <div>
-          <h2 className="fw-bold mt-5">
+          <h2 id="possible-complications" className="fw-bold mt-5">
             <span className="text-brand">
               Possible Complications and How Meghana Dental Prevents Them
             </span>
@@ -277,7 +303,7 @@ const May07 = () => {
 
         {/* How Long Do Dental Crowns Last */}
         <div>
-          <h2 className="fw-bold mt-5">
+          <h2 id="how-long-do-dental-crowns-last" className="fw-bold mt-5">
             <span className="text-brand">How Long Do Dental Crowns Last?</span>
           </h2>
           <p>
@@ -301,7 +327,7 @@ const May07 = () => {
             may recommend a night guard to protect your crowns and natural
             teeth. With regular dental check-ups every six months and proper
             home care, your crown placed at Meghana Dental, the{" "}
-            <strong>Best Dental Clinic In Tirupati</strong>, will serve you
+            <span style={{ fontWeight: 700 }}>Best Dental Clinic In Tirupati</span>, will serve you
             beautifully for decades.
           </p>
         </div>
@@ -310,19 +336,19 @@ const May07 = () => {
           <img
             src="/blogimage/blog1(2).jpg"
             alt="AI-Powered Business Communication Automation India 2026 — Ojiva AI"
-            style={{ width: "100%", height: "800px", objectFit: "cover" }}
+            style={{ width: "100%", height: "700px", objectFit: "cover" }}
           />
         </div>
 
         {/* Why Meghana Dental */}
         <div>
-          <h2 className="fw-bold mt-5">
+          <h2 id="why-meghana-dental" className="fw-bold mt-5">
             <span className="text-brand">
               Why Meghana Dental For Dental Crowns in Tirupati?
             </span>
           </h2>
           <p>
-            If you are looking for the <strong>Best Dentist In Tirupati</strong>{" "}
+            If you are looking for the <span style={{ fontWeight: 700 }}>Best Dentist In Tirupati</span>{" "}
             for a Crown Procedure or Treatment, Meghana Multispeciality Dental
             Hospital is without doubt your best choice. With 17 years of
             clinical excellence, a team of qualified MDS Specialists, and a
@@ -397,7 +423,7 @@ const May07 = () => {
             appointment today through our website at meghanadental.in or
             WhatsApp us directly. Give yourself and your smile the best care
             available in Tirupati.{" "}
-            <strong>At Meghana Dental, your smile is our mission.</strong>
+            <span style={{ fontWeight: 700 }}>At Meghana Dental, your smile is our mission.</span>
           </p>
         </div>
 
@@ -474,7 +500,350 @@ const May07 = () => {
             </li>
           </ul>
         </div>
+          </div>
+          {/* ─────── /LEFT ─────── */}
+
+          {/* ─────── RIGHT — Editorial Sidebar ─────── */}
+          <aside className="col-lg-4">
+            <div style={{ position: "sticky", top: "100px" }}>
+
+              {/* 1. CATEGORY pill + READING META */}
+              <div className="mb-4 d-flex align-items-center" style={{ gap: "10px", flexWrap: "wrap" }}>
+                <span
+                  style={{
+                    background: "var(--primary-50)",
+                    color: "var(--primary-dark)",
+                    fontSize: "0.72rem",
+                    fontWeight: 700,
+                    letterSpacing: "1px",
+                    padding: "6px 12px",
+                    borderRadius: "999px",
+                    textTransform: "uppercase",
+                  }}
+                >
+                  Dental Crowns
+                </span>
+                <span style={{ fontSize: "0.78rem", color: "#9CA3AF" }}>
+                  <i className="bi bi-clock me-1"></i>6 min read
+                </span>
+              </div>
+
+              {/* 2. TABLE OF CONTENTS — sticky editorial-style */}
+              <div
+                className="mb-4"
+                style={{
+                  background: "#fff",
+                  border: "1px solid #E5E7EB",
+                  borderLeft: "3px solid var(--primary)",
+                  borderRadius: "10px",
+                  padding: "22px 22px 18px",
+                }}
+              >
+                <div
+                  style={{
+                    fontSize: "0.7rem",
+                    fontWeight: 800,
+                    letterSpacing: "1.8px",
+                    color: "#6B7280",
+                    textTransform: "uppercase",
+                    marginBottom: "14px",
+                  }}
+                >
+                  <i className="bi bi-list-ul text-brand me-2"></i>
+                  In this article
+                </div>
+                <ol className="list-unstyled mb-0" style={{ counterReset: "toc" }}>
+                  {TOC.map((t) => (
+                    <li
+                      key={t.id}
+                      className="toc-item"
+                      style={{
+                        position: "relative",
+                        paddingLeft: "30px",
+                        marginBottom: "10px",
+                        counterIncrement: "toc",
+                      }}
+                    >
+                      <a
+                        href={"#" + t.id}
+                        className="toc-link"
+                        style={{
+                          color: "var(--text-body)",
+                          fontSize: "0.86rem",
+                          lineHeight: 1.45,
+                          display: "block",
+                          textDecoration: "none",
+                          transition: "color .2s",
+                        }}
+                      >
+                        {t.label}
+                      </a>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+
+              {/* 3. MEDICALLY REVIEWED BY (E-E-A-T trust signal) */}
+              <div
+                className="mb-4"
+                style={{
+                  background: "#fff",
+                  border: "1px solid #E5E7EB",
+                  borderRadius: "10px",
+                  padding: "22px",
+                }}
+              >
+                <div
+                  style={{
+                    fontSize: "0.7rem",
+                    fontWeight: 800,
+                    letterSpacing: "1.8px",
+                    color: "#6B7280",
+                    textTransform: "uppercase",
+                    marginBottom: "14px",
+                  }}
+                >
+                  <i className="bi bi-patch-check-fill text-brand me-2"></i>
+                  Medically Reviewed By
+                </div>
+                <div className="d-flex align-items-center">
+                  <div
+                    style={{
+                      width: "56px",
+                      height: "56px",
+                      borderRadius: "50%",
+                      background: "var(--primary-gradient)",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      color: "#fff",
+                      fontWeight: 700,
+                      fontSize: "1.1rem",
+                      flexShrink: 0,
+                      marginRight: "14px",
+                    }}
+                  >
+                    MD
+                  </div>
+                  <div>
+                    <div style={{ fontWeight: 700, fontSize: "0.95rem", color: "var(--text-primary)" }}>
+                      MDS Specialist Team
+                    </div>
+                    <div style={{ fontSize: "0.78rem", color: "#6B7280", marginTop: "2px" }}>
+                      Meghana Dental Hospital
+                    </div>
+                    <div style={{ fontSize: "0.72rem", color: "var(--primary-dark)", marginTop: "4px", fontWeight: 600 }}>
+                      17+ Years Experience &nbsp;•&nbsp; NABH Certified
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* 5. RELATED ARTICLES — pulled from blogs-meta.json */}
+              <div
+                className="mb-4"
+                style={{
+                  background: "#fff",
+                  border: "1px solid #E5E7EB",
+                  borderRadius: "10px",
+                  padding: "22px",
+                }}
+              >
+                <div
+                  style={{
+                    fontSize: "0.7rem",
+                    fontWeight: 800,
+                    letterSpacing: "1.8px",
+                    color: "#6B7280",
+                    textTransform: "uppercase",
+                    marginBottom: "16px",
+                  }}
+                >
+                  <i className="bi bi-journal-text text-brand me-2"></i>
+                  Related Articles
+                </div>
+                {blogsMeta
+                  .filter((p) => p.slug !== CURRENT_SLUG)
+                  .slice(0, 3)
+                  .map((p) => (
+                    <Link
+                      key={p.slug}
+                      href="/"
+                      className="related-item"
+                      style={{
+                        display: "flex",
+                        alignItems: "flex-start",
+                        padding: "10px 0",
+                        borderTop: "1px solid #F3F4F6",
+                        textDecoration: "none",
+                      }}
+                    >
+                      <div
+                        style={{
+                          width: "44px",
+                          height: "44px",
+                          borderRadius: "8px",
+                          background: "var(--primary-50)",
+                          color: "var(--primary-dark)",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          flexShrink: 0,
+                          marginRight: "12px",
+                          fontSize: "1.1rem",
+                        }}
+                      >
+                        <i className="bi bi-file-earmark-text"></i>
+                      </div>
+                      <div>
+                        <div
+                          style={{
+                            fontSize: "0.7rem",
+                            color: "var(--primary)",
+                            fontWeight: 700,
+                            textTransform: "uppercase",
+                            letterSpacing: "1px",
+                            marginBottom: "2px",
+                          }}
+                        >
+                          {p.category}
+                        </div>
+                        <div
+                          style={{
+                            fontSize: "0.82rem",
+                            color: "var(--text-primary)",
+                            fontWeight: 600,
+                            lineHeight: 1.35,
+                          }}
+                        >
+                          {p.title.length > 60 ? p.title.slice(0, 60) + "…" : p.title}
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+              </div>
+
+              {/* 6. NEWSLETTER / SUBTLE CTA — editorial footer */}
+              <div
+                style={{
+                  background: "var(--primary-dark)",
+                  color: "#fff",
+                  borderRadius: "10px",
+                  padding: "22px",
+                  textAlign: "center",
+                }}
+              >
+                <i
+                  className="bi bi-chat-heart-fill"
+                  style={{ fontSize: "1.6rem", color: "#fff", opacity: 0.9 }}
+                ></i>
+                <div
+                  className="fw-bold mt-2 mb-2"
+                  style={{ color: "#fff", fontSize: "1.05rem" }}
+                >
+                  Have a dental question?
+                </div>
+                <div style={{ fontSize: "0.82rem", opacity: 0.85, marginBottom: "14px" }}>
+                  WhatsApp our team — we reply within 10 minutes.
+                </div>
+                <a
+                  href="https://wa.me/917893327036"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn fw-bold w-100"
+                  style={{
+                    background: "#25D366",
+                    color: "#fff",
+                    padding: "10px",
+                    borderRadius: "8px",
+                    fontSize: "0.88rem",
+                  }}
+                >
+                  <i className="bi bi-whatsapp me-2"></i>
+                  Chat on WhatsApp
+                </a>
+              </div>
+            </div>
+          </aside>
+          {/* ─────── /RIGHT ─────── */}
+        </div>
       </div>
+
+      {/* Sidebar interactions + article body font-size override */}
+      <style>{`
+        /* Editorial sidebar — TOC numbered, hover, share pills, related-article hover */
+        .toc-item::before {
+          content: counter(toc, decimal-leading-zero);
+          position: absolute;
+          left: 0;
+          top: 0;
+          font-size: 0.72rem;
+          font-weight: 800;
+          color: var(--primary);
+          letter-spacing: 0.5px;
+        }
+        .toc-link:hover {
+          color: var(--primary-dark) !important;
+        }
+        .toc-link:hover::after {
+          content: " →";
+          color: var(--primary);
+        }
+        .share-pill {
+          width: 38px;
+          height: 38px;
+          border-radius: 50%;
+          color: #fff !important;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 1rem;
+          transition: transform .2s, box-shadow .2s;
+          text-decoration: none !important;
+        }
+        .share-pill:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 6px 14px rgba(0,0,0,0.18);
+          color: #fff !important;
+        }
+        .related-item:hover {
+          background: var(--primary-50);
+          border-radius: 8px;
+          padding-left: 8px !important;
+          padding-right: 8px !important;
+        }
+        /* Smooth scroll for TOC anchor jumps + offset for sticky navbar */
+        html { scroll-behavior: smooth; }
+        .blog-article-body h2[id] {
+          scroll-margin-top: 100px;
+        }
+        .blog-article-body p,
+        .blog-article-body li,
+        .blog-article-body li span,
+        .blog-article-body ul,
+        .blog-article-body strong,
+        .blog-article-body a {
+          font-size: 14px;
+          line-height: 1.7;
+        }
+        /* Remove any red/pink boxes, borders, outlines, backgrounds on inline emphasis */
+        .blog-article-body strong,
+        .blog-article-body b,
+        .blog-article-body a,
+        .blog-article-body em {
+          background: transparent !important;
+          border: none !important;
+          outline: none !important;
+          box-shadow: none !important;
+          padding: 0 !important;
+          text-decoration: none !important;
+          color: inherit !important;
+        }
+        .blog-article-body strong,
+        .blog-article-body b {
+          font-weight: 700 !important;
+        }
+      `}</style>
     </>
   );
 };
