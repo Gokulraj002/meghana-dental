@@ -14,7 +14,7 @@ const serviceData = {
   ],
 
   overview:
-    'A smile makeover is not a single treatment — it is a precisely choreographed combination of cosmetic and restorative procedures, designed as a whole to transform everything you dislike about your smile. Colour, shape, size, alignment, gum levels, and symmetry are all considered together. At Meghana Dental Hospital, Tirupati, every smile makeover begins with Digital Smile Design (DSD): we photograph your face, map your smile line, and show you a digital preview of your expected result on-screen before a single treatment begins. This means you approve the outcome in advance — no surprises. Whether you need subtle whitening and bonding or a comprehensive transformation with veneers, gum contouring, and clear aligners, we design the minimum intervention required to achieve the maximum impact.',
+    'A smile makeover is not a single treatment — it is a precisely choreographed combination of cosmetic and restorative procedures, designed as a whole to transform everything you dislike about your smile. Colour, shape, size, alignment, gum levels, and symmetry are all considered together. At Meghana Multi Speciality Dental Hospital, Tirupati, every smile makeover begins with Digital Smile Design (DSD): we photograph your face, map your smile line, and show you a digital preview of your expected result on-screen before a single treatment begins. This means you approve the outcome in advance — no surprises. Whether you need subtle whitening and bonding or a comprehensive transformation with veneers, gum contouring, and clear aligners, we design the minimum intervention required to achieve the maximum impact.',
 
   highlights: [
     { icon: 'bi-laptop', text: 'Digital Smile Design Preview' },
@@ -93,7 +93,7 @@ const serviceData = {
       a: 'No — a smile makeover is entirely tailored to your specific concerns. It may include just two treatments (such as whitening and composite bonding) or a comprehensive programme combining teeth whitening, porcelain veneers, gum contouring, clear aligners, and dental crowns. The Digital Smile Design process helps us identify exactly which treatments will achieve the biggest change for your particular smile.',
     },
     {
-      q: 'How much does a smile makeover cost in Tirupati at Meghana Dental Hospital?',
+      q: 'How much does a smile makeover cost in Tirupati at Meghana Multi Speciality Dental Hospital?',
       a: 'Smile makeover costs vary enormously based on which treatments are included. Simple makeovers involving whitening and composite bonding start from ₹8,000–15,000. Mid-range makeovers with 4–6 veneers and gum contouring range from ₹40,000–80,000. Comprehensive full-smile transformations with veneers, aligners, and crowns can range from ₹1,00,000–2,50,000+.',
     },
     {
@@ -102,7 +102,7 @@ const serviceData = {
     },
     {
       q: 'Are porcelain veneers permanent? Do they damage teeth?',
-      a: 'Porcelain veneers require the removal of a very thin layer of enamel — typically 0.3–0.7 mm — to create space. This is irreversible, meaning veneers are a long-term commitment. However, at Meghana Dental Hospital we use ultra-minimal preparation techniques under microscope to preserve as much enamel as possible.',
+      a: 'Porcelain veneers require the removal of a very thin layer of enamel — typically 0.3–0.7 mm — to create space. This is irreversible, meaning veneers are a long-term commitment. However, at Meghana Multi Speciality Dental Hospital we use ultra-minimal preparation techniques under microscope to preserve as much enamel as possible.',
     },
     {
       q: 'I am embarrassed about my smile. How soon can I get started?',
@@ -118,7 +118,7 @@ const serviceData = {
   ],
 
   ctaTitle: 'Design Your Dream Smile Today',
-  ctaDesc: 'Book a Digital Smile Design consultation at Meghana Dental Hospital, Tirupati — and see your new smile on-screen before committing to any treatment.',
+  ctaDesc: 'Book a Digital Smile Design consultation at Meghana Multi Speciality Dental Hospital, Tirupati — and see your new smile on-screen before committing to any treatment.',
 
   relatedServices: [
     {

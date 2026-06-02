@@ -11,10 +11,10 @@ export const metadata = {
     'dental crowns Tirupati, dental bridges Tirupati, zirconia crown Tirupati, tooth cap Tirupati, crown cost Tirupati, dental cap Tirupati, broken tooth crown Tirupati, prosthodontist Tirupati',
   alternates: { canonical: 'https://meghanadental.in/services/dental-crowns' },
   openGraph: {
-    title: 'Dental Crowns & Bridges in Tirupati | Zirconia & e.max — Meghana Dental',
+    title: 'Dental Crowns & Bridges in Tirupati | Zirconia & e.max — Meghana Multi Speciality Dental Hospital',
     description: 'Restore damaged and missing teeth with premium zirconia, e.max & PFM crowns in Tirupati. Expert prosthodontists, natural-looking results, transparent pricing.',
     url: 'https://meghanadental.in/services/dental-crowns',
-    siteName: 'Meghana Dental Hospital',
+    siteName: 'Meghana Multi Speciality Dental Hospital',
     images: [{ url: '/images/dental-clinic-interior.jpg', width: 1200, height: 630, alt: 'Dental Crowns and Bridges in Tirupati' }],
     type: 'website',
   },
@@ -32,7 +32,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'What is the cost of a dental crown in Tirupati?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Crown costs at Meghana Dental Hospital start from ₹4,000 for PFM, ₹7,000 for zirconia, and ₹10,000+ for e.max. Exact pricing depends on tooth location and material selected.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Crown costs at Meghana Multi Speciality Dental Hospital start from ₹4,000 for PFM, ₹7,000 for zirconia, and ₹10,000+ for e.max. Exact pricing depends on tooth location and material selected.' },
     },
     {
       '@type': 'Question',

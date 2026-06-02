@@ -45,7 +45,7 @@ const May07b = () => {
               year seeking advanced, reliable, and affordable dental care from
               a hospital they can truly trust. If you are searching for the{" "}
               <span style={{ fontWeight: 700 }}>Best Dental Hospital in Andhra Pradesh</span>,
-              your search ends right here — at Meghana Multispeciality Dental
+              your search ends right here — at Meghana Multi Speciality Dental
               Hospital, Tirupati. With over 17 years of clinical excellence, a
               team of highly qualified MDS specialists, world-class
               infrastructure, and a 4.9-star Google rating from over 850
@@ -66,7 +66,7 @@ const May07b = () => {
             <div>
               <img
                 src="/blogimage/blog2(1).jpg"
-                alt="Best Dental Hospital in Andhra Pradesh — Meghana Multispeciality Dental Hospital, Tirupati"
+                alt="Best Dental Hospital in Andhra Pradesh — Meghana Multi Speciality Dental Hospital, Tirupati"
                 style={{ width: "100%", height: "700px", objectFit: "cover" }}
               />
             </div>
@@ -85,7 +85,7 @@ const May07b = () => {
                 finding a place where your oral health is treated as a
                 priority, where technology is at par with global standards,
                 and where the doctors genuinely care about your wellbeing.
-                Meghana Multispeciality Dental Hospital ticks every one of
+                Meghana Multi Speciality Dental Hospital ticks every one of
                 these boxes and more. We combine clinical precision with
                 genuine compassion, offering a dental experience that is
                 pain-free, anxiety-free, and built around your comfort. From
@@ -120,7 +120,7 @@ const May07b = () => {
                 </span>
               </h2>
               <p>
-                One of the most important reasons Meghana Multispeciality
+                One of the most important reasons Meghana Multi Speciality
                 Dental Hospital stands apart as the{" "}
                 <span style={{ fontWeight: 700 }}>Best Dental Hospital in Andhra Pradesh</span> is
                 our NABH Certification — the National Accreditation Board for
@@ -215,7 +215,7 @@ const May07b = () => {
               </h2>
               <p>
                 As the <span style={{ fontWeight: 700 }}>Best Dental Hospital in Andhra Pradesh</span>,
-                Meghana Multispeciality Dental Hospital offers a full range of
+                Meghana Multi Speciality Dental Hospital offers a full range of
                 dental treatments across 12 specialties, all delivered by
                 qualified MDS specialists — not general dentists. Here is a
                 detailed overview of every service we offer:
@@ -396,7 +396,7 @@ const May07b = () => {
             <div>
               <img
                 src="/blogimage/blog2(3).jpg"
-                alt="Comprehensive Dental Services — Meghana Dental Hospital, Tirupati"
+                alt="Comprehensive Dental Services — Meghana Multi Speciality Dental Hospital, Tirupati"
                 style={{ width: "100%", height: "700px", objectFit: "cover" }}
               />
             </div>
@@ -412,7 +412,7 @@ const May07b = () => {
                 At the heart of Meghana Dental&apos;s excellence is our
                 outstanding team of doctors. Leading the hospital is{" "}
                 <span style={{ fontWeight: 700 }}>Dr. M. Hemadri</span>, Founder and Director of
-                Meghana Multispeciality Dental Hospital, and one of Andhra
+                Meghana Multi Speciality Dental Hospital, and one of Andhra
                 Pradesh&apos;s most distinguished endodontists and
                 implantologists. Dr. Hemadri holds an MDS in Conservative
                 Dentistry and Endodontics and is also a Fellow of the
@@ -565,7 +565,7 @@ const May07b = () => {
               <p>
                 Whether you are from Tirupati, Tirumala, Chandragiri,
                 Srikalahasti, Renigunta, Chittoor, Nellore, or anywhere across
-                Andhra Pradesh, Meghana Multispeciality Dental Hospital is
+                Andhra Pradesh, Meghana Multi Speciality Dental Hospital is
                 your destination for the finest dental care available in the
                 state. Our doors are open six days a week with extended
                 evening hours to accommodate patients with busy schedules,
@@ -579,7 +579,7 @@ const May07b = () => {
               </p>
               <p>
                 Do not compromise on your dental health. Trust the hospital
-                that Andhra Pradesh trusts — Meghana Multispeciality Dental
+                that Andhra Pradesh trusts — Meghana Multi Speciality Dental
                 Hospital, Tirupati. With 17 years of excellence, the only
                 microscope dentistry clinic in Tirupati, NABH certification,
                 six-plus MDS specialists, and a 4.9-star reputation built on
@@ -599,7 +599,7 @@ const May07b = () => {
               }}
             >
               <h3 className="fw-bold mb-4" style={{ color: "var(--primary-dark)" }}>
-                Book Your Appointment Today at Meghana Multispeciality Dental
+                Book Your Appointment Today at Meghana Multi Speciality Dental
                 Hospital
               </h3>
               <ul className="list-unstyled mb-0">
@@ -791,7 +791,7 @@ const May07b = () => {
                       MDS Specialist Team
                     </div>
                     <div style={{ fontSize: "0.78rem", color: "#6B7280", marginTop: "2px" }}>
-                      Meghana Dental Hospital
+                      Meghana Multi Speciality Dental Hospital
                     </div>
                     <div style={{ fontSize: "0.72rem", color: "var(--primary-dark)", marginTop: "4px", fontWeight: 600 }}>
                       17+ Years Experience &nbsp;•&nbsp; NABH Certified

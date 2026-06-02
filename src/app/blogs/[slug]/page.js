@@ -47,7 +47,7 @@ export async function generateMetadata({ params }) {
           alt: blog.title,
         },
       ],
-      siteName: 'Meghana Dental Hospital',
+      siteName: 'Meghana Multi Speciality Dental Hospital',
     },
     twitter: {
       card: 'summary_large_image',
@@ -56,7 +56,7 @@ export async function generateMetadata({ params }) {
       images: [blog.image || '/images/about-clinic.png'],
     },
     robots: { index: true, follow: true },
-    authors: [{ name: 'Meghana Dental Hospital' }],
+    authors: [{ name: 'Meghana Multi Speciality Dental Hospital' }],
   };
 }
 
@@ -86,12 +86,12 @@ export default async function BlogPost({ params }) {
     dateModified: blogMeta.date,
     author: {
       '@type': 'Organization',
-      name: 'Meghana Dental Hospital',
+      name: 'Meghana Multi Speciality Dental Hospital',
       url: 'https://meghanadental.in',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Meghana Dental Hospital',
+      name: 'Meghana Multi Speciality Dental Hospital',
       logo: {
         '@type': 'ImageObject',
         url: 'https://meghanadental.in/images/logo.png',

@@ -64,7 +64,7 @@ const serviceData = {
   faqs: [
     {
       q: 'How much do dental implants cost in Tirupati?',
-      a: 'At Meghana Dental Hospital, single implant treatment starts from ₹25,000 (implant + abutment + crown). The final cost depends on the implant brand (Nobel Biocare, Osstem, Dentium, MIS, Adin), case complexity, crown material selected, and whether bone grafting is needed. We provide transparent, upfront quotes — no hidden charges. EMI options are also available.',
+      a: 'At Meghana Multi Speciality Dental Hospital, single implant treatment starts from ₹25,000 (implant + abutment + crown). The final cost depends on the implant brand (Nobel Biocare, Osstem, Dentium, MIS, Adin), case complexity, crown material selected, and whether bone grafting is needed. We provide transparent, upfront quotes — no hidden charges. EMI options are also available.',
     },
     {
       q: 'Is dental implant surgery painful?',

@@ -12,7 +12,7 @@ const serviceData = {
   ],
 
   overview:
-    'Meghana Dental Hospital is the only dental clinic in Tirupati equipped with the dental operating microscope — the same gold-standard instrument used in leading dental universities worldwide. At up to 25× magnification, our specialist endodontist can visualise the entire root canal system, detect hairline fractures invisible to the naked eye, and perform microsurgical procedures with sub-millimetre precision. The result: treatments that are more thorough, more conservative, and significantly more successful than conventional approaches. If you have been told a tooth "cannot be saved" or a previous root canal has failed, microscope dentistry at Meghana Dental Hospital offers a second chance backed by technology.',
+    'Meghana Multi Speciality Dental Hospital is the only dental clinic in Tirupati equipped with the dental operating microscope — the same gold-standard instrument used in leading dental universities worldwide. At up to 25× magnification, our specialist endodontist can visualise the entire root canal system, detect hairline fractures invisible to the naked eye, and perform microsurgical procedures with sub-millimetre precision. The result: treatments that are more thorough, more conservative, and significantly more successful than conventional approaches. If you have been told a tooth "cannot be saved" or a previous root canal has failed, microscope dentistry at Meghana Multi Speciality Dental Hospital offers a second chance backed by technology.',
 
   highlights: [
     { icon: 'bi-search', text: 'Dental Microscope — 25× Magnification' },
@@ -91,8 +91,8 @@ const serviceData = {
       a: 'In conventional dentistry, the dentist works largely by feel and limited vision. With the dental operating microscope, our specialist sees the treatment field at up to 25× magnification — every canal, crack, and tissue detail in vivid clarity. This transforms the precision of diagnosis and treatment in the same way that microsurgery transformed medicine.',
     },
     {
-      q: 'Why is Meghana Dental Hospital the only clinic in Tirupati with this technology?',
-      a: 'The dental operating microscope is a significant investment in both equipment and specialist training. Most dental clinics do not prioritise this level of technology. At Meghana Dental Hospital we believe every patient in Tirupati deserves world-class precision dentistry — so we brought the technology here.',
+      q: 'Why is Meghana Multi Speciality Dental Hospital the only clinic in Tirupati with this technology?',
+      a: 'The dental operating microscope is a significant investment in both equipment and specialist training. Most dental clinics do not prioritise this level of technology. At Meghana Multi Speciality Dental Hospital we believe every patient in Tirupati deserves world-class precision dentistry — so we brought the technology here.',
     },
     {
       q: 'Which procedures are performed under the microscope at your clinic?',

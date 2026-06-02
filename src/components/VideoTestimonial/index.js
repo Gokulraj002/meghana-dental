@@ -68,7 +68,7 @@ export default function VideoTestimonial() {
                 Real Results, <span style={{ background: 'var(--primary-gradient)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>Real Smiles</span>
               </h2>
               <p style={{ fontSize: '1.05rem', color: 'var(--text-body)', lineHeight: '1.85', marginBottom: '28px' }}>
-                Hear directly from our patients about their experience at Meghana Dental Hospital.
+                Hear directly from our patients about their experience at Meghana Multi Speciality Dental Hospital.
                 From root canals to full smile makeovers — every story is a testament to our
                 commitment to pain-free, world-class dental care.
               </p>

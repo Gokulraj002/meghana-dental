@@ -11,10 +11,10 @@ export const metadata = {
     'tooth extraction Tirupati, wisdom tooth removal Tirupati, dental extraction Tirupati, painless tooth removal Tirupati, surgical extraction Tirupati, wisdom tooth surgery Tirupati, oral surgeon Tirupati',
   alternates: { canonical: 'https://meghanadental.in/services/tooth-extraction' },
   openGraph: {
-    title: 'Tooth Extraction & Wisdom Tooth Removal in Tirupati — Meghana Dental',
+    title: 'Tooth Extraction & Wisdom Tooth Removal in Tirupati — Meghana Multi Speciality Dental Hospital',
     description: 'Safe, comfortable tooth extractions including impacted wisdom tooth surgery in Tirupati. Experienced oral surgeons, minimal discomfort, and same-day appointments.',
     url: 'https://meghanadental.in/services/tooth-extraction',
-    siteName: 'Meghana Dental Hospital',
+    siteName: 'Meghana Multi Speciality Dental Hospital',
     images: [{ url: '/images/dental-chair.jpg', width: 1200, height: 630, alt: 'Tooth Extraction in Tirupati' }],
     type: 'website',
   },
@@ -37,7 +37,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'What is the cost of tooth extraction in Tirupati?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Simple extractions start from ₹500. Surgical extractions and wisdom tooth removal range from ₹2,000–5,000 depending on complexity at Meghana Dental Hospital, Tirupati.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Simple extractions start from ₹500. Surgical extractions and wisdom tooth removal range from ₹2,000–5,000 depending on complexity at Meghana Multi Speciality Dental Hospital, Tirupati.' },
     },
     {
       '@type': 'Question',

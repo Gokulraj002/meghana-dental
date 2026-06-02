@@ -5,18 +5,18 @@ import Footer from '@/components/Footer';
 import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 
 export const metadata = {
-  title: 'Dental Fillings in Tirupati | Composite Fillings & Ceramic Inlays | Meghana Dental',
+  title: 'Dental Fillings in Tirupati | Composite Fillings & Ceramic Inlays | Meghana Multi Speciality Dental Hospital',
   description:
-    'Dental fillings in Tirupati — choose from tooth-coloured composite fillings (single visit) or premium ceramic inlays & onlays (15–20+ years). Placed under 25× dental microscope at Meghana Dental Hospital.',
+    'Dental fillings in Tirupati — choose from tooth-coloured composite fillings (single visit) or premium ceramic inlays & onlays (15–20+ years). Placed under 25× dental microscope at Meghana Multi Speciality Dental Hospital.',
   keywords:
     'dental fillings Tirupati, tooth filling Tirupati, composite filling Tirupati, ceramic inlay Tirupati, onlay Tirupati, cavity filling Tirupati, tooth decay treatment Tirupati',
   alternates: { canonical: 'https://meghanadental.in/services/dental-fillings' },
   openGraph: {
-    title: 'Dental Fillings in Tirupati | Composite & Ceramic Inlays — Meghana Dental',
+    title: 'Dental Fillings in Tirupati | Composite & Ceramic Inlays — Meghana Multi Speciality Dental Hospital',
     description:
       'Restore decayed or damaged teeth with tooth-coloured composite fillings or precision ceramic inlays in Tirupati. Microscope-guided, single-visit option available.',
     url: 'https://meghanadental.in/services/dental-fillings',
-    siteName: 'Meghana Dental Hospital',
+    siteName: 'Meghana Multi Speciality Dental Hospital',
     images: [{ url: '/services/fillings-before-after-1.jpg', width: 1200, height: 630, alt: 'Dental Fillings in Tirupati' }],
     type: 'website',
   },
@@ -68,7 +68,7 @@ export default function DentalFillingsPage() {
       <ServicePageHero
         titleBefore="Dental"
         titleHighlight="Fillings"
-        description="From single-visit composite fillings to precision ceramic inlays — Meghana Dental Hospital, Tirupati offers the full spectrum of tooth restoration under 25× dental microscope precision."
+        description="From single-visit composite fillings to precision ceramic inlays — Meghana Multi Speciality Dental Hospital, Tirupati offers the full spectrum of tooth restoration under 25× dental microscope precision."
         crumbs={[{ label: 'Our Services', href: '/services' }, { label: 'Dental Fillings' }]}
         image="/services/fillings-before-after-1.jpg"
         accent="#16a34a"
@@ -146,7 +146,7 @@ export default function DentalFillingsPage() {
             <i className="bi bi-search fs-3 mb-2 d-block" style={{ color: '#16a34a' }} />
             <h5 className="fw-bold mb-1">All Restorations Placed Under 25× Dental Microscope</h5>
             <p className="text-muted mb-0" style={{ maxWidth: 560, margin: '0 auto' }}>
-              Whether you choose composite or ceramic, every filling at Meghana Dental Hospital is placed under our dental operating microscope — ensuring complete decay removal and a perfect-fit restoration every time.
+              Whether you choose composite or ceramic, every filling at Meghana Multi Speciality Dental Hospital is placed under our dental operating microscope — ensuring complete decay removal and a perfect-fit restoration every time.
             </p>
           </div>
 

@@ -11,7 +11,7 @@ export default function HeroContent() {
         Deserves the <span>Best Care</span>
       </h1>
       <p className="hero-text">
-        Meghana Multispeciality Dental Hospital — Tirupati&apos;s most trusted
+        Meghana Multi Speciality Dental Hospital — Tirupati&apos;s most trusted
         Dental center with 17+ years of excellence. Advanced microscopic guided
         treatments, Laser assisted painless procedures, Advanced Implant
         procedures and a team of MDS specialists dedicated to your perfect smile.

@@ -19,7 +19,7 @@ const serviceData = {
   ],
 
   overview:
-    'At Meghana Dental Hospital, Tirupati, we use the advanced BIOLASE Epic Pro laser — one of the most precise dental laser systems available — to deliver treatments that are faster, gentler, and dramatically more comfortable than traditional methods. A narrow, focused beam of light energy reacts with tissue to remove or reshape it with pinpoint accuracy. No Cut. No Sew. No Fear. From gummy smile correction and tongue-tie release to gum pigmentation removal, root canal disinfection, ulcer healing, flap surgery, and laser teeth whitening — our BIOLASE laser handles it all with minimal bleeding, no anaesthesia in most cases, and same-day recovery. Laser Dentistry is an advanced method of dental care and we at Meghana Dental provide this technology to enhance your every dental visit.',
+    'At Meghana Multi Speciality Dental Hospital, Tirupati, we use the advanced BIOLASE Epic Pro laser — one of the most precise dental laser systems available — to deliver treatments that are faster, gentler, and dramatically more comfortable than traditional methods. A narrow, focused beam of light energy reacts with tissue to remove or reshape it with pinpoint accuracy. No Cut. No Sew. No Fear. From gummy smile correction and tongue-tie release to gum pigmentation removal, root canal disinfection, ulcer healing, flap surgery, and laser teeth whitening — our BIOLASE laser handles it all with minimal bleeding, no anaesthesia in most cases, and same-day recovery. Laser Dentistry is an advanced method of dental care and we at Meghana Dental provide this technology to enhance your every dental visit.',
 
   highlights: [
     { icon: 'bi-lightning-charge', text: 'BIOLASE Epic Pro Laser' },
@@ -98,7 +98,7 @@ const serviceData = {
   faqs: [
     {
       q: 'Is laser dentistry completely safe? What type of laser do you use?',
-      a: 'Yes, dental lasers are fully safe and have been used in dentistry for over 30 years. At Meghana Dental Hospital we use a Diode laser, which is specifically optimised for soft-tissue procedures including gum treatment, contouring, ulcer treatment, and frenectomy. All safety protocols — including wavelength-matched protective eyewear — are strictly followed.',
+      a: 'Yes, dental lasers are fully safe and have been used in dentistry for over 30 years. At Meghana Multi Speciality Dental Hospital we use a Diode laser, which is specifically optimised for soft-tissue procedures including gum treatment, contouring, ulcer treatment, and frenectomy. All safety protocols — including wavelength-matched protective eyewear — are strictly followed.',
     },
     {
       q: 'Will I need an injection for laser dental treatment?',
@@ -110,7 +110,7 @@ const serviceData = {
     },
     {
       q: 'What is the cost of laser dentistry treatment in Tirupati?',
-      a: 'At Meghana Dental Hospital, Tirupati, laser ulcer treatment starts from ₹500 per ulcer. Gum contouring starts from ₹3,000. Laser gum disease treatment (per quadrant) starts from ₹2,500. Laser-assisted teeth whitening starts from ₹6,000. We provide a written cost estimate before any treatment begins.',
+      a: 'At Meghana Multi Speciality Dental Hospital, Tirupati, laser ulcer treatment starts from ₹500 per ulcer. Gum contouring starts from ₹3,000. Laser gum disease treatment (per quadrant) starts from ₹2,500. Laser-assisted teeth whitening starts from ₹6,000. We provide a written cost estimate before any treatment begins.',
     },
     {
       q: 'Can children have laser dental treatment?',

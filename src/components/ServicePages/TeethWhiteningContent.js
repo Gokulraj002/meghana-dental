@@ -5,14 +5,14 @@ const serviceData = {
   contentImage: '/services/teeth-whitening-gallery/whitening-cover.webp',
 
   gallery: [
-    { src: '/services/teeth-whitening-gallery/whitening-cover.webp',             caption: 'Professional teeth whitening — achieving a brighter, more confident smile at Meghana Dental Hospital' },
+    { src: '/services/teeth-whitening-gallery/whitening-cover.webp',             caption: 'Professional teeth whitening — achieving a brighter, more confident smile at Meghana Multi Speciality Dental Hospital' },
     { src: '/services/teeth-whitening-gallery/whitening-laser.png',              caption: 'Laser teeth whitening procedure — blue-light activated bleaching gel for maximum results' },
     { src: '/services/teeth-whitening-gallery/whitening-fluorosis-bleaching.webp', caption: 'Dental fluorosis treated with bleaching — stains safely removed for a uniform, bright smile' },
     { src: '/services/teeth-whitening-gallery/whitening-before-after.jpg',       caption: 'Before & after: dramatic shade improvement after a single professional whitening session' },
   ],
 
   overview:
-    'Teeth whitening is the most popular cosmetic dental treatment in the world — and for good reason. A brighter smile can transform your appearance and significantly boost your self-confidence. At Meghana Dental Hospital, Tirupati, we offer professional in-office laser teeth whitening that delivers results up to 8 shades brighter in a single 45–60 minute appointment. We also provide take-home professional whitening kits with custom-fitted trays for patients who prefer gradual whitening in the comfort of their own home. Unlike over-the-counter strips and toothpastes, our clinically-approved whitening agents work on intrinsic stains deep within the enamel — safely and effectively, under professional supervision.',
+    'Teeth whitening is the most popular cosmetic dental treatment in the world — and for good reason. A brighter smile can transform your appearance and significantly boost your self-confidence. At Meghana Multi Speciality Dental Hospital, Tirupati, we offer professional in-office laser teeth whitening that delivers results up to 8 shades brighter in a single 45–60 minute appointment. We also provide take-home professional whitening kits with custom-fitted trays for patients who prefer gradual whitening in the comfort of their own home. Unlike over-the-counter strips and toothpastes, our clinically-approved whitening agents work on intrinsic stains deep within the enamel — safely and effectively, under professional supervision.',
 
   highlights: [
     { icon: 'bi-sun-fill', text: 'Up to 8 Shades Brighter' },
@@ -88,15 +88,15 @@ const serviceData = {
   faqs: [
     {
       q: 'Is teeth whitening safe?',
-      a: 'Yes. Professional teeth whitening at Meghana Dental Hospital uses clinically-approved bleaching agents in concentrations proven safe for tooth enamel. Your gums are protected throughout the procedure. Temporary tooth sensitivity is the most common side effect, resolving within 24–48 hours.',
+      a: 'Yes. Professional teeth whitening at Meghana Multi Speciality Dental Hospital uses clinically-approved bleaching agents in concentrations proven safe for tooth enamel. Your gums are protected throughout the procedure. Temporary tooth sensitivity is the most common side effect, resolving within 24–48 hours.',
     },
     {
       q: 'How long do teeth whitening results last?',
-      a: 'Professional whitening results at Meghana Dental Hospital typically last 1–3 years depending on your diet and oral hygiene habits. Avoiding or reducing tea, coffee, tobacco, and red wine, and maintaining regular brushing and dental check-ups will significantly extend your results.',
+      a: 'Professional whitening results at Meghana Multi Speciality Dental Hospital typically last 1–3 years depending on your diet and oral hygiene habits. Avoiding or reducing tea, coffee, tobacco, and red wine, and maintaining regular brushing and dental check-ups will significantly extend your results.',
     },
     {
       q: 'What is the cost of teeth whitening in Tirupati?',
-      a: 'In-office laser teeth whitening at Meghana Dental Hospital, Tirupati starts from ₹5,000. Take-home professional whitening kits are also available at a lower price point. The exact cost depends on the degree of staining and method recommended.',
+      a: 'In-office laser teeth whitening at Meghana Multi Speciality Dental Hospital, Tirupati starts from ₹5,000. Take-home professional whitening kits are also available at a lower price point. The exact cost depends on the degree of staining and method recommended.',
     },
     {
       q: 'Who is not suitable for teeth whitening?',

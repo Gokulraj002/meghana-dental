@@ -3,17 +3,17 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Terms & Conditions | Meghana Dental Hospital, Tirupati',
-  description: 'Terms and conditions governing the use of Meghana Dental Hospital website and dental services in Tirupati, Andhra Pradesh. Please read before using our site.',
-  keywords: 'Meghana Dental terms and conditions, dental hospital terms of use Tirupati, dental clinic website terms',
+  title: 'Terms & Conditions | Meghana Multi Speciality Dental Hospital, Tirupati',
+  description: 'Terms and conditions governing the use of Meghana Multi Speciality Dental Hospital website and dental services in Tirupati, Andhra Pradesh. Please read before using our site.',
+  keywords: 'Meghana Multi Speciality Dental Hospital terms and conditions, dental hospital terms of use Tirupati, dental clinic website terms',
   alternates: { canonical: 'https://meghanadental.in/terms-conditions' },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Terms & Conditions | Meghana Dental Hospital, Tirupati',
-    description: 'Terms and conditions governing the use of Meghana Dental Hospital website and dental services in Tirupati, Andhra Pradesh.',
+    title: 'Terms & Conditions | Meghana Multi Speciality Dental Hospital, Tirupati',
+    description: 'Terms and conditions governing the use of Meghana Multi Speciality Dental Hospital website and dental services in Tirupati, Andhra Pradesh.',
     url: 'https://meghanadental.in/terms-conditions',
-    siteName: 'Meghana Dental Hospital',
-    images: [{ url: '/images/about-clinic.png', width: 1200, height: 630, alt: 'Meghana Dental Hospital Tirupati' }],
+    siteName: 'Meghana Multi Speciality Dental Hospital',
+    images: [{ url: '/images/about-clinic.png', width: 1200, height: 630, alt: 'Meghana Multi Speciality Dental Hospital Tirupati' }],
     type: 'website',
   },
 };
@@ -47,7 +47,7 @@ export default function TermsConditionsPage() {
                   <strong>Effective from:</strong> January 2025
                 </p>
                 <p>
-                  Welcome to Meghana Dental Hospital. By accessing and using our website at
+                  Welcome to Meghana Multi Speciality Dental Hospital. By accessing and using our website at
                   meghanadental.in or by using our dental services, you agree to be bound by
                   these Terms and Conditions. If you do not agree to these terms, please do
                   not use our website or services.
@@ -57,7 +57,7 @@ export default function TermsConditionsPage() {
               <div className="service-info-card" style={{ marginBottom: '24px' }}>
                 <h3><i className="bi bi-building-fill"></i> 1. About Us</h3>
                 <p>
-                  Meghana Dental Hospital is a multi-speciality dental clinic located at
+                  Meghana Multi Speciality Dental Hospital is a multi-speciality dental clinic located at
                   No. 18-2-91B, Ashok Nagar, Tirupati, Andhra Pradesh 517501. We provide
                   comprehensive dental care services including but not limited to dental
                   implants, root canal treatment, orthodontics, cosmetic dentistry, and
@@ -115,7 +115,7 @@ export default function TermsConditionsPage() {
                 <h3><i className="bi bi-exclamation-triangle-fill"></i> 6. Limitation of Liability</h3>
                 <p>
                   While we take every precaution to provide high-quality dental care, dentistry
-                  involves inherent risks. Meghana Dental Hospital shall not be liable for:
+                  involves inherent risks. Meghana Multi Speciality Dental Hospital shall not be liable for:
                 </p>
                 <ul>
                   <li>Any complications arising from undisclosed medical conditions</li>
@@ -139,7 +139,7 @@ export default function TermsConditionsPage() {
                 <h3><i className="bi bi-shield-fill"></i> 8. Intellectual Property</h3>
                 <p>
                   All content on this website — including text, images, logos, graphics, and
-                  design — is the property of Meghana Dental Hospital or its content suppliers
+                  design — is the property of Meghana Multi Speciality Dental Hospital or its content suppliers
                   and is protected by Indian copyright law. Unauthorised use of any content
                   is strictly prohibited.
                 </p>

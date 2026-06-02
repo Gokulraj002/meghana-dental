@@ -11,11 +11,11 @@ export const metadata = {
     'root canal treatment Tirupati, painless root canal Tirupati, single sitting root canal Tirupati, root canal cost Tirupati, microscope root canal Tirupati, endodontist Tirupati, RCT specialist Tirupati, root canal Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.in/services/root-canal' },
   openGraph: {
-    title: 'Painless Root Canal Treatment in Tirupati | Single-Sitting RCT — Meghana Dental',
+    title: 'Painless Root Canal Treatment in Tirupati | Single-Sitting RCT — Meghana Multi Speciality Dental Hospital',
     description:
       'Save your natural teeth with microscope-guided, single-sitting root canal in Tirupati. Dental microscope precision, experienced endodontist. No pain, no multiple visits.',
     url: 'https://meghanadental.in/services/root-canal',
-    siteName: 'Meghana Dental Hospital',
+    siteName: 'Meghana Multi Speciality Dental Hospital',
     images: [{ url: '/images/microscope-treatment.jpg', width: 1200, height: 630, alt: 'Microscope-Guided Root Canal Treatment in Tirupati' }],
     type: 'website',
   },
@@ -30,7 +30,7 @@ const faqSchema = {
       name: 'How much does root canal treatment cost in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Root canal treatment cost in Tirupati at Meghana Dental Hospital depends on the tooth and complexity. Front teeth RCT starts from ₹2,500 and molar RCT from ₹4,000. Microscope-assisted RCT may cost slightly more due to advanced equipment used. Contact us for an exact quote.',
+        text: 'Root canal treatment cost in Tirupati at Meghana Multi Speciality Dental Hospital depends on the tooth and complexity. Front teeth RCT starts from ₹2,500 and molar RCT from ₹4,000. Microscope-assisted RCT may cost slightly more due to advanced equipment used. Contact us for an exact quote.',
       },
     },
     {
@@ -38,7 +38,7 @@ const faqSchema = {
       name: 'Can root canal be done in a single sitting in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Meghana Dental Hospital offers single-sitting root canal treatment in Tirupati using advanced rotary endodontic technology and dental microscope with 25× magnification guidance. Most cases can be completed in one visit, saving you time and multiple trips to the clinic.',
+        text: 'Yes. Meghana Multi Speciality Dental Hospital offers single-sitting root canal treatment in Tirupati using advanced rotary endodontic technology and dental microscope with 25× magnification guidance. Most cases can be completed in one visit, saving you time and multiple trips to the clinic.',
       },
     },
     {
@@ -46,7 +46,7 @@ const faqSchema = {
       name: 'Is root canal treatment painful?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'No. At Meghana Dental Hospital in Tirupati, root canal treatment is performed under local anaesthesia, making the procedure completely painless. Our microscope-guided technique ensures precision and minimal tissue disturbance, reducing post-treatment discomfort significantly.',
+        text: 'No. At Meghana Multi Speciality Dental Hospital in Tirupati, root canal treatment is performed under local anaesthesia, making the procedure completely painless. Our microscope-guided technique ensures precision and minimal tissue disturbance, reducing post-treatment discomfort significantly.',
       },
     },
     {
@@ -54,7 +54,7 @@ const faqSchema = {
       name: 'Why choose microscope-guided root canal in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Meghana Dental Hospital is one of the very few clinics in Tirupati with a dental operating microscope providing 25× magnification. This allows the endodontist to see tiny canals, cracks, and infected tissue invisible to the naked eye — resulting in higher success rates and better long-term outcomes.',
+        text: 'Meghana Multi Speciality Dental Hospital is one of the very few clinics in Tirupati with a dental operating microscope providing 25× magnification. This allows the endodontist to see tiny canals, cracks, and infected tissue invisible to the naked eye — resulting in higher success rates and better long-term outcomes.',
       },
     },
   ],

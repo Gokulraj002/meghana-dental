@@ -5,7 +5,7 @@ import { useState } from 'react';
 const faqs = [
   {
     q: 'Is root canal treatment painful?',
-    a: 'No. At Meghana Dental Hospital, we use advanced local anesthesia techniques combined with our dental microscope with 25× magnification for precision. Most patients feel little to no discomfort during and after the procedure. We also offer single-sitting RCT to minimize the number of visits.',
+    a: 'No. At Meghana Multi Speciality Dental Hospital, we use advanced local anesthesia techniques combined with our dental microscope with 25× magnification for precision. Most patients feel little to no discomfort during and after the procedure. We also offer single-sitting RCT to minimize the number of visits.',
   },
   {
     q: 'How long do dental implants last?',
@@ -55,7 +55,7 @@ export default function FAQSection() {
                 <span style={{ background: 'var(--primary-gradient)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>We Have Answers.</span>
               </h2>
               <p style={{ color: 'var(--text-body)', fontSize: '0.97rem', lineHeight: '1.8', marginBottom: '28px' }}>
-                Everything you need to know about our treatments, procedures, and what to expect at Meghana Dental Hospital.
+                Everything you need to know about our treatments, procedures, and what to expect at Meghana Multi Speciality Dental Hospital.
               </p>
               <a
                 href="https://wa.me/917893327036?text=Hello!%20I%20have%20a%20question%20about%20dental%20treatment."

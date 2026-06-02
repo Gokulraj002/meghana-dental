@@ -19,7 +19,7 @@ export default function TechnologyShowcase() {
             <div className="tech-img-wrap">
               <Image
                 src="/images/microscope-treatment.jpg"
-                alt="Dental operating microscope treatment at Meghana Dental Hospital Tirupati"
+                alt="Dental operating microscope treatment at Meghana Multi Speciality Dental Hospital Tirupati"
                 width={540}
                 height={480}
                 style={{ width: '100%', height: 'auto', borderRadius: '20px', display: 'block' }}
@@ -42,7 +42,7 @@ export default function TechnologyShowcase() {
               <span>Dental Operating Microscope — 25× Magnification</span>
             </h2>
             <p style={{ color: 'var(--text-muted)', marginBottom: '32px', fontSize: '1.05rem', lineHeight: 1.8 }}>
-              While most clinics rely on naked-eye procedures, Meghana Dental Hospital uses a
+              While most clinics rely on naked-eye procedures, Meghana Multi Speciality Dental Hospital uses a
               dental surgical microscope with 25× magnification — the same technology used
               in neurosurgery. Every root canal, restoration, and implant placement is
               performed with unmatched clarity and precision.

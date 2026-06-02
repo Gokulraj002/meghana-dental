@@ -8,7 +8,7 @@
 
 export const SITE = {
   /* ── Clinic identity ── */
-  name:      'Meghana Dental Hospital',
+  name:      'Meghana Multi Speciality Dental Hospital',
   shortName: 'Meghana Dental',
   tagline:   'Best Dental Clinic in Tirupati',
   founded:   '2009',
@@ -48,7 +48,7 @@ export const SITE = {
 
   /* ── Location ── */
   geo: { lat: 13.6288, lng: 79.4192 },
-  mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Meghana+Dental+Hospital+Ashok+Nagar+Tirupati',
+  mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Meghana+Multi+Speciality+Dental+Hospital+Ashok+Nagar+Tirupati',
 
   /* ── Online presence ── */
   baseUrl: 'https://meghanadental.in',

@@ -16,7 +16,7 @@ export default function Footer() {
         </div>
         <div className="footer-bottom">
           <p>
-            &copy; {new Date().getFullYear()} Meghana Dental Hospital. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Meghana Multi Speciality Dental Hospital. All Rights Reserved.
             &nbsp;·&nbsp; No. 18-2-91B, Ashok Nagar, Tirupati, Andhra Pradesh 517501
           </p>
           <div className="footer-legal-links">

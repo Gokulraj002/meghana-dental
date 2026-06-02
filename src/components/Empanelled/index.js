@@ -52,7 +52,7 @@ export default function EmpanelledSection() {
               Trusted by Government &amp; <span>Public Sector</span>
             </h2>
             <p className="emp-desc">
-              Meghana Multispeciality Dental Hospital is an <strong>NABH certified</strong> dental
+              Meghana Multi Speciality Dental Hospital is an <strong>NABH certified</strong> dental
               hospital, officially empanelled with leading government organisations, defence bodies,
               and public sector undertakings.
             </p>

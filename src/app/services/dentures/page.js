@@ -11,12 +11,12 @@ export const metadata = {
     'dentures Tirupati, BPS dentures Tirupati, flexible dentures Tirupati, full dentures Tirupati, partial dentures Tirupati, denture specialist Tirupati, dental prosthetics Tirupati, full mouth dentures Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.in/services/dentures' },
   openGraph: {
-    title: 'Dentures in Tirupati | BPS & Flexible Dentures — Meghana Dental Hospital',
+    title: 'Dentures in Tirupati | BPS & Flexible Dentures — Meghana Multi Speciality Dental Hospital',
     description:
       'Premium BPS dentures and flexible partial dentures in Tirupati. Natural-looking, comfortable tooth replacement crafted by expert prosthodontists.',
     url: 'https://meghanadental.in/services/dentures',
-    siteName: 'Meghana Dental Hospital',
-    images: [{ url: '/images/bps-dentures.jpg', width: 1200, height: 630, alt: 'BPS Precision Dentures in Tirupati — Meghana Dental' }],
+    siteName: 'Meghana Multi Speciality Dental Hospital',
+    images: [{ url: '/images/bps-dentures.jpg', width: 1200, height: 630, alt: 'BPS Precision Dentures in Tirupati — Meghana Multi Speciality Dental Hospital' }],
     type: 'website',
   },
 };
@@ -30,7 +30,7 @@ const faqSchema = {
       name: 'What types of dentures are available in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Meghana Dental Hospital in Tirupati offers: BPS (Bio-Functional Prosthetic System) complete dentures, flexible partial dentures (Valplast), conventional acrylic dentures, implant-retained dentures, and immediate dentures. Our prosthodontist recommends the best option based on your needs.',
+        text: 'Meghana Multi Speciality Dental Hospital in Tirupati offers: BPS (Bio-Functional Prosthetic System) complete dentures, flexible partial dentures (Valplast), conventional acrylic dentures, implant-retained dentures, and immediate dentures. Our prosthodontist recommends the best option based on your needs.',
       },
     },
     {
@@ -38,7 +38,7 @@ const faqSchema = {
       name: 'What is a BPS denture and why is it better?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'BPS (Bio-Functional Prosthetic System) dentures are precision-crafted dentures that provide superior fit, function, and aesthetics compared to conventional dentures. Available in Tirupati at Meghana Dental Hospital, BPS dentures use advanced materials and functional bite registration for a more natural feel.',
+        text: 'BPS (Bio-Functional Prosthetic System) dentures are precision-crafted dentures that provide superior fit, function, and aesthetics compared to conventional dentures. Available in Tirupati at Meghana Multi Speciality Dental Hospital, BPS dentures use advanced materials and functional bite registration for a more natural feel.',
       },
     },
     {
@@ -46,7 +46,7 @@ const faqSchema = {
       name: 'How much do dentures cost in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Denture costs in Tirupati at Meghana Dental Hospital vary by type: conventional acrylic dentures start from ₹8,000, flexible partial dentures from ₹12,000, and BPS precision dentures from ₹25,000. Contact us for an exact quote after consultation.',
+        text: 'Denture costs in Tirupati at Meghana Multi Speciality Dental Hospital vary by type: conventional acrylic dentures start from ₹8,000, flexible partial dentures from ₹12,000, and BPS precision dentures from ₹25,000. Contact us for an exact quote after consultation.',
       },
     },
   ],

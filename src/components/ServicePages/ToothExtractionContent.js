@@ -13,7 +13,7 @@ const serviceData = {
   ],
 
   overview:
-    'Wisdom teeth (third molars) typically emerge between ages 17–25 when there is often insufficient space in the jaw, causing them to become impacted — partially or fully trapped beneath the gumline. At Meghana Dental Hospital, Tirupati, our philosophy is simple: save every tooth possible. But when a tooth is beyond saving or is causing active harm — infection, crowding, cyst formation — a safe, painless extraction is the best treatment. Our MDS Oral & Maxillofacial Surgeon performs both routine extractions and complex surgical wisdom tooth removals under complete local anaesthesia. Every surgical case is planned with an OPG or CBCT scan to precisely map root morphology and proximity to the inferior alveolar nerve, eliminating risk of nerve paresthesia. Post-extraction, we provide a clear aftercare plan and discuss tooth replacement options so your smile never has a gap for long.',
+    'Wisdom teeth (third molars) typically emerge between ages 17–25 when there is often insufficient space in the jaw, causing them to become impacted — partially or fully trapped beneath the gumline. At Meghana Multi Speciality Dental Hospital, Tirupati, our philosophy is simple: save every tooth possible. But when a tooth is beyond saving or is causing active harm — infection, crowding, cyst formation — a safe, painless extraction is the best treatment. Our MDS Oral & Maxillofacial Surgeon performs both routine extractions and complex surgical wisdom tooth removals under complete local anaesthesia. Every surgical case is planned with an OPG or CBCT scan to precisely map root morphology and proximity to the inferior alveolar nerve, eliminating risk of nerve paresthesia. Post-extraction, we provide a clear aftercare plan and discuss tooth replacement options so your smile never has a gap for long.',
 
   highlights: [
     { icon: 'bi-shield-check', text: 'OPG & CBCT Planned Extractions' },
@@ -100,7 +100,7 @@ const serviceData = {
     },
     {
       q: 'My wisdom tooth is impacted. Do I need surgery, and is it complicated?',
-      a: 'Impacted wisdom teeth — those that have not fully erupted due to lack of space — almost always require surgical extraction. The complexity depends on the depth of impaction and root anatomy, which we assess on your OPG X-ray. Horizontally impacted lower wisdom teeth are our most complex procedure, but even these are routinely performed under local anaesthesia at Meghana Dental Hospital.',
+      a: 'Impacted wisdom teeth — those that have not fully erupted due to lack of space — almost always require surgical extraction. The complexity depends on the depth of impaction and root anatomy, which we assess on your OPG X-ray. Horizontally impacted lower wisdom teeth are our most complex procedure, but even these are routinely performed under local anaesthesia at Meghana Multi Speciality Dental Hospital.',
     },
     {
       q: 'What can I eat after tooth extraction? How long until I heal?',

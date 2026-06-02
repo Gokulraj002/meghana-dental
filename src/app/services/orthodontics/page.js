@@ -11,12 +11,12 @@ export const metadata = {
     'orthodontist Tirupati, braces in Tirupati, metal braces Tirupati, ceramic braces Tirupati, teeth straightening Tirupati, self ligating braces Tirupati, braces cost Tirupati, orthodontic treatment Andhra Pradesh, best orthodontist Tirupati',
   alternates: { canonical: 'https://meghanadental.in/services/orthodontics' },
   openGraph: {
-    title: 'Best Orthodontist in Tirupati | Braces & Smile Correction — Meghana Dental',
+    title: 'Best Orthodontist in Tirupati | Braces & Smile Correction — Meghana Multi Speciality Dental Hospital',
     description:
       'Expert MDS orthodontist in Tirupati with 3D oral scanner. Metal, ceramic & self-ligating braces for all ages. Confident smile in 12–24 months.',
     url: 'https://meghanadental.in/services/orthodontics',
-    siteName: 'Meghana Dental Hospital',
-    images: [{ url: '/images/ortho-metal-braces.jpg', width: 1200, height: 630, alt: 'Orthodontic Braces Treatment in Tirupati — Meghana Dental' }],
+    siteName: 'Meghana Multi Speciality Dental Hospital',
+    images: [{ url: '/images/ortho-metal-braces.jpg', width: 1200, height: 630, alt: 'Orthodontic Braces Treatment in Tirupati — Meghana Multi Speciality Dental Hospital' }],
     type: 'website',
   },
 };
@@ -30,7 +30,7 @@ const faqSchema = {
       name: 'What is the cost of braces in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Braces cost in Tirupati at Meghana Dental Hospital: Metal braces start from ₹18,000, ceramic braces from ₹25,000, and self-ligating braces from ₹30,000. The exact cost depends on severity of misalignment and treatment duration. Book a free consultation for a personalised quote.',
+        text: 'Braces cost in Tirupati at Meghana Multi Speciality Dental Hospital: Metal braces start from ₹18,000, ceramic braces from ₹25,000, and self-ligating braces from ₹30,000. The exact cost depends on severity of misalignment and treatment duration. Book a free consultation for a personalised quote.',
       },
     },
     {
@@ -38,7 +38,7 @@ const faqSchema = {
       name: 'How long do braces take to straighten teeth in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Orthodontic treatment duration at Meghana Dental Hospital in Tirupati typically ranges from 12 to 24 months depending on the complexity of your case. Mild cases may complete in under a year. Our 3D oral scanner helps plan the most efficient treatment path.',
+        text: 'Orthodontic treatment duration at Meghana Multi Speciality Dental Hospital in Tirupati typically ranges from 12 to 24 months depending on the complexity of your case. Mild cases may complete in under a year. Our 3D oral scanner helps plan the most efficient treatment path.',
       },
     },
     {
@@ -46,7 +46,7 @@ const faqSchema = {
       name: 'Can adults get braces in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Absolutely. Meghana Dental Hospital in Tirupati treats both children and adults. Ceramic and self-ligating braces are especially popular with adult patients for their discreet appearance. Age is no barrier to a straighter smile.',
+        text: 'Absolutely. Meghana Multi Speciality Dental Hospital in Tirupati treats both children and adults. Ceramic and self-ligating braces are especially popular with adult patients for their discreet appearance. Age is no barrier to a straighter smile.',
       },
     },
   ],

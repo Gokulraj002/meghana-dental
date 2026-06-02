@@ -14,7 +14,7 @@ const serviceData = {
   ],
 
   overview:
-    'A dental crown — sometimes called a tooth cap — is a full-coverage restoration that encases a damaged, weakened, or badly discoloured tooth from gumline to biting surface, restoring its original shape, strength, and appearance. At Meghana Dental Hospital, Tirupati, we offer the complete range of modern crowns: full-zirconia for unmatched strength, e.max lithium disilicate for exceptional aesthetics, and porcelain-fused-to-metal for durable value. Full ceramic crowns and zirconia crowns are completely metal-free, 100% biocompatible, and MRI-safe — an important advantage for patients who may require medical imaging. When one or more teeth are missing, a fixed dental bridge — three or more crowns fused together — fills the gap permanently without surgery. Every crown and bridge is prepared under our dental operating microscope with 25× magnification for precision that guarantees the perfect fit and maximum preservation of your healthy tooth structure.',
+    'A dental crown — sometimes called a tooth cap — is a full-coverage restoration that encases a damaged, weakened, or badly discoloured tooth from gumline to biting surface, restoring its original shape, strength, and appearance. At Meghana Multi Speciality Dental Hospital, Tirupati, we offer the complete range of modern crowns: full-zirconia for unmatched strength, e.max lithium disilicate for exceptional aesthetics, and porcelain-fused-to-metal for durable value. Full ceramic crowns and zirconia crowns are completely metal-free, 100% biocompatible, and MRI-safe — an important advantage for patients who may require medical imaging. When one or more teeth are missing, a fixed dental bridge — three or more crowns fused together — fills the gap permanently without surgery. Every crown and bridge is prepared under our dental operating microscope with 25× magnification for precision that guarantees the perfect fit and maximum preservation of your healthy tooth structure.',
 
   highlights: [
     { icon: 'bi-gem', text: 'Zirconia, e.max & PFM Crowns' },
@@ -97,7 +97,7 @@ const serviceData = {
       a: 'With good oral hygiene and regular professional check-ups, zirconia and e.max crowns routinely last 15–25 years or longer. PFM crowns have a typical lifespan of 10–15 years. The main threats to crown longevity are gum disease, grinding without a night guard, and poor oral hygiene.',
     },
     {
-      q: 'How much does a dental crown cost in Tirupati at Meghana Dental Hospital?',
+      q: 'How much does a dental crown cost in Tirupati at Meghana Multi Speciality Dental Hospital?',
       a: 'PFM crowns start from ₹4,000 per unit. Full-zirconia crowns start from ₹7,000. e.max crowns start from ₹10,000. Implant crowns are priced separately. A fixed three-unit bridge is priced per unit (three times the single crown cost). We provide a written, itemised quote at your consultation.',
     },
     {

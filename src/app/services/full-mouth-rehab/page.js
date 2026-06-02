@@ -11,10 +11,10 @@ export const metadata = {
     'full mouth rehabilitation Tirupati, full mouth reconstruction Tirupati, teeth restoration Tirupati, bite correction Tirupati, comprehensive dental treatment Tirupati, dental reconstruction Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.in/services/full-mouth-rehab' },
   openGraph: {
-    title: 'Full Mouth Rehabilitation in Tirupati | Meghana Dental Hospital',
+    title: 'Full Mouth Rehabilitation in Tirupati | Meghana Multi Speciality Dental Hospital',
     description: 'Rebuild your complete smile with our multi-specialist full mouth rehabilitation programme in Tirupati. Digital smile design, phased treatment, and long-lasting results.',
     url: 'https://meghanadental.in/services/full-mouth-rehab',
-    siteName: 'Meghana Dental Hospital',
+    siteName: 'Meghana Multi Speciality Dental Hospital',
     images: [{ url: '/images/about-clinic.png', width: 1200, height: 630, alt: 'Full Mouth Rehabilitation in Tirupati' }],
     type: 'website',
   },
@@ -32,7 +32,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'How long does full mouth rehabilitation take in Tirupati?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Most full mouth rehabilitation cases are completed in 3–4 months. We give you a clear timeline at your first consultation at Meghana Dental Hospital, Tirupati.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Most full mouth rehabilitation cases are completed in 3–4 months. We give you a clear timeline at your first consultation at Meghana Multi Speciality Dental Hospital, Tirupati.' },
     },
     {
       '@type': 'Question',

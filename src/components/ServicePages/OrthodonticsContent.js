@@ -18,7 +18,7 @@ const serviceData = {
   ],
 
   overview:
-    'Dental braces are a proven orthodontic treatment to align the teeth, improve jaw positioning, enhance facial aesthetics, and restore symmetry. At Meghana Dental Hospital, Tirupati, our MDS orthodontist corrects a full range of problems — crowded, spaced, protruded, and rotated teeth; overbites and underbites; crossbites; open bites; and midline diastemas. Using advanced 3D oral scanning technology, we map your teeth precisely before treatment begins and show you a digital simulation of your final smile. We offer metal, ceramic, and self-ligating braces for children, teenagers, and adults — as well as Invisalign clear aligners and fixed functional appliances for growing patients.',
+    'Dental braces are a proven orthodontic treatment to align the teeth, improve jaw positioning, enhance facial aesthetics, and restore symmetry. At Meghana Multi Speciality Dental Hospital, Tirupati, our MDS orthodontist corrects a full range of problems — crowded, spaced, protruded, and rotated teeth; overbites and underbites; crossbites; open bites; and midline diastemas. Using advanced 3D oral scanning technology, we map your teeth precisely before treatment begins and show you a digital simulation of your final smile. We offer metal, ceramic, and self-ligating braces for children, teenagers, and adults — as well as Invisalign clear aligners and fixed functional appliances for growing patients.',
 
   highlights: [
     { icon: 'bi-phone-fill', text: '3D Oral Scanner Planning' },
@@ -97,11 +97,11 @@ const serviceData = {
   faqs: [
     {
       q: 'What is the cost of braces in Tirupati?',
-      a: 'At Meghana Dental Hospital, Tirupati: metal braces start from ₹18,000, ceramic braces from ₹25,000, and self-ligating braces from ₹30,000. Cost varies by case complexity and treatment duration. EMI options are available. Book a free orthodontic assessment for an accurate quote.',
+      a: 'At Meghana Multi Speciality Dental Hospital, Tirupati: metal braces start from ₹18,000, ceramic braces from ₹25,000, and self-ligating braces from ₹30,000. Cost varies by case complexity and treatment duration. EMI options are available. Book a free orthodontic assessment for an accurate quote.',
     },
     {
       q: 'How long does orthodontic treatment take?',
-      a: 'Treatment duration at Meghana Dental Hospital typically ranges from 12 to 24 months depending on the severity of misalignment. Mild cases may finish in under a year. Our 3D scanner-based planning ensures the most efficient treatment path for your specific case.',
+      a: 'Treatment duration at Meghana Multi Speciality Dental Hospital typically ranges from 12 to 24 months depending on the severity of misalignment. Mild cases may finish in under a year. Our 3D scanner-based planning ensures the most efficient treatment path for your specific case.',
     },
     {
       q: 'Is there an age limit for getting braces in Tirupati?',

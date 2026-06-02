@@ -5,23 +5,23 @@ export default function ContactMapSection() {
       {/* Map Card */}
       <div className="cms-map-card">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3878.12!2d79.41920!3d13.62880!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s!2sMeghana+Dental+Hospital+Tirupati!5e0!3m2!1sen!2sin!4v1234567890"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3878.12!2d79.41920!3d13.62880!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s!2sMeghana+Multi+Speciality+Dental+Hospital+Tirupati!5e0!3m2!1sen!2sin!4v1234567890"
           width="100%" height="240"
           style={{ border: 0, display: 'block' }}
           allowFullScreen="" loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Meghana Dental Hospital Location"
+          title="Meghana Multi Speciality Dental Hospital Location"
         />
         <div className="cms-map-footer">
           <div className="cms-map-address">
             <i className="bi bi-geo-alt-fill" style={{ color: '#0ea5e9' }} />
             <div>
-              <strong>Meghana Multispeciality Dental Hospital</strong>
+              <strong>Meghana Multi Speciality Dental Hospital</strong>
               <span>No. 18-2-91B, Ashok Nagar, Tirupati, AP 517501</span>
             </div>
           </div>
           <a
-            href="https://www.google.com/maps/search/?api=1&query=Meghana+Dental+Hospital+Ashok+Nagar+Tirupati+Andhra+Pradesh"
+            href="https://www.google.com/maps/search/?api=1&query=Meghana+Multi+Speciality+Dental+Hospital+Ashok+Nagar+Tirupati+Andhra+Pradesh"
             target="_blank" rel="noopener noreferrer"
             className="cms-directions-btn"
           >
@@ -42,7 +42,7 @@ export default function ContactMapSection() {
           </div>
         </a>
         <a
-          href="https://wa.me/917893327036?text=Hello!%20I'd%20like%20to%20book%20an%20appointment%20at%20Meghana%20Dental%20Hospital%20Tirupati."
+          href="https://wa.me/917893327036?text=Hello!%20I'd%20like%20to%20book%20an%20appointment%20at%20Meghana%20Multi%20Speciality%20Dental%20Hospital%2C%20Tirupati."
           target="_blank" rel="noopener noreferrer"
           className="cms-quick-item"
         >

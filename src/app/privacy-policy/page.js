@@ -3,17 +3,17 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Privacy Policy | Meghana Dental Hospital, Tirupati',
-  description: 'Read the privacy policy of Meghana Dental Hospital, Tirupati. Learn how we collect, use, and protect your personal data when you use our website or services.',
-  keywords: 'Meghana Dental privacy policy, dental hospital data policy Tirupati, patient data protection dental clinic',
+  title: 'Privacy Policy | Meghana Multi Speciality Dental Hospital, Tirupati',
+  description: 'Read the privacy policy of Meghana Multi Speciality Dental Hospital, Tirupati. Learn how we collect, use, and protect your personal data when you use our website or services.',
+  keywords: 'Meghana Multi Speciality Dental Hospital privacy policy, dental hospital data policy Tirupati, patient data protection dental clinic',
   alternates: { canonical: 'https://meghanadental.in/privacy-policy' },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Privacy Policy | Meghana Dental Hospital, Tirupati',
-    description: 'Read the privacy policy of Meghana Dental Hospital, Tirupati. Learn how we collect, use, and protect your personal data.',
+    title: 'Privacy Policy | Meghana Multi Speciality Dental Hospital, Tirupati',
+    description: 'Read the privacy policy of Meghana Multi Speciality Dental Hospital, Tirupati. Learn how we collect, use, and protect your personal data.',
     url: 'https://meghanadental.in/privacy-policy',
-    siteName: 'Meghana Dental Hospital',
-    images: [{ url: '/images/about-clinic.png', width: 1200, height: 630, alt: 'Meghana Dental Hospital Tirupati' }],
+    siteName: 'Meghana Multi Speciality Dental Hospital',
+    images: [{ url: '/images/about-clinic.png', width: 1200, height: 630, alt: 'Meghana Multi Speciality Dental Hospital Tirupati' }],
     type: 'website',
   },
 };
@@ -31,7 +31,7 @@ export default function PrivacyPolicyPage() {
           <div className="row align-items-center">
             <div className="col-lg-8">
               <h1>Privacy <span>Policy</span></h1>
-              <p>How Meghana Dental Hospital collects, uses, and protects your information.</p>
+              <p>How Meghana Multi Speciality Dental Hospital collects, uses, and protects your information.</p>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function PrivacyPolicyPage() {
                   <strong>Effective from:</strong> January 2025
                 </p>
                 <p>
-                  Meghana Dental Hospital ("we", "our", "us") is committed to protecting your
+                  Meghana Multi Speciality Dental Hospital ("we", "our", "us") is committed to protecting your
                   privacy. This Privacy Policy explains how we collect, use, store, and protect
                   your personal information when you visit our website at meghanadental.in or
                   when you use our dental services at our clinic at No. 18-2-91B, Ashok Nagar,
@@ -188,7 +188,7 @@ export default function PrivacyPolicyPage() {
                 <ul>
                   <li><strong>Email:</strong> <a href="mailto:info@meghanadental.in">info@meghanadental.in</a></li>
                   <li><strong>Phone:</strong> <a href="tel:08772248330">08772248330</a> / <a href="tel:+917893327036">+91 7893327036</a></li>
-                  <li><strong>Address:</strong> Meghana Dental Hospital, No. 18-2-91B, Ashok Nagar, Tirupati, Andhra Pradesh 517501</li>
+                  <li><strong>Address:</strong> Meghana Multi Speciality Dental Hospital, No. 18-2-91B, Ashok Nagar, Tirupati, Andhra Pradesh 517501</li>
                   <li><strong>Hours:</strong> Mon–Sat: 9:00 AM – 8:00 PM | Sunday: 10:00 AM – 2:00 PM</li>
                 </ul>
               </div>

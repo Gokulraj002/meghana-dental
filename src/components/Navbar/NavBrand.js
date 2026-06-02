@@ -6,11 +6,11 @@ export default function NavBrand() {
     <Link className="navbar-brand-custom" href="/" style={{ cursor: 'pointer' }}>
       <Image
         src="/images/meghana-mascot.jpg"
-        alt="Meghana Dental"
+        alt="Meghana Multi Speciality Dental Hospital"
         width={82}
-        height={62}
+        height={66}
         priority
-        style={{ borderRadius: '10px', cursor: 'pointer' }}
+        style={{ borderRadius: '10px', cursor: 'pointer', height: 'auto' }}
       />
       <h4>Meghana <span>Dental</span></h4>
     </Link>

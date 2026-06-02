@@ -13,7 +13,7 @@ const serviceData = {
   ],
 
   overview:
-    'Full mouth rehabilitation — also called full mouth reconstruction — is one of the most comprehensive and life-changing treatments in modern dentistry. It is not a single procedure; it is a carefully designed, multi-phase programme that restores every tooth in both jaws using the combined expertise of multiple dental specialists. At Meghana Dental Hospital, Tirupati, our in-house team of prosthodontists, endodontists, periodontists, oral surgeons, and orthodontists work together under one roof, coordinated through digital treatment planning and guided by a primary specialist who oversees your entire journey. Whether your mouth has been damaged by years of grinding, acid erosion, multiple failed restorations, extensive decay, or tooth loss — full mouth rehabilitation can rebuild your oral health, restore your chewing function, and give you back the confidence of a complete, healthy smile.',
+    'Full mouth rehabilitation — also called full mouth reconstruction — is one of the most comprehensive and life-changing treatments in modern dentistry. It is not a single procedure; it is a carefully designed, multi-phase programme that restores every tooth in both jaws using the combined expertise of multiple dental specialists. At Meghana Multi Speciality Dental Hospital, Tirupati, our in-house team of prosthodontists, endodontists, periodontists, oral surgeons, and orthodontists work together under one roof, coordinated through digital treatment planning and guided by a primary specialist who oversees your entire journey. Whether your mouth has been damaged by years of grinding, acid erosion, multiple failed restorations, extensive decay, or tooth loss — full mouth rehabilitation can rebuild your oral health, restore your chewing function, and give you back the confidence of a complete, healthy smile.',
 
   highlights: [
     { icon: 'bi-people-fill', text: 'Multi-Specialist Team Under One Roof' },
@@ -39,7 +39,7 @@ const serviceData = {
     {
       icon: 'bi-people-fill',
       title: 'All Specialists On-Site',
-      desc: 'You do not travel between multiple clinics. Prosthodontist, endodontist, periodontist, and oral surgeon all operate at Meghana Dental Hospital, Tirupati.',
+      desc: 'You do not travel between multiple clinics. Prosthodontist, endodontist, periodontist, and oral surgeon all operate at Meghana Multi Speciality Dental Hospital, Tirupati.',
     },
     {
       icon: 'bi-layers-fill',
@@ -93,11 +93,11 @@ const serviceData = {
     },
     {
       q: 'How long does full mouth rehabilitation take in Tirupati?',
-      a: 'Most full mouth rehabilitation cases at Meghana Dental Hospital are completed in 3–4 months. We give you a detailed phase-by-phase timeline at your treatment planning appointment.',
+      a: 'Most full mouth rehabilitation cases at Meghana Multi Speciality Dental Hospital are completed in 3–4 months. We give you a detailed phase-by-phase timeline at your treatment planning appointment.',
     },
     {
       q: 'Is full mouth rehabilitation done by one doctor or multiple?',
-      a: 'At Meghana Dental Hospital, your rehabilitation is coordinated by a primary specialist — usually a prosthodontist — who designs the treatment plan and manages the overall programme. Other specialists (endodontist, periodontist, oral surgeon, orthodontist) contribute at the appropriate phases. You have one main point of contact who understands your entire plan.',
+      a: 'At Meghana Multi Speciality Dental Hospital, your rehabilitation is coordinated by a primary specialist — usually a prosthodontist — who designs the treatment plan and manages the overall programme. Other specialists (endodontist, periodontist, oral surgeon, orthodontist) contribute at the appropriate phases. You have one main point of contact who understands your entire plan.',
     },
     {
       q: 'What does full mouth rehabilitation cost in Tirupati?',
@@ -117,7 +117,7 @@ const serviceData = {
   ],
 
   ctaTitle: 'Begin Your Full Mouth Rehabilitation',
-  ctaDesc: 'Book a comprehensive consultation at Meghana Dental Hospital, Tirupati. Our multi-specialist team will assess your case and create a personalised, phased treatment plan.',
+  ctaDesc: 'Book a comprehensive consultation at Meghana Multi Speciality Dental Hospital, Tirupati. Our multi-specialist team will assess your case and create a personalised, phased treatment plan.',
 
   relatedServices: [
     {

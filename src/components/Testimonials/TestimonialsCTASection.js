@@ -6,7 +6,7 @@ export default function TestimonialsCTASection() {
       <div className="col-lg-8">
         <div className="service-cta-card">
           <h3>Share Your Experience</h3>
-          <p>Had a great experience at Meghana Dental? Leave us a review on Google and help others find quality dental care.</p>
+          <p>Had a great experience at Meghana Multi Speciality Dental Hospital? Leave us a review on Google and help others find quality dental care.</p>
           <Link href="/contact" className="btn">Book Your Visit</Link>
         </div>
       </div>

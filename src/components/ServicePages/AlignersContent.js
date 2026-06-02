@@ -12,7 +12,7 @@ const serviceData = {
   ],
 
   overview:
-    'Meghana Dental Hospital, Tirupati is one of the best providers of Invisalign — the world\'s most advanced clear aligner system. Unlike generic clear aligners, Invisalign uniquely involves functional jaw movements, giving it the most desired result for dental malocclusion correction. Using precise 3D imaging, Invisalign discreetly straightens teeth — often faster and more comfortable than traditional braces or other aligner brands. The trays are fully removable for eating and brushing and must be worn 20–22 hours a day. Our specialists combine digital planning, advanced diagnostics, and personalised care to design your perfect smile from start to finish.',
+    'Meghana Multi Speciality Dental Hospital, Tirupati is one of the best providers of Invisalign — the world\'s most advanced clear aligner system. Unlike generic clear aligners, Invisalign uniquely involves functional jaw movements, giving it the most desired result for dental malocclusion correction. Using precise 3D imaging, Invisalign discreetly straightens teeth — often faster and more comfortable than traditional braces or other aligner brands. The trays are fully removable for eating and brushing and must be worn 20–22 hours a day. Our specialists combine digital planning, advanced diagnostics, and personalised care to design your perfect smile from start to finish.',
 
   highlights: [
     { icon: 'bi-award-fill', text: 'Official Invisalign Provider' },
@@ -89,7 +89,7 @@ const serviceData = {
   faqs: [
     {
       q: 'What is the cost of clear aligners in Tirupati?',
-      a: 'Clear aligner treatment at Meghana Dental Hospital, Tirupati starts from ₹35,000 for mild cases. The total cost depends on the number of aligners required and the complexity of tooth movement. EMI options are available. Book a free 3D scan consultation for an accurate, personalised quote.',
+      a: 'Clear aligner treatment at Meghana Multi Speciality Dental Hospital, Tirupati starts from ₹35,000 for mild cases. The total cost depends on the number of aligners required and the complexity of tooth movement. EMI options are available. Book a free 3D scan consultation for an accurate, personalised quote.',
     },
     {
       q: 'Are clear aligners as effective as braces?',
@@ -97,7 +97,7 @@ const serviceData = {
     },
     {
       q: 'How long does clear aligner treatment take?',
-      a: 'Treatment duration at Meghana Dental Hospital typically ranges from 6 to 18 months, depending on severity. Mild cases can complete in as few as 6 months. Visible improvements are often noticeable within the first few months as your teeth begin shifting.',
+      a: 'Treatment duration at Meghana Multi Speciality Dental Hospital typically ranges from 6 to 18 months, depending on severity. Mild cases can complete in as few as 6 months. Visible improvements are often noticeable within the first few months as your teeth begin shifting.',
     },
     {
       q: 'How many hours a day do I need to wear aligners?',
@@ -105,7 +105,7 @@ const serviceData = {
     },
     {
       q: 'Can aligners fix my teeth at my age?',
-      a: 'Aligners are suitable for teenagers and adults. There is no upper age limit. The key requirement is that you have predominantly permanent teeth and healthy gums. Our orthodontist will evaluate your suitability during a free consultation at Meghana Dental Hospital, Tirupati.',
+      a: 'Aligners are suitable for teenagers and adults. There is no upper age limit. The key requirement is that you have predominantly permanent teeth and healthy gums. Our orthodontist will evaluate your suitability during a free consultation at Meghana Multi Speciality Dental Hospital, Tirupati.',
     },
   ],
 

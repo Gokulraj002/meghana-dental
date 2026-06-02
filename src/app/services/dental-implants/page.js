@@ -11,12 +11,12 @@ export const metadata = {
     'dental implants Tirupati, dental implants cost Tirupati, best implant dentist Tirupati, all on 4 implants Tirupati, single tooth implant Tirupati, full mouth implants Tirupati, titanium implants Tirupati, implant specialist Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.in/services/dental-implants' },
   openGraph: {
-    title: 'Dental Implants in Tirupati | Permanent Tooth Replacement — Meghana Dental',
+    title: 'Dental Implants in Tirupati | Permanent Tooth Replacement — Meghana Multi Speciality Dental Hospital',
     description:
       'Restore your smile permanently with expert dental implants in Tirupati. Single implants, All-on-4, same-day implants. Transparent pricing. Book a consultation.',
     url: 'https://meghanadental.in/services/dental-implants',
-    siteName: 'Meghana Dental Hospital',
-    images: [{ url: '/services/dental-implants.jpg', width: 1200, height: 630, alt: 'Dental Implants in Tirupati — Meghana Dental Hospital' }],
+    siteName: 'Meghana Multi Speciality Dental Hospital',
+    images: [{ url: '/services/dental-implants.jpg', width: 1200, height: 630, alt: 'Dental Implants in Tirupati — Meghana Multi Speciality Dental Hospital' }],
     type: 'website',
   },
 };
@@ -30,7 +30,7 @@ const faqSchema = {
       name: 'How much do dental implants cost in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Dental implant costs in Tirupati at Meghana Dental Hospital start from ₹25,000 per implant, depending on the brand and case complexity. All-on-4 implants and full-mouth solutions are also available at competitive prices. Contact us for a free consultation.',
+        text: 'Dental implant costs in Tirupati at Meghana Multi Speciality Dental Hospital start from ₹25,000 per implant, depending on the brand and case complexity. All-on-4 implants and full-mouth solutions are also available at competitive prices. Contact us for a free consultation.',
       },
     },
     {
@@ -38,7 +38,7 @@ const faqSchema = {
       name: 'Are dental implants permanent in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Dental implants are the most permanent tooth replacement solution available. With proper care, titanium implants at Meghana Dental Hospital can last a lifetime. They fuse with the jawbone (osseointegration) to provide a stable, natural-looking replacement.',
+        text: 'Yes. Dental implants are the most permanent tooth replacement solution available. With proper care, titanium implants at Meghana Multi Speciality Dental Hospital can last a lifetime. They fuse with the jawbone (osseointegration) to provide a stable, natural-looking replacement.',
       },
     },
     {
@@ -46,7 +46,7 @@ const faqSchema = {
       name: 'Is dental implant surgery painful?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'No. Dental implant surgery at Meghana Dental Hospital is performed under local anaesthesia, making it completely painless during the procedure. We use advanced techniques and provide post-operative care to ensure minimal discomfort.',
+        text: 'No. Dental implant surgery at Meghana Multi Speciality Dental Hospital is performed under local anaesthesia, making it completely painless during the procedure. We use advanced techniques and provide post-operative care to ensure minimal discomfort.',
       },
     },
     {
@@ -54,7 +54,7 @@ const faqSchema = {
       name: 'How long does it take to get dental implants in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'The full dental implant process typically takes 2–3 months at Meghana Dental Hospital, Tirupati. This includes healing time for osseointegration. In some cases, same-day or immediate loading implants are possible. We will advise the best approach after your initial consultation.',
+        text: 'The full dental implant process typically takes 2–3 months at Meghana Multi Speciality Dental Hospital, Tirupati. This includes healing time for osseointegration. In some cases, same-day or immediate loading implants are possible. We will advise the best approach after your initial consultation.',
       },
     },
     {
@@ -62,7 +62,7 @@ const faqSchema = {
       name: 'Who is the best dental implant specialist in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Meghana Dental Hospital in Tirupati has MDS-qualified prosthodontists and oral surgeons specialising in dental implants, with 17+ years of experience and 50,000+ treated patients. Our team uses advanced implant systems for predictable, long-lasting results.',
+        text: 'Meghana Multi Speciality Dental Hospital in Tirupati has MDS-qualified prosthodontists and oral surgeons specialising in dental implants, with 17+ years of experience and 50,000+ treated patients. Our team uses advanced implant systems for predictable, long-lasting results.',
       },
     },
   ],

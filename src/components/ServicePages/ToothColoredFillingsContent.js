@@ -12,7 +12,7 @@ const serviceData = {
   ],
 
   overview:
-    'Tooth-coloured composite resin fillings are the most common restorative treatment in modern dentistry — used to repair cavities, chipped teeth, and minor structural damage in a single, comfortable visit. Composite is a BPA-free, tooth-coloured plastic-and-glass blend that is applied directly to the prepared cavity, sculpted to the exact tooth anatomy, and hardened instantly with a blue-light curing lamp. Unlike old silver amalgam fillings, composite bonds chemically to the natural tooth structure, reinforcing what remains rather than just plugging the space. At Meghana Dental Hospital, Tirupati, every composite filling is placed under our dental operating microscope with 25× magnification — ensuring complete decay removal, perfect cavity edges, and a restoration that fits and seals with absolute precision.',
+    'Tooth-coloured composite resin fillings are the most common restorative treatment in modern dentistry — used to repair cavities, chipped teeth, and minor structural damage in a single, comfortable visit. Composite is a BPA-free, tooth-coloured plastic-and-glass blend that is applied directly to the prepared cavity, sculpted to the exact tooth anatomy, and hardened instantly with a blue-light curing lamp. Unlike old silver amalgam fillings, composite bonds chemically to the natural tooth structure, reinforcing what remains rather than just plugging the space. At Meghana Multi Speciality Dental Hospital, Tirupati, every composite filling is placed under our dental operating microscope with 25× magnification — ensuring complete decay removal, perfect cavity edges, and a restoration that fits and seals with absolute precision.',
 
   highlights: [
     { icon: 'bi-palette', text: 'Perfectly Shade-Matched to Your Tooth' },
@@ -108,7 +108,7 @@ const serviceData = {
     },
     {
       q: 'What is the cost of a composite filling in Tirupati?',
-      a: 'At Meghana Dental Hospital, Tirupati, composite fillings start from ₹800 per tooth for a small cavity, ranging up to ₹2,500 for a larger restoration. Cost depends on the size and number of surfaces involved. We provide a written estimate before any treatment begins.',
+      a: 'At Meghana Multi Speciality Dental Hospital, Tirupati, composite fillings start from ₹800 per tooth for a small cavity, ranging up to ₹2,500 for a larger restoration. Cost depends on the size and number of surfaces involved. We provide a written estimate before any treatment begins.',
     },
   ],
 

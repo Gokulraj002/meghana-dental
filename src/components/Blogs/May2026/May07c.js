@@ -50,7 +50,7 @@ const May07c = () => {
               <span style={{ fontWeight: 700 }}>
                 Best Root Canal Hospital in Tirupati
               </span>
-              , your search ends here at Meghana Multispeciality Dental
+              , your search ends here at Meghana Multi Speciality Dental
               Hospital. With over 17 years of unmatched expertise in
               endodontics, a team led by an MDS-qualified Root Canal Specialist,
               and Tirupati&apos;s only Dental Operating Microscope with
@@ -85,7 +85,7 @@ const May07c = () => {
             <div>
               <img
                 src="/blogimage/blog3(1).png"
-                alt="Best Root Canal Hospital in Tirupati — Meghana Multispeciality Dental Hospital"
+                alt="Best Root Canal Hospital in Tirupati — Meghana Multi Speciality Dental Hospital"
                 style={{ width: "100%", height: "700px", objectFit: "cover" }}
               />
             </div>
@@ -468,7 +468,7 @@ const May07c = () => {
                 <span style={{ fontWeight: 700 }}>
                   Best Dentist in Tirupati
                 </span>{" "}
-                for root canal treatment, Meghana Multispeciality Dental
+                for root canal treatment, Meghana Multi Speciality Dental
                 Hospital is the undisputed choice — and here is exactly why.
                 Meghana Dental is led by Dr. M. Hemadri, an MDS specialist in
                 Conservative Dentistry and Endodontics with over 17 years of
@@ -552,7 +552,7 @@ const May07c = () => {
                 With over 17 years of excellence, 50,000+ happy patients, a
                 4.9-star Google rating, NABH certification, empanelment with 11+
                 government organisations, and the only 25&times; dental
-                microscope in Tirupati, Meghana Multispeciality Dental Hospital
+                microscope in Tirupati, Meghana Multi Speciality Dental Hospital
                 is — without any doubt — the{" "}
                 <span style={{ fontWeight: 700 }}>
                   Best Root Canal Hospital in Tirupati
@@ -788,7 +788,7 @@ const May07c = () => {
                         marginTop: "2px",
                       }}
                     >
-                      Meghana Dental Hospital
+                      Meghana Multi Speciality Dental Hospital
                     </div>
                     <div
                       style={{

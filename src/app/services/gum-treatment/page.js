@@ -11,10 +11,10 @@ export const metadata = {
     'gum treatment Tirupati, gum disease Tirupati, bleeding gums treatment Tirupati, periodontal treatment Tirupati, scaling root planing Tirupati, periodontist Tirupati, gum surgery Tirupati, dental cleaning Tirupati',
   alternates: { canonical: 'https://meghanadental.in/services/gum-treatment' },
   openGraph: {
-    title: 'Gum Disease Treatment in Tirupati | Expert Periodontist — Meghana Dental',
+    title: 'Gum Disease Treatment in Tirupati | Expert Periodontist — Meghana Multi Speciality Dental Hospital',
     description: 'Treat bleeding gums, receding gums & gum disease in Tirupati. Professional scaling, laser gum therapy & periodontal surgery by expert periodontists.',
     url: 'https://meghanadental.in/services/gum-treatment',
-    siteName: 'Meghana Dental Hospital',
+    siteName: 'Meghana Multi Speciality Dental Hospital',
     images: [{ url: '/services/Gum/gum-flap-surgery.png', width: 1200, height: 630, alt: 'Gum Disease Treatment in Tirupati' }],
     type: 'website',
   },
@@ -37,7 +37,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'How much does gum treatment cost in Tirupati?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Scaling and polishing at Meghana Dental Hospital, Tirupati, starts from ₹1,500. Deep cleaning (root planing) ranges from ₹3,000–8,000 depending on severity. Contact us for a personalised estimate.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Scaling and polishing at Meghana Multi Speciality Dental Hospital, Tirupati, starts from ₹1,500. Deep cleaning (root planing) ranges from ₹3,000–8,000 depending on severity. Contact us for a personalised estimate.' },
     },
     {
       '@type': 'Question',

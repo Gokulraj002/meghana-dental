@@ -12,7 +12,7 @@ const serviceData = {
   ],
 
   overview:
-    'Ceramic inlays and onlays are the gold standard for restoring large, heavily damaged, or cusp-involved back teeth — situations where a direct composite filling would be too bulky, too prone to shrinkage, or simply not strong enough to withstand long-term chewing forces. Unlike direct fillings placed chairside, inlays and onlays are precision-milled from solid porcelain or ceramic in a specialist dental laboratory, then permanently bonded to the tooth at a second visit. The result is a restoration that does not shrink, does not stain, lasts 15–20+ years, and is virtually indistinguishable from natural tooth enamel. An inlay fits inside the cusps of the tooth; an onlay extends over one or more cusps when additional coverage is needed — making it the ideal solution between a large filling and a full crown. At Meghana Dental Hospital, Tirupati, all inlay and onlay preparations are performed under our 25× dental operating microscope for micron-level precision.',
+    'Ceramic inlays and onlays are the gold standard for restoring large, heavily damaged, or cusp-involved back teeth — situations where a direct composite filling would be too bulky, too prone to shrinkage, or simply not strong enough to withstand long-term chewing forces. Unlike direct fillings placed chairside, inlays and onlays are precision-milled from solid porcelain or ceramic in a specialist dental laboratory, then permanently bonded to the tooth at a second visit. The result is a restoration that does not shrink, does not stain, lasts 15–20+ years, and is virtually indistinguishable from natural tooth enamel. An inlay fits inside the cusps of the tooth; an onlay extends over one or more cusps when additional coverage is needed — making it the ideal solution between a large filling and a full crown. At Meghana Multi Speciality Dental Hospital, Tirupati, all inlay and onlay preparations are performed under our 25× dental operating microscope for micron-level precision.',
 
   highlights: [
     { icon: 'bi-gem', text: 'Solid Ceramic — No Shrinkage, No Staining' },
@@ -108,7 +108,7 @@ const serviceData = {
     },
     {
       q: 'What is the cost of an inlay or onlay in Tirupati?',
-      a: 'At Meghana Dental Hospital, Tirupati, ceramic inlays start from ₹6,000 per tooth and onlays from ₹8,000, depending on the size and material (porcelain or e.max). We provide a detailed written treatment plan with transparent costs before any procedure begins.',
+      a: 'At Meghana Multi Speciality Dental Hospital, Tirupati, ceramic inlays start from ₹6,000 per tooth and onlays from ₹8,000, depending on the size and material (porcelain or e.max). We provide a detailed written treatment plan with transparent costs before any procedure begins.',
     },
   ],
 

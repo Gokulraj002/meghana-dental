@@ -13,7 +13,7 @@ export default function TestimonialsHero() {
             <h1>Patient <span>Reviews</span> — Dental Clinic in Tirupati</h1>
             <p>
               Real stories from real patients who trust us with their dental care.
-              Read what our patients have to say about their experience at Meghana Dental Hospital.
+              Read what our patients have to say about their experience at Meghana Multi Speciality Dental Hospital.
             </p>
           </div>
         </div>

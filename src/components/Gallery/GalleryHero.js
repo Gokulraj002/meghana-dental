@@ -10,7 +10,7 @@ export default function GalleryHero() {
         </div>
         <div className="row align-items-center">
           <div className="col-lg-8">
-            <h1>Our <span>Gallery</span>  Meghana Dental Hospital</h1>
+            <h1>Our <span>Gallery</span>  Meghana Multi Speciality Dental Hospital</h1>
             <p>
               Take a look inside our state-of-the-art dental clinic — from our modern facility
               and advanced equipment to real patient smile transformations that speak for themselves.

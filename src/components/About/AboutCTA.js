@@ -6,7 +6,7 @@ export default function AboutCTA() {
       <div className="col-lg-8">
         <div className="service-cta-card">
           <h3>Ready to Experience the Difference?</h3>
-          <p>Visit Meghana Dental Hospital for a comprehensive dental check-up and consultation with our expert team.</p>
+          <p>Visit Meghana Multi Speciality Dental Hospital for a comprehensive dental check-up and consultation with our expert team.</p>
           <Link href="/contact" className="btn">Book Your Appointment</Link>
         </div>
       </div>

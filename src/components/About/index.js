@@ -14,7 +14,7 @@ export default function AboutSection() {
                 Setting New Standards in <span>Dental Care</span>
               </h2>
               <p style={{ color: 'var(--text-body)', fontSize: '1.02rem', lineHeight: '1.8', marginBottom: '12px' }}>
-                Meghana Dental Hospital is a super speciality dental centre equipped
+                Meghana Multi Speciality Dental Hospital is a super speciality dental centre equipped
                 with world-class infrastructure and a team of highly skilled dental
                 professionals. We are committed to providing comprehensive oral
                 healthcare with the perfect blend of expertise, technology, and compassion.

@@ -11,10 +11,10 @@ export const metadata = {
     'smile makeover Tirupati, cosmetic dentistry Tirupati, dental veneers Tirupati, smile design Tirupati, teeth makeover Tirupati, smile transformation Tirupati, cosmetic dentist Tirupati Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.in/services/smile-makeover' },
   openGraph: {
-    title: 'Smile Makeover in Tirupati | Digital Smile Design — Meghana Dental',
+    title: 'Smile Makeover in Tirupati | Digital Smile Design — Meghana Multi Speciality Dental Hospital',
     description: 'Get your dream smile with a personalised smile makeover in Tirupati. Veneers, whitening, aligners, gum contouring — see your new smile before treatment with digital design.',
     url: 'https://meghanadental.in/services/smile-makeover',
-    siteName: 'Meghana Dental Hospital',
+    siteName: 'Meghana Multi Speciality Dental Hospital',
     images: [{ url: '/services/smile-makeover-cover.jpg', width: 1200, height: 630, alt: 'Smile Makeover in Tirupati' }],
     type: 'website',
   },
@@ -27,7 +27,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'How much does a smile makeover cost in Tirupati?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Simple smile makeovers (whitening + bonding) start from ₹8,000. Comprehensive makeovers with veneers, aligners, and gum contouring can range from ₹50,000–2,00,000+ at Meghana Dental Hospital, Tirupati. We provide a detailed, transparent quote at your consultation.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Simple smile makeovers (whitening + bonding) start from ₹8,000. Comprehensive makeovers with veneers, aligners, and gum contouring can range from ₹50,000–2,00,000+ at Meghana Multi Speciality Dental Hospital, Tirupati. We provide a detailed, transparent quote at your consultation.' },
     },
     {
       '@type': 'Question',
@@ -42,7 +42,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'Can I see my new smile before treatment?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Yes! At Meghana Dental Hospital we offer digital smile design — you see a digital preview of your expected results before any treatment begins. This ensures complete clarity and satisfaction.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Yes! At Meghana Multi Speciality Dental Hospital we offer digital smile design — you see a digital preview of your expected results before any treatment begins. This ensures complete clarity and satisfaction.' },
     },
   ],
 };

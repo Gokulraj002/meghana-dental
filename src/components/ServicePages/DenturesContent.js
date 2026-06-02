@@ -11,7 +11,7 @@ const serviceData = {
   ],
 
   overview:
-    'Dentures are custom-made appliances that replace missing teeth and surrounding tissues, restoring your smile, speech, and chewing ability. At Meghana Dental Hospital, Tirupati, we offer the full spectrum — from conventional complete dentures for fully edentulous patients to precision partial dentures and premium BPS (Biofunctional Prosthetic System) dentures. Complete dentures are advised when all teeth are missing; partial dentures fill the gaps when some natural teeth remain. Our MDS Prosthodontist crafts every denture individually to match your gum line, facial structure, and natural aesthetics — so you get a fit that feels and looks entirely natural.',
+    'Dentures are custom-made appliances that replace missing teeth and surrounding tissues, restoring your smile, speech, and chewing ability. At Meghana Multi Speciality Dental Hospital, Tirupati, we offer the full spectrum — from conventional complete dentures for fully edentulous patients to precision partial dentures and premium BPS (Biofunctional Prosthetic System) dentures. Complete dentures are advised when all teeth are missing; partial dentures fill the gaps when some natural teeth remain. Our MDS Prosthodontist crafts every denture individually to match your gum line, facial structure, and natural aesthetics — so you get a fit that feels and looks entirely natural.',
 
   highlights: [
     { icon: 'bi-patch-check-fill', text: 'BPS Precision Dentures Available' },
@@ -86,7 +86,7 @@ const serviceData = {
 
   faqs: [
     {
-      q: 'What types of dentures are available at Meghana Dental Hospital, Tirupati?',
+      q: 'What types of dentures are available at Meghana Multi Speciality Dental Hospital, Tirupati?',
       a: 'We offer: conventional full acrylic dentures, BPS (Bio-Functional Prosthetic System) precision dentures, flexible partial dentures (Valplast-type), cast metal partial dentures, immediate dentures (placed same day as extractions), and implant-retained overdentures. Our prosthodontist will recommend the best type for your situation.',
     },
     {
@@ -99,11 +99,11 @@ const serviceData = {
     },
     {
       q: 'How long do dentures last?',
-      a: 'Well-made dentures typically last 5–8 years before needing replacement, as gum and bone changes alter the fit over time. BPS and implant-supported dentures can last longer with proper care. Regular 6-monthly check-ups at Meghana Dental Hospital allow early detection of fit issues before they cause problems.',
+      a: 'Well-made dentures typically last 5–8 years before needing replacement, as gum and bone changes alter the fit over time. BPS and implant-supported dentures can last longer with proper care. Regular 6-monthly check-ups at Meghana Multi Speciality Dental Hospital allow early detection of fit issues before they cause problems.',
     },
     {
       q: 'How much do dentures cost in Tirupati?',
-      a: 'Denture costs at Meghana Dental Hospital, Tirupati: conventional acrylic dentures from ₹8,000, flexible partial dentures from ₹12,000, and BPS precision complete dentures from ₹25,000. Implant-retained dentures are priced based on the number of implants required.',
+      a: 'Denture costs at Meghana Multi Speciality Dental Hospital, Tirupati: conventional acrylic dentures from ₹8,000, flexible partial dentures from ₹12,000, and BPS precision complete dentures from ₹25,000. Implant-retained dentures are priced based on the number of implants required.',
     },
   ],
 

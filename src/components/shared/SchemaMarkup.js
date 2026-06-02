@@ -12,6 +12,7 @@ export default function SchemaMarkup() {
         alternateName: [
           SITE.shortName,
           'Meghana Dental Tirupati',
+          'Meghana Multi Speciality Dental Hospital',
           'Meghana Multispeciality Dental Hospital',
           'Best Dental Clinic Tirupati',
         ],

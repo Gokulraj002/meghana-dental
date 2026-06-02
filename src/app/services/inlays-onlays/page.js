@@ -4,18 +4,18 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import InlaysOnlaysContent from '@/components/ServicePages/InlaysOnlaysContent';
 
 export const metadata = {
-  title: 'Ceramic Inlays & Onlays in Tirupati | Precision Tooth Restoration | Meghana Dental',
+  title: 'Ceramic Inlays & Onlays in Tirupati | Precision Tooth Restoration | Meghana Multi Speciality Dental Hospital',
   description:
-    'Restore large cavities with solid ceramic inlays and onlays in Tirupati. Lab-fabricated e.max porcelain, 15–20+ year lifespan, placed under 25× dental microscope. Meghana Dental Hospital.',
+    'Restore large cavities with solid ceramic inlays and onlays in Tirupati. Lab-fabricated e.max porcelain, 15–20+ year lifespan, placed under 25× dental microscope. Meghana Multi Speciality Dental Hospital.',
   keywords:
     'ceramic inlay Tirupati, onlay Tirupati, inlay onlay Tirupati, porcelain inlay Tirupati, emax inlay Tirupati, large cavity restoration Tirupati, dental inlay Tirupati, tooth restoration Tirupati',
   alternates: { canonical: 'https://meghanadental.in/services/inlays-onlays' },
   openGraph: {
-    title: 'Ceramic Inlays & Onlays in Tirupati | 15–20+ Year Restorations — Meghana Dental',
+    title: 'Ceramic Inlays & Onlays in Tirupati | 15–20+ Year Restorations — Meghana Multi Speciality Dental Hospital',
     description:
       'Lab-fabricated ceramic inlays and onlays in Tirupati for large cavities and cracked cusps. Precision e.max porcelain bonded under 25× microscope for a lifetime of strength.',
     url: 'https://meghanadental.in/services/inlays-onlays',
-    siteName: 'Meghana Dental Hospital',
+    siteName: 'Meghana Multi Speciality Dental Hospital',
     images: [{ url: '/services/fillings-inlay-onlay.png', width: 1200, height: 630, alt: 'Ceramic Inlays and Onlays in Tirupati' }],
     type: 'website',
   },
@@ -43,7 +43,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'What is the cost of an inlay or onlay in Tirupati?',
-      acceptedAnswer: { '@type': 'Answer', text: 'At Meghana Dental Hospital ceramic inlays start from ₹6,000 per tooth and onlays from ₹8,000, depending on size and ceramic material (porcelain or e.max). A written cost estimate is provided before treatment.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'At Meghana Multi Speciality Dental Hospital ceramic inlays start from ₹6,000 per tooth and onlays from ₹8,000, depending on size and ceramic material (porcelain or e.max). A written cost estimate is provided before treatment.' },
     },
   ],
 };
@@ -56,7 +56,7 @@ export default function InlaysOnlaysPage() {
       <ServicePageHero
         titleBefore="Ceramic Inlays &"
         titleHighlight="Onlays"
-        description="The gold standard for restoring large cavities and cracked cusps. Lab-milled solid ceramic, bonded under 25× microscope precision — lasting 15–20+ years at Meghana Dental Hospital, Tirupati."
+        description="The gold standard for restoring large cavities and cracked cusps. Lab-milled solid ceramic, bonded under 25× microscope precision — lasting 15–20+ years at Meghana Multi Speciality Dental Hospital, Tirupati."
         crumbs={[
           { label: 'Our Services', href: '/services' },
           { label: 'Dental Fillings', href: '/services/dental-fillings' },

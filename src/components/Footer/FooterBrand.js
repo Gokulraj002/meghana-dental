@@ -13,7 +13,7 @@ export default function FooterBrand() {
         <h4>Meghana <span>Dental</span></h4>
       </div>
       <p className="footer-text">
-        Meghana Dental Hospital is a premier super speciality dental centre
+        Meghana Multi Speciality Dental Hospital is a premier super speciality dental centre
         dedicated to delivering world-class oral healthcare with the latest
         technology, expert doctors, and compassionate care.
       </p>

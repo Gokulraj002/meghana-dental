@@ -4,18 +4,18 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import ToothColoredFillingsContent from '@/components/ServicePages/ToothColoredFillingsContent';
 
 export const metadata = {
-  title: 'Tooth Coloured Fillings in Tirupati | Composite Fillings | Meghana Dental',
+  title: 'Tooth Coloured Fillings in Tirupati | Composite Fillings | Meghana Multi Speciality Dental Hospital',
   description:
-    'Restore cavities with tooth-coloured composite fillings in Tirupati. Single-visit, BPA-free, shade-matched to your tooth — placed under 25× dental microscope for precision. Meghana Dental Hospital.',
+    'Restore cavities with tooth-coloured composite fillings in Tirupati. Single-visit, BPA-free, shade-matched to your tooth — placed under 25× dental microscope for precision. Meghana Multi Speciality Dental Hospital.',
   keywords:
     'tooth coloured filling Tirupati, composite filling Tirupati, cavity filling Tirupati, white filling Tirupati, tooth decay treatment Tirupati, dental filling Tirupati, composite resin filling Tirupati',
   alternates: { canonical: 'https://meghanadental.in/services/tooth-colored-fillings' },
   openGraph: {
-    title: 'Tooth Coloured Fillings in Tirupati | Composite Fillings — Meghana Dental',
+    title: 'Tooth Coloured Fillings in Tirupati | Composite Fillings — Meghana Multi Speciality Dental Hospital',
     description:
-      'Single-visit composite fillings in Tirupati, shade-matched to your tooth and placed under 25× dental microscope. Restore cavities invisibly at Meghana Dental Hospital.',
+      'Single-visit composite fillings in Tirupati, shade-matched to your tooth and placed under 25× dental microscope. Restore cavities invisibly at Meghana Multi Speciality Dental Hospital.',
     url: 'https://meghanadental.in/services/tooth-colored-fillings',
-    siteName: 'Meghana Dental Hospital',
+    siteName: 'Meghana Multi Speciality Dental Hospital',
     images: [{ url: '/services/fillings-before-after-1.jpg', width: 1200, height: 630, alt: 'Tooth Coloured Composite Fillings in Tirupati' }],
     type: 'website',
   },
@@ -43,7 +43,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'What is the cost of a composite filling in Tirupati?',
-      acceptedAnswer: { '@type': 'Answer', text: 'At Meghana Dental Hospital composite fillings start from ₹800 per tooth for a small cavity and range up to ₹2,500 for a larger restoration, depending on size and surfaces involved.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'At Meghana Multi Speciality Dental Hospital composite fillings start from ₹800 per tooth for a small cavity and range up to ₹2,500 for a larger restoration, depending on size and surfaces involved.' },
     },
   ],
 };
@@ -56,7 +56,7 @@ export default function ToothColoredFillingsPage() {
       <ServicePageHero
         titleBefore="Tooth Coloured"
         titleHighlight="Fillings"
-        description="Restore decayed or damaged teeth with perfectly shade-matched composite resin. Single visit, pain-free, and placed under 25× microscope precision at Meghana Dental Hospital, Tirupati."
+        description="Restore decayed or damaged teeth with perfectly shade-matched composite resin. Single visit, pain-free, and placed under 25× microscope precision at Meghana Multi Speciality Dental Hospital, Tirupati."
         crumbs={[
           { label: 'Our Services', href: '/services' },
           { label: 'Dental Fillings', href: '/services/dental-fillings' },

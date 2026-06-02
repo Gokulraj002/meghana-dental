@@ -12,7 +12,7 @@ const serviceData = {
   ],
 
   overview:
-    'Gum disease — or periodontal disease — is the single leading cause of tooth loss in adults worldwide, yet it is almost entirely preventable and treatable when caught early. It begins silently: gums that bleed on brushing, a persistent bad taste, or slight puffiness that patients dismiss as normal. Left untreated, the infection progresses from gingivitis to periodontitis, destroying the bone and connective tissue that anchor your teeth. At Meghana Dental Hospital, Tirupati, our specialist periodontist provides the full spectrum of gum care — from professional scaling and root planing to laser gum therapy, flap surgery, bone grafting, and long-term periodontal maintenance — using the most advanced equipment available in Andhra Pradesh.',
+    'Gum disease — or periodontal disease — is the single leading cause of tooth loss in adults worldwide, yet it is almost entirely preventable and treatable when caught early. It begins silently: gums that bleed on brushing, a persistent bad taste, or slight puffiness that patients dismiss as normal. Left untreated, the infection progresses from gingivitis to periodontitis, destroying the bone and connective tissue that anchor your teeth. At Meghana Multi Speciality Dental Hospital, Tirupati, our specialist periodontist provides the full spectrum of gum care — from professional scaling and root planing to laser gum therapy, flap surgery, bone grafting, and long-term periodontal maintenance — using the most advanced equipment available in Andhra Pradesh.',
 
   highlights: [
     { icon: 'bi-activity', text: 'Full Spectrum Periodontal Care' },
@@ -103,7 +103,7 @@ const serviceData = {
       a: 'Modern scaling and root planing is performed under local anaesthesia, which is given after a topical anaesthetic gel — so you barely feel the injection. Our laser gum therapy significantly reduces post-operative soreness compared to conventional gum surgery. Most patients take a mild painkiller for one day after deep cleaning.',
     },
     {
-      q: 'What does gum treatment cost at Meghana Dental Hospital, Tirupati?',
+      q: 'What does gum treatment cost at Meghana Multi Speciality Dental Hospital, Tirupati?',
       a: 'Scaling and polishing starts from ₹1,500. Full-mouth scaling with root planing ranges from ₹3,000 to ₹8,000 depending on severity. Laser gum therapy starts from ₹2,500 per quadrant. Flap surgery and bone grafting are priced individually after assessment. We always provide a written treatment plan with transparent costs before beginning.',
     },
   ],

@@ -11,10 +11,10 @@ export const metadata = {
     'laser dentistry Tirupati, painless dentist Tirupati, laser gum treatment Tirupati, gum contouring Tirupati, laser teeth whitening Tirupati, no drill dentist Tirupati, dental laser treatment Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.in/services/laser-dentistry' },
   openGraph: {
-    title: 'Laser Dentistry in Tirupati | Painless Treatment — Meghana Dental',
+    title: 'Laser Dentistry in Tirupati | Painless Treatment — Meghana Multi Speciality Dental Hospital',
     description: 'Experience drill-free, needle-free dental care with advanced laser technology in Tirupati. Gum contouring, cavity treatment, ulcer healing & more.',
     url: 'https://meghanadental.in/services/laser-dentistry',
-    siteName: 'Meghana Dental Hospital',
+    siteName: 'Meghana Multi Speciality Dental Hospital',
     images: [{ url: '/images/dental-equipment.jpg', width: 1200, height: 630, alt: 'Laser Dentistry in Tirupati' }],
     type: 'website',
   },
@@ -42,7 +42,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'What is the cost of laser dentistry in Tirupati?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Laser ulcer treatment starts from ₹500, gum contouring from ₹3,000, and gum disease treatment from ₹5,000 at Meghana Dental Hospital, Tirupati. Contact us for a personalised quote.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Laser ulcer treatment starts from ₹500, gum contouring from ₹3,000, and gum disease treatment from ₹5,000 at Meghana Multi Speciality Dental Hospital, Tirupati. Contact us for a personalised quote.' },
     },
   ],
 };

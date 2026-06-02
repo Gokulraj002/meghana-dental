@@ -11,12 +11,12 @@ export const metadata = {
     'clear aligners Tirupati, invisible braces Tirupati, Invisalign Tirupati, transparent aligners Tirupati, teeth straightening without braces Tirupati, aligner cost Tirupati, clear braces Tirupati, aligners Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.in/services/aligners' },
   openGraph: {
-    title: 'Clear Aligners in Tirupati | Invisible Teeth Straightening — Meghana Dental',
+    title: 'Clear Aligners in Tirupati | Invisible Teeth Straightening — Meghana Multi Speciality Dental Hospital',
     description:
       'Straighten your teeth without anyone noticing. Custom 3D-scanned clear aligners in Tirupati — removable, invisible, comfortable. 6–18 month treatment.',
     url: 'https://meghanadental.in/services/aligners',
-    siteName: 'Meghana Dental Hospital',
-    images: [{ url: '/images/aligners-trays.jpg', width: 1200, height: 630, alt: 'Clear Aligners in Tirupati — Meghana Dental Hospital' }],
+    siteName: 'Meghana Multi Speciality Dental Hospital',
+    images: [{ url: '/images/aligners-trays.jpg', width: 1200, height: 630, alt: 'Clear Aligners in Tirupati — Meghana Multi Speciality Dental Hospital' }],
     type: 'website',
   },
 };
@@ -30,7 +30,7 @@ const faqSchema = {
       name: 'What is the cost of clear aligners in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Clear aligner cost in Tirupati at Meghana Dental Hospital starts from ₹35,000 for mild cases and varies by treatment complexity. Contact us for a personalised quote after a free 3D scan evaluation.',
+        text: 'Clear aligner cost in Tirupati at Meghana Multi Speciality Dental Hospital starts from ₹35,000 for mild cases and varies by treatment complexity. Contact us for a personalised quote after a free 3D scan evaluation.',
       },
     },
     {
@@ -46,7 +46,7 @@ const faqSchema = {
       name: 'How long does clear aligner treatment take in Tirupati?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Clear aligner treatment at Meghana Dental Hospital in Tirupati typically takes 6 to 18 months depending on severity. Each set of trays is worn for about 2 weeks. Visible results usually appear within a few months.',
+        text: 'Clear aligner treatment at Meghana Multi Speciality Dental Hospital in Tirupati typically takes 6 to 18 months depending on severity. Each set of trays is worn for about 2 weeks. Visible results usually appear within a few months.',
       },
     },
   ],

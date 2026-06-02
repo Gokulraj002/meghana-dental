@@ -46,7 +46,7 @@ const May07 = () => {
           your damaged tooth to fully restore its original shape, strength,
           size, and appearance. If you are searching for the{" "}
           <span style={{ fontWeight: 700 }}>Best Dental Hospital In Tirupati</span> for a Crown
-          Procedure, you have found the right place. Meghana Multispeciality
+          Procedure, you have found the right place. Meghana Multi Speciality
           Dental Hospital has been Tirupati&apos;s most trusted dental centre
           for over 17 years, treating more than 50,000 happy patients with
           world-class dental care.
@@ -228,7 +228,7 @@ const May07 = () => {
         <div>
           <h2 id="dental-crown-procedure" className="fw-bold mt-5">
             <span className="text-brand">
-              Dental Crown Procedure at Meghana Dental Hospital, Tirupati
+              Dental Crown Procedure at Meghana Multi Speciality Dental Hospital, Tirupati
             </span>
           </h2>
           <p>
@@ -349,7 +349,7 @@ const May07 = () => {
           </h2>
           <p>
             If you are looking for the <span style={{ fontWeight: 700 }}>Best Dentist In Tirupati</span>{" "}
-            for a Crown Procedure or Treatment, Meghana Multispeciality Dental
+            for a Crown Procedure or Treatment, Meghana Multi Speciality Dental
             Hospital is without doubt your best choice. With 17 years of
             clinical excellence, a team of qualified MDS Specialists, and a
             4.9-star Google rating from over 850 verified patient reviews,
@@ -418,7 +418,7 @@ const May07 = () => {
             </li>
           </ul>
           <p>
-            Come visit Meghana Multispeciality Dental Hospital at No. 18-2-91B,
+            Come visit Meghana Multi Speciality Dental Hospital at No. 18-2-91B,
             Ashok Nagar, Tirupati, Andhra Pradesh — 517501, or book your
             appointment today through our website at meghanadental.in or
             WhatsApp us directly. Give yourself and your smile the best care
@@ -438,7 +438,7 @@ const May07 = () => {
           }}
         >
           <h3 className="fw-bold mb-4" style={{ color: "var(--primary-dark)" }}>
-            Book Your Crown Consultation Today at Meghana Multispeciality Dental
+            Book Your Crown Consultation Today at Meghana Multi Speciality Dental
             Hospital
           </h3>
           <ul className="list-unstyled mb-0">
@@ -630,7 +630,7 @@ const May07 = () => {
                       MDS Specialist Team
                     </div>
                     <div style={{ fontSize: "0.78rem", color: "#6B7280", marginTop: "2px" }}>
-                      Meghana Dental Hospital
+                      Meghana Multi Speciality Dental Hospital
                     </div>
                     <div style={{ fontSize: "0.72rem", color: "var(--primary-dark)", marginTop: "4px", fontWeight: 600 }}>
                       17+ Years Experience &nbsp;•&nbsp; NABH Certified

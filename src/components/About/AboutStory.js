@@ -14,7 +14,7 @@ export default function AboutStory() {
         <div className="about-image-wrapper">
           <Image
             src="/images/about-clinic.png"
-            alt="Meghana Dental Hospital Clinic"
+            alt="Meghana Multi Speciality Dental Hospital Clinic"
             width={600} height={480}
             style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
           />
@@ -28,7 +28,7 @@ export default function AboutStory() {
         <span className="about-subtitle">OUR STORY</span>
         <h2 className="about-title">Your Trusted Partner in <span>Oral Healthcare</span></h2>
         <p style={{ fontSize: '1.05rem', lineHeight: '1.9', color: 'var(--text-body)', marginBottom: '24px' }}>
-          Meghana Dental Hospital was founded with a vision to provide comprehensive,
+          Meghana Multi Speciality Dental Hospital was founded with a vision to provide comprehensive,
           affordable, and pain-free dental care to the people of Tirupati and surrounding areas.
           Over 17+ years, we have grown into one of the most trusted dental hospitals in
           Andhra Pradesh, serving over 50,000 happy patients.

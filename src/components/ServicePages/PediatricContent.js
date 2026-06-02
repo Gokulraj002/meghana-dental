@@ -12,7 +12,7 @@ const serviceData = {
   ],
 
   overview:
-    'Paediatric dentistry focuses on the oral health of infants, children, and adolescents. Human teeth start erupting from the age of 6 months, and between 6 months and 6 years children develop their full set of primary "milk" teeth. By the age of 6–7 years, milk teeth start to fall out and the permanent set begins to appear. Many parents ignore problems with milk teeth — but untreated decay, premature loss, and bad oral habits at this stage directly affect the permanent teeth that follow. The main goals of paediatric dentistry are to track jaw expansion and tooth development, perform regular cleanings, deliver early interceptive orthodontics, provide preventive care, and manage dental injuries. At Meghana Dental Hospital, Tirupati, our pedodontists are concerned with your child\'s comfort and welfare at all times — combining exceptional expertise with genuine care to keep your child\'s smile healthy for a lifetime.',
+    'Paediatric dentistry focuses on the oral health of infants, children, and adolescents. Human teeth start erupting from the age of 6 months, and between 6 months and 6 years children develop their full set of primary "milk" teeth. By the age of 6–7 years, milk teeth start to fall out and the permanent set begins to appear. Many parents ignore problems with milk teeth — but untreated decay, premature loss, and bad oral habits at this stage directly affect the permanent teeth that follow. The main goals of paediatric dentistry are to track jaw expansion and tooth development, perform regular cleanings, deliver early interceptive orthodontics, provide preventive care, and manage dental injuries. At Meghana Multi Speciality Dental Hospital, Tirupati, our pedodontists are concerned with your child\'s comfort and welfare at all times — combining exceptional expertise with genuine care to keep your child\'s smile healthy for a lifetime.',
 
   highlights: [
     { icon: 'bi-heart-fill', text: 'Gentle & Fear-Free Care' },
@@ -104,7 +104,7 @@ const serviceData = {
   faqs: [
     {
       q: 'At what age should my child first visit the dentist?',
-      a: 'The Indian Society of Pedodontics and Preventive Dentistry recommends a child\'s first dental visit within 6 months of the first tooth erupting or by age 1, whichever comes first. Early visits at Meghana Dental Hospital, Tirupati establish comfort with dental care, allow early cavity detection, and give parents expert guidance on home care.',
+      a: 'The Indian Society of Pedodontics and Preventive Dentistry recommends a child\'s first dental visit within 6 months of the first tooth erupting or by age 1, whichever comes first. Early visits at Meghana Multi Speciality Dental Hospital, Tirupati establish comfort with dental care, allow early cavity detection, and give parents expert guidance on home care.',
     },
     {
       q: 'Why should I treat baby teeth if they will fall out anyway?',
@@ -140,7 +140,7 @@ const serviceData = {
   ],
 
   ctaTitle: 'Book Your Child\'s First Visit',
-  ctaDesc: 'Give your child the gift of healthy teeth from the very start. Book a gentle, fun-filled appointment at Meghana Dental Hospital, Tirupati.',
+  ctaDesc: 'Give your child the gift of healthy teeth from the very start. Book a gentle, fun-filled appointment at Meghana Multi Speciality Dental Hospital, Tirupati.',
 
   relatedServices: [
     {

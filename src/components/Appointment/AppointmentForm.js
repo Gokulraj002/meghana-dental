@@ -38,7 +38,7 @@ export default function AppointmentForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const msg =
-      `Hello! I'd like to book an appointment at Meghana Dental Hospital.\n\n` +
+      `Hello! I'd like to book an appointment at Meghana Multi Speciality Dental Hospital.\n\n` +
       `👤 Name: ${form.name}\n` +
       `📞 Phone: ${form.phone}\n` +
       `🦷 Service: ${form.service || 'Not specified'}\n` +

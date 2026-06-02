@@ -4,7 +4,7 @@ const doctors = [
   {
     name: 'Dr. M. Hemadri',
     specialty: 'Conservative Dentistry & Endodontist',
-    qualification: 'MDS — Founder & Director, Meghana Dental Hospital',
+    qualification: 'MDS — Founder & Director, Meghana Multi Speciality Dental Hospital',
     image: '/images/dr-hemu.jpg',
     isPhoto: true,
     desc: 'Dr. Hemadri is the founder and director of Meghana Multi-Speciality Dental Hospital. A distinguished endodontist with 17 years of experience, he completed his MDS in Conservative Dentistry & Endodontics from Bapuji Dental College, Davanagere (2007). He is widely acclaimed as an expert in single-visit endodontic treatment and complex re-treatment cases. He has also completed a residency in Clinical Implantology and holds an ICOI (International Congress of Oral Implantologists) Fellowship in Implant Dentistry.',
@@ -39,7 +39,7 @@ const doctors = [
     specialty: 'Prosthodontist',
     qualification: 'MDS — Prosthetics & Smile Rehabilitation Specialist',
     image: '/doctors/Dinakar.jpeg',
-    desc: 'Dr. Dinakar Reddy is a prosthodontist with over 10 years of experience. He is the specialist behind every precision denture, crown, bridge, and full mouth rehabilitation at Meghana Dental Hospital. He specialises in complete and partial dentures, BPS (Bio-Functional Prosthetic System) precision dentures, over-dentures, fixed bridges, and zirconia crowns — always crafting restorations that combine natural aesthetics with long-term durability.',
+    desc: 'Dr. Dinakar Reddy is a prosthodontist with over 10 years of experience. He is the specialist behind every precision denture, crown, bridge, and full mouth rehabilitation at Meghana Multi Speciality Dental Hospital. He specialises in complete and partial dentures, BPS (Bio-Functional Prosthetic System) precision dentures, over-dentures, fixed bridges, and zirconia crowns — always crafting restorations that combine natural aesthetics with long-term durability.',
     expertise: ['BPS Precision Dentures', 'Complete & Partial Dentures', 'Over-Dentures', 'Fixed Bridges', 'Zirconia Crowns', 'Full Mouth Rehabilitation', 'Implant-Supported Prosthetics'],
   },
 ];

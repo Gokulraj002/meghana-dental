@@ -12,7 +12,7 @@ const clearAlignersData = {
   ],
 
   overview:
-    'Clear aligners are custom-fitted, transparent plastic trays that gradually shift teeth into their correct positions — completely invisibly, without any metal brackets or wires. Each set of trays is worn for 20–22 hours a day and changed every 1–2 weeks, moving teeth incrementally along a pre-planned digital treatment path. At Meghana Dental Hospital, Tirupati, we use a precision 3D intra-oral scanner to capture your exact tooth positions in minutes — no messy impressions. A complete digital simulation shows you your projected final smile before treatment begins. Aligners are ideal for adults and teenagers seeking a discreet, comfortable, and removable alternative to traditional braces for mild to moderate crowding, spacing, and bite issues.',
+    'Clear aligners are custom-fitted, transparent plastic trays that gradually shift teeth into their correct positions — completely invisibly, without any metal brackets or wires. Each set of trays is worn for 20–22 hours a day and changed every 1–2 weeks, moving teeth incrementally along a pre-planned digital treatment path. At Meghana Multi Speciality Dental Hospital, Tirupati, we use a precision 3D intra-oral scanner to capture your exact tooth positions in minutes — no messy impressions. A complete digital simulation shows you your projected final smile before treatment begins. Aligners are ideal for adults and teenagers seeking a discreet, comfortable, and removable alternative to traditional braces for mild to moderate crowding, spacing, and bite issues.',
 
   highlights: [
     { icon: 'bi-eye-slash-fill', text: 'Virtually Invisible When Worn' },
@@ -88,7 +88,7 @@ const clearAlignersData = {
   faqs: [
     {
       q: 'What is the cost of clear aligners in Tirupati?',
-      a: 'Clear aligner treatment at Meghana Dental Hospital starts from ₹35,000 for mild cases. The total cost depends on the number of aligners and case complexity. EMI options are available. Book a free 3D scan consultation for an accurate quote.',
+      a: 'Clear aligner treatment at Meghana Multi Speciality Dental Hospital starts from ₹35,000 for mild cases. The total cost depends on the number of aligners and case complexity. EMI options are available. Book a free 3D scan consultation for an accurate quote.',
     },
     {
       q: 'Are clear aligners as effective as braces?',
@@ -96,7 +96,7 @@ const clearAlignersData = {
     },
     {
       q: 'How long does clear aligner treatment take?',
-      a: 'Treatment at Meghana Dental Hospital typically ranges from 6 to 18 months, depending on severity. Mild cases can complete in as few as 6 months.',
+      a: 'Treatment at Meghana Multi Speciality Dental Hospital typically ranges from 6 to 18 months, depending on severity. Mild cases can complete in as few as 6 months.',
     },
     {
       q: 'How many hours a day do I need to wear aligners?',
@@ -158,7 +158,7 @@ const invisalignData = {
   ],
 
   overview:
-    'Meghana Dental Hospital, Tirupati is one of the best certified providers of Invisalign — the world\'s most advanced and clinically proven clear aligner system, used by over 14 million patients worldwide. What sets Invisalign apart from generic clear aligners is its ability to correct functional jaw movements, not just tooth alignment. Using precise 3D ClinCheck® imaging, your entire treatment is planned digitally and every tray is precision-manufactured by Align Technology in SmartTrack® material — engineered to apply the right force to the right teeth at the right time. Invisalign often delivers results faster and more comfortably than other methods, and the trays are fully removable for eating and brushing. Wear them 20–22 hours a day and change sets as planned. Our specialists combine Invisalign\'s digital planning technology with advanced diagnostics and personalised clinical expertise to deliver a smile transformation unique to you.',
+    'Meghana Multi Speciality Dental Hospital, Tirupati is one of the best certified providers of Invisalign — the world\'s most advanced and clinically proven clear aligner system, used by over 14 million patients worldwide. What sets Invisalign apart from generic clear aligners is its ability to correct functional jaw movements, not just tooth alignment. Using precise 3D ClinCheck® imaging, your entire treatment is planned digitally and every tray is precision-manufactured by Align Technology in SmartTrack® material — engineered to apply the right force to the right teeth at the right time. Invisalign often delivers results faster and more comfortably than other methods, and the trays are fully removable for eating and brushing. Wear them 20–22 hours a day and change sets as planned. Our specialists combine Invisalign\'s digital planning technology with advanced diagnostics and personalised clinical expertise to deliver a smile transformation unique to you.',
 
   highlights: [
     { icon: 'bi-award-fill', text: 'Certified Invisalign Provider — Tirupati' },
@@ -206,7 +206,7 @@ const invisalignData = {
     {
       icon: 'bi-person-check-fill',
       title: 'Personalised Expert Care',
-      desc: 'At Meghana Dental Hospital, our Invisalign-certified specialists combine advanced diagnostics and personalised treatment planning to achieve results that generic aligners cannot match.',
+      desc: 'At Meghana Multi Speciality Dental Hospital, our Invisalign-certified specialists combine advanced diagnostics and personalised treatment planning to achieve results that generic aligners cannot match.',
     },
   ],
 
@@ -247,12 +247,12 @@ const invisalignData = {
       a: 'Invisalign is manufactured by Align Technology with decades of R&D, proprietary SmartTrack® material, and ClinCheck® planning software. It is the only aligner system clinically proven to correct functional jaw movements, not just tooth alignment. Generic aligners use similar-looking trays but lack the precision engineering, attachment systems, and clinical data backing that Invisalign provides. For straightforward mild cases, generic aligners may suffice; for moderate to complex cases, Invisalign consistently delivers superior outcomes.',
     },
     {
-      q: 'Is Meghana Dental Hospital an official Invisalign provider?',
-      a: 'Yes. Meghana Dental Hospital is one of the best certified Invisalign providers in Tirupati. Our specialists are trained and certified by Align Technology and have completed a substantial number of Invisalign cases with documented outcomes.',
+      q: 'Is Meghana Multi Speciality Dental Hospital an official Invisalign provider?',
+      a: 'Yes. Meghana Multi Speciality Dental Hospital is one of the best certified Invisalign providers in Tirupati. Our specialists are trained and certified by Align Technology and have completed a substantial number of Invisalign cases with documented outcomes.',
     },
     {
       q: 'How much does Invisalign cost in Tirupati?',
-      a: 'Invisalign treatment at Meghana Dental Hospital is priced according to the product type — Invisalign Lite (mild cases), Invisalign Moderate, or Invisalign Comprehensive (complex cases including jaw corrections). Exact pricing is provided after your ClinCheck planning session. EMI options are available.',
+      a: 'Invisalign treatment at Meghana Multi Speciality Dental Hospital is priced according to the product type — Invisalign Lite (mild cases), Invisalign Moderate, or Invisalign Comprehensive (complex cases including jaw corrections). Exact pricing is provided after your ClinCheck planning session. EMI options are available.',
     },
     {
       q: 'How is Invisalign different from regular braces?',

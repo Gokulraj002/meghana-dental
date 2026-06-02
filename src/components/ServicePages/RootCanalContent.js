@@ -13,7 +13,7 @@ const serviceData = {
   ],
 
   overview:
-    'Root canal treatment (RCT), or endodontic therapy, is a procedure to remove infected, inflamed, or damaged pulp from inside the tooth — the soft tissue containing nerves and blood vessels. Rather than extracting the tooth, RCT saves it, eliminates the pain, and seals the tooth against future infection. At Meghana Dental Hospital, Tirupati, our endodontists perform microscope-guided root canal treatment using a dental operating microscope at 25× magnification and advanced rotary instruments, ensuring the highest levels of precision and success in the region.',
+    'Root canal treatment (RCT), or endodontic therapy, is a procedure to remove infected, inflamed, or damaged pulp from inside the tooth — the soft tissue containing nerves and blood vessels. Rather than extracting the tooth, RCT saves it, eliminates the pain, and seals the tooth against future infection. At Meghana Multi Speciality Dental Hospital, Tirupati, our endodontists perform microscope-guided root canal treatment using a dental operating microscope at 25× magnification and advanced rotary instruments, ensuring the highest levels of precision and success in the region.',
 
   highlights: [
     { icon: 'bi-search', text: 'Dental Microscope — 25× Magnification' },
@@ -54,7 +54,7 @@ const serviceData = {
     {
       icon: 'bi-1-circle-fill',
       title: 'Single-Sitting Convenience',
-      desc: 'Most cases at Meghana Dental Hospital can be completed in one visit, saving you multiple appointments and long wait times.',
+      desc: 'Most cases at Meghana Multi Speciality Dental Hospital can be completed in one visit, saving you multiple appointments and long wait times.',
     },
     {
       icon: 'bi-shield-fill-check',
@@ -89,7 +89,7 @@ const serviceData = {
   faqs: [
     {
       q: 'Is root canal treatment painful?',
-      a: 'No. Root canal treatment at Meghana Dental Hospital is performed under local anaesthesia — you will feel no pain during the procedure. Most patients report that the discomfort of the infected tooth beforehand was far worse than the RCT itself. Mild tenderness for 1–2 days after is normal.',
+      a: 'No. Root canal treatment at Meghana Multi Speciality Dental Hospital is performed under local anaesthesia — you will feel no pain during the procedure. Most patients report that the discomfort of the infected tooth beforehand was far worse than the RCT itself. Mild tenderness for 1–2 days after is normal.',
     },
     {
       q: 'Can root canal be done in a single sitting in Tirupati?',
@@ -97,11 +97,11 @@ const serviceData = {
     },
     {
       q: 'How much does root canal treatment cost in Tirupati?',
-      a: 'RCT cost at Meghana Dental Hospital, Tirupati: front teeth start from ₹2,500, premolars from ₹3,500, and molars from ₹4,000. Microscope-assisted treatment may be slightly higher due to advanced equipment. A post-RCT crown is recommended and priced separately.',
+      a: 'RCT cost at Meghana Multi Speciality Dental Hospital, Tirupati: front teeth start from ₹2,500, premolars from ₹3,500, and molars from ₹4,000. Microscope-assisted treatment may be slightly higher due to advanced equipment. A post-RCT crown is recommended and priced separately.',
     },
     {
       q: 'Why choose microscope-guided RCT over regular RCT?',
-      a: 'The dental microscope with 25× magnification illuminates hidden canals, fractures, and calcified tissue invisible to the naked eye. This means fewer missed canals, higher success rates, and significantly better long-term outcomes. Meghana Dental Hospital is one of very few clinics in Tirupati with this technology.',
+      a: 'The dental microscope with 25× magnification illuminates hidden canals, fractures, and calcified tissue invisible to the naked eye. This means fewer missed canals, higher success rates, and significantly better long-term outcomes. Meghana Multi Speciality Dental Hospital is one of very few clinics in Tirupati with this technology.',
     },
     {
       q: 'Do I need a crown after root canal treatment?',

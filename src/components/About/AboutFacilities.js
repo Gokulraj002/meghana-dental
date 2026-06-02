@@ -17,7 +17,7 @@ const facilities = [
   image: '/images/about-itero.jpeg',
   alt: 'iTero Digital Scanner — Advanced 3D Dental Scanning at Meghana Dental Tirupati',
   title: '🖥️ Digital Smile Scanning',
-  desc: 'Meghana Dental uses the advanced iTero Element® Scanner in Tirupati — providing fast, accurate 3D dental scans for comfortable, mess-free impressions and precise treatment planning.',
+  desc: 'Meghana Multi Speciality Dental Hospital uses the advanced iTero Element® Scanner in Tirupati — providing fast, accurate 3D dental scans for comfortable, mess-free impressions and precise treatment planning.',
 }
 ];
 
