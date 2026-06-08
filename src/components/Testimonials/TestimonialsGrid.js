@@ -101,6 +101,25 @@ export default function TestimonialsGrid() {
         <p>Each review reflects our commitment to providing exceptional dental care and patient satisfaction.</p>
       </div>
 
+      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '48px' }}>
+        <video
+          src="https://res.cloudinary.com/dw9lxcnbw/video/upload/v1780751453/meghanadental_1_nre8qz.mov"
+          controls
+          controlsList="nodownload noplaybackrate"
+          disablePictureInPicture
+          playsInline
+          preload="metadata"
+          style={{
+            width: '100%',
+            maxWidth: '560px',
+            maxHeight: '480px',
+            borderRadius: '16px',
+            boxShadow: '0 10px 30px rgba(0, 0, 0, 0.12)',
+            backgroundColor: '#000',
+          }}
+        />
+      </div>
+
       <div className="row g-4">
         {testimonials.map((t, index) => (
           <div className="col-lg-4 col-md-6" key={index}>
