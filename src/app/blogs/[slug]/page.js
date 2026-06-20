@@ -7,11 +7,14 @@ import meta from '@/data/blogs-meta.json';
 import May07 from '@/components/Blogs/May2026/May07';
 import May07b from '@/components/Blogs/May2026/May07b';
 import May07c from '@/components/Blogs/May2026/May07c';
+import Jun20 from "@/components/Blogs/June2026/Jun20";
+
 
 const BlogComponents = {
   may07: May07,
   may07b: May07b,
   may07c: May07c,
+  jun20: Jun20,
 };
 
 export const dynamicParams = false;

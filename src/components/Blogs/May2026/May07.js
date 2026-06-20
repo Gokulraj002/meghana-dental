@@ -27,9 +27,9 @@ const May07 = () => {
         </h1>
 
         {/* Date + read time */}
-        <div className="mb-4" style={{ color: "#6B7280", fontSize: "0.9rem" }}>
+        {/* <div className="mb-4" style={{ color: "#6B7280", fontSize: "0.9rem" }}>
           May 07, 2026 &nbsp;•&nbsp; 6 min read
-        </div>
+        </div> */}
 
         <div className="row g-5">
           {/* ─────── LEFT — Article Content ─────── */}
