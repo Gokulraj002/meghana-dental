@@ -8,6 +8,10 @@ import May07 from '@/components/Blogs/May2026/May07';
 import May07b from '@/components/Blogs/May2026/May07b';
 import May07c from '@/components/Blogs/May2026/May07c';
 import Jun20 from "@/components/Blogs/June2026/Jun20";
+import Jun23 from "@/components/Blogs/June2026/Jun23";
+import Jun24 from "@/components/Blogs/June2026/Jun24";
+import Jun25 from "@/components/Blogs/June2026/Jun25";
+
 
 
 const BlogComponents = {
@@ -15,6 +19,9 @@ const BlogComponents = {
   may07b: May07b,
   may07c: May07c,
   jun20: Jun20,
+  jun23: Jun23,
+  jun24: Jun24,
+  jun25: Jun25,
 };
 
 export const dynamicParams = false;
