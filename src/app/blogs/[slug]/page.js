@@ -11,6 +11,7 @@ import Jun20 from "@/components/Blogs/June2026/Jun20";
 import Jun23 from "@/components/Blogs/June2026/Jun23";
 import Jun24 from "@/components/Blogs/June2026/Jun24";
 import Jun25 from "@/components/Blogs/June2026/Jun25";
+import Jun26 from "@/components/Blogs/June2026/Jun26";
 
 
 
@@ -22,6 +23,7 @@ const BlogComponents = {
   jun23: Jun23,
   jun24: Jun24,
   jun25: Jun25,
+  jun26: Jun26,
 };
 
 export const dynamicParams = false;
