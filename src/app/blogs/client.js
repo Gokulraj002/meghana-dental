@@ -8,9 +8,13 @@ export default function BlogListClient({ initialBlogs = [] }) {
   const [currentPage, setCurrentPage] = useState(1);
   const blogsPerPage = 9;
 
+  const sortedBlogs = [...initialBlogs].sort(
+    (a, b) => new Date(b.date) - new Date(a.date) || b.id - a.id
+  );
+
   const indexOfLastBlog = currentPage * blogsPerPage;
   const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
-  const currentBlogs = initialBlogs.slice(indexOfFirstBlog, indexOfLastBlog);
+  const currentBlogs = sortedBlogs.slice(indexOfFirstBlog, indexOfLastBlog);
 
   return (
     <div className="blogs-listing-page">
