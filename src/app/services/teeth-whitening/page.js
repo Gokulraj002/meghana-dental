@@ -4,9 +4,9 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import TeethWhiteningContent from '@/components/ServicePages/TeethWhiteningContent';
 
 export const metadata = {
-  title: 'Laser Teeth Whitening Tirupati | 8 Shades Brighter',
+  title: 'Professional In-Office Laser Teeth Whitening in Tirupati',
   description:
-    'Professional teeth whitening in Tirupati — in-office laser whitening up to 8 shades brighter in one visit at Meghana Multi Speciality Dental Hospital. Safe, pain-free, long-lasting results.',
+    'Get up to eight shades brighter in a single session with in-office laser whitening at our Tirupati dental hospital — safe, comfortable and long-lasting.',
   keywords:
     'teeth whitening Tirupati, laser teeth whitening Tirupati, smile makeover Tirupati, dental veneers Tirupati, cosmetic dentistry Tirupati, smile designing Tirupati, teeth whitening cost Tirupati, smile makeover Andhra Pradesh, Meghana Multi Speciality Dental Hospital',
   alternates: { canonical: 'https://meghanadental.in/services/teeth-whitening' },

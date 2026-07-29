@@ -4,15 +4,11 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import DenturesContent from '@/components/ServicePages/DenturesContent';
 
 export const metadata = {
-  title: 'Dentures in Tirupati | BPS Precision & Implant Supported',
+  title: 'Custom Dentures and Implant-Supported Options in Tirupati',
   description:
-    'Premium dentures in Tirupati — BPS precision dentures, flexible partials, implant-supported dentures. Natural look, perfect fit, MDS prosthodontist.',
+    'BPS precision dentures, flexible partials and implant-supported dentures fitted by our Tirupati prosthodontist for a natural, comfortable fit.',
   keywords:
-    'dentures Tirupati, BPS dentures Tirupati, flexible dentures Tirupati, full dentures Tirupati, partial dentures Tirupati, denture specialist Tirupati, dental prosthetics Tirupati, full mouth dentures Andhra Pradesh, ' +
-    'Meghana Multi Speciality Dental Hospital, ' +
-    'Meghana Multi Speciality Dental Hospital, ' +
-    'Meghana Multi Speciality Dental Hospital, ' +
-    'Meghana Multi Speciality Dental Hospital',
+    'dentures Tirupati, BPS dentures Tirupati, flexible dentures Tirupati, full dentures Tirupati, partial dentures Tirupati, denture specialist Tirupati, dental prosthetics Tirupati, full mouth dentures Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.in/services/dentures' },
   openGraph: {
     title: 'Dentures in Tirupati | BPS & Flexible Dentures — Meghana Multi Speciality Dental Hospital',

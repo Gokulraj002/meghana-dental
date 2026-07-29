@@ -4,15 +4,11 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import MicroscopeContent from '@/components/ServicePages/MicroscopeContent';
 
 export const metadata = {
-  title: 'Dental Microscope Dentist Tirupati | 25× Magnification RCT',
+  title: 'Microscope-Guided Dentistry Only Available in Tirupati',
   description:
-    'Dental microscope with 25× magnification — only clinic in Tirupati with this gold-standard technology. Precision root canals, microsurgery, crack detection.',
+    'Our 25x-magnification dental microscope, the only one of its kind in Tirupati, enables precise root canals, microsurgery and early crack detection.',
   keywords:
-    'microscope dentistry Tirupati, dental microscope Tirupati, microscope root canal Tirupati, precision dentist Tirupati, microscopic root canal Andhra Pradesh, operating microscope dentist Tirupati, dental microscope dentist India, ' +
-    'Meghana Multi Speciality Dental Hospital, ' +
-    'Meghana Multi Speciality Dental Hospital, ' +
-    'Meghana Multi Speciality Dental Hospital, ' +
-    'Meghana Multi Speciality Dental Hospital',
+    'microscope dentistry Tirupati, dental microscope Tirupati, microscope root canal Tirupati, precision dentist Tirupati, microscopic root canal Andhra Pradesh, operating microscope dentist Tirupati, dental microscope dentist India',
   alternates: { canonical: 'https://meghanadental.in/services/microscope-dentistry' },
   openGraph: {
     title: 'Microscope Dentistry in Tirupati | Microscope Precision — Meghana Multi Speciality Dental Hospital',

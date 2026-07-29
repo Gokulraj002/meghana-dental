@@ -4,9 +4,9 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import DentalImplantsContent from '@/components/ServicePages/DentalImplantsContent';
 
 export const metadata = {
-  title: 'Best Dental Implants in Tirupati | Affordable Cost',
+  title: 'Dental Implants in Tirupati — Cost, Types and Care',
   description:
-    'Dental implants in Tirupati by expert MDS specialists at Meghana Multi Speciality Dental Hospital. Single & multiple implants, All-on-4, same-day implants. Transparent pricing. Book now.',
+    'Titanium and zirconia dental implants at our Tirupati clinic, from single-tooth to All-on-4. MDS prosthodontist-led, with transparent pricing.',
   keywords:
     'dental implants Tirupati, dental implants cost Tirupati, best implant dentist Tirupati, all on 4 implants Tirupati, single tooth implant Tirupati, full mouth implants Tirupati, titanium implants Tirupati, implant specialist Andhra Pradesh, Meghana Multi Speciality Dental Hospital',
   alternates: { canonical: 'https://meghanadental.in/services/dental-implants' },

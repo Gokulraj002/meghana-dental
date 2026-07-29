@@ -8,9 +8,9 @@ import AboutStats from '@/components/About/AboutStats';
 import AboutCTA from '@/components/About/AboutCTA';
 
 export const metadata = {
-  title: 'Best Dental Hospital in Tirupati | 17+ Years of Care',
+  title: 'About Meghana Dental Hospital | 17+ Years in Tirupati',
   description:
-    'Meghana Multi Speciality Dental Hospital in Tirupati — 17+ years of excellence, 50,000+ patients, MDS specialists delivering world-class dental care in Andhra Pradesh.',
+    "Discover Meghana Multi Speciality Dental Hospital's 17-year journey in Tirupati — MDS specialist team, advanced technology, and 50,000+ smiles restored.",
   keywords:
     'about Meghana Multi Speciality Dental Hospital, best dental hospital Tirupati, dental specialists Tirupati, MDS dentist Tirupati, Meghana Dental Tirupati, dental hospital Ashok Nagar Tirupati, super speciality dental Andhra Pradesh'
     + ', Meghana Multi Speciality Dental Hospital'

@@ -4,11 +4,11 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import LaserDentistryContent from '@/components/ServicePages/LaserDentistryContent';
 
 export const metadata = {
-  title: 'Laser Dentistry Tirupati | Painless Drill-Free Treatment',
+  title: 'Drill-Free Laser Dentistry Now Available in Tirupati',
   description:
-    'Drill-free, painless dental treatments in Tirupati with advanced Diode laser at Meghana Multi Speciality Dental Hospital. Gum contouring, cavity treatment, ulcer healing. Same-day recovery.',
+    'Needle-free, drill-free laser treatments at our Tirupati dental clinic include gum contouring, cavity care and ulcer healing, with same-day recovery.',
   keywords:
-    'laser dentistry Tirupati, painless dentist Tirupati, laser gum treatment Tirupati, gum contouring Tirupati, laser teeth whitening Tirupati, no drill dentist Tirupati, dental laser treatment Andhra Pradesh, Meghana Multi Speciality Dental Hospital, Meghana Multi Speciality Dental Hospital, Meghana Multi Speciality Dental Hospital',
+    'laser dentistry Tirupati, painless dentist Tirupati, laser gum treatment Tirupati, gum contouring Tirupati, laser teeth whitening Tirupati, no drill dentist Tirupati, dental laser treatment Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.in/services/laser-dentistry' },
   openGraph: {
     title: 'Laser Dentistry in Tirupati | Painless Treatment — Meghana Multi Speciality Dental Hospital',

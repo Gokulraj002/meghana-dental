@@ -5,9 +5,9 @@ import DoctorsProfiles from '@/components/Doctors/DoctorsProfiles';
 import DoctorsCTASection from '@/components/Doctors/DoctorsCTASection';
 
 export const metadata = {
-  title: 'Best MDS Dentist Specialists in Tirupati | Expert Team',
+  title: 'Meet Our Expert MDS Dental Specialists in Tirupati',
   description:
-    'Meet the MDS-qualified dental specialists at Meghana Multi Speciality Dental Hospital Tirupati — expert team with decades of combined experience in every speciality.',
+    'Our Tirupati dental specialists hold MDS degrees in endodontics, prosthodontics, orthodontics and oral surgery, with decades of combined experience.',
   keywords:
     'best dentist in Tirupati, MDS specialist Tirupati, orthodontist Tirupati, endodontist Tirupati, pediatric dentist Tirupati, implant specialist Tirupati, Meghana Dental doctors, dental specialist Andhra Pradesh',
   alternates: { canonical: 'https://meghanadental.in/doctors' },

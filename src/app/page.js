@@ -20,9 +20,9 @@ const AppointmentSection  = dynamic(() => import('@/components/Appointment'));
 const Footer              = dynamic(() => import('@/components/Footer'));
 
 export const metadata = {
-  title: { absolute: 'Best Dental Clinic in Tirupati | Meghana Multi Speciality Dental' },
+  title: { absolute: 'Best Dental Clinic in Tirupati | Meghana Multi Speciality' },
   description:
-    "Meghana Multi Speciality Dental Hospital — Tirupati's best dental clinic. 17+ years, MDS specialists, 25× microscope, implants & root canal. 50,000+ patients.",
+    "Meghana Dental Hospital — Tirupati's most trusted dental clinic for over 17 years. MDS specialists, microscope precision, 50,000+ patients treated.",
   keywords:
     'best dental clinic in Tirupati, dentist in Tirupati, dental hospital Tirupati, dental implants Tirupati, root canal treatment Tirupati, braces Tirupati, orthodontist Tirupati, MDS specialist Tirupati, microscope dentistry Tirupati, best dentist Tirupati Andhra Pradesh, Meghana Multi Speciality Dental Hospital',
   alternates: { canonical: 'https://meghanadental.in/' },

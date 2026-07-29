@@ -5,15 +5,11 @@ import Footer from '@/components/Footer';
 import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 
 export const metadata = {
-  title: 'Dental Fillings in Tirupati | Composite Fillings & Ceramic Inlays | Meghana Multi Speciality Dental Hospital',
+  title: 'Tooth-Colored Dental Fillings Completed in Tirupati',
   description:
-    'Dental fillings in Tirupati — choose from tooth-coloured composite fillings (single visit) or premium ceramic inlays & onlays (15–20+ years). Placed under 25× dental microscope at Meghana Multi Speciality Dental Hospital.',
+    'Single-visit composite fillings placed under 25x microscope precision at our Tirupati clinic — shade-matched for a natural, seamless finish.',
   keywords:
-    'dental fillings Tirupati, tooth filling Tirupati, composite filling Tirupati, ceramic inlay Tirupati, onlay Tirupati, cavity filling Tirupati, tooth decay treatment Tirupati'
-    + ', Meghana Multi Speciality Dental Hospital'
-    + ', Meghana Multi Speciality Dental Hospital'
-    + ', Meghana Multi Speciality Dental Hospital'
-    + ', Meghana Multi Speciality Dental Hospital',
+    'dental fillings Tirupati, tooth filling Tirupati, composite filling Tirupati, ceramic inlay Tirupati, onlay Tirupati, cavity filling Tirupati, tooth decay treatment Tirupati',
   alternates: { canonical: 'https://meghanadental.in/services/dental-fillings' },
   openGraph: {
     title: 'Dental Fillings in Tirupati | Composite & Ceramic Inlays — Meghana Multi Speciality Dental Hospital',

@@ -4,11 +4,11 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import GumTreatmentContent from '@/components/ServicePages/GumTreatmentContent';
 
 export const metadata = {
-  title: 'Gum Disease Treatment Tirupati | Stop Bleeding Gums',
+  title: 'Gum Disease and Bleeding Gum Treatment in Tirupati',
   description:
-    'Stop bleeding gums & protect your smile in Tirupati. Professional scaling, laser gum therapy, flap surgery by MDS periodontist at Meghana Multi Speciality Dental Hospital. Book assessment.',
+    'Scaling, laser gum therapy and flap surgery are performed by our Tirupati periodontist to stop bleeding gums and protect your teeth for the long term.',
   keywords:
-    'gum treatment Tirupati, gum disease Tirupati, bleeding gums treatment Tirupati, periodontal treatment Tirupati, scaling root planing Tirupati, periodontist Tirupati, gum surgery Tirupati, dental cleaning Tirupati, Meghana Multi Speciality Dental Hospital, Meghana Multi Speciality Dental Hospital, Meghana Multi Speciality Dental Hospital',
+    'gum treatment Tirupati, gum disease Tirupati, bleeding gums treatment Tirupati, periodontal treatment Tirupati, scaling root planing Tirupati, periodontist Tirupati, gum surgery Tirupati, dental cleaning Tirupati',
   alternates: { canonical: 'https://meghanadental.in/services/gum-treatment' },
   openGraph: {
     title: 'Gum Disease Treatment in Tirupati | Expert Periodontist — Meghana Multi Speciality Dental Hospital',

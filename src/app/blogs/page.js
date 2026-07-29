@@ -4,13 +4,11 @@ import BlogListClient from './client';
 import blogsData from '@/data/blogs.json';
 
 export const metadata = {
-  title: 'Dental Health Blog | Tips & Guides | Meghana Multi Speciality Dental, Tirupati',
+  title: 'Dental Health Tips and Treatment Guides from Tirupati',
   description:
-    'Read expert dental health articles, treatment guides, and oral care tips from Meghana Multi Speciality Dental Hospital MDS specialists in Tirupati.',
+    'Read practical dental health guides written by our Tirupati-based MDS specialists — covering root canals, implants, braces and daily oral care.',
   keywords:
-    'dental health blog Tirupati, dental tips, oral care guide, root canal guide, teeth whitening tips, dental implants Tirupati, braces guide, dentist advice Tirupati, Meghana Multi Speciality Dental Hospital, ' +
-    'Meghana Multi Speciality Dental Hospital, ' +
-    'Meghana Multi Speciality Dental Hospital',
+    'dental health blog Tirupati, dental tips, oral care guide, root canal guide, teeth whitening tips, dental implants Tirupati, braces guide, dentist advice Tirupati',
   alternates: { canonical: 'https://meghanadental.in/blogs' },
   openGraph: {
     title: 'Dental Health Blog | Meghana Multi Speciality Dental Hospital, Tirupati',

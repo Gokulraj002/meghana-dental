@@ -4,11 +4,11 @@ import ServicePageHero from '@/components/ServicePages/ServicePageHero';
 import ToothColoredFillingsContent from '@/components/ServicePages/ToothColoredFillingsContent';
 
 export const metadata = {
-  title: 'Tooth Coloured Fillings in Tirupati | Composite Fillings | Meghana Multi Speciality Dental Hospital',
+  title: 'Composite Fillings for a Natural Smile in Tirupati',
   description:
-    'Restore cavities with tooth-coloured composite fillings in Tirupati. Single-visit, BPA-free, shade-matched to your tooth — placed under 25× dental microscope for precision. Meghana Multi Speciality Dental Hospital.',
+    'BPA-free, tooth-colored composite fillings are completed in a single visit at our Tirupati dental hospital, shade-matched to blend with your teeth.',
   keywords:
-    'tooth coloured filling Tirupati, composite filling Tirupati, cavity filling Tirupati, white filling Tirupati, tooth decay treatment Tirupati, dental filling Tirupati, composite resin filling Tirupati, Meghana Multi Speciality Dental Hospital',
+    'tooth coloured filling Tirupati, composite filling Tirupati, cavity filling Tirupati, white filling Tirupati, tooth decay treatment Tirupati, dental filling Tirupati, composite resin filling Tirupati',
   alternates: { canonical: 'https://meghanadental.in/services/tooth-colored-fillings' },
   openGraph: {
     title: 'Tooth Coloured Fillings in Tirupati | Composite Fillings — Meghana Multi Speciality Dental Hospital',

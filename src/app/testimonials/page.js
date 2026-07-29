@@ -6,9 +6,9 @@ import TestimonialsGrid from '@/components/Testimonials/TestimonialsGrid';
 import TestimonialsCTASection from '@/components/Testimonials/TestimonialsCTASection';
 
 export const metadata = {
-  title: 'Dental Patient Reviews Tirupati | 4.9★ Google Rating',
+  title: 'What Our Patients Say About Meghana Dental Hospital',
   description:
-    'Read real patient reviews & testimonials for Meghana Multi Speciality Dental Hospital Tirupati. 4.9★ Google rating from 850+ verified reviews. 50,000+ happy patients served.',
+    'Read 850+ verified reviews and see our 4.9-star Google rating, earned from patients treated at our Tirupati dental hospital over the last 17 years.',
   keywords:
     'Meghana Multi Speciality Dental Hospital reviews Tirupati, dental hospital reviews Tirupati, best dentist Tirupati reviews, dental testimonials Tirupati, patient feedback dental Tirupati, 4.9 star dental Tirupati',
   alternates: { canonical: 'https://meghanadental.in/testimonials' },
