@@ -6,13 +6,13 @@ import GumTreatmentContent from '@/components/ServicePages/GumTreatmentContent';
 export const metadata = {
   title: 'Gum Disease Treatment Tirupati | Stop Bleeding Gums',
   description:
-    'Stop bleeding gums & protect your smile in Tirupati. Professional scaling, laser gum therapy, flap surgery by MDS periodontist. Book assessment.',
+    'Stop bleeding gums & protect your smile in Tirupati. Professional scaling, laser gum therapy, flap surgery by MDS periodontist at Meghana Multi Speciality Dental Hospital. Book assessment.',
   keywords:
-    'gum treatment Tirupati, gum disease Tirupati, bleeding gums treatment Tirupati, periodontal treatment Tirupati, scaling root planing Tirupati, periodontist Tirupati, gum surgery Tirupati, dental cleaning Tirupati',
+    'gum treatment Tirupati, gum disease Tirupati, bleeding gums treatment Tirupati, periodontal treatment Tirupati, scaling root planing Tirupati, periodontist Tirupati, gum surgery Tirupati, dental cleaning Tirupati, Meghana Multi Speciality Dental Hospital, Meghana Multi Speciality Dental Hospital, Meghana Multi Speciality Dental Hospital',
   alternates: { canonical: 'https://meghanadental.in/services/gum-treatment' },
   openGraph: {
     title: 'Gum Disease Treatment in Tirupati | Expert Periodontist — Meghana Multi Speciality Dental Hospital',
-    description: 'Treat bleeding gums, receding gums & gum disease in Tirupati. Professional scaling, laser gum therapy & periodontal surgery by expert periodontists.',
+    description: 'Treat bleeding gums, receding gums & gum disease in Tirupati. Professional scaling, laser gum therapy & periodontal surgery by expert periodontists at Meghana Multi Speciality Dental Hospital.',
     url: 'https://meghanadental.in/services/gum-treatment',
     siteName: 'Meghana Multi Speciality Dental Hospital',
     images: [{ url: '/services/Gum/gum-flap-surgery.png', width: 1200, height: 630, alt: 'Gum Disease Treatment in Tirupati' }],
@@ -27,7 +27,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'Why do my gums bleed when I brush?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Bleeding gums are usually the first sign of gingivitis. Bacterial plaque has irritated your gum tissue. A professional cleaning and improved brushing technique typically resolves this within 2–3 weeks.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Bleeding gums are usually the first sign of gingivitis. Bacterial plaque has irritated your gum tissue. At Meghana Multi Speciality Dental Hospital, a professional cleaning and improved brushing technique typically resolves this within 2–3 weeks.' },
     },
     {
       '@type': 'Question',
@@ -42,7 +42,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'Is gum treatment painful?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Modern gum treatments are performed under local anaesthesia, making them comfortable. Laser-assisted gum therapy significantly reduces post-treatment soreness compared to traditional methods.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Modern gum treatments at Meghana Multi Speciality Dental Hospital are performed under local anaesthesia, making them comfortable. Laser-assisted gum therapy significantly reduces post-treatment soreness compared to traditional methods.' },
     },
   ],
 };

@@ -6,13 +6,13 @@ import ToothExtractionContent from '@/components/ServicePages/ToothExtractionCon
 export const metadata = {
   title: 'Painless Tooth Extraction Tirupati | Wisdom Tooth Removal',
   description:
-    'Safe, painless tooth extraction & wisdom tooth removal in Tirupati. Experienced oral surgeons, OPG X-ray planning, minimal recovery. Same-day option.',
+    'Safe, painless tooth extraction & wisdom tooth removal in Tirupati at Meghana Multi Speciality Dental Hospital. Experienced oral surgeons, OPG X-ray planning, minimal recovery. Same-day option.',
   keywords:
-    'tooth extraction Tirupati, wisdom tooth removal Tirupati, dental extraction Tirupati, painless tooth removal Tirupati, surgical extraction Tirupati, wisdom tooth surgery Tirupati, oral surgeon Tirupati',
+    'tooth extraction Tirupati, wisdom tooth removal Tirupati, dental extraction Tirupati, painless tooth removal Tirupati, surgical extraction Tirupati, wisdom tooth surgery Tirupati, oral surgeon Tirupati, Meghana Multi Speciality Dental Hospital, Meghana Multi Speciality Dental Hospital, Meghana Multi Speciality Dental Hospital',
   alternates: { canonical: 'https://meghanadental.in/services/tooth-extraction' },
   openGraph: {
     title: 'Tooth Extraction & Wisdom Tooth Removal in Tirupati — Meghana Multi Speciality Dental Hospital',
-    description: 'Safe, comfortable tooth extractions including impacted wisdom tooth surgery in Tirupati. Experienced oral surgeons, minimal discomfort, and same-day appointments.',
+    description: 'Safe, comfortable tooth extractions including impacted wisdom tooth surgery at Meghana Multi Speciality Dental Hospital in Tirupati. Experienced oral surgeons, minimal discomfort, and same-day appointments.',
     url: 'https://meghanadental.in/services/tooth-extraction',
     siteName: 'Meghana Multi Speciality Dental Hospital',
     images: [{ url: '/images/dental-chair.jpg', width: 1200, height: 630, alt: 'Tooth Extraction in Tirupati' }],
@@ -27,7 +27,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'Is tooth extraction painful?',
-      acceptedAnswer: { '@type': 'Answer', text: 'No — the area is fully numbed with local anaesthesia before extraction. You may feel pressure but not pain. Post-extraction discomfort is manageable with over-the-counter pain relief and typically resolves within 2–3 days.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'No — the area is fully numbed with local anaesthesia before extraction at Meghana Multi Speciality Dental Hospital. You may feel pressure but not pain. Post-extraction discomfort is manageable with over-the-counter pain relief and typically resolves within 2–3 days.' },
     },
     {
       '@type': 'Question',
@@ -42,7 +42,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'How long does it take to heal after tooth extraction?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Initial healing takes 1–2 weeks. Full bone healing takes 3–6 months. With proper care, most patients resume normal activities the next day.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Initial healing takes 1–2 weeks. Full bone healing takes 3–6 months. At Meghana Multi Speciality Dental Hospital, with proper care, most patients resume normal activities the next day.' },
     },
   ],
 };

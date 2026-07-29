@@ -8,7 +8,10 @@ export const metadata = {
   description:
     'Explore the Meghana Multi Speciality Dental Hospital gallery — our modern clinic, advanced equipment, expert team, and real patient smile transformations in Tirupati.',
   keywords:
-    'Meghana Multi Speciality Dental Hospital gallery Tirupati, dental clinic photos Tirupati, smile makeover gallery, dental hospital interior Tirupati',
+    'Meghana Multi Speciality Dental Hospital gallery Tirupati, dental clinic photos Tirupati, smile makeover gallery, dental hospital interior Tirupati, ' +
+    'Meghana Multi Speciality Dental Hospital, ' +
+    'Meghana Multi Speciality Dental Hospital, ' +
+    'Meghana Multi Speciality Dental Hospital',
   alternates: { canonical: 'https://meghanadental.in/gallery' },
   openGraph: {
     title: 'Photo Gallery — Meghana Multi Speciality Dental Hospital, Tirupati',

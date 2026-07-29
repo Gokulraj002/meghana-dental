@@ -12,7 +12,11 @@ export const metadata = {
   description:
     'Meghana Multi Speciality Dental Hospital in Tirupati — 17+ years of excellence, 50,000+ patients, MDS specialists delivering world-class dental care in Andhra Pradesh.',
   keywords:
-    'about Meghana Multi Speciality Dental Hospital, best dental hospital Tirupati, dental specialists Tirupati, MDS dentist Tirupati, Meghana Dental Tirupati, dental hospital Ashok Nagar Tirupati, super speciality dental Andhra Pradesh',
+    'about Meghana Multi Speciality Dental Hospital, best dental hospital Tirupati, dental specialists Tirupati, MDS dentist Tirupati, Meghana Dental Tirupati, dental hospital Ashok Nagar Tirupati, super speciality dental Andhra Pradesh'
+    + ', Meghana Multi Speciality Dental Hospital'
+    + ', Meghana Multi Speciality Dental Hospital'
+    + ', Meghana Multi Speciality Dental Hospital'
+    + ', Meghana Multi Speciality Dental Hospital',
   alternates: { canonical: 'https://meghanadental.in/about' },
   openGraph: {
     title: 'About Meghana Multi Speciality Dental Hospital — Tirupati\'s Most Trusted Dental Centre',

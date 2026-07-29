@@ -10,7 +10,12 @@ export const metadata = {
   description:
     'Contact Meghana Multi Speciality Dental Hospital Tirupati. Book a dental appointment via WhatsApp, call, or visit our clinic at Ashok Nagar, Tirupati, Andhra Pradesh.',
   keywords:
-    'contact Meghana Multi Speciality Dental Hospital Tirupati, book dental appointment Tirupati, dentist appointment Tirupati, dental clinic address Tirupati, dental hospital Ashok Nagar Tirupati, dental clinic near me Tirupati',
+    'contact Meghana Multi Speciality Dental Hospital Tirupati, book dental appointment Tirupati, dentist appointment Tirupati, dental clinic address Tirupati, dental hospital Ashok Nagar Tirupati, dental clinic near me Tirupati'
+    + ', Meghana Multi Speciality Dental Hospital'
+    + ', Meghana Multi Speciality Dental Hospital'
+    + ', Meghana Multi Speciality Dental Hospital'
+    + ', Meghana Multi Speciality Dental Hospital'
+    + ', Meghana Multi Speciality Dental Hospital',
   alternates: { canonical: 'https://meghanadental.in/contact' },
   openGraph: {
     title: 'Contact Meghana Multi Speciality Dental Hospital | Book Your Appointment in Tirupati',

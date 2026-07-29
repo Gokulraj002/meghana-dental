@@ -6,17 +6,26 @@ import DentalCrownsContent from '@/components/ServicePages/DentalCrownsContent';
 export const metadata = {
   title: 'Best Dental Crowns & Bridges in Tirupati | Zirconia',
   description:
-    'Premium zirconia, e.max & PFM crowns & bridges in Tirupati. Natural-looking, long-lasting restorations by MDS prosthodontists. Transparent pricing.',
+    'Premium zirconia, e.max & PFM crowns & bridges in Tirupati at Meghana Multi Speciality Dental Hospital. Natural-looking, long-lasting restorations by MDS prosthodontists. Transparent pricing.',
   keywords:
-    'dental crowns Tirupati, dental bridges Tirupati, zirconia crown Tirupati, tooth cap Tirupati, crown cost Tirupati, dental cap Tirupati, broken tooth crown Tirupati, prosthodontist Tirupati',
+    'dental crowns Tirupati, dental bridges Tirupati, zirconia crown Tirupati, tooth cap Tirupati, crown cost Tirupati, dental cap Tirupati, broken tooth crown Tirupati, prosthodontist Tirupati, ' +
+    'Meghana Multi Speciality Dental Hospital, ' +
+    'Meghana Multi Speciality Dental Hospital',
   alternates: { canonical: 'https://meghanadental.in/services/dental-crowns' },
   openGraph: {
     title: 'Dental Crowns & Bridges in Tirupati | Zirconia & e.max — Meghana Multi Speciality Dental Hospital',
-    description: 'Restore damaged and missing teeth with premium zirconia, e.max & PFM crowns in Tirupati. Expert prosthodontists, natural-looking results, transparent pricing.',
+    description: 'Restore damaged and missing teeth with premium zirconia, e.max & PFM crowns at Meghana Multi Speciality Dental Hospital in Tirupati. Expert prosthodontists, natural-looking results, transparent pricing.',
     url: 'https://meghanadental.in/services/dental-crowns',
     siteName: 'Meghana Multi Speciality Dental Hospital',
     images: [{ url: '/images/dental-clinic-interior.jpg', width: 1200, height: 630, alt: 'Dental Crowns and Bridges in Tirupati' }],
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Dental Crowns & Bridges in Tirupati | Meghana Multi Speciality Dental Hospital',
+    description:
+      'Premium zirconia, e.max & PFM crowns — Meghana Multi Speciality Dental Hospital offers natural-looking, long-lasting restorations in Tirupati.',
+    images: ['/images/dental-clinic-interior.jpg'],
   },
 };
 
@@ -27,7 +36,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'How long do dental crowns last in Tirupati?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Zirconia and e.max crowns can last 15–25 years or more with good oral hygiene. PFM crowns typically last 10–15 years. We use premium lab-fabricated crowns for maximum longevity.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Zirconia and e.max crowns can last 15–25 years or more with good oral hygiene. PFM crowns typically last 10–15 years. We use premium lab-fabricated crowns at Meghana Multi Speciality Dental Hospital for maximum longevity.' },
     },
     {
       '@type': 'Question',

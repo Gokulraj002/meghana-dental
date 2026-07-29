@@ -6,13 +6,13 @@ import SmileMakeoverContent from '@/components/ServicePages/SmileMakeoverContent
 export const metadata = {
   title: 'Smile Makeover Tirupati | Cosmetic Dentistry Specialist',
   description:
-    'Transform your smile in Tirupati with Digital Smile Design — veneers, whitening, aligners, gum contouring. See your new smile before treatment.',
+    'Transform your smile in Tirupati with Digital Smile Design at Meghana Multi Speciality Dental Hospital — veneers, whitening, aligners, gum contouring. See your new smile before treatment.',
   keywords:
-    'smile makeover Tirupati, cosmetic dentistry Tirupati, dental veneers Tirupati, smile design Tirupati, teeth makeover Tirupati, smile transformation Tirupati, cosmetic dentist Tirupati Andhra Pradesh',
+    'smile makeover Tirupati, cosmetic dentistry Tirupati, dental veneers Tirupati, smile design Tirupati, teeth makeover Tirupati, smile transformation Tirupati, cosmetic dentist Tirupati Andhra Pradesh, Meghana Multi Speciality Dental Hospital, Meghana Multi Speciality Dental Hospital, Meghana Multi Speciality Dental Hospital',
   alternates: { canonical: 'https://meghanadental.in/services/smile-makeover' },
   openGraph: {
     title: 'Smile Makeover in Tirupati | Digital Smile Design — Meghana Multi Speciality Dental Hospital',
-    description: 'Get your dream smile with a personalised smile makeover in Tirupati. Veneers, whitening, aligners, gum contouring — see your new smile before treatment with digital design.',
+    description: 'Get your dream smile with a personalised smile makeover at Meghana Multi Speciality Dental Hospital in Tirupati. Veneers, whitening, aligners, gum contouring — see your new smile before treatment with digital design.',
     url: 'https://meghanadental.in/services/smile-makeover',
     siteName: 'Meghana Multi Speciality Dental Hospital',
     images: [{ url: '/services/smile-makeover-cover.jpg', width: 1200, height: 630, alt: 'Smile Makeover in Tirupati' }],
@@ -32,7 +32,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'How long does a smile makeover take?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Quick makeovers (whitening + bonding) can be completed in 1–2 visits. Full smile makeovers with veneers and aligners typically take 3–9 months. We give you a clear timeline at your initial consultation.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Quick makeovers (whitening + bonding) can be completed in 1–2 visits. Full smile makeovers with veneers and aligners typically take 3–9 months at Meghana Multi Speciality Dental Hospital. We give you a clear timeline at your initial consultation.' },
     },
     {
       '@type': 'Question',

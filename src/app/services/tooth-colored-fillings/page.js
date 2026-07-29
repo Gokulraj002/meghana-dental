@@ -8,7 +8,7 @@ export const metadata = {
   description:
     'Restore cavities with tooth-coloured composite fillings in Tirupati. Single-visit, BPA-free, shade-matched to your tooth — placed under 25× dental microscope for precision. Meghana Multi Speciality Dental Hospital.',
   keywords:
-    'tooth coloured filling Tirupati, composite filling Tirupati, cavity filling Tirupati, white filling Tirupati, tooth decay treatment Tirupati, dental filling Tirupati, composite resin filling Tirupati',
+    'tooth coloured filling Tirupati, composite filling Tirupati, cavity filling Tirupati, white filling Tirupati, tooth decay treatment Tirupati, dental filling Tirupati, composite resin filling Tirupati, Meghana Multi Speciality Dental Hospital',
   alternates: { canonical: 'https://meghanadental.in/services/tooth-colored-fillings' },
   openGraph: {
     title: 'Tooth Coloured Fillings in Tirupati | Composite Fillings — Meghana Multi Speciality Dental Hospital',
@@ -16,7 +16,7 @@ export const metadata = {
       'Single-visit composite fillings in Tirupati, shade-matched to your tooth and placed under 25× dental microscope. Restore cavities invisibly at Meghana Multi Speciality Dental Hospital.',
     url: 'https://meghanadental.in/services/tooth-colored-fillings',
     siteName: 'Meghana Multi Speciality Dental Hospital',
-    images: [{ url: '/services/fillings-before-after-1.jpg', width: 1200, height: 630, alt: 'Tooth Coloured Composite Fillings in Tirupati' }],
+    images: [{ url: '/services/fillings-before-after-1.jpg', width: 1200, height: 630, alt: 'Tooth Coloured Composite Fillings in Tirupati — Meghana Multi Speciality Dental Hospital' }],
     type: 'website',
   },
 };
@@ -28,7 +28,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'How long do composite fillings last?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Tooth-coloured composite fillings typically last 5–10 years depending on cavity size, location, and oral hygiene. Regular 6-monthly check-ups allow us to monitor fillings and replace them before they fail.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Tooth-coloured composite fillings typically last 5–10 years depending on cavity size, location, and oral hygiene. At Meghana Multi Speciality Dental Hospital, regular 6-monthly check-ups allow us to monitor fillings and replace them before they fail.' },
     },
     {
       '@type': 'Question',

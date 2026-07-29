@@ -8,7 +8,11 @@ export const metadata = {
   description:
     'Restore large cavities with solid ceramic inlays and onlays in Tirupati. Lab-fabricated e.max porcelain, 15–20+ year lifespan, placed under 25× dental microscope. Meghana Multi Speciality Dental Hospital.',
   keywords:
-    'ceramic inlay Tirupati, onlay Tirupati, inlay onlay Tirupati, porcelain inlay Tirupati, emax inlay Tirupati, large cavity restoration Tirupati, dental inlay Tirupati, tooth restoration Tirupati',
+    'ceramic inlay Tirupati, onlay Tirupati, inlay onlay Tirupati, porcelain inlay Tirupati, emax inlay Tirupati, large cavity restoration Tirupati, dental inlay Tirupati, tooth restoration Tirupati, ' +
+    'Meghana Multi Speciality Dental Hospital, ' +
+    'Meghana Multi Speciality Dental Hospital, ' +
+    'Meghana Multi Speciality Dental Hospital, ' +
+    'Meghana Multi Speciality Dental Hospital',
   alternates: { canonical: 'https://meghanadental.in/services/inlays-onlays' },
   openGraph: {
     title: 'Ceramic Inlays & Onlays in Tirupati | 15–20+ Year Restorations — Meghana Multi Speciality Dental Hospital',

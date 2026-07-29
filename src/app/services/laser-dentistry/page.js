@@ -6,13 +6,13 @@ import LaserDentistryContent from '@/components/ServicePages/LaserDentistryConte
 export const metadata = {
   title: 'Laser Dentistry Tirupati | Painless Drill-Free Treatment',
   description:
-    'Drill-free, painless dental treatments in Tirupati with advanced Diode laser. Gum contouring, cavity treatment, ulcer healing. Same-day recovery.',
+    'Drill-free, painless dental treatments in Tirupati with advanced Diode laser at Meghana Multi Speciality Dental Hospital. Gum contouring, cavity treatment, ulcer healing. Same-day recovery.',
   keywords:
-    'laser dentistry Tirupati, painless dentist Tirupati, laser gum treatment Tirupati, gum contouring Tirupati, laser teeth whitening Tirupati, no drill dentist Tirupati, dental laser treatment Andhra Pradesh',
+    'laser dentistry Tirupati, painless dentist Tirupati, laser gum treatment Tirupati, gum contouring Tirupati, laser teeth whitening Tirupati, no drill dentist Tirupati, dental laser treatment Andhra Pradesh, Meghana Multi Speciality Dental Hospital, Meghana Multi Speciality Dental Hospital, Meghana Multi Speciality Dental Hospital',
   alternates: { canonical: 'https://meghanadental.in/services/laser-dentistry' },
   openGraph: {
     title: 'Laser Dentistry in Tirupati | Painless Treatment — Meghana Multi Speciality Dental Hospital',
-    description: 'Experience drill-free, needle-free dental care with advanced laser technology in Tirupati. Gum contouring, cavity treatment, ulcer healing & more.',
+    description: 'Experience drill-free, needle-free dental care with advanced laser technology at Meghana Multi Speciality Dental Hospital in Tirupati. Gum contouring, cavity treatment, ulcer healing & more.',
     url: 'https://meghanadental.in/services/laser-dentistry',
     siteName: 'Meghana Multi Speciality Dental Hospital',
     images: [{ url: '/images/dental-equipment.jpg', width: 1200, height: 630, alt: 'Laser Dentistry in Tirupati' }],
@@ -27,7 +27,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'Is laser dentistry painful?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Most laser procedures are virtually painless and require no injections. For more extensive treatments, a topical or local anaesthetic may be used for complete comfort.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Most laser procedures at Meghana Multi Speciality Dental Hospital are virtually painless and require no injections. For more extensive treatments, a topical or local anaesthetic may be used for complete comfort.' },
     },
     {
       '@type': 'Question',
@@ -37,7 +37,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'Is laser dentistry safe?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Yes. Dental lasers are FDA-cleared and have been used safely for over 30 years worldwide. Our team follows all safety protocols including protective eyewear for patients and staff.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'Yes. Dental lasers are FDA-cleared and have been used safely for over 30 years worldwide. Our team at Meghana Multi Speciality Dental Hospital follows all safety protocols including protective eyewear for patients and staff.' },
     },
     {
       '@type': 'Question',
