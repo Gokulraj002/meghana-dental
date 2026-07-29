@@ -7,6 +7,7 @@ import FloatingWhatsApp from '@/components/shared/FloatingWhatsApp';
 import ScrollToTop from '@/components/shared/ScrollToTop';
 import Analytics from '@/components/shared/Analytics';
 import SchemaMarkup from '@/components/shared/SchemaMarkup';
+import GoogleTagManager from '@/components/shared/GoogleTagManager';
 
 // Single font — Inter covers all weights used across the site
 const inter = Inter({
@@ -79,9 +80,20 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en-IN" className={inter.variable}>
       <head>
+        {/* Google Tag Manager — kept as the first element in <head> */}
+        <GoogleTagManager />
         <SchemaMarkup />
       </head>
       <body suppressHydrationWarning>
+        {/* Google Tag Manager (noscript) — immediately after opening <body> */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5928B99S"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
         <BootstrapProvider>
           {children}
           <FloatingWhatsApp />
