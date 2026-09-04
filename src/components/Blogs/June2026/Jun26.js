@@ -166,7 +166,7 @@ const Jun26 = () => {
                 After your 3D CBCT scan and treatment planning are complete
                 (covered in detail in our{" "}
                 <Link
-                  href="/blogs/dental-implants-in-tirupati"
+                  href="/blogs/dental-implants-tirupati-complete-guide"
                   style={{ fontWeight: 600 }}
                 >
                   complete dental implant guide

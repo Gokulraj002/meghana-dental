@@ -115,7 +115,7 @@ const Jun25 = () => {
                 extraction spaces, and correcting deep bites. For the complete
                 picture of bracket types and pricing, read our companion guide,{" "}
                 <Link
-                  href="/blogs/braces-cost-in-tirupati"
+                  href="/blogs/braces-cost-tirupati"
                   style={{ fontWeight: 600 }}
                 >
                   Braces Cost in Tirupati 2026
@@ -319,7 +319,7 @@ const Jun25 = () => {
               <p>
                 The numbers, consistent with our{" "}
                 <Link
-                  href="/blogs/braces-cost-in-tirupati"
+                  href="/blogs/braces-cost-tirupati"
                   style={{ fontWeight: 600 }}
                 >
                   detailed braces price guide
